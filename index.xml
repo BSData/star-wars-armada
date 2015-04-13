@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataIndex battleScribeVersion="1.15" name="Star Wars: Armada" indexUrl="http://battlescribedata.appspot.com/repos/star-wars-armada" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
-  <repositoryUrls/>
-  <dataIndexEntries>
-    <dataIndexEntry filePath="Star_Wars_Armada.gst.zip" dataType="gamesystem" dataId="4007-48b0-a016-7a8e" dataName="Star Wars Armada" dataBattleScribeVersion="1.15" dataRevision="6"/>
-    <dataIndexEntry filePath="Rebel_Alliance.cat.zip" dataType="catalogue" dataId="ebb6-1d9a-63f3-4ef6" dataName="Rebel Alliance" dataBattleScribeVersion="1.15" dataRevision="9"/>
-    <dataIndexEntry filePath="Imperial.cat.zip" dataType="catalogue" dataId="0edc-79db-18a8-7153" dataName="Imperial" dataBattleScribeVersion="1.15" dataRevision="6"/>
-  </dataIndexEntries>
-</dataIndex>
