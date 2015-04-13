@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" revision="6" battleScribeVersion="1.15" name="Star Wars Armada" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" revision="7" battleScribeVersion="1.15" name="Star Wars Armada" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="1b44-1532-e7c9-9663" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -131,6 +131,11 @@
         <characteristic id="d86d-27bf-c14f-f614" name="Special Rule"/>
         <characteristic id="d083-b52c-bffc-0b57" name="End of Round"/>
         <characteristic id="5512-b7d3-b57d-fb0b" name="Victory Token Value"/>
+      </characteristics>
+    </profileType>
+    <profileType id="61e4-332f-516c-cdcb" name="9.1 Symbols">
+      <characteristics>
+        <characteristic id="d2d6-4fa4-8a6c-0d7d" name="Symbol key"/>
       </characteristics>
     </profileType>
   </profileTypes>
