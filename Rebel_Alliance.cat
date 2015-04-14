@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="9" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="10" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron†" points="11.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron†" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -23,7 +23,7 @@
         </link>
       </links>
     </entry>
-    <entry id="37bc-3213-7cba-8aa7" name="Assault Frigate Mark IIA†" points="81.0" categoryId="9ef5-a2c4-bc40-18b7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="37bc-3213-7cba-8aa7" name="Assault Frigate Mark IIA†" points="81.0" categoryId="62d1-ec41-79d6-0a08" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -74,7 +74,7 @@
         </link>
       </links>
     </entry>
-    <entry id="fd9c-4f9e-48c4-40c7" name="Assault Frigate Mark IIB†" points="72.0" categoryId="9ef5-a2c4-bc40-18b7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="fd9c-4f9e-48c4-40c7" name="Assault Frigate Mark IIB†" points="72.0" categoryId="62d1-ec41-79d6-0a08" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -125,7 +125,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3e47-523a-decd-0982" name="Assault Objective" points="0.0" categoryId="167d-fd4d-28e2-f646" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e47-523a-decd-0982" name="Assault Objective" points="0.0" categoryId="c9d8-3a89-4028-05d0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="eaba-fb8c-3eee-c0bd" name="Assault Objectives" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -213,7 +213,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="9dd3-65ef-0609-5d59" name="B-Wing Squadron†" points="14.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="9dd3-65ef-0609-5d59" name="B-Wing Squadron†" points="14.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -331,7 +331,7 @@
         </link>
       </links>
     </entry>
-    <entry id="9bd4-bf4b-02fa-7a6e" name="Defense Objective" points="0.0" categoryId="167d-fd4d-28e2-f646" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="9bd4-bf4b-02fa-7a6e" name="Defense Objective" points="0.0" categoryId="c9d8-3a89-4028-05d0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="f4d5-4208-9a56-e97c" name="Defense Objectives" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -419,7 +419,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5cbb-a8f4-e433-bb53" name="Navigation Objective" points="0.0" categoryId="167d-fd4d-28e2-f646" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5cbb-a8f4-e433-bb53" name="Navigation Objective" points="0.0" categoryId="c9d8-3a89-4028-05d0" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="1855-3f7d-948f-f118" name="Navigation Objectives" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -507,7 +507,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="665d-d5d3-7e6d-7a9d" name="Nebulon-B Escort Frigate" points="57.0" categoryId="62d1-ec41-79d6-0a08" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="665d-d5d3-7e6d-7a9d" name="Nebulon-B Escort Frigate" points="57.0" categoryId="e589-c88e-f2d0-7413" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -552,7 +552,7 @@
         </link>
       </links>
     </entry>
-    <entry id="666c-5bdb-92b3-13bf" name="Nebulon-B Support Frigate" points="51.0" categoryId="62d1-ec41-79d6-0a08" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="666c-5bdb-92b3-13bf" name="Nebulon-B Support Frigate" points="51.0" categoryId="e589-c88e-f2d0-7413" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -597,7 +597,7 @@
         </link>
       </links>
     </entry>
-    <entry id="9ab1-394c-8040-3499" name="X-Wing Squadron" points="13.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="9ab1-394c-8040-3499" name="X-Wing Squadron" points="13.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -622,7 +622,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ebd6-d14f-42c3-d06b" name="Y-Wing Squadron†" points="10.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ebd6-d14f-42c3-d06b" name="Y-Wing Squadron†" points="10.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -647,7 +647,7 @@
         </link>
       </links>
     </entry>
-    <entry id="b296-67d4-7b59-4301" name="•&quot;Dutch&quot; Vander†" points="16.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b296-67d4-7b59-4301" name="•&quot;Dutch&quot; Vander†" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -679,7 +679,7 @@
         </link>
       </links>
     </entry>
-    <entry id="926e-08f3-b58d-8654" name="•Keyan Farlander†" points="20.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="926e-08f3-b58d-8654" name="•Keyan Farlander†" points="20.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -708,7 +708,7 @@
         </link>
       </links>
     </entry>
-    <entry id="548c-0306-3ff2-6996" name="•Luke Skywalker" points="20.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="548c-0306-3ff2-6996" name="•Luke Skywalker" points="20.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -740,7 +740,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7ca3-3f73-9213-86e8" name="•Wedge Antilles†" points="19.0" categoryId="6da8-bdc7-4ba6-e86f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7ca3-3f73-9213-86e8" name="•Wedge Antilles†" points="19.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
