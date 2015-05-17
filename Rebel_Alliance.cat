@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="12" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="13" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron†" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -846,6 +846,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="43b1-3634-441e-7693" name="Advanced Projectors†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2040-c73a-6d9c-bf5c" profileTypeId="c4ed-b3c1-3b29-236e" name="Advanced Projectors" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="When you resolve the Redirect token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -913,7 +928,22 @@
           <profiles>
             <profile id="b40c-3563-331b-4bd6" profileTypeId="ebbe-2c25-a937-60f3" name="Expanded Hangar Bay" hidden="false">
               <characteristics>
-                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="Your squadron value is increased by 1"/>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="Your squadron value is increased by 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="3c49-e2a7-73b4-3b3b" name="Point Defense Reroute†" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3f0a-9516-f1e2-1a94" profileTypeId="ebbe-2c25-a937-60f3" name="Point Defense Reroute" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="While attacking a squadron at close range, you may reroll your Critical icons."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1011,6 +1041,21 @@
             <profile id="5a87-9ea7-ed43-b976" profileTypeId="80b7-1645-65c7-8a81" name="Raymus Antilles" hidden="false">
               <characteristics>
                 <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="When you reveal a command, you may gain 1 matching command token without spending the command dial."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6ce0-93e4-809e-d17e" name="Veteran Captain†" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="55b2-1001-9079-35b8" profileTypeId="80b7-1645-65c7-8a81" name="Veteran Captain" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="When you reveal a command, you may discard this card to gain 1 command token of your choice."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1345,6 +1390,21 @@
             <profile id="c5c2-84f2-9013-bf69" profileTypeId="229c-c950-27d2-b599" name="Sensor Team" hidden="false">
               <characteristics>
                 <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="While attacking, you may exhaust this card and spend 1 die to change 1 of your dice to a face with an [Accuracy] icon."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="48e6-45d4-fc0b-2ae5" name="Flight Controllers†" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4f59-f6f8-38b7-18c2" profileTypeId="229c-c950-27d2-b599" name="Flight Controllers" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="Squadron: The anti-squadron armament of each squadron that you activate is increased by 1 blue die until the end of its activation."/>
               </characteristics>
               <modifiers/>
             </profile>
