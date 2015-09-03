@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="14" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Alliance" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="15" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -740,6 +740,35 @@
         </link>
       </links>
     </entry>
+    <entry id="87b0-7198-63d5-b0bb" name="•Tycho Celchu" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c996-86d9-df01-d712" profileTypeId="6590-7c7f-7387-8791" name="A-Wing Squadron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="5"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8e57-826e-8f4e-ca0b" profileTypeId="72be-2d6c-163a-b811" name="Tycho Celchu" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="You are not prevented from moving or attacking ships while you are engaged."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Scatter"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3e6f-263f-18b6-e1c0" targetId="919c-73a7-3658-fd2e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7ca3-3f73-9213-86e8" name="•Wedge Antilles" points="19.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -768,35 +797,6 @@
           <modifiers/>
         </link>
         <link id="4a71-8c20-921e-0db2" targetId="1949-cb6f-51a1-bc02" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="87b0-7198-63d5-b0bb" name="•Tycho Celchu" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c996-86d9-df01-d712" profileTypeId="6590-7c7f-7387-8791" name="A-Wing Squadron" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="5"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="8e57-826e-8f4e-ca0b" profileTypeId="72be-2d6c-163a-b811" name="Tycho Celchu" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="You are not prevented from moving or attacking ships while you are engaged."/>
-            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Scatter"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="3e6f-263f-18b6-e1c0" targetId="919c-73a7-3658-fd2e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -979,6 +979,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="909b-ff40-3019-a96f" name="Phylon Q7 Tractor Beams" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5099-324a-4ac6-7511" profileTypeId="ebbe-2c25-a937-60f3" name="Phylon Q7 Tractor Beams" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="Modification  When you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5.  That ship must spend a Navigate token or reduce its speed by 1 to a minimum of 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1085,6 +1100,21 @@
             <profile id="55b2-1001-9079-35b8" profileTypeId="80b7-1645-65c7-8a81" name="Veteran Captain" hidden="false">
               <characteristics>
                 <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="When you reveal a command, you may discard this card to gain 1 command token of your choice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="87ec-ffe3-5be4-34ef" name="Support Officer" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="917f-3bdc-92b9-2a24" profileTypeId="80b7-1645-65c7-8a81" name="Support Officer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="At the start of the Command Phase, you may discard this card to discard all of your command dials."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1388,6 +1418,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="e7d7-3d3a-5096-f6d1" name="Heavy Turbolaser Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e459-7b4e-1510-f950" profileTypeId="f6bb-908e-778e-3884" name="Heavy Turbolaser Turrets" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, the Brace defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1434,6 +1479,21 @@
             <profile id="4f59-f6f8-38b7-18c2" profileTypeId="229c-c950-27d2-b599" name="Flight Controllers" hidden="false">
               <characteristics>
                 <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="Squadron: The anti-squadron armament of each squadron that you activate is increased by 1 blue die until the end of its activation."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="96e7-18e9-c4a8-477d" name="Ruthless Strategists" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="98b1-162b-2eed-520f" profileTypeId="229c-c950-27d2-b599" name="Ruthless Strategists" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="After attacking a squadron, you may deal 1 damage to a friendly squadron engaged with the defender.  If you do, the defender suffers 1 damage."/>
               </characteristics>
               <modifiers/>
             </profile>
