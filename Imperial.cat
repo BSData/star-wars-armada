@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" revision="14" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" revision="15" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a536-fb81-0bde-c8c7" name="Assault Objective" points="0.0" categoryId="c9d8-3a89-4028-05d0" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -469,6 +469,102 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="e58d-8015-91be-811a" name="Raider I-Class Corvette" points="44.0" categoryId="9ef5-a2c4-bc40-18b7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3bef-28d7-71d5-64cc" profileTypeId="e72b-10bf-c14e-b3a8" name="Raider I-Class Corvette" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="4"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="2 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="1"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Evade, Evade, Brace"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="2 Blue, 2 Black"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue, 1 Black"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue, 1 Black"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="2"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Weapons Team, Offensive Retrofit, Ordnance"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f2b5-fbae-0da1-a432" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8fb8-5b19-dcea-700e" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7119-6a70-cc1a-463e" targetId="23f2-ace7-4294-434e" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a970-5da6-002f-9929" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="491d-cf3a-dfb7-9ca0" targetId="cc91-6340-6071-93db" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d8fc-d0ae-c480-8c79" targetId="baa5-7a1e-92ea-a312" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7af3-f48f-d830-fa46" name="Raider II-Class Corvette" points="48.0" categoryId="9ef5-a2c4-bc40-18b7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cae2-79fc-fca7-a456" profileTypeId="e72b-10bf-c14e-b3a8" name="Raider II-Class Corvette" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="4"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue, 1 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="1"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Evade, Evade, Brace"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="3 Blue, 1 Black"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue, 1 Black"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue, 1 Black"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="2"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Weapons Team, Offensive Retrofit, Ion Cannons"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9534-6154-125a-b2cf" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="92d1-b3c5-6aa0-5dc3" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a77c-fa23-94e7-5e62" targetId="a176-c60f-7d96-1496" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="2d84-727d-e427-36d4" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="cd57-a08d-5d2e-59b0" targetId="cc91-6340-6071-93db" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b17a-78af-5c61-ffbf" targetId="baa5-7a1e-92ea-a312" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f3a5-fd43-8397-0175" name="TIE Advanced Squadron" points="12.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -726,7 +822,14 @@
     <entry id="16b0-d2a3-975a-e794" name="•Darth Vader" points="21.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="98a2-742a-a35c-61f0" field="selections" type="greater than" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="b7b0-690d-a877-f0e0" profileTypeId="6590-7c7f-7387-8791" name="Darth Vader" hidden="false">
@@ -816,102 +919,6 @@
         </link>
       </links>
     </entry>
-    <entry id="e58d-8015-91be-811a" name="Raider I-Class Corvette" points="44.0" categoryId="9ef5-a2c4-bc40-18b7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="3bef-28d7-71d5-64cc" profileTypeId="e72b-10bf-c14e-b3a8" name="Raider I-Class Corvette" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="4"/>
-            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="2 Black"/>
-            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
-            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="1"/>
-            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
-            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Evade, Evade, Brace"/>
-            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="2 Blue, 2 Black"/>
-            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue, 1 Black"/>
-            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue, 1 Black"/>
-            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Blue"/>
-            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="2"/>
-            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
-            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
-            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
-            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Weapons Team, Offensive Retrofit, Ordnance"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f2b5-fbae-0da1-a432" targetId="d77d-f98a-9b86-934a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="8fb8-5b19-dcea-700e" targetId="10d5-12af-b773-cd45" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="7119-6a70-cc1a-463e" targetId="23f2-ace7-4294-434e" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="a970-5da6-002f-9929" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="491d-cf3a-dfb7-9ca0" targetId="cc91-6340-6071-93db" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="d8fc-d0ae-c480-8c79" targetId="baa5-7a1e-92ea-a312" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7af3-f48f-d830-fa46" name="Raider II-Class Corvette" points="48.0" categoryId="9ef5-a2c4-bc40-18b7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="cae2-79fc-fca7-a456" profileTypeId="e72b-10bf-c14e-b3a8" name="Raider II-Class Corvette" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="4"/>
-            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue, 1 Black"/>
-            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
-            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="1"/>
-            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
-            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Evade, Evade, Brace"/>
-            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="3 Blue, 1 Black"/>
-            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue, 1 Black"/>
-            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue, 1 Black"/>
-            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Blue"/>
-            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="2"/>
-            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
-            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
-            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
-            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Weapons Team, Offensive Retrofit, Ion Cannons"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9534-6154-125a-b2cf" targetId="d77d-f98a-9b86-934a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="92d1-b3c5-6aa0-5dc3" targetId="10d5-12af-b773-cd45" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="a77c-fa23-94e7-5e62" targetId="a176-c60f-7d96-1496" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="2d84-727d-e427-36d4" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="cd57-a08d-5d2e-59b0" targetId="cc91-6340-6071-93db" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="b17a-78af-5c61-ffbf" targetId="baa5-7a1e-92ea-a312" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </entries>
   <rules/>
   <links/>
@@ -967,7 +974,14 @@
         <entry id="98a2-742a-a35c-61f0" name="•Darth Vader" points="36.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="16b0-d2a3-975a-e794" field="selections" type="greater than" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="6a24-6a5c-8855-3797" profileTypeId="ed38-5cd8-e875-d3e7" name="Darth Vader" hidden="false">
@@ -1550,6 +1564,43 @@
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="cc91-6340-6071-93db" name="Title - Raider Corvette" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="26b2-299a-34d6-6556" name="•Instigator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2ea4-aa98-cb5e-f7d9" profileTypeId="16d6-f94c-4e0d-8993" name="Instigator" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="143c-06e2-8cef-2390" name="•Impetuous" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a2b0-d17e-d0c9-affc" profileTypeId="16d6-f94c-4e0d-8993" name="Impetuous" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="At the end of your Attack Step, choose 1 of your hull zones.  You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="5c1d-02e5-2431-fb6f" name="Title - Victory Star Destroyer" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="90d8-141f-14cc-f59c" name="•Dominator" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1770,43 +1821,6 @@
             <profile id="2e60-d781-6b3a-b068" profileTypeId="229c-c950-27d2-b599" name="Ordnance Experts" hidden="false">
               <characteristics>
                 <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="While attacking, you may reroll any number of your black dice."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="cc91-6340-6071-93db" name="Title - Raider Corvette" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="26b2-299a-34d6-6556" name="•Instigator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="2ea4-aa98-cb5e-f7d9" profileTypeId="16d6-f94c-4e0d-8993" name="Instigator" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="143c-06e2-8cef-2390" name="•Impetuous" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a2b0-d17e-d0c9-affc" profileTypeId="16d6-f94c-4e0d-8993" name="Impetuous" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="At the end of your Attack Step, choose 1 of your hull zones.  You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round."/>
               </characteristics>
               <modifiers/>
             </profile>
