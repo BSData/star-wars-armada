@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="17" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="18" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -521,6 +521,114 @@
         </link>
       </links>
     </entry>
+    <entry id="5c0f-310c-1677-05a2" name="MC80 Assault Cruiser" points="114.0" categoryId="7be3-1906-a3ff-00ca" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="74dd-cdb3-c5c7-5eba" profileTypeId="e72b-10bf-c14e-b3a8" name="MC80 Assault Cruiser" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="8"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="2 Blue"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="3"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="3"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Redirect, Contain"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="2 Red, 1 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="4 Red, 2 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="4 Red, 2 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="2 Red, 1 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="4"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="4"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="4"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="3"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Support Team, Defensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0036-1e9e-2d08-7e3f" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6482-0216-282d-6a42" targetId="66ad-5d33-8767-a59b" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6c1d-45c5-e11d-ced8" targetId="66ad-5d33-8767-a59b" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ba63-7016-9a52-6b54" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="de4c-0232-0a45-26cd" targetId="d3d4-ced8-c7e9-c669" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1c95-468e-3e4e-2de7" targetId="919f-0faf-d84f-79ff" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="47a4-9fcf-c85d-e13e" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="92ff-40e7-35e6-8563" targetId="a176-c60f-7d96-1496" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="85a3-f5e9-7349-d420" name="MC80 Command Cruiser" points="106.0" categoryId="7be3-1906-a3ff-00ca" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ef3c-be2b-394f-733c" profileTypeId="e72b-10bf-c14e-b3a8" name="MC80 Command Cruiser" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="8"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue, 1 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="3"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="4"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Redirect, Contain"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Red, 2 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="3 Red, 3 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="3 Red, 3 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Red, 2 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="4"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="4"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="4"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="3"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Support Team, Offensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c8a0-30b2-0db6-0137" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5c91-768a-24df-4590" targetId="66ad-5d33-8767-a59b" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5a21-1033-a1bd-b13b" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d086-1dbb-a7a4-7684" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8b80-fe17-86ad-76fe" targetId="d3d4-ced8-c7e9-c669" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3183-0f67-d56a-f584" targetId="919f-0faf-d84f-79ff" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="10d1-4914-171b-91fe" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4408-f709-0b26-7252" targetId="a176-c60f-7d96-1496" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="5cbb-a8f4-e433-bb53" name="Navigation Objective" points="0.0" categoryId="c9d8-3a89-4028-05d0" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -903,110 +1011,230 @@
         </link>
       </links>
     </entry>
-    <entry id="5c0f-310c-1677-05a2" name="MC80 Assault Cruiser" points="114.0" categoryId="7be3-1906-a3ff-00ca" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c9e6-9df0-272b-712a" name="•Dash Rendar" points="24.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="74dd-cdb3-c5c7-5eba" profileTypeId="e72b-10bf-c14e-b3a8" name="MC80 Assault Cruiser" hidden="false">
+        <profile id="1078-eca3-810e-872e" profileTypeId="6590-7c7f-7387-8791" name="Dash Rendar" hidden="false">
           <characteristics>
-            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="8"/>
-            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="2 Blue"/>
-            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
-            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="3"/>
-            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="3"/>
-            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Redirect, Contain"/>
-            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="2 Red, 1 Blue"/>
-            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="4 Red, 2 Blue"/>
-            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="4 Red, 2 Blue"/>
-            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="2 Red, 1 Blue"/>
-            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="4"/>
-            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="4"/>
-            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="4"/>
-            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="3"/>
-            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Support Team, Defensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers"/>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0de5-6518-3946-a377" profileTypeId="72be-2d6c-163a-b811" name="Dash Rendar" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While attacking, you may reroll 1 die for each enemy squadron or enemy ship at distance 1."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="0036-1e9e-2d08-7e3f" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+        <link id="b794-44ca-e954-5576" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6482-0216-282d-6a42" targetId="66ad-5d33-8767-a59b" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="6c1d-45c5-e11d-ced8" targetId="66ad-5d33-8767-a59b" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="ba63-7016-9a52-6b54" targetId="10d5-12af-b773-cd45" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="de4c-0232-0a45-26cd" targetId="d3d4-ced8-c7e9-c669" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="1c95-468e-3e4e-2de7" targetId="919f-0faf-d84f-79ff" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="47a4-9fcf-c85d-e13e" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="92ff-40e7-35e6-8563" targetId="a176-c60f-7d96-1496" linkType="entry group">
+        <link id="5dd6-40ef-9584-b04b" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="85a3-f5e9-7349-d420" name="MC80 Command Cruiser" points="106.0" categoryId="7be3-1906-a3ff-00ca" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ca61-2655-4ac3-a25e" name="YT-2400" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="ef3c-be2b-394f-733c" profileTypeId="e72b-10bf-c14e-b3a8" name="MC80 Command Cruiser" hidden="false">
+        <profile id="8106-ce6d-1a1d-fb90" profileTypeId="6590-7c7f-7387-8791" name="YT-2400" hidden="false">
           <characteristics>
-            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="8"/>
-            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue, 1 Black"/>
-            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
-            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="3"/>
-            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="4"/>
-            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Redirect, Contain"/>
-            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Red, 2 Blue"/>
-            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="3 Red, 3 Blue"/>
-            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="3 Red, 3 Blue"/>
-            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Red, 2 Blue"/>
-            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="4"/>
-            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="4"/>
-            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="4"/>
-            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="3"/>
-            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Support Team, Offensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers"/>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="c8a0-30b2-0db6-0137" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+        <link id="cd23-46ee-36a2-30e7" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5c91-768a-24df-4590" targetId="66ad-5d33-8767-a59b" linkType="entry group">
+      </links>
+    </entry>
+    <entry id="50f9-a388-2ed1-984d" name="Scurrg H-6 Bomber" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="741e-32de-f122-78bc" profileTypeId="6590-7c7f-7387-8791" name="Scurrg H-6 Bomber" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="72aa-86ab-d57d-faca" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5a21-1033-a1bd-b13b" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+        <link id="c2e8-5d96-683a-1f73" targetId="5819-af3f-afdb-16dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d086-1dbb-a7a4-7684" targetId="10d5-12af-b773-cd45" linkType="entry group">
+        <link id="d265-5985-6888-4785" targetId="cf20-fbe3-d98e-123b" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8b80-fe17-86ad-76fe" targetId="d3d4-ced8-c7e9-c669" linkType="entry group">
+      </links>
+    </entry>
+    <entry id="b883-01ea-e040-2922" name="•Nym" points="21.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="db72-bc59-9039-fb1f" profileTypeId="6590-7c7f-7387-8791" name="Nym" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c7f5-a94a-16f6-0b8a" profileTypeId="72be-2d6c-163a-b811" name="Nym" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="Blue Critical: If the defender is a ship, you may choose and discard 1 of its defense tokens."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bbac-1572-4152-5779" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
           <modifiers/>
         </link>
-        <link id="3183-0f67-d56a-f584" targetId="919f-0faf-d84f-79ff" linkType="entry group">
+        <link id="e839-fbab-3b03-433a" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="10d1-4914-171b-91fe" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
+      </links>
+    </entry>
+    <entry id="02b9-d65d-c896-7aa7" name="•Jan Ors" points="19.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b9ba-4c04-1b0f-c663" profileTypeId="6590-7c7f-7387-8791" name="Jan Ors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9389-8f01-0001-4486" profileTypeId="72be-2d6c-163a-b811" name="Jan Ors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1ac4-2f6b-5d02-b54e" targetId="919c-73a7-3658-fd2e" linkType="rule">
           <modifiers/>
         </link>
-        <link id="4408-f709-0b26-7252" targetId="a176-c60f-7d96-1496" linkType="entry group">
+        <link id="2e3e-9ccf-cbd5-3800" targetId="59e1-8e70-7584-fa6b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8796-4f58-631e-f4a3" name="HWK-290" points="12.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cfbc-0a8e-e6e1-5556" profileTypeId="6590-7c7f-7387-8791" name="HWK-290" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cdf2-9186-c1eb-f202" targetId="59e1-8e70-7584-fa6b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c373-8379-d685-8304" targetId="919c-73a7-3658-fd2e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ef6b-a27e-cf33-af83" name="•Han Solo" points="26.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8b1e-12cf-985e-7b0a" profileTypeId="6590-7c7f-7387-8791" name="Han Solo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="7"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue, 2 Black"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="88c4-e9c8-df86-572d" profileTypeId="72be-2d6c-163a-b811" name="Han Solo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="At the start of the Ship Phase, you may activate as if you were activated by a Squadron command."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="af93-c6ef-3cb5-5ab8" targetId="5819-af3f-afdb-16dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b81d-f142-3d00-0381" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="24e4-35a5-29f7-e338" name="YT-1300" points="13.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="46ca-532d-bf4a-1e9c" profileTypeId="6590-7c7f-7387-8791" name="YT-1300" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="2"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="7"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2b5c-4d54-36f2-3189" targetId="1949-cb6f-51a1-bc02" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cf07-54d7-3214-b58f" targetId="099d-7d77-bf8f-0bc1" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1212,6 +1440,36 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="ca67-5d30-e0f0-afac" name="SW-7 Ion Batteries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="68c4-a588-4bff-fa6e" profileTypeId="82fe-f045-0a3b-a5da" name="SW-7 Ion Batteries" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2ce0-48c0-d090-1720" name="Ion Cannon Ability" value="While attacking a ship, each of your unspent blue Accuracy icons adds 1 damage to the damage total."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5853-65f0-ca66-4a84" name="NK-7 Ion Batteries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6988-dc21-b50e-6f04" profileTypeId="82fe-f045-0a3b-a5da" name="NK-7 Ion Batteries" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2ce0-48c0-d090-1720" name="Ion Cannon Ability" value="Blue Critical: You may exhaust this card to force the defender to choose and discard 1 of his defense tokens."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1273,6 +1531,21 @@
             <profile id="42c6-9a65-0f89-8e84" profileTypeId="ebbe-2c25-a937-60f3" name="Quad Laser Turrets" hidden="false">
               <characteristics>
                 <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="While defending at distance 1, if the attacker is a squadron, you have Counter 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="28b9-70b9-27f8-abb6" name="Boosted Comms" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="eb2d-29ab-9286-45df" profileTypeId="ebbe-2c25-a937-60f3" name="Boosted Comms" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="Squadron: You can activate friendly squadrons at close-long range (instead of close-medium)."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1436,6 +1709,66 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="2f87-7bbe-311e-70c9" name="Engineering Captain" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ed65-1f8c-d12d-f7cb" profileTypeId="80b7-1645-65c7-8a81" name="Engineering Captain" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="Before you reveal a command, you may change that command to an Engineering command."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2749-6115-c3c9-77b4" name="Wing Commander" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="687f-c20d-eae1-6b8d" profileTypeId="80b7-1645-65c7-8a81" name="Wing Commander" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="Before you reveal a command, you may change that command to a Squadron command."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cdfa-3300-3b58-fae2" name="Navigation Officer" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6cd3-a9c9-cad1-10b3" profileTypeId="80b7-1645-65c7-8a81" name="Navigation Officer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="Before you reveal a command, you may change that command to a Navigation command."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2c6f-ffca-30df-6a09" name="Tactical Expert" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7fb8-74c6-df33-9008" profileTypeId="80b7-1645-65c7-8a81" name="Tactical Expert" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="Before you reveal a command, you may change that command to a Concentrate Fire command."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1458,7 +1791,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="e253-c328-9245-89a1" name="Expanded Launchers" points="13.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e253-c328-9245-89a1" name="Expanded Launchers" points="13.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1482,6 +1815,21 @@
             <profile id="089b-4f4a-0b4a-1ed4" profileTypeId="10fd-be4e-bb29-3708" name="Assault Concussion Missiles" hidden="false">
               <characteristics>
                 <characteristic characteristicId="f587-f8ce-7d4d-e620" name="Ordnance Ability" value="Black Critical: Deal 1 faceup damage card to the defender."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7e20-d50a-2289-349f" name="Rapid Reload" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b0f0-6e08-647e-61f0" profileTypeId="10fd-be4e-bb29-3708" name="Rapid Reload" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f587-f8ce-7d4d-e620" name="Ordnance Ability" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 black die."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1525,7 +1873,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="d6c5-0052-bcfa-2bc1" name="Engine Techs" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d6c5-0052-bcfa-2bc1" name="Engine Techs" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1534,6 +1882,21 @@
             <profile id="9488-8c68-00e4-2b80" profileTypeId="253b-6595-ea04-90bc" name="Engine Techs" hidden="false">
               <characteristics>
                 <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="Navigate: After you execute a maneuver, you may exhaust this card to execute a speed-1 maneuver. "/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7a56-c1a9-569c-ae2b" name="Projection Experts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8802-853d-25d2-838f" profileTypeId="253b-6595-ea04-90bc" name="Projection Experts" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="Engineering: You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1671,6 +2034,58 @@
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="d3d4-ced8-c7e9-c669" name="Title - MC80 Cruiser" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="818a-7906-03bc-428c" name="•Defiance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3bfd-8966-d294-efe1" profileTypeId="16d6-f94c-4e0d-8993" name="Defiance" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="While attacking a ship that has already activated this round, add 1 die of any color to your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4972-cd30-7b60-8d6a" name="•Home One" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="515c-5d59-365d-2b41" profileTypeId="16d6-f94c-4e0d-8993" name="Home One" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an Accuracy Icon."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2eec-7143-b818-1469" name="•Independence" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="aaaf-446a-07a2-f6b7" profileTypeId="16d6-f94c-4e0d-8993" name="Independence" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Squadron Command: Each squadron you activate may increase its speed to 4 until the end of its activation.  Squadrons that change speed in this way cannot attack this activation."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="b08c-e05a-a195-ba46" name="Title - Nebulon-B" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="c8fd-afd0-24d0-004d" name="•Redemption" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1755,13 +2170,13 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="b399-2a8a-d3cd-f640" name="X17 Turbolasers" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b399-2a8a-d3cd-f640" name="XI7 Turbolasers" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="c349-92f1-b055-c75f" profileTypeId="f6bb-908e-778e-3884" name="X17 Turbolasers" hidden="false">
+            <profile id="c349-92f1-b055-c75f" profileTypeId="f6bb-908e-778e-3884" name="XI7 Turbolasers" hidden="false">
               <characteristics>
                 <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, if the defender spends a Redirect token, it cannot suffer more than 1 damage on hull zones other than the defending hull zone. "/>
               </characteristics>
@@ -1809,6 +2224,23 @@
             <profile id="a0c3-ac2e-dec0-4b69" profileTypeId="f6bb-908e-778e-3884" name="Turbolaser Reroute Circuits" hidden="false">
               <characteristics>
                 <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, you may spend 1 Evade defense token to change 1 red die to a face with a Critical icon or 2 Hit icons."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="eb65-58a7-6336-f805" name="Slaved Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="20ef-1bb2-1fd8-67f5" profileTypeId="f6bb-908e-778e-3884" name="Slaved Turrets" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  You cannot attack more than once per round.
+
+While attacking a ship, add 1 red die to your attack pool."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1902,43 +2334,6 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="d3d4-ced8-c7e9-c669" name="Title - MC80 Cruiser" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="818a-7906-03bc-428c" name="•Defiance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="3bfd-8966-d294-efe1" profileTypeId="16d6-f94c-4e0d-8993" name="Defiance" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="While attacking a ship that has already activated this round, add 1 die of any color to your attack pool."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="4972-cd30-7b60-8d6a" name="•Home One" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="515c-5d59-365d-2b41" profileTypeId="16d6-f94c-4e0d-8993" name="Home One" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an Accuracy Icon."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="d896-fa8f-d9c0-1a81" name="Bomber" hidden="false">
@@ -1955,6 +2350,26 @@
     </rule>
     <rule id="cf20-fbe3-d98e-123b" name="Heavy" hidden="false">
       <description>You do not prevent engaged squadrons from attacking ships or moving.</description>
+      <modifiers/>
+    </rule>
+    <rule id="099d-7d77-bf8f-0bc1" name="Counter 1" hidden="false">
+      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of 1 blue dice, even if you are destroyed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5819-af3f-afdb-16dc" name="Grit" hidden="false">
+      <description>You are not prevented from moving while you are engaged by only 1 squadron.</description>
+      <modifiers/>
+    </rule>
+    <rule id="59e1-8e70-7584-fa6b" name="Intel" hidden="false">
+      <description>While an enemy squadron is at distance 1 of you, it has Heavy.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9c73-dc50-7fe8-7b7a" name="Rogue" hidden="false">
+      <description>You can move and attack during the Squadron Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="11db-e8d0-66e9-6855" name="Swarm" hidden="false">
+      <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
       <modifiers/>
     </rule>
   </sharedRules>
