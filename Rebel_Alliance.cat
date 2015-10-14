@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="18" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="19" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -419,6 +419,31 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="8796-4f58-631e-f4a3" name="HWK-290" points="12.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cfbc-0a8e-e6e1-5556" profileTypeId="6590-7c7f-7387-8791" name="HWK-290" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cdf2-9186-c1eb-f202" targetId="59e1-8e70-7584-fa6b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c373-8379-d685-8304" targetId="919c-73a7-3658-fd2e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="34d6-c129-c2b5-56bc" name="MC30c Scout Frigate" points="69.0" categoryId="167d-fd4d-28e2-f646" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -533,7 +558,7 @@
             <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="2 Blue"/>
             <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
             <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="3"/>
-            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="3"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="4"/>
             <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Redirect, Contain"/>
             <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="2 Red, 1 Blue"/>
             <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="4 Red, 2 Blue"/>
@@ -586,7 +611,7 @@
             <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="8"/>
             <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue, 1 Black"/>
             <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
-            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="3"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="4"/>
             <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="4"/>
             <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Redirect, Contain"/>
             <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Red, 2 Blue"/>
@@ -807,6 +832,34 @@
         </link>
       </links>
     </entry>
+    <entry id="50f9-a388-2ed1-984d" name="Scurrg H-6 Bomber" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="741e-32de-f122-78bc" profileTypeId="6590-7c7f-7387-8791" name="Scurrg H-6 Bomber" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="72aa-86ab-d57d-faca" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c2e8-5d96-683a-1f73" targetId="5819-af3f-afdb-16dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d265-5985-6888-4785" targetId="cf20-fbe3-d98e-123b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9ab1-394c-8040-3499" name="X-Wing Squadron" points="13.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -857,6 +910,53 @@
         </link>
       </links>
     </entry>
+    <entry id="24e4-35a5-29f7-e338" name="YT-1300" points="13.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="46ca-532d-bf4a-1e9c" profileTypeId="6590-7c7f-7387-8791" name="YT-1300" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="2"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="7"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2b5c-4d54-36f2-3189" targetId="1949-cb6f-51a1-bc02" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cf07-54d7-3214-b58f" targetId="099d-7d77-bf8f-0bc1" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ca61-2655-4ac3-a25e" name="YT-2400" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8106-ce6d-1a1d-fb90" profileTypeId="6590-7c7f-7387-8791" name="YT-2400" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cd23-46ee-36a2-30e7" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b296-67d4-7b59-4301" name="•&quot;Dutch&quot; Vander" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -885,6 +985,102 @@
           <modifiers/>
         </link>
         <link id="51b4-665e-b9d1-f3db" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c9e6-9df0-272b-712a" name="•Dash Rendar" points="24.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1078-eca3-810e-872e" profileTypeId="6590-7c7f-7387-8791" name="Dash Rendar" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0de5-6518-3946-a377" profileTypeId="72be-2d6c-163a-b811" name="Dash Rendar" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While attacking, you may reroll 1 die for each enemy squadron or enemy ship at distance 1."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b794-44ca-e954-5576" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5dd6-40ef-9584-b04b" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ef6b-a27e-cf33-af83" name="•Han Solo" points="26.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8b1e-12cf-985e-7b0a" profileTypeId="6590-7c7f-7387-8791" name="Han Solo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="7"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue, 2 Black"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="88c4-e9c8-df86-572d" profileTypeId="72be-2d6c-163a-b811" name="Han Solo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="At the start of the Ship Phase, you may activate as if you were activated by a Squadron command."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="af93-c6ef-3cb5-5ab8" targetId="5819-af3f-afdb-16dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b81d-f142-3d00-0381" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="02b9-d65d-c896-7aa7" name="•Jan Ors" points="19.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b9ba-4c04-1b0f-c663" profileTypeId="6590-7c7f-7387-8791" name="Jan Ors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9389-8f01-0001-4486" profileTypeId="72be-2d6c-163a-b811" name="Jan Ors" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1ac4-2f6b-5d02-b54e" targetId="919c-73a7-3658-fd2e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2e3e-9ccf-cbd5-3800" targetId="59e1-8e70-7584-fa6b" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -950,6 +1146,38 @@
         </link>
       </links>
     </entry>
+    <entry id="b883-01ea-e040-2922" name="•Nym" points="21.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="db72-bc59-9039-fb1f" profileTypeId="6590-7c7f-7387-8791" name="Nym" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c7f5-a94a-16f6-0b8a" profileTypeId="72be-2d6c-163a-b811" name="Nym" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="Blue Critical: If the defender is a ship, you may choose and discard 1 of its defense tokens."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bbac-1572-4152-5779" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e839-fbab-3b03-433a" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="87b0-7198-63d5-b0bb" name="•Tycho Celchu" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1007,234 +1235,6 @@
           <modifiers/>
         </link>
         <link id="4a71-8c20-921e-0db2" targetId="1949-cb6f-51a1-bc02" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c9e6-9df0-272b-712a" name="•Dash Rendar" points="24.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="1078-eca3-810e-872e" profileTypeId="6590-7c7f-7387-8791" name="Dash Rendar" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="0de5-6518-3946-a377" profileTypeId="72be-2d6c-163a-b811" name="Dash Rendar" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While attacking, you may reroll 1 die for each enemy squadron or enemy ship at distance 1."/>
-            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b794-44ca-e954-5576" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5dd6-40ef-9584-b04b" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ca61-2655-4ac3-a25e" name="YT-2400" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8106-ce6d-1a1d-fb90" profileTypeId="6590-7c7f-7387-8791" name="YT-2400" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="cd23-46ee-36a2-30e7" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="50f9-a388-2ed1-984d" name="Scurrg H-6 Bomber" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="741e-32de-f122-78bc" profileTypeId="6590-7c7f-7387-8791" name="Scurrg H-6 Bomber" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="72aa-86ab-d57d-faca" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c2e8-5d96-683a-1f73" targetId="5819-af3f-afdb-16dc" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d265-5985-6888-4785" targetId="cf20-fbe3-d98e-123b" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b883-01ea-e040-2922" name="•Nym" points="21.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="db72-bc59-9039-fb1f" profileTypeId="6590-7c7f-7387-8791" name="Nym" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="c7f5-a94a-16f6-0b8a" profileTypeId="72be-2d6c-163a-b811" name="Nym" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="Blue Critical: If the defender is a ship, you may choose and discard 1 of its defense tokens."/>
-            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="bbac-1572-4152-5779" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e839-fbab-3b03-433a" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="02b9-d65d-c896-7aa7" name="•Jan Ors" points="19.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="b9ba-4c04-1b0f-c663" profileTypeId="6590-7c7f-7387-8791" name="Jan Ors" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="9389-8f01-0001-4486" profileTypeId="72be-2d6c-163a-b811" name="Jan Ors" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens."/>
-            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="1ac4-2f6b-5d02-b54e" targetId="919c-73a7-3658-fd2e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2e3e-9ccf-cbd5-3800" targetId="59e1-8e70-7584-fa6b" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8796-4f58-631e-f4a3" name="HWK-290" points="12.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="cfbc-0a8e-e6e1-5556" profileTypeId="6590-7c7f-7387-8791" name="HWK-290" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="cdf2-9186-c1eb-f202" targetId="59e1-8e70-7584-fa6b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c373-8379-d685-8304" targetId="919c-73a7-3658-fd2e" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ef6b-a27e-cf33-af83" name="•Han Solo" points="26.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8b1e-12cf-985e-7b0a" profileTypeId="6590-7c7f-7387-8791" name="Han Solo" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="7"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="2 Blue, 2 Black"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue, 1 Black"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="88c4-e9c8-df86-572d" profileTypeId="72be-2d6c-163a-b811" name="Han Solo" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="At the start of the Ship Phase, you may activate as if you were activated by a Squadron command."/>
-            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="af93-c6ef-3cb5-5ab8" targetId="5819-af3f-afdb-16dc" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b81d-f142-3d00-0381" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="24e4-35a5-29f7-e338" name="YT-1300" points="13.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="46ca-532d-bf4a-1e9c" profileTypeId="6590-7c7f-7387-8791" name="YT-1300" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="2"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="7"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2b5c-4d54-36f2-3189" targetId="1949-cb6f-51a1-bc02" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cf07-54d7-3214-b58f" targetId="099d-7d77-bf8f-0bc1" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2238,9 +2238,7 @@
           <profiles>
             <profile id="20ef-1bb2-1fd8-67f5" profileTypeId="f6bb-908e-778e-3884" name="Slaved Turrets" hidden="false">
               <characteristics>
-                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  You cannot attack more than once per round.
-
-While attacking a ship, add 1 red die to your attack pool."/>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  You cannot attack more than once per round.  While attacking a ship, add 1 red die to your attack pool."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2340,6 +2338,10 @@ While attacking a ship, add 1 red die to your attack pool."/>
       <description>While attacking a ship, each of your Critical icons adds 1 damage to the damage total and you can resolve a critical effect.</description>
       <modifiers/>
     </rule>
+    <rule id="099d-7d77-bf8f-0bc1" name="Counter 1" hidden="false">
+      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of 1 blue dice, even if you are destroyed.</description>
+      <modifiers/>
+    </rule>
     <rule id="919c-73a7-3658-fd2e" name="Counter 2" hidden="false">
       <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of 2 blue dice, even if you are destroyed.</description>
       <modifiers/>
@@ -2348,16 +2350,12 @@ While attacking a ship, add 1 red die to your attack pool."/>
       <description>Squadrons you are engaged with cannot attack squadrons that lack Escort unless performing a Counter attack.</description>
       <modifiers/>
     </rule>
-    <rule id="cf20-fbe3-d98e-123b" name="Heavy" hidden="false">
-      <description>You do not prevent engaged squadrons from attacking ships or moving.</description>
-      <modifiers/>
-    </rule>
-    <rule id="099d-7d77-bf8f-0bc1" name="Counter 1" hidden="false">
-      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of 1 blue dice, even if you are destroyed.</description>
-      <modifiers/>
-    </rule>
     <rule id="5819-af3f-afdb-16dc" name="Grit" hidden="false">
       <description>You are not prevented from moving while you are engaged by only 1 squadron.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cf20-fbe3-d98e-123b" name="Heavy" hidden="false">
+      <description>You do not prevent engaged squadrons from attacking ships or moving.</description>
       <modifiers/>
     </rule>
     <rule id="59e1-8e70-7584-fa6b" name="Intel" hidden="false">
