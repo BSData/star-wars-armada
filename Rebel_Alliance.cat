@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="19" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="20" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1361,7 +1361,23 @@
         <entry id="f63d-618a-a045-a418" name="Redundant Shields" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="a725-f984-2291-d0e9" profileTypeId="c4ed-b3c1-3b29-236e" name="Redundant Shields" hidden="false">
@@ -1510,7 +1526,23 @@
         <entry id="909b-ff40-3019-a96f" name="Phylon Q7 Tractor Beams" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="5099-324a-4ac6-7511" profileTypeId="ebbe-2c25-a937-60f3" name="Phylon Q7 Tractor Beams" hidden="false">
@@ -1794,7 +1826,23 @@
         <entry id="e253-c328-9245-89a1" name="Expanded Launchers" points="13.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="06c4-4053-4b06-e3a9" profileTypeId="10fd-be4e-bb29-3708" name="Expanded Launchers" hidden="false">
@@ -1824,7 +1872,23 @@
         <entry id="7e20-d50a-2289-349f" name="Rapid Reload" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="b0f0-6e08-647e-61f0" profileTypeId="10fd-be4e-bb29-3708" name="Rapid Reload" hidden="false">
@@ -2143,7 +2207,23 @@
         <entry id="74d4-d1f0-2570-64e3" name="Enhanced Armament" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="8574-3a6d-80a8-398b" profileTypeId="f6bb-908e-778e-3884" name="Enhanced Armament" hidden="false">
@@ -2233,7 +2313,23 @@
         <entry id="eb65-58a7-6336-f805" name="Slaved Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="20ef-1bb2-1fd8-67f5" profileTypeId="f6bb-908e-778e-3884" name="Slaved Turrets" hidden="false">
