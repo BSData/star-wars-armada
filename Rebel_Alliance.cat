@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="20" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="21" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -580,7 +580,7 @@
         <link id="6482-0216-282d-6a42" targetId="66ad-5d33-8767-a59b" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="6c1d-45c5-e11d-ced8" targetId="66ad-5d33-8767-a59b" linkType="entry group">
+        <link id="6c1d-45c5-e11d-ced8" targetId="b655-1833-9346-0731" linkType="entry group">
           <modifiers/>
         </link>
         <link id="ba63-7016-9a52-6b54" targetId="10d5-12af-b773-cd45" linkType="entry group">
@@ -1372,6 +1372,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1471,7 +1472,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="5853-65f0-ca66-4a84" name="NK-7 Ion Batteries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5853-65f0-ca66-4a84" name="NK-7 Ion Cannons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1537,6 +1538,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1837,6 +1839,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1883,6 +1886,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2218,6 +2222,7 @@
                     <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2324,6 +2329,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2417,6 +2423,90 @@
             <profile id="1585-3777-f95a-5d64" profileTypeId="229c-c950-27d2-b599" name="Ordnance Experts" hidden="false">
               <characteristics>
                 <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="While attacking, you may reroll any number of your black dice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="b655-1833-9346-0731" name="Defensive Retrofit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9a82-2c7d-5826-1072" name="Electronic Countermeasures" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4c04-267a-6cda-c51f" profileTypeId="c4ed-b3c1-3b29-236e" name="Electronic Countermeasures" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an Accuracy result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b61d-1da3-e602-bcee" name="Advanced Projectors" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8d7d-ae01-d707-8565" profileTypeId="c4ed-b3c1-3b29-236e" name="Advanced Projectors" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="When you resolve the Redirect token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d28c-9cdc-7ab1-3049" name="Redundant Shields" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="407b-9d76-b026-2c7b" profileTypeId="c4ed-b3c1-3b29-236e" name="Redundant Shields" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="Modification.  At the start of each Status Phase, you may recover 1 shield."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="429f-ca3f-0998-ba1d" name="Cluster Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="333e-659d-a7df-8ee2" profileTypeId="c4ed-b3c1-3b29-236e" name="Cluster Bombs" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each Hit or Critical icon rolled."/>
               </characteristics>
               <modifiers/>
             </profile>
