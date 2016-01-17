@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" revision="18" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" revision="20" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -363,7 +363,7 @@
         <link id="0d34-682f-af13-d1d9" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="9031-799c-cca1-417d" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+        <link id="9031-799c-cca1-417d" targetId="c7d2-95e6-0fa3-b1b1" linkType="entry group">
           <modifiers/>
         </link>
         <link id="aedb-666d-812f-be1a" targetId="a176-c60f-7d96-1496" linkType="entry group">
@@ -1290,6 +1290,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1389,7 +1390,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="2cac-10ba-a1e6-4f1f" name="NK-7 Ion Batteries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2cac-10ba-a1e6-4f1f" name="NK-7 Ion Cannons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1441,7 +1442,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="b5a2-8d6d-f9cf-a63f" name="Phylon Q7 Tractor Beams" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b5a2-8d6d-f9cf-a63f" name="Phylon Q7 Tractor Beams" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -1455,6 +1456,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1751,10 +1753,11 @@
                 <conditionGroup type="or">
                   <conditions>
                     <condition parentId="direct parent" childId="b5a2-8d6d-f9cf-a63f" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="d32a-817c-a344-eb6a" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d32a-817c-a344-eb6a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1801,6 +1804,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2084,6 +2088,7 @@
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2190,6 +2195,7 @@
                     <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2283,6 +2289,105 @@
             <profile id="2e60-d781-6b3a-b068" profileTypeId="229c-c950-27d2-b599" name="Ordnance Experts" hidden="false">
               <characteristics>
                 <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="While attacking, you may reroll any number of your black dice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="c7d2-95e6-0fa3-b1b1" name="Offensive Retrofit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="1aa6-892d-1c34-a6d4" name="Expanded Hangar Bay" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bc3b-ae58-ebc9-47b8" profileTypeId="ebbe-2c25-a937-60f3" name="Expanded Hangar Bay" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="Your squadron value is increased by 1"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1ccb-c0f7-1009-1f6e" name="Point Defense Reroute" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="eae2-ea47-a5c2-c1cc" profileTypeId="ebbe-2c25-a937-60f3" name="Point Defense Reroute" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="While attacking a squadron at close range, you may reroll your Critical icons."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8ec8-462d-c967-db21" name="Phylon Q7 Tractor Beams" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="b5a2-8d6d-f9cf-a63f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d32a-817c-a344-eb6a" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="13e9-3536-3007-e20f" profileTypeId="ebbe-2c25-a937-60f3" name="Phylon Q7 Tractor Beams" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="Modification  When you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5.  That ship must spend a Navigate token or reduce its speed by 1 to a minimum of 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6ad1-442d-8a6d-a277" name="Quad Laser Turrets" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="78c4-884e-f2a4-c256" profileTypeId="ebbe-2c25-a937-60f3" name="Quad Laser Turrets" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="While defending at distance 1, if the attacker is a squadron, you have Counter 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ddb0-6cdb-6edd-ee0c" name="Boosted Comms" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="009c-c3ff-1a8f-536c" profileTypeId="ebbe-2c25-a937-60f3" name="Boosted Comms" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability" value="Squadron: You can activate friendly squadrons at close-long range (instead of close-medium)."/>
               </characteristics>
               <modifiers/>
             </profile>
