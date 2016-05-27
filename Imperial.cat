@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" revision="21" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" revision="22" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -2508,6 +2508,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="08fb-d926-0112-ab37" name="Veteran Gunners" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e276-636e-a4df-6663" profileTypeId="229c-c950-27d2-b599" name="Veteran Gunners" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="While attacking, you may exhaust this card to reroll all dice in your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -2621,6 +2636,45 @@
             <profile id="42d5-fe23-f668-d865" profileTypeId="16d6-f94c-4e0d-8993" name="Vector" hidden="false">
               <characteristics>
                 <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Squadron: The speed of each squadron without HEAVY you activate is increased by 1, to a maximum of 5 until the end of its activation."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="bcac-a7c9-2ab5-23b5" name="Experimental Retrofit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="8aa2-6167-255a-48e6" name="G-8 Experimental Projector" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f846-16b5-3299-e4d1" profileTypeId="2907-d622-4480-ea97" name="G-8 Experimental Projector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before an enemy ship at distance 1-5 resolves the Determine Course step, you may exhaust this card to temporarily reduce its speed by 1 to a minimum of speed 0 until the end of the maneuver."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4fdb-8b13-f61b-7c30" name="G7-X Grav Well Projector" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5dad-08ce-ff95-cb8e" profileTypeId="2907-d622-4480-ea97" name="G7-X Grav Well Projector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before deploying fleets, place 1 grav well token anywhere in the play area.
+
+When a ship deploys at distance 1-3 of a grav well token, its speed dial must be set to 0."/>
               </characteristics>
               <modifiers/>
             </profile>
