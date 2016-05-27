@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" revision="12" battleScribeVersion="1.15" name="Star Wars Armada" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" revision="13" battleScribeVersion="1.15" name="Star Wars Armada" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="1b44-1532-e7c9-9663" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -34,6 +34,12 @@
           <modifiers/>
         </category>
         <category id="c9d8-3a89-4028-05d0" name="Objectives" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="3c87-8b05-e880-8118" name="Gozanti-Class Flotilla" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="8180-3b0c-4e1a-d22a" name="Rebel Transport Flotilla" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -148,6 +154,16 @@
     <profileType id="61e4-332f-516c-cdcb" name="9.1 Symbols">
       <characteristics>
         <characteristic id="d2d6-4fa4-8a6c-0d7d" name="Symbol key"/>
+      </characteristics>
+    </profileType>
+    <profileType id="ed35-7d25-a151-5780" name="2.12 Fleet Support">
+      <characteristics>
+        <characteristic id="bed9-437f-c45a-c805" name="Fleet Support Ability"/>
+      </characteristics>
+    </profileType>
+    <profileType id="2907-d622-4480-ea97" name="2.13 Experimental Retrofit">
+      <characteristics>
+        <characteristic id="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability"/>
       </characteristics>
     </profileType>
   </profileTypes>
