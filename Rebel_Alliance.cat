@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="21" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="22" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1239,6 +1239,90 @@
         </link>
       </links>
     </entry>
+    <entry id="7928-9325-451b-6e2a" name="GR-75 Medium Transports" points="18.0" categoryId="8180-3b0c-4e1a-d22a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2c1f-d175-197b-28b6" profileTypeId="e72b-10bf-c14e-b3a8" name="GR-75 Medium Transports" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="3"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Scatter, Evade"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="-"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="-"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="-"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="-"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="1"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="1"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="1"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="1"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Fleet Support, Offensive Retrofit"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9d02-67d4-09bf-7f40" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7f2f-5f0b-70e0-f813" targetId="68b7-57ca-14ec-170f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1202-a94a-1ac2-27d6" targetId="5fa2-7fc1-d773-740c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b58b-e943-8ca1-867c" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6348-a2d3-d605-5c68" name="GR-75 Combat Retrofits" points="24.0" categoryId="8180-3b0c-4e1a-d22a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4bc2-e6e7-291f-124c" profileTypeId="e72b-10bf-c14e-b3a8" name="GR-75 Combat Retrofits" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="3"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Scatter, Evade"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="-"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="-"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="1"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="1"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="1"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="1"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Fleet Support, Offensive Retrofit"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a1f0-1e85-74de-faa0" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="2096-69a8-e8eb-6756" targetId="68b7-57ca-14ec-170f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="733d-a8de-45d5-c337" targetId="5fa2-7fc1-d773-740c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="703a-5443-82b1-ed93" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -1321,6 +1405,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="8ea2-b1c3-b00d-acdc" name="•General Cracken" points="38.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3669-25fc-dbbc-98c6" profileTypeId="ed38-5cd8-e875-d3e7" name="Admiral Ackbar" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="1ebb-c216-cd61-f014" name="Commander Ability" value="Before a friendly ship&apos;s Attack Step, it may choose to attack from only its left and right hull zones this round.  If it does, it may add 2 red dice to its attack pool while attacking a ship."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1397,6 +1496,90 @@
           <rules/>
           <profiles>
             <profile id="3b64-b046-1f68-2b7e" profileTypeId="c4ed-b3c1-3b29-236e" name="Cluster Bombs" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each Hit or Critical icon rolled."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="b655-1833-9346-0731" name="Defensive Retrofit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9a82-2c7d-5826-1072" name="Electronic Countermeasures" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4c04-267a-6cda-c51f" profileTypeId="c4ed-b3c1-3b29-236e" name="Electronic Countermeasures" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an Accuracy result."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b61d-1da3-e602-bcee" name="Advanced Projectors" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8d7d-ae01-d707-8565" profileTypeId="c4ed-b3c1-3b29-236e" name="Advanced Projectors" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="When you resolve the Redirect token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d28c-9cdc-7ab1-3049" name="Redundant Shields" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="407b-9d76-b026-2c7b" profileTypeId="c4ed-b3c1-3b29-236e" name="Redundant Shields" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="Modification.  At the start of each Status Phase, you may recover 1 shield."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="429f-ca3f-0998-ba1d" name="Cluster Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="333e-659d-a7df-8ee2" profileTypeId="c4ed-b3c1-3b29-236e" name="Cluster Bombs" hidden="false">
               <characteristics>
                 <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each Hit or Critical icon rolled."/>
               </characteristics>
@@ -1797,6 +1980,21 @@
             <profile id="7fb8-74c6-df33-9008" profileTypeId="80b7-1645-65c7-8a81" name="Tactical Expert" hidden="false">
               <characteristics>
                 <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="Before you reveal a command, you may change that command to a Concentrate Fire command."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5cc1-caf1-ad32-aa70" name="•Toryn Farr" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b349-2f11-2ea2-c93c" profileTypeId="80b7-1645-65c7-8a81" name="Toryn Farr" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="While another friendly ship or squadron at distance 1-3 is attacking, it may reroll 1 blue die."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2434,79 +2632,114 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="b655-1833-9346-0731" name="Defensive Retrofit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="5fa2-7fc1-d773-740c" name="Fleet Support" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="9a82-2c7d-5826-1072" name="Electronic Countermeasures" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7f13-d8ca-5234-d5c5" name="Bomber Command Center" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="4c04-267a-6cda-c51f" profileTypeId="c4ed-b3c1-3b29-236e" name="Electronic Countermeasures" hidden="false">
+            <profile id="738f-e6f3-da75-314f" profileTypeId="ed35-7d25-a151-5780" name="Bomber Command Center" hidden="false">
               <characteristics>
-                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an Accuracy result."/>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="While a friendly squadron with BOMBER at distance 1-5 is attacking a ship, it may reroll 1 die."/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links/>
         </entry>
-        <entry id="b61d-1da3-e602-bcee" name="Advanced Projectors" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0b1b-015e-dbc4-f44f" name="Slicer Tools" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="8d7d-ae01-d707-8565" profileTypeId="c4ed-b3c1-3b29-236e" name="Advanced Projectors" hidden="false">
+            <profile id="b943-d633-99a3-a15d" profileTypeId="ed35-7d25-a151-5780" name="Slicer Tools" hidden="false">
               <characteristics>
-                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="When you resolve the Redirect token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone."/>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3.  You may choose a new command on its top command dial."/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links/>
         </entry>
-        <entry id="d28c-9cdc-7ab1-3049" name="Redundant Shields" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="faca-b904-aa97-0e29" name="Comms Net" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <rules/>
           <profiles>
-            <profile id="407b-9d76-b026-2c7b" profileTypeId="c4ed-b3c1-3b29-236e" name="Redundant Shields" hidden="false">
+            <profile id="6718-132e-46d2-5373" profileTypeId="ed35-7d25-a151-5780" name="Comms Net" hidden="false">
               <characteristics>
-                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="Modification.  At the start of each Status Phase, you may recover 1 shield."/>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="After the Reveal Command Dial Step, you may remove 1 command token from this ship to assign a matching token to another friendly ship at distance 1-5."/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links/>
         </entry>
-        <entry id="429f-ca3f-0998-ba1d" name="Cluster Bombs" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ac40-5b35-1dd2-d82b" name="Jamming Field" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="333e-659d-a7df-8ee2" profileTypeId="c4ed-b3c1-3b29-236e" name="Cluster Bombs" hidden="false">
+            <profile id="95cf-a87b-11c8-2095" profileTypeId="ed35-7d25-a151-5780" name="Jamming Field" hidden="false">
               <characteristics>
-                <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each Hit or Critical icon rolled."/>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="While a squadron at distance 1-2 is attacking or defending against a squadron, the attack is treated as obstructed."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="00fb-9a62-e98d-da2c" name="Repair Crews" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e9be-0066-447e-f2be" profileTypeId="ed35-7d25-a151-5780" name="Repair Crews" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="Engineering: Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="68b7-57ca-14ec-170f" name="Title - Rebel Transports" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="8742-cf79-ca25-6f87" name="•Bright Hope" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d9dc-c2ea-97fb-e3f0" profileTypeId="16d6-f94c-4e0d-8993" name="Bright Hope" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="While defending against an attack that does not target your rear hull zone, before you suffer damage reduce the total damage by 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ffcd-7cc0-e576-e0c0" name="•Quantum Storm" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b4f6-af24-5f24-95e7" profileTypeId="16d6-f94c-4e0d-8993" name="Quantum Storm" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Navigation: After you execute a maneuver, you may exhaust this card to execute a 1-speed maneuver with a yaw of &quot;-&quot;"/>
               </characteristics>
               <modifiers/>
             </profile>
