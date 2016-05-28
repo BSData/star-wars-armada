@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" revision="22" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" revision="23" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -319,6 +319,102 @@
           <modifiers/>
         </link>
         <link id="e070-630b-af94-8955" targetId="baa5-7a1e-92ea-a312" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="65bf-eb5e-ea2e-01d3" name="Gozanti-Class Assault Carriers" points="28.0" categoryId="3c87-8b05-e880-8118" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="946a-bc31-2803-e4c5" profileTypeId="e72b-10bf-c14e-b3a8" name="Gozanti-Class Assault Carriers" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="3"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Scatter, Evade"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Red"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="-"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="1"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="1"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="1"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="1"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Fleet Support, Offensive Retrofit"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8f42-c12b-0788-5ab4" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3bf7-aefb-3661-3af2" targetId="9260-f8d5-4b02-2bdb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a559-d907-f1d5-ae35" targetId="7ff0-e45e-cb37-dc1f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="25f7-0ee2-d4b1-3435" targetId="b600-7501-5bed-c42a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f931-0adf-aac3-43ef" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="13c3-1ce5-5fe0-81d1" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="eada-a46e-fab0-f89a" name="Gozanti-Class Cruisers" points="23.0" categoryId="3c87-8b05-e880-8118" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9c13-e6bf-96eb-201a" profileTypeId="e72b-10bf-c14e-b3a8" name="Gozanti-Class Cruisers" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="3"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Scatter, Evade"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="-"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="1"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="1"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="1"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="1"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Fleet Support, Offensive Retrofit"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8421-903d-af1a-d1a8" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="11be-609e-36d0-9954" targetId="9260-f8d5-4b02-2bdb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d99c-1dde-65cf-80a1" targetId="7ff0-e45e-cb37-dc1f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ffb0-9f3a-b3b0-4f0e" targetId="b600-7501-5bed-c42a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="bfb6-2f2d-7e75-206d" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7baf-f598-806b-4c1f" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1150,90 +1246,6 @@
         </link>
       </links>
     </entry>
-    <entry id="eada-a46e-fab0-f89a" name="Gozanti-Class Cruisers" points="23.0" categoryId="3c87-8b05-e880-8118" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9c13-e6bf-96eb-201a" profileTypeId="e72b-10bf-c14e-b3a8" name="Gozanti-Class Cruisers" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="3"/>
-            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Black"/>
-            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
-            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
-            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
-            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Scatter, Evade"/>
-            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Blue"/>
-            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue"/>
-            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue"/>
-            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="-"/>
-            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="1"/>
-            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="1"/>
-            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="1"/>
-            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="1"/>
-            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Fleet Support, Offensive Retrofit"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8421-903d-af1a-d1a8" targetId="d77d-f98a-9b86-934a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="11be-609e-36d0-9954" targetId="9260-f8d5-4b02-2bdb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d99c-1dde-65cf-80a1" targetId="7ff0-e45e-cb37-dc1f" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="ffb0-9f3a-b3b0-4f0e" targetId="b600-7501-5bed-c42a" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="65bf-eb5e-ea2e-01d3" name="Gozanti-Class Assault Carriers" points="28.0" categoryId="3c87-8b05-e880-8118" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="946a-bc31-2803-e4c5" profileTypeId="e72b-10bf-c14e-b3a8" name="Gozanti-Class Assault Carriers" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="3"/>
-            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue"/>
-            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="1"/>
-            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
-            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="2"/>
-            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Scatter, Evade"/>
-            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Red"/>
-            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Blue"/>
-            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Blue"/>
-            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="-"/>
-            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="1"/>
-            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="1"/>
-            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="1"/>
-            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="1"/>
-            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Fleet Support, Offensive Retrofit"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8f42-c12b-0788-5ab4" targetId="d77d-f98a-9b86-934a" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="3bf7-aefb-3661-3af2" targetId="9260-f8d5-4b02-2bdb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a559-d907-f1d5-ae35" targetId="7ff0-e45e-cb37-dc1f" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="25f7-0ee2-d4b1-3435" targetId="b600-7501-5bed-c42a" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </entries>
   <rules/>
   <links/>
@@ -1416,6 +1428,125 @@
             <profile id="0d29-1410-6d5c-026b" profileTypeId="c4ed-b3c1-3b29-236e" name="Cluster Bombs" hidden="false">
               <characteristics>
                 <characteristic characteristicId="8539-a418-bf73-51cd" name="Defensive Retrofit Ability" value="After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each Hit or Critical icon rolled."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="bcac-a7c9-2ab5-23b5" name="Experimental Retrofit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="8aa2-6167-255a-48e6" name="G-8 Experimental Projector" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f846-16b5-3299-e4d1" profileTypeId="2907-d622-4480-ea97" name="G-8 Experimental Projector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before an enemy ship at distance 1-5 resolves the Determine Course step, you may exhaust this card to temporarily reduce its speed by 1 to a minimum of speed 0 until the end of the maneuver."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4fdb-8b13-f61b-7c30" name="G7-X Grav Well Projector" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5dad-08ce-ff95-cb8e" profileTypeId="2907-d622-4480-ea97" name="G7-X Grav Well Projector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before deploying fleets, place 1 grav well token anywhere in the play area.  When a ship deploys at distance 1-3 of a grav well token, its speed dial must be set to 0."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="7ff0-e45e-cb37-dc1f" name="Fleet Support" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9eea-d5e4-ee1f-08e4" name="Bomber Command Center" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a94f-76c8-5d03-876d" profileTypeId="ed35-7d25-a151-5780" name="Bomber Command Center" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="While a friendly squadron with BOMBER at distance 1-5 is attacking a ship, it may reroll 1 die."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="3bac-693c-4ca8-e5ad" name="Slicer Tools" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="dd2f-237b-d440-3d16" profileTypeId="ed35-7d25-a151-5780" name="Slicer Tools" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3.  You may choose a new command on its top command dial."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ea8e-f95c-c96d-202c" name="Comms Net" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a97b-a3c0-b558-8e6b" profileTypeId="ed35-7d25-a151-5780" name="Comms Net" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="After the Reveal Command Dial Step, you may remove 1 command token from this ship to assign a matching token to another friendly ship at distance 1-5."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cc9a-1368-7bc8-60bb" name="Jamming Field" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0c8f-8ee1-b2cc-b6ae" profileTypeId="ed35-7d25-a151-5780" name="Jamming Field" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="While a squadron at distance 1-2 is attacking or defending against a squadron, the attack is treated as obstructed."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="faaf-176e-a001-e436" name="Repair Crews" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="36ae-1cc5-a053-d8a5" profileTypeId="ed35-7d25-a151-5780" name="Repair Crews" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="Engineering: Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2144,6 +2275,43 @@
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="b600-7501-5bed-c42a" name="Title - Gozanti-Class Flotilla" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ec81-446a-6eef-a78b" name="•Suppressor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8bcc-8c83-6d64-634e" profileTypeId="16d6-f94c-4e0d-8993" name="Suppressor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="After an enemy ship ends its activation, if it is at distance 1-3, you may choose and exhaust 1 of its defense tokens."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1fa9-f850-0a60-6e4d" name="•Vector" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="42d5-fe23-f668-d865" profileTypeId="16d6-f94c-4e0d-8993" name="Vector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Squadron: The speed of each squadron without HEAVY you activate is increased by 1, to a maximum of 5 until the end of its activation."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="daad-14c6-116b-d6ba" name="Title - Imperial Star Destroyer" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="047e-ccc8-4d69-18f0" name="•Devastator" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2528,164 +2696,6 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="7ff0-e45e-cb37-dc1f" name="Fleet Support" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9eea-d5e4-ee1f-08e4" name="Bomber Command Center" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a94f-76c8-5d03-876d" profileTypeId="ed35-7d25-a151-5780" name="Bomber Command Center" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="While a friendly squadron with BOMBER at distance 1-5 is attacking a ship, it may reroll 1 die."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="3bac-693c-4ca8-e5ad" name="Slicer Tools" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="dd2f-237b-d440-3d16" profileTypeId="ed35-7d25-a151-5780" name="Slicer Tools" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3.  You may choose a new command on its top command dial."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="ea8e-f95c-c96d-202c" name="Comms Net" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a97b-a3c0-b558-8e6b" profileTypeId="ed35-7d25-a151-5780" name="Comms Net" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="After the Reveal Command Dial Step, you may remove 1 command token from this ship to assign a matching token to another friendly ship at distance 1-5."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="cc9a-1368-7bc8-60bb" name="Jamming Field" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="0c8f-8ee1-b2cc-b6ae" profileTypeId="ed35-7d25-a151-5780" name="Jamming Field" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="While a squadron at distance 1-2 is attacking or defending against a squadron, the attack is treated as obstructed."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="faaf-176e-a001-e436" name="Repair Crews" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="36ae-1cc5-a053-d8a5" profileTypeId="ed35-7d25-a151-5780" name="Repair Crews" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="bed9-437f-c45a-c805" name="Fleet Support Ability" value="Engineering: Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="b600-7501-5bed-c42a" name="Title - Gozanti-Class Flotilla" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ec81-446a-6eef-a78b" name="•Suppressor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="8bcc-8c83-6d64-634e" profileTypeId="16d6-f94c-4e0d-8993" name="Suppressor" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="After an enemy ship ends its activation, if it is at distance 1-3, you may choose and exhaust 1 of its defense tokens."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="1fa9-f850-0a60-6e4d" name="•Vector" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="42d5-fe23-f668-d865" profileTypeId="16d6-f94c-4e0d-8993" name="Vector" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Squadron: The speed of each squadron without HEAVY you activate is increased by 1, to a maximum of 5 until the end of its activation."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="bcac-a7c9-2ab5-23b5" name="Experimental Retrofit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="8aa2-6167-255a-48e6" name="G-8 Experimental Projector" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="f846-16b5-3299-e4d1" profileTypeId="2907-d622-4480-ea97" name="G-8 Experimental Projector" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before an enemy ship at distance 1-5 resolves the Determine Course step, you may exhaust this card to temporarily reduce its speed by 1 to a minimum of speed 0 until the end of the maneuver."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="4fdb-8b13-f61b-7c30" name="G7-X Grav Well Projector" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="5dad-08ce-ff95-cb8e" profileTypeId="2907-d622-4480-ea97" name="G7-X Grav Well Projector" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before deploying fleets, place 1 grav well token anywhere in the play area.
-
-When a ship deploys at distance 1-3 of a grav well token, its speed dial must be set to 0."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="d896-fa8f-d9c0-1a81" name="Bomber" hidden="false">
@@ -2702,6 +2712,10 @@ When a ship deploys at distance 1-3 of a grav well token, its speed dial must be
     </rule>
     <rule id="1949-cb6f-51a1-bc02" name="Escort" hidden="false">
       <description>Squadrons you are engaged with cannot attack squadrons that lack Escort unless performing a Counter attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9260-f8d5-4b02-2bdb" name="Flotillas" hidden="false">
+      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
       <modifiers/>
     </rule>
     <rule id="96f5-70f7-7645-1325" name="Grit" hidden="false">
@@ -2722,10 +2736,6 @@ When a ship deploys at distance 1-3 of a grav well token, its speed dial must be
     </rule>
     <rule id="8c96-2816-9a99-fd10" name="Swarm" hidden="false">
       <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
-      <modifiers/>
-    </rule>
-    <rule id="9260-f8d5-4b02-2bdb" name="Flotillas" hidden="false">
-      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
       <modifiers/>
     </rule>
   </sharedRules>
