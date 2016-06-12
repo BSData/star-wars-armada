@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="24" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="25" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -462,6 +462,9 @@
         <link id="2548-7ebe-49b0-66b3" targetId="10d5-12af-b773-cd45" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="30b6-b861-c851-a996" targetId="d3b2-16fc-f50d-a5f1" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="7928-9325-451b-6e2a" name="GR-75 Medium Transports" points="18.0" categoryId="8180-3b0c-4e1a-d22a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -505,6 +508,9 @@
           <modifiers/>
         </link>
         <link id="d310-a920-0afb-dbb9" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b14e-9f27-06b7-a2d2" targetId="d3b2-16fc-f50d-a5f1" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2823,6 +2829,10 @@
     </rule>
     <rule id="11db-e8d0-66e9-6855" name="Swarm" hidden="false">
       <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d3b2-16fc-f50d-a5f1" name="Flotillas" hidden="false">
+      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
       <modifiers/>
     </rule>
   </sharedRules>
