@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="25" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="26" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1335,6 +1335,114 @@
         </link>
       </links>
     </entry>
+    <entry id="08aa-ef7d-35e6-66a2" name="MC80 Battle Cruiser" points="103.0" categoryId="ca88-dc53-e3b3-73f3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4e91-098c-73bb-8481" profileTypeId="e72b-10bf-c14e-b3a8" name="MC80 Battle Cruiser" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="8"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="2 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="4"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Brace, Redirect"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="4 Red, 3 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="2 Red, 1 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="2 Red, 1 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Red, 1 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="5"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Weapons Team, Support Team, Ion Cannons, Turbolasers, Turbolasers"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9f9b-ef18-9759-2cde" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8e2d-178e-0e68-053a" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="1ca3-1cc9-bdc5-c5ea" targetId="baa5-7a1e-92ea-a312" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3b40-cf60-5466-24d0" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="fd7c-b399-b549-a2ac" targetId="a176-c60f-7d96-1496" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="43fe-8abd-c59f-1573" targetId="919f-0faf-d84f-79ff" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="31d3-5060-4e66-1599" targetId="1402-7b91-d7d8-a61a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="bd0b-7116-9749-fc1b" targetId="d721-fa49-cc5d-4f7d" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="56ce-6029-d079-306d" name="MC80 Star Cruiser" points="96.0" categoryId="ca88-dc53-e3b3-73f3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2dc6-9594-6f16-418a" profileTypeId="e72b-10bf-c14e-b3a8" name="MC80 Star Cruiser" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="8"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="3"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="4"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Brace, Redirect"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="3 Red, 4 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="2 Red, 1 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="2 Red, 1 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="2 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="5"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Weapons Team, Support Team, Ion Cannons, Turbolasers, Turbolasers"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5aeb-adb6-dc2a-54ef" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ac4a-0570-d75c-5d2a" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="cbbf-765b-757e-15cd" targetId="baa5-7a1e-92ea-a312" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ef82-8c24-63f4-36da" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7fce-38f9-d256-fc17" targetId="a176-c60f-7d96-1496" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0b7c-777f-a77f-8580" targetId="919f-0faf-d84f-79ff" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4e6b-b0e7-8632-640f" targetId="d721-fa49-cc5d-4f7d" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="dd28-1d4e-1424-e785" targetId="1402-7b91-d7d8-a61a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -1417,15 +1525,15 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="8ea2-b1c3-b00d-acdc" name="•General Cracken" points="38.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8ea2-b1c3-b00d-acdc" name="•General Cracken" points="26.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="3669-25fc-dbbc-98c6" profileTypeId="ed38-5cd8-e875-d3e7" name="Admiral Ackbar" hidden="false">
+            <profile id="3669-25fc-dbbc-98c6" profileTypeId="ed38-5cd8-e875-d3e7" name="General Cracken" hidden="false">
               <characteristics>
-                <characteristic characteristicId="1ebb-c216-cd61-f014" name="Commander Ability" value="Before a friendly ship&apos;s Attack Step, it may choose to attack from only its left and right hull zones this round.  If it does, it may add 2 red dice to its attack pool while attacking a ship."/>
+                <characteristic characteristicId="1ebb-c216-cd61-f014" name="Commander Ability" value="While a friendly small or medium ship is defending against a ship, if the defender is at speed 3 or higher, the attack is treated as obstructed."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1499,6 +1607,11 @@
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1583,6 +1696,11 @@
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1779,6 +1897,58 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="433f-78dc-95d8-a10f" name="High-Capacity Ion Turbines" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="77df-fadf-05d3-d89b" profileTypeId="82fe-f045-0a3b-a5da" name="High-Capacity Ion Turbines" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2ce0-48c0-d090-1720" name="Ion Cannon Ability" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 blue die."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="52b2-cabe-150b-3077" name="MS-1 Ion Cannons" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="91df-cb88-e1f0-9813" profileTypeId="82fe-f045-0a3b-a5da" name="MS-1 Ion Cannons" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2ce0-48c0-d090-1720" name="Ion Cannon Ability" value="Blue critical: Choose and exhaust 1 of the defender&apos;s upgrade cards."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1831,6 +2001,11 @@
                     <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2110,6 +2285,51 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="7a1d-3f4d-e438-8215" name="Chart Officer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c3bd-ace7-8692-8612" profileTypeId="80b7-1645-65c7-8a81" name="Chart Officer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="After you execute a maneuver, if you overlapped an obstacle, you may discard this card instead of resolving the effects of overlapping that obstacle."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5d4c-a56f-eb5e-ebe7" name="Skilled First Officer" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="dc90-2295-2988-2f22" profileTypeId="80b7-1645-65c7-8a81" name="Skilled First Officer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="Before you reveal a command, you may discard this card to discard your top command dial."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="086d-7762-f275-1ef9" name="Flight Commander" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="400e-0b02-62da-013f" profileTypeId="80b7-1645-65c7-8a81" name="Flight Commander" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="During your activation, you can resolve your Squadron command after you execute a maneuver."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -2147,6 +2367,11 @@
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2194,6 +2419,11 @@
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2272,6 +2502,36 @@
             <profile id="8802-853d-25d2-838f" profileTypeId="253b-6595-ea04-90bc" name="Projection Experts" hidden="false">
               <characteristics>
                 <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="Engineering: You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="596c-7849-6474-47d0" name="Medical Team" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f7f1-4991-6764-dcf3" profileTypeId="253b-6595-ea04-90bc" name="Medical Team" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="Before you are dealt a faceup damage card with the Crew trait, you may discard this card to discard that damage card."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d17b-fa69-892d-e474" name="Fighter Coordination Team" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="36f3-0a0c-a407-a47c" profileTypeId="253b-6595-ea04-90bc" name="Fighter Coordination Team" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="After you execute a maneuver, you may select a number of unengaged friendly squadrons up to your squadron value at close-medium range.  Those squadrons may move up to distance 1."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2552,7 +2812,7 @@
     </entryGroup>
     <entryGroup id="919f-0faf-d84f-79ff" name="Turbolasers" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="74d4-d1f0-2570-64e3" name="Enhanced Armament" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="74d4-d1f0-2570-64e3" name="Enhanced Armament" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -2567,6 +2827,11 @@
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2599,7 +2864,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="b399-2a8a-d3cd-f640" name="XI7 Turbolasers" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b399-2a8a-d3cd-f640" name="XI7 Turbolasers" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2614,7 +2879,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="8807-f6a9-efa7-1181" name="XX-9 Turbolasers" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8807-f6a9-efa7-1181" name="XX-9 Turbolasers" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2644,7 +2909,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="d1c5-686e-638b-733c" name="Turbolaser Reroute Circuits" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d1c5-686e-638b-733c" name="Turbolaser Reroute Circuits" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2659,7 +2924,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="eb65-58a7-6336-f805" name="Slaved Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="eb65-58a7-6336-f805" name="Slaved Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -2674,6 +2939,11 @@
                     <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2685,6 +2955,58 @@
             <profile id="20ef-1bb2-1fd8-67f5" profileTypeId="f6bb-908e-778e-3884" name="Slaved Turrets" hidden="false">
               <characteristics>
                 <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  You cannot attack more than once per round.  While attacking a ship, add 1 red die to your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="524a-c5b5-48fb-abf4" name="Spinal Armament" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f30e-78f7-7e6a-5c83" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="53b4-7517-7e87-a36b" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="39e8-dbd0-935c-7d4a" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="3ac3-d7dd-91bc-acc4" profileTypeId="f6bb-908e-778e-3884" name="Spinal Armament" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  The battery armaments for your front and rear hull zones are increased by 1 red die."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cdc8-a86d-39e5-609a" name="Quad Turbolaser Cannons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="24a4-88d4-9e18-25e5" profileTypeId="f6bb-908e-778e-3884" name="Quad Turbolaser Cannons" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, if at least 1 red die face has an Accuracy icon, add 1 red die set to the Accuracy icon to your attack pool."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2713,7 +3035,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="0686-a7ea-1c2b-42e5" name="Sensor Team" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0686-a7ea-1c2b-42e5" name="Sensor Team" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2788,6 +3110,272 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="4c73-faa3-3df9-fa67" name="Fire-Control Team" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3232-359a-e0f2-8a26" profileTypeId="229c-c950-27d2-b599" name="Fire-Control Team" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="During the Resolve Damage Step, you may exhaust this card to resolve 1 additional critical effect.  You cannot resolve the same critical effect twice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="1402-7b91-d7d8-a61a" name="Title - MC80 Battle Cruiser" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4c28-c84b-2d13-af98" name="•Endeavor" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5e50-6b75-983a-6802" profileTypeId="16d6-f94c-4e0d-8993" name="Endeavor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="At the start of the first round, gain 1 Contain defense token."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="94ba-fc52-8543-4700" name="•Mon Karren" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a207-06a2-ac1c-b004" profileTypeId="16d6-f94c-4e0d-8993" name="Mon Karren" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="While attacking a ship, the defender cannot spend more than 1 defense token."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="48e5-8967-f430-d28f" name="•Liberty" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ede5-33c4-0eae-8b99" profileTypeId="16d6-f94c-4e0d-8993" name="Liberty" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Squadron Command: If you spent a Squadron token, you may activate 1 additional squadron."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="d721-fa49-cc5d-4f7d" name="Turbolasers" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="39e8-dbd0-935c-7d4a" name="Enhanced Armament" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="6c14-cd81-6cae-c865" profileTypeId="f6bb-908e-778e-3884" name="Enhanced Armament" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 red die."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8335-3bf8-38cc-e550" name="H9 Turbolasers" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="50f1-462c-a63e-02c0" profileTypeId="f6bb-908e-778e-3884" name="H9 Turbolasers" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, you may change 1 die face with a Hit or Critical icon to a face with an Accuracy icon."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="29e7-25f5-e6ec-08b6" name="XI7 Turbolasers" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7f31-29b5-28ae-7316" profileTypeId="f6bb-908e-778e-3884" name="XI7 Turbolasers" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, if the defender spends a Redirect token, it cannot suffer more than 1 damage on hull zones other than the defending hull zone. "/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="44f9-5c38-1144-e83d" name="XX-9 Turbolasers" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a6dc-287b-921f-b6b7" profileTypeId="f6bb-908e-778e-3884" name="XX-9 Turbolasers" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Critical Hit: The first 2 damage cards dealt to the defender by this attack are dealt faceup."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0a75-7d2a-6d6c-daf8" name="Heavy Turbolaser Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d614-8380-1b9a-1d08" profileTypeId="f6bb-908e-778e-3884" name="Heavy Turbolaser Turrets" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, the Brace defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6f1d-3f30-79fc-f0ec" name="Turbolaser Reroute Circuits" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cdb4-fd13-cf70-a124" profileTypeId="f6bb-908e-778e-3884" name="Turbolaser Reroute Circuits" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, you may spend 1 Evade defense token to change 1 red die to a face with a Critical icon or 2 Hit icons."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="53b4-7517-7e87-a36b" name="Slaved Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="524a-c5b5-48fb-abf4" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="1870-d561-dcaa-eb23" profileTypeId="f6bb-908e-778e-3884" name="Slaved Turrets" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  You cannot attack more than once per round.  While attacking a ship, add 1 red die to your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f30e-78f7-7e6a-5c83" name="Spinal Armament" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e253-c328-9245-89a1" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="eb65-58a7-6336-f805" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f63d-618a-a045-a418" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="909b-ff40-3019-a96f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="7e20-d50a-2289-349f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d28c-9cdc-7ab1-3049" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="433f-78dc-95d8-a10f" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="6f3e-0024-31cb-d682" profileTypeId="f6bb-908e-778e-3884" name="Spinal Armament" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  The battery armaments for your front and rear hull zones are increased by 1 red die."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cd2b-8be8-6344-692d" name="Quad Turbolaser Cannons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d2f6-74e0-c869-696e" profileTypeId="f6bb-908e-778e-3884" name="Quad Turbolaser Cannons" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, if at least 1 red die face has an Accuracy icon, add 1 red die set to the Accuracy icon to your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -2811,6 +3399,10 @@
       <description>Squadrons you are engaged with cannot attack squadrons that lack Escort unless performing a Counter attack.</description>
       <modifiers/>
     </rule>
+    <rule id="d3b2-16fc-f50d-a5f1" name="Flotillas" hidden="false">
+      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
+      <modifiers/>
+    </rule>
     <rule id="5819-af3f-afdb-16dc" name="Grit" hidden="false">
       <description>You are not prevented from moving while you are engaged by only 1 squadron.</description>
       <modifiers/>
@@ -2829,10 +3421,6 @@
     </rule>
     <rule id="11db-e8d0-66e9-6855" name="Swarm" hidden="false">
       <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
-      <modifiers/>
-    </rule>
-    <rule id="d3b2-16fc-f50d-a5f1" name="Flotillas" hidden="false">
-      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
       <modifiers/>
     </rule>
   </sharedRules>

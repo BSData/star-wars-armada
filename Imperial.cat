@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" revision="24" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" revision="26" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1246,6 +1246,111 @@
         </link>
       </links>
     </entry>
+    <entry id="a35b-b5da-f71e-cf8a" name="Interdictor Suppression Refit" points="90.0" categoryId="d71c-f6f0-4044-3252" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9585-1761-f785-0a09" profileTypeId="e72b-10bf-c14e-b3a8" name="Interdictor Suppression Refit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="9"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="2"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="5"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Contain, Contain"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="1 Red, 3 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="1 Red, 3 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="1 Red, 3 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Red, 2 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="3"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Support Team, Offensive Retrofit, Experimental Retrofit, Experimental Retrofit, Ion Cannons"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8bce-4255-82a7-c7c3" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="bc04-ca59-4496-39af" targetId="ae52-b958-191b-7ef9" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9abd-c3df-ef2c-579d" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="79f6-8182-9b51-529f" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="550c-b416-c037-6df5" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c28c-0f20-94b2-9753" targetId="bcac-a7c9-2ab5-23b5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="2915-6bbb-d0a7-3cad" targetId="bcac-a7c9-2ab5-23b5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="2401-ff0b-470b-2d28" targetId="a176-c60f-7d96-1496" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d68c-9a24-9073-a3fd" name="Interdictor Combat Refit" points="93.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6c5a-ac5d-318b-9bd2" profileTypeId="e72b-10bf-c14e-b3a8" name="Interdictor Combat Refit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dce4-e1e2-4600-db77" name="Hull" value="9"/>
+            <characteristic characteristicId="4691-4ce0-0e70-7711" name="Anti-Squadron Value" value="1 Blue, 1 Black"/>
+            <characteristic characteristicId="1d2d-071c-feaa-7f6e" name="Command" value="2"/>
+            <characteristic characteristicId="b7a0-8944-9c2a-ca69" name="Squadron" value="2"/>
+            <characteristic characteristicId="6069-def8-10bd-ab4b" name="Engineering" value="5"/>
+            <characteristic characteristicId="f211-7be9-035b-a0cf" name="Defense Tokens" value="Brace, Redirect, Contain, Contain"/>
+            <characteristic characteristicId="8d51-161b-6a35-8c8c" name="Front Firing Arc" value="2 Red, 2 Blue"/>
+            <characteristic characteristicId="b4b4-b590-eb56-726f" name="Left Firing Arc" value="2 Red, 2 Blue"/>
+            <characteristic characteristicId="748c-7972-54e2-1bd1" name="Right Firing Arc" value="2 Red, 2 Blue"/>
+            <characteristic characteristicId="2949-52b4-c630-9e14" name="Rear Firing Arc" value="1 Red, 2 Blue"/>
+            <characteristic characteristicId="b626-c94b-bb41-4893" name="Front Shield Value" value="3"/>
+            <characteristic characteristicId="634e-fa2b-63b6-bef2" name="Left Shield Value" value="2"/>
+            <characteristic characteristicId="590e-4eb6-d942-884d" name="Right Shield Value" value="2"/>
+            <characteristic characteristicId="5753-1a48-06df-40af" name="Rear Shield Value" value="2"/>
+            <characteristic characteristicId="5ba4-e836-287d-1b42" name="Upgrade Bar" value="Officer, Support Team, Offensive Retrofit, Experimental Retrofit, Ion Cannons"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="09a0-7444-2acf-bb5d" targetId="d77d-f98a-9b86-934a" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e305-e43f-87e1-fcff" targetId="bcac-a7c9-2ab5-23b5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6656-0745-b068-eb94" targetId="ae52-b958-191b-7ef9" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a5f2-3774-6522-3cfc" targetId="10d5-12af-b773-cd45" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8cc2-679b-ec63-3e6a" targetId="92d1-8354-bcb8-38fc" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0b49-dd86-f769-2730" targetId="0a55-2f8b-aff3-154e" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9fea-1715-56fd-1b7b" targetId="a176-c60f-7d96-1496" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -1350,6 +1455,21 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="c6ff-db88-74f8-bbb7" name="•Admiral Konstantine" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="36a1-5ad0-c19f-67c6" profileTypeId="ed38-5cd8-e875-d3e7" name="Admiral Konstantine" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="1ebb-c216-cd61-f014" name="Commander Ability" value="At the start of each Status Phase, for each enemy ship at distance 1-5 of at least 2 friendly medium or large ships, you may increase or decrease that enemy ship&apos;s speed by 1 to a minimum of speed 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1402,6 +1522,8 @@
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4859-08bb-09dd-9106" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1465,6 +1587,38 @@
             <profile id="5dad-08ce-ff95-cb8e" profileTypeId="2907-d622-4480-ea97" name="G7-X Grav Well Projector" hidden="false">
               <characteristics>
                 <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before deploying fleets, place 1 grav well token anywhere in the play area.  When a ship deploys at distance 1-3 of a grav well token, its speed dial must be set to 0."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4866-b10e-86b2-c206" name="Targeting Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f974-1a56-e679-0452" profileTypeId="2907-d622-4480-ea97" name="Targeting Scrambler" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="While a friendly ship at distance 1-3 is defending at close range, during the Spend Defense Tokens step, you may exhaust this card to force the attacker to reroll up to 4 dice of your choice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2b24-3434-8fa3-fdec" name="•Grav Shift Reroute" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1e30-7d0a-1d0a-58ed" profileTypeId="2907-d622-4480-ea97" name="Grav Shift Reroute" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability" value="Before deploying fleets, place 1 grav shift token anywhere in the play area.
+
+After deploying fleets, you may move each obstacle at distance 1-3 of that token to within distance 2 of that obstacle&apos;s current location.  Obstacles cannot overlap tokens, obstacles, or ships."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1635,6 +1789,54 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="c0df-09ec-4808-7e94" name="MS-1 Ion Cannons" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ee98-96ae-6a26-7be7" profileTypeId="82fe-f045-0a3b-a5da" name="MS-1 Ion Cannons" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2ce0-48c0-d090-1720" name="Ion Cannon Ability" value="Blue critical: Choose and exhaust 1 of the defender&apos;s upgrade cards."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="158f-7087-90a0-14d3" name="High-Capacity Ion Turbines" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="b5a2-8d6d-f9cf-a63f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4859-08bb-09dd-9106" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="9f44-565e-ad56-e216" profileTypeId="82fe-f045-0a3b-a5da" name="High-Capacity Ion Turbines" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2ce0-48c0-d090-1720" name="Ion Cannon Ability" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 blue die."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1687,6 +1889,8 @@
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4859-08bb-09dd-9106" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1786,6 +1990,8 @@
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d32a-817c-a344-eb6a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4859-08bb-09dd-9106" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2065,6 +2271,81 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="39f1-e74c-aa79-1717" name="•Admiral Titus" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ca11-5b3b-15e9-936a" profileTypeId="80b7-1645-65c7-8a81" name="Admiral Titus" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="At the start of the first round, you may change 1 enemy ship&apos;s speed by 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bab4-7b06-b6bd-e1b4" name="•Commandant Aresko" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9e17-ac17-40a6-49bd" profileTypeId="80b7-1645-65c7-8a81" name="Commandant Aresko" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="When another friendly ship at distance 1-3 reveals a command, you may exhaust this card to gain 1 command token of the same type."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="dbf4-8dc3-4f5b-7093" name="Chart Officer" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4d25-d23e-e49b-f686" profileTypeId="80b7-1645-65c7-8a81" name="Chart Officer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="After you execute a maneuver, if you overlapped an obstacle, you may discard this card instead of resolving the effects of overlapping that obstacle."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="245f-6485-065e-b828" name="Flight Commander" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4edb-a51a-a922-a200" profileTypeId="80b7-1645-65c7-8a81" name="Flight Commander" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="During your activation, you can resolve your Squadron command after you execute a maneuver."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8f15-cfb1-bdfe-d5eb" name="Skilled First Officer" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f977-384f-4b9e-eadf" profileTypeId="80b7-1645-65c7-8a81" name="Skilled First Officer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b9fd-ed9d-6333-0e67" name="Officer Ability" value="Before you reveal a command, you may discard this card to discard your top command dial."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -2102,6 +2383,8 @@
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="d32a-817c-a344-eb6a" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4859-08bb-09dd-9106" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2149,6 +2432,8 @@
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4859-08bb-09dd-9106" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2227,6 +2512,36 @@
             <profile id="b3b0-0f7e-d2ac-d1de" profileTypeId="253b-6595-ea04-90bc" name="Projection Experts" hidden="false">
               <characteristics>
                 <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="Engineering: You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1281-27d5-e9d8-da23" name="Fighter Coordination Team" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8853-3850-fc49-d48b" profileTypeId="253b-6595-ea04-90bc" name="Fighter Coordination Team" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="After you execute a maneuver, you may select a number of unengaged friendly squadrons up to your squadron value at close-medium range.  Those squadrons may move up to distance 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="60ad-f221-d990-f1ad" name="Medical Team" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9c73-c5e0-04d7-3088" profileTypeId="253b-6595-ea04-90bc" name="Medical Team" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="ae22-c426-3790-a78f" name="Support Team Ability" value="Before you are dealt a faceup damage card with the Crew trait, you may discard this card to discard that damage card."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2366,30 +2681,30 @@
     </entryGroup>
     <entryGroup id="cc91-6340-6071-93db" name="Title - Raider Corvette" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="26b2-299a-34d6-6556" name="•Instigator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="efc4-4dd7-57a6-110e" name="•Impetuous" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="2ea4-aa98-cb5e-f7d9" profileTypeId="16d6-f94c-4e0d-8993" name="Instigator" hidden="false">
+            <profile id="c9dc-56ca-b50a-e1a3" profileTypeId="16d6-f94c-4e0d-8993" name="Impetuous" hidden="false">
               <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged."/>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="At the end of your Attack Step, choose 1 of your hull zones.  You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round."/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links/>
         </entry>
-        <entry id="143c-06e2-8cef-2390" name="•Impetuous" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f0c2-0776-9b0a-38bd" name="•Instigator" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a2b0-d17e-d0c9-affc" profileTypeId="16d6-f94c-4e0d-8993" name="Impetuous" hidden="false">
+            <profile id="a2ed-fd0f-4245-3c81" profileTypeId="16d6-f94c-4e0d-8993" name="Instigator" hidden="false">
               <characteristics>
-                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="At the end of your Attack Step, choose 1 of your hull zones.  You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round."/>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2470,6 +2785,8 @@
                     <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4859-08bb-09dd-9106" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2562,7 +2879,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="ae4c-3a58-0fa3-5d91" name="Slaved Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ae4c-3a58-0fa3-5d91" name="Slaved Turrets" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -2577,6 +2894,7 @@
                     <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2588,6 +2906,55 @@
             <profile id="b2ab-eb81-2032-af7d" profileTypeId="f6bb-908e-778e-3884" name="Slaved Turrets" hidden="false">
               <characteristics>
                 <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  You cannot attack more than once per round.  While attacking a ship, add 1 red die to your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6aa1-f287-8ba6-220f" name="Quad Turbolaser Cannons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c674-05b9-fc7b-1d67" profileTypeId="f6bb-908e-778e-3884" name="Quad Turbolaser Cannons" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="While attacking, if at least 1 red die face has an Accuracy icon, add 1 red die set to the Accuracy icon to your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4859-08bb-09dd-9106" name="Spinal Armament" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="b5a2-8d6d-f9cf-a63f" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="d32a-817c-a344-eb6a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="4509-4282-6a9c-15d9" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="ae4c-3a58-0fa3-5d91" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8a82-89f6-78f1-057e" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="8ec8-462d-c967-db21" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="158f-7087-90a0-14d3" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="74d4-d1f0-2570-64e3" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="c002-5397-a258-03d6" profileTypeId="f6bb-908e-778e-3884" name="Spinal Armament" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="43e5-b6c8-39de-139b" name="Turbolasers Ability" value="Modification.  The battery armaments for your front and rear hull zones are increased by 1 red die."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2685,6 +3052,43 @@
             <profile id="e276-636e-a4df-6663" profileTypeId="229c-c950-27d2-b599" name="Veteran Gunners" hidden="false">
               <characteristics>
                 <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="While attacking, you may exhaust this card to reroll all dice in your attack pool."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fbbb-3472-b997-0e9c" name="Fire-Control Team" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="46d4-aad6-b55c-ee4b" profileTypeId="229c-c950-27d2-b599" name="Fire-Control Team" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="f63e-d559-f525-14e3" name="Weapons Team Ability" value="During the Resolve Damage Step, you may exhaust this card to resolve 1 additional critical effect.  You cannot resolve the same critical effect twice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="ae52-b958-191b-7ef9" name="Title - Interdictor Refit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="2c0a-00a7-f3e4-4e0a" name="•Interdictor" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9fb1-7997-bb2d-3473" profileTypeId="16d6-f94c-4e0d-8993" name="Interdictor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7040-d6d1-e20e-c16c" name="Ship Title Abilities" value="When a ship activates, you may exhaust this card to ready 1 other upgrade card equipped to this ship."/>
               </characteristics>
               <modifiers/>
             </profile>
