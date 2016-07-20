@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" revision="27" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" revision="28" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -527,7 +527,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d68c-9a24-9073-a3fd" name="Interdictor Combat Refit" points="93.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d68c-9a24-9073-a3fd" name="Interdictor Combat Refit" points="93.0" categoryId="d71c-f6f0-4044-3252" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
