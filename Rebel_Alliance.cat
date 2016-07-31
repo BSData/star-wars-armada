@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" revision="28" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" revision="29" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Rebel Fleet" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" points="11.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -196,6 +196,24 @@
                     <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="The first player&apos;s objective ship may perform each of its attacks from the same hull zone.  It cannot target the same hull zone or squadron more than once each round with that hull zone.  The second player&apos;s objective ship may perform each of its attacks from the same hull zone, and it may do so against the same targets."/>
                     <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value="The fleet point cost of a destroyed objective ship is doubled.  Do not double the cost of its upgrade cards."/>
                     <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="60c4-a7d9-c65c-84fe" name="Station Assault" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="878b-a4ff-e7db-ba3a" profileTypeId="d2a5-335d-ee6f-ac1d" name="Station Assault" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="Place obstacles as normal, excluding the station.  Then, the second player places 2 stations in the setup area.  Each station must be placed beyond distance 1 of all obstacles and beyond distance 3 of both players&apos; edges.  Both stations are unarmed stations; place both Unarmed Station cards near the second player&apos;s ship cards."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="The first player&apos;s ships and squadrons cannot resolve an unarmed station&apos;s effect to discard damage cards or recover hull points when they overlap it."/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value="The second player gains 1 victory token for each unarmed station that is not destroyed.  The first player gains 1 victory token for each unarmed station that is destroyed."/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value="40"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -402,6 +420,26 @@
                     <characteristic characteristicId="d86d-27bf-c14f-f614" name="Special Rule"/>
                     <characteristic characteristicId="d083-b52c-bffc-0b57" name="End of Round"/>
                     <characteristic characteristicId="5512-b7d3-b57d-fb0b" name="Victory Token Value"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="5d9d-8fba-ae80-cb36" name="Jamming Barrier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="715c-f8af-2ed7-db4f" profileTypeId="8e28-f0e4-5cd7-b34b" name="Jamming Barrier" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="ccb1-3750-038f-f0b6" name="Setup" value="Place obstacles as normal, excluding the station and replacing the 2 debris fields with the 2 dust fields.
+
+After deploying fleets, the second player places 2 objective tokens in the setup area at distance 1-5 of each other."/>
+                    <characteristic characteristicId="d86d-27bf-c14f-f614" name="Special Rule" value="While attacking, if line of sight is traced across the line between the two objective tokens, the attacker must choose and remove half of the dice from the attack pool, rounded down, before rolling."/>
+                    <characteristic characteristicId="d083-b52c-bffc-0b57" name="End of Round" value=""/>
+                    <characteristic characteristicId="5512-b7d3-b57d-fb0b" name="Victory Token Value" value=""/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -935,6 +973,28 @@
               </profiles>
               <links/>
             </entry>
+            <entry id="436b-6c2a-bf0b-e8d7" name="Salvage Run" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="c6b6-b100-6203-9602" profileTypeId="d2a5-335d-ee6f-ac1d" name="Salvage Run" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="The second player places the station in the center of the play area.  Then, starting with the second player, the players alternate placing the remaining obstacles, adding the 2 dust field obstacles, at distance 1-5 of the station and beyond distance 1 of all other objective tokens.
+
+After placing obstacles, the second player places a total of 4 objective tokens in the setup area.  Each token must be at distance 1 of the station and beyond distance 1 of all other objective tokens.
+
+After deploying fleets, each of the second player&apos;s ships gains a Navigation token."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="When a player&apos;s ship reveals a command dial, that player may chooose 1 objective token at distance 1 of that ship and remove it from the play area to gain 1 victory token."/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value=""/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value="20"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
@@ -1439,6 +1499,31 @@
           <modifiers/>
         </link>
         <link id="4a71-8c20-921e-0db2" targetId="1949-cb6f-51a1-bc02" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="df37-edd4-16f1-8ee8" name="•Rogue Squadron" points="14.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bdee-5470-135a-dac5" profileTypeId="6590-7c7f-7387-8791" name="Rogue Squadron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="5"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Red"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5241-b8d0-56db-4988" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b40a-8af8-6be7-911f" targetId="9c73-dc50-7fe8-7b7a" linkType="rule">
           <modifiers/>
         </link>
       </links>
