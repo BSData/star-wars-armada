@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" revision="16" battleScribeVersion="1.15" name="Star Wars Armada" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" revision="17" battleScribeVersion="1.15" name="Star Wars Armada" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="1b44-1532-e7c9-9663" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -46,6 +46,12 @@
           <modifiers/>
         </category>
         <category id="d71c-f6f0-4044-3252" name="Interdictor Refit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="8988-a3d2-ecc4-c0e4" name="Arquitens-Class Light Cruiser" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="9810-b289-b172-52b4" name="Modified Pelta-Class Ship" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -170,6 +176,11 @@
     <profileType id="2907-d622-4480-ea97" name="2.13 Experimental Retrofit">
       <characteristics>
         <characteristic id="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability"/>
+      </characteristics>
+    </profileType>
+    <profileType id="1310-5c89-5c82-8e3b" name="2.14 Fleet Command">
+      <characteristics>
+        <characteristic id="67d1-23ac-2af6-6b5a" name="Fleet Command Ability"/>
       </characteristics>
     </profileType>
   </profileTypes>
