@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" revision="29" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" revision="30" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" battleScribeVersion="1.15" name="Imperial Navy" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -121,6 +121,64 @@
               </profiles>
               <links/>
             </entry>
+            <entry id="6f8b-5a5a-d5fd-cff9" name="Blockade Run" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="26d8-7d63-0e8e-fd5a" profileTypeId="d2a5-335d-ee6f-ac1d" name="Blockade Run" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="The 3&apos; edges of the play area become the player edges.  Each player&apos;s deployment zone is within 2 range ruler lengths of his edge.  The second player places all obstacles.  Obstacles must be placed in the play area beyond 2 range ruler lengths of both player edges, and beyond distance 1 of other obstacles."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="The second player assigns 1 objective token to each of his ships.
+
+When a ship with an objective token is destroyed, the first player gains 1 victory token."/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value="The second player gains 1 victory token for each ship with an objective token within the first player&apos;s deployment zone."/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value="20"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="c0d0-40ef-cdef-d14b" name="Targeting Beacons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="585c-5703-c616-7482" profileTypeId="d2a5-335d-ee6f-ac1d" name="Targeting Beacons" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="After placing obstacles, the players alternate placing a total of 4 objective tokens in the setup area, starting with the second player."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="While one of the second player&apos;s ships is attacking a ship that is at distance 1-2 of an objective token, the attacker may reroll up to 2 attack dice in the attack pool."/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value=""/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="7423-0a3b-b3c4-ac13" name="Close-Range Intel Scan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="aedf-fda0-f334-fa0c" profileTypeId="d2a5-335d-ee6f-ac1d" name="Close-Range Intel Scan" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="Place obstacles, adding the 2 dust fields, as normal."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="While one of the second player&apos;s ships is attacking a ship, the attacker may spend 1 die with an [Accuracy] icon.  If it does, the attacker&apos;s owner gains 1 victory token.
+
+While one of the first player&apos;s ships is attacking a ship, the attacker may spend 2 dice with [Accuracy] icons.  If it does, the attacker&apos;s owner gains 1 victory token."/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value=""/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value="10"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
@@ -217,12 +275,50 @@
               <profiles>
                 <profile id="65cb-23af-72ef-74c6" profileTypeId="8e28-f0e4-5cd7-b34b" name="Jamming Barrier" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="ccb1-3750-038f-f0b6" name="Setup" value="Place obstacles as normal, excluding the station and replacing the 2 debris fields with the 2 dust fields.
-
-After deploying fleets, the second player places 2 objective tokens in the setup area at distance 1-5 of each other."/>
+                    <characteristic characteristicId="ccb1-3750-038f-f0b6" name="Setup" value="Place obstacles as normal, excluding the station and replacing the 2 debris fields with the 2 dust fields.  After deploying fleets, the second player places 2 objective tokens in the setup area at distance 1-5 of each other."/>
                     <characteristic characteristicId="d86d-27bf-c14f-f614" name="Special Rule" value="While attacking, if line of sight is traced across the line between the two objective tokens, the attacker must choose and remove half of the dice from the attack pool, rounded down, before rolling."/>
                     <characteristic characteristicId="d083-b52c-bffc-0b57" name="End of Round" value=""/>
                     <characteristic characteristicId="5512-b7d3-b57d-fb0b" name="Victory Token Value" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="7c8e-27f6-ea99-cc2a" name="Planetary Ion Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="7cdb-d578-4ed2-6920" profileTypeId="8e28-f0e4-5cd7-b34b" name="Planetary Ion Cannon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="ccb1-3750-038f-f0b6" name="Setup" value="After placing obstacles, the second player places 3 objective tokens in the play area beyond distance 5 of both players&apos; edges."/>
+                    <characteristic characteristicId="d86d-27bf-c14f-f614" name="Special Rule" value="At the end of the Command Phase, the second player may choose 1 enemy ship at distance 1-3 of an objective token and remove that token from the play area to perform an attack against that ship.  The attacker is treated as if it is a ship with a battery armament of 4 blue dice, but is not friendly to any ship or squadron.  The attack is treated as being at medium range, cannot be obstructed, can target any of the defender&apos;s hull zones, and has the following critical effect:
+
+Blue [Crit]: The defender must choose and exhaust 1 of his defense tokens."/>
+                    <characteristic characteristicId="d083-b52c-bffc-0b57" name="End of Round" value=""/>
+                    <characteristic characteristicId="5512-b7d3-b57d-fb0b" name="Victory Token Value" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="4f99-53fd-c279-3413" name="Fighter Ambush" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="327b-f61c-4b66-079d" profileTypeId="8e28-f0e4-5cd7-b34b" name="Fighter Ambush" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="ccb1-3750-038f-f0b6" name="Setup" value="Before deploying fleets, the second player sets aside all of his squadrons.
+
+After deploying fleets, the second player deploys all of his squadrons.  Each of his squadrons can be placed as normal or at distance 1 of an obstacle, but all his squadrons must be beyond distance 5 of the first player&apos;s edge."/>
+                    <characteristic characteristicId="d86d-27bf-c14f-f614" name="Special Rule" value="After a squadron performs an attack against a ship, if the defender was dealt at least 1 damage card, the squadron&apos;s owner gains 1 victory token."/>
+                    <characteristic characteristicId="d083-b52c-bffc-0b57" name="End of Round" value=""/>
+                    <characteristic characteristicId="5512-b7d3-b57d-fb0b" name="Victory Token Value" value="15"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -780,14 +876,66 @@ After deploying fleets, the second player places 2 objective tokens in the setup
               <profiles>
                 <profile id="7c79-ae23-bcaf-17f8" profileTypeId="d2a5-335d-ee6f-ac1d" name="Salvage Run" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="The second player places the station in the center of the play area.  Then, starting with the second player, the players alternate placing the remaining obstacles, adding the 2 dust field obstacles, at distance 1-5 of the station and beyond distance 1 of all other objective tokens.
-
-After placing obstacles, the second player places a total of 4 objective tokens in the setup area.  Each token must be at distance 1 of the station and beyond distance 1 of all other objective tokens.
-
-After deploying fleets, each of the second player&apos;s ships gains a Navigation token."/>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="The second player places the station in the center of the play area.  Then, starting with the second player, the players alternate placing the remaining obstacles, adding the 2 dust field obstacles, at distance 1-5 of the station and beyond distance 1 of all other objective tokens.  After placing obstacles, the second player places a total of 4 objective tokens in the setup area.  Each token must be at distance 1 of the station and beyond distance 1 of all other objective tokens.  After deploying fleets, each of the second player&apos;s ships gains a Navigation token."/>
                     <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="When a player&apos;s ship reveals a command dial, that player may chooose 1 objective token at distance 1 of that ship and remove it from the play area to gain 1 victory token."/>
                     <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value=""/>
                     <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value="20"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="5a14-261e-a35b-76e7" name="Navigational Hazards" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="977d-be4f-5d3a-6df9" profileTypeId="d2a5-335d-ee6f-ac1d" name="Navigational Hazards" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="Place obstacles as normal, excluding the station.  Then, the second player places the station in the setup area beyond distance 1 of all obstacles and beyond distance 5 of both players&apos; edges."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="When a ship overlaps an obstacle and suffers 1 or more damage or is dealt 1 or more damage cards, the opposing fleet&apos;s owner gains 1 victory token."/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value="Starting with the second player and alternating, each player chooses 1 asteroid or debris field that does not have an objective token on it, and moves it to within distance 1-2 of its current location.  Then, he places an objective token on that obstacle.  An obstacle cannot be moved so that it overlaps a ship, squadron, or other obstacle.  At the start of the next round, remove all objective tokens from the play area."/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value="15"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="c59e-7cbf-7908-3015" name="Sensor Net" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d03a-4614-65e4-cd88" profileTypeId="d2a5-335d-ee6f-ac1d" name="Sensor Net" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="After placing obstacles, the players alternate placing a total of 4 objective tokens in the setup area, starting with the first player.  Each token must be placed in the setup area beyond distance 5 of both players&apos; edges and beyond distance 3 of all other objective tokens."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="When a ship reveals a command dial, if it at distance 1 of at least 1 objective token, its owner gains 1 victory token.
+
+Then its owner chooses 1 of those objective tokens.  The opposing player must move that token.  If he is the first player, he moves the token so it is at distance 1-2 of its current location.  If he is the second player, he moves it so it is at distance 1-4 of its current location."/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value=""/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value="15"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="bbac-ea32-9e61-cb7a" name="Solar Corona" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3006-55c1-1a50-380c" profileTypeId="d2a5-335d-ee6f-ac1d" name="Solar Corona" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="bb3a-c93f-bd14-0c7b" name="Setup" value="The first player must deploy all of his ships and squadrons before the second player.  After the second player deploys ships and squadrons, the second player must choose 1 of the 3&apos; edges of the play area to be the Corona."/>
+                    <characteristic characteristicId="a90f-1f9a-066b-1153" name="Special Rule" value="While a ship is attacking, before resolving any attack effects, if any portion of the corona is inside the attacking hull zone&apos;s firing arc, the attacker must discard 1 die with an [Accuracy] icon from the attack pool, if applicable.  "/>
+                    <characteristic characteristicId="6ecd-ea77-564f-e40a" name="End of Game" value=""/>
+                    <characteristic characteristicId="8724-e0d0-2a6a-177c" name="Victory Token Value" value=""/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -1131,7 +1279,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="21ee-349f-34a4-8c61" profileTypeId="6590-7c7f-7387-8791" name="&quot;Howlrunner&quot;" hidden="false">
+        <profile id="21ee-349f-34a4-8c61" profileTypeId="6590-7c7f-7387-8791" name="TIE Fighter Squadron" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
@@ -1160,7 +1308,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="1e63-08a9-a87e-50a4" profileTypeId="6590-7c7f-7387-8791" name="&quot;Mauler&quot; Mithel" hidden="false">
+        <profile id="1e63-08a9-a87e-50a4" profileTypeId="6590-7c7f-7387-8791" name="TIE Fighter Squadron" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
@@ -1183,13 +1331,38 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
         </link>
       </links>
     </entry>
+    <entry id="aca1-320d-ef62-bc61" name="•Black Squadron" points="9.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a713-8de4-43ca-7c47" profileTypeId="6590-7c7f-7387-8791" name="TIE Fighter Squadron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5773-d2c6-14bc-b418" targetId="ec81-9003-d42d-caa5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="04ab-92c0-5597-f913" targetId="1949-cb6f-51a1-bc02" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9496-f595-517c-5cfe" name="•Boba Fett" points="26.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="517a-b3cc-c06b-f498" profileTypeId="6590-7c7f-7387-8791" name="Boba Fett" hidden="false">
+        <profile id="517a-b3cc-c06b-f498" profileTypeId="6590-7c7f-7387-8791" name="Slave I" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="6"/>
@@ -1221,7 +1394,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="9e96-3a2b-7208-0b0c" profileTypeId="6590-7c7f-7387-8791" name="Bossk" hidden="false">
+        <profile id="9e96-3a2b-7208-0b0c" profileTypeId="6590-7c7f-7387-8791" name="YV-666" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="3"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="7"/>
@@ -1247,6 +1420,38 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
         </link>
       </links>
     </entry>
+    <entry id="59ab-747a-5c52-832d" name="•Ciena Ree" points="17.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="77d2-cebb-6610-b0cf" profileTypeId="6590-7c7f-7387-8791" name="TIE Interceptor Squadron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="5"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="4 Blue"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bb1a-cc19-25c9-9d19" profileTypeId="72be-2d6c-163a-b811" name="Ciena Ree" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While you are defending, the attack is treated as obstructed."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Scatter"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ca3b-3701-fc30-5422" targetId="8c5f-0b9c-3bd3-0378" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c5d1-0ea6-2e07-9104" targetId="8c96-2816-9a99-fd10" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="16b0-d2a3-975a-e794" name="•Darth Vader" points="21.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1260,7 +1465,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       </modifiers>
       <rules/>
       <profiles>
-        <profile id="b7b0-690d-a877-f0e0" profileTypeId="6590-7c7f-7387-8791" name="Darth Vader" hidden="false">
+        <profile id="b7b0-690d-a877-f0e0" profileTypeId="6590-7c7f-7387-8791" name="TIE Advanced Squadron" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="5"/>
@@ -1289,7 +1494,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c25c-ba17-2eb3-b20d" profileTypeId="6590-7c7f-7387-8791" name="Dengar" hidden="false">
+        <profile id="c25c-ba17-2eb3-b20d" profileTypeId="6590-7c7f-7387-8791" name="Punishing One" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="4"/>
@@ -1321,7 +1526,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="524b-0232-c47c-a018" profileTypeId="6590-7c7f-7387-8791" name="IG-88" hidden="false">
+        <profile id="524b-0232-c47c-a018" profileTypeId="6590-7c7f-7387-8791" name="IG-2000" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="5"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="5"/>
@@ -1353,7 +1558,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="6377-8b9a-8d9c-2efd" profileTypeId="6590-7c7f-7387-8791" name="Major Rhymer" hidden="false">
+        <profile id="6377-8b9a-8d9c-2efd" profileTypeId="6590-7c7f-7387-8791" name="TIE Bomber Squadron" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="5"/>
@@ -1385,7 +1590,7 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="dab0-44a7-d122-8368" profileTypeId="6590-7c7f-7387-8791" name="Soontir Fel" hidden="false">
+        <profile id="dab0-44a7-d122-8368" profileTypeId="6590-7c7f-7387-8791" name="TIE Interceptor Squadron" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="5"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
@@ -1411,38 +1616,13 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
         </link>
       </links>
     </entry>
-    <entry id="aca1-320d-ef62-bc61" name="•Black Squadron" points="9.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="260d-a9ed-420f-4027" name="•Saber Squadron" points="12.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a713-8de4-43ca-7c47" profileTypeId="6590-7c7f-7387-8791" name="Black Squadron" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
-            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
-            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Blue"/>
-            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="5773-d2c6-14bc-b418" targetId="ec81-9003-d42d-caa5" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="04ab-92c0-5597-f913" targetId="1949-cb6f-51a1-bc02" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="59ab-747a-5c52-832d" name="•Ciena Ree" points="17.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="77d2-cebb-6610-b0cf" profileTypeId="6590-7c7f-7387-8791" name="Ciena Ree" hidden="false">
+        <profile id="8180-dc90-93f1-6182" profileTypeId="6590-7c7f-7387-8791" name="TIE Interceptor Squadron" hidden="false">
           <characteristics>
             <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="5"/>
             <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
@@ -1451,19 +1631,101 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="bb1a-cc19-25c9-9d19" profileTypeId="72be-2d6c-163a-b811" name="Ciena Ree" hidden="false">
+      </profiles>
+      <links>
+        <link id="1a10-13fe-c676-a927" targetId="8c96-2816-9a99-fd10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8c23-e734-0d36-b69b" targetId="a6b3-808f-dae5-f64f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="091b-30a2-acce-18d5" name="•Captain Jonus" points="16.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e395-9df9-3e25-0a5a" profileTypeId="6590-7c7f-7387-8791" name="TIE Bomber Squadron" hidden="false">
           <characteristics>
-            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While you are defending, the attack is treated as obstructed."/>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="5"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="1 Black"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5ba4-04df-db27-7001" profileTypeId="72be-2d6c-163a-b811" name="Captain Jonus" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While a friendly ship is attacking a ship at distance 1 of you, it may change 1 die to a face with an [Accuracy] icon."/>
+            <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Brace"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bf81-3e04-59aa-498d" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="41e4-f7b2-5b2a-c111" targetId="e8d5-6ea0-6066-f6ba" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9474-21d1-3b32-6823" targetId="96f5-70f7-7645-1325" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f773-9b88-e822-7c37" name="•Gamma Squadron" points="10.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7877-0a00-3f8b-b9b2" profileTypeId="6590-7c7f-7387-8791" name="TIE Bomber Squadron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="5"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="1 Black"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Black"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="46f7-0090-f63a-18ee" targetId="d896-fa8f-d9c0-1a81" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9292-e684-a5a3-b3c1" targetId="96f5-70f7-7645-1325" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="549b-4b2c-b2e7-fde8" name="•Valen Rudor" points="13.0" categoryId="f0dc-ae6a-6219-19ef" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bd3c-599a-b650-014e" profileTypeId="6590-7c7f-7387-8791" name="TIE Fighter Squadron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="dc1b-7d57-479f-eea2" name="Movement Value" value="4"/>
+            <characteristic characteristicId="7270-7235-8dde-f1a5" name="Hull Value" value="3"/>
+            <characteristic characteristicId="5ab5-88d4-1761-39fd" name="Anti-Squadron Value" value="3 Black"/>
+            <characteristic characteristicId="0c90-10a7-96aa-17ec" name="Anti-Ship Value" value="1 Blue"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="afa1-1bde-ee50-1c43" profileTypeId="72be-2d6c-163a-b811" name="Valen Rudor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a74f-8029-7e0a-66b3" name="Squadron Ability" value="While an enemy squadron is engaged with another squadron, it cannot attack you."/>
             <characteristic characteristicId="51e2-4fb8-9870-34f6" name="Defense Tokens" value="Brace, Scatter"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="ca3b-3701-fc30-5422" targetId="8c5f-0b9c-3bd3-0378" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c5d1-0ea6-2e07-9104" targetId="8c96-2816-9a99-fd10" linkType="rule">
+        <link id="7952-dd1e-adc0-066a" targetId="8c96-2816-9a99-fd10" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1581,6 +1843,21 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
             <profile id="36a1-5ad0-c19f-67c6" profileTypeId="ed38-5cd8-e875-d3e7" name="Admiral Konstantine" hidden="false">
               <characteristics>
                 <characteristic characteristicId="1ebb-c216-cd61-f014" name="Commander Ability" value="At the start of each Status Phase, for each enemy ship at distance 1-5 of at least 2 friendly medium or large ships, you may increase or decrease that enemy ship&apos;s speed by 1 to a minimum of speed 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="dc93-d6db-d932-097d" name="•Moff Jerjerrod" points="29.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e886-d604-3d60-544f" profileTypeId="ed38-5cd8-e875-d3e7" name="Moff Jerjerrod" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="1ebb-c216-cd61-f014" name="Commander Ability" value="During a friendly ship&apos;s Determine Course step, it may suffer 1 damage to change the first yaw value of its current speed to &quot;II&quot; until the end of its activation."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3255,6 +3532,10 @@ After deploying fleets, each of the second player&apos;s ships gains a Navigatio
     </rule>
     <rule id="8c96-2816-9a99-fd10" name="Swarm" hidden="false">
       <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a6b3-808f-dae5-f64f" name="Snipe 4" hidden="false">
+      <description>You can attack squadrons at distance 2 with an anti-squadron armament of 4 blue dice.  This attack ignores the Counter keyword.</description>
       <modifiers/>
     </rule>
   </sharedRules>
