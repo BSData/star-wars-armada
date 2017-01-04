@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="31" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="32" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2820,6 +2820,513 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f81-dab4-61b9-7141" name="Arquitens-class Command Cruiser" hidden="false" collective="false" categoryEntryId="8988-a3d2-ecc4-c0e4" type="model">
+      <profiles>
+        <profile id="7b9b-d90e-f579-2878" name="Arquitens-class Command Cruiser" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="5"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Blue"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="2"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="2"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="3"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Evade, Brace, Brace, Contain"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="1 Red, 1 Blue"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="3 Red"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="3 Red"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="1 Red, 1 Blue"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="2"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="2"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="2"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="2"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Support Team, Defensive Retrofit, Turbolasers"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a10c-db41-263d-940f" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="f2cc-47f1-16cb-70af" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="62e5-c368-671b-a131" hidden="false" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e74c-090c-3e3f-6243" name="New EntryLink" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="348c-31af-d980-367e" name="New EntryLink" hidden="false" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4898-08bf-c5f0-bc74" name="New EntryLink" hidden="false" targetId="c70a-0bc0-aa39-3562" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="59.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2abf-4046-f18b-8acb" name="Arquitens-class Light Cruiser" hidden="false" collective="false" categoryEntryId="8988-a3d2-ecc4-c0e4" type="model">
+      <profiles>
+        <profile id="8a4b-90ff-d133-f729" name="Arquitens-class Light Cruiser" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="5"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Black"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="2"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="1"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="3"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Evade, Brace, Brace, Contain"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="1 Red, 1 Black"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="3 Red"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="3 Red"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="1 Red, 1 Black"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="2"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="2"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="2"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="2"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Defensive Retrofit, Turbolasers"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4021-dfde-36ac-7724" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="64a0-629e-2d12-ecf7" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="21ca-600b-14e9-c8d4" name="New EntryLink" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="21ff-d1a6-6a16-7a5e" name="New EntryLink" hidden="false" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="1172-0213-bff1-a163" name="New EntryLink" hidden="false" targetId="c70a-0bc0-aa39-3562" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="54.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7066-ba9b-417b-c3d4" name="TIE Phantom Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="d095-d24d-c840-45fa" name="TIE Phantom Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Red"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b411-b6f0-686e-c471" name="New InfoLink" hidden="false" targetId="430d-ebea-279b-235d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a934-1dd3-c768-5108" name="•Whisper TIE Phantom Squadron " hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="a371-c807-3f0d-f8d3" name="TIE Phantom Squadron " hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Red"/>
+          </characteristics>
+        </profile>
+        <profile id="7b1b-5a35-4fe7-ddf5" name="•Whisper TIE Phantom Squadron " hidden="false" profileTypeId="72be-2d6c-163a-b811" profileTypeName="1.3 Squadrons Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="After defending against an attack if you spent a defense token, you may move up to distance 1, even if you are engaged."/>
+            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Scatter"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9649-bc02-57f8-3712" name="New InfoLink" hidden="false" targetId="430d-ebea-279b-235d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db44-3268-886b-5553" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b55-7d13-5bc0-5a3e" name="TIE Defender Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="7039-9cdd-e857-e496" name="TIE Defender Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 2 Black"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4d92-9fda-3597-8527" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2732-c2e8-f8a0-b9fa" name="•Maarek Stele TIE Defender Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="dbbf-06e6-d03d-7ee7" name="TIE Defender Squadron " hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 2 Black"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Blue"/>
+          </characteristics>
+        </profile>
+        <profile id="8866-e9a6-07d9-bb3e" name="Maarek Stele TIE Defender Squadron" hidden="false" profileTypeId="72be-2d6c-163a-b811" profileTypeName="1.3 Squadrons Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While attacking, you may change 1 die to a face with a Critical icon."/>
+            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="327b-62cf-052d-286b" name="New InfoLink" hidden="false" targetId="96f5-70f7-7645-1325" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f4bf-45f5-c64f-6d4b" name="New InfoLink" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5544-9bf5-2a78-3e01" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce4a-c83a-60ca-779b" name="VT-49 Decimator" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="5ce3-13d7-219c-a017" name="VT-49 Decimator" hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="8"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Black"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="3 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="159d-846b-c975-9c21" hidden="false" targetId="e8d5-6ea0-6066-f6ba" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa73-3e49-e497-2cb9" name="New InfoLink" hidden="false" targetId="ecef-175c-2485-399f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="35c8-ca70-ee3d-ff0c" name="New InfoLink" hidden="false" targetId="ec81-9003-d42d-caa5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2111-3348-60f8-0297" name="•Morna Kee VT-49 Decimator" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="7054-59db-83de-4eb5" name="VT-49 Decimator" hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="8"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Black"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="3 Blue"/>
+          </characteristics>
+        </profile>
+        <profile id="65ff-8922-db01-942f" name="Morna Kee VT-49 Decimator" hidden="false" profileTypeId="72be-2d6c-163a-b811" profileTypeName="1.3 Squadrons Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While attacking,, you may spend 1 defence token to reroll any number of dice in your attack pool. When you activate, you recover 1 of your discarded defence tokens."/>
+            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="61ad-ab8a-37b7-c0b0" name="New InfoLink" hidden="false" targetId="ecef-175c-2485-399f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3a98-fed9-3616-b8d9" name="New InfoLink" hidden="false" targetId="ec81-9003-d42d-caa5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc3-5723-da64-0047" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c372-780b-34e4-36c9" name="Lambda-classShuttle" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="4632-27e7-a781-a48f" name="Lambda-classShuttle" hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Black"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a004-7ad3-8d23-b26f" hidden="false" targetId="e8d5-6ea0-6066-f6ba" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fb8c-7740-7079-b670" name="New InfoLink" hidden="false" targetId="721f-d9c5-8afc-2c49" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="78d6-9168-e7ad-550b" name="New InfoLink" hidden="false" targetId="b959-2019-afec-197a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c058-fb8c-88d1-097f" name="•Colonel Jendon Lambda-class Shuttle" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
+      <profiles>
+        <profile id="01b2-bf8a-b2b2-808f" name="Lambda-classShuttle" hidden="false" profileTypeId="6590-7c7f-7387-8791">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Black"/>
+            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
+          </characteristics>
+        </profile>
+        <profile id="5727-b92c-a9a4-4354" name="Colonel Jendon Lambda-class Shuttle" hidden="false" profileTypeId="72be-2d6c-163a-b811" profileTypeName="1.3 Squadrons Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="During your activation, instead of attacking you may choose 1 friendly squadron at distance 1-2. That squadron may perform an attack (even if it has already activated)."/>
+            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="62c7-5463-1c42-0782" hidden="false" targetId="e8d5-6ea0-6066-f6ba" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ad43-cb49-4c2b-4bb3" name="New InfoLink" hidden="false" targetId="b959-2019-afec-197a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb17-0dd6-208d-2862" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -5711,6 +6218,76 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
+    <selectionEntryGroup id="c70a-0bc0-aa39-3562" name="Title - Arquitens-class Cruiser " hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21d6-18e6-9c28-e491" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e393-cc79-d680-1a2a" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9fb0-eb8e-86b5-898e" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a00-afd5-2744-5338" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e0b1-52d5-0364-97d5" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa84-b96d-839c-1e0e" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cb7e-7ae1-530e-ed83" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0ebd-b4ca-f228-9ae2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="334e-1b3f-5d79-18aa" name="•Centicore" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="b206-a368-1f15-a0cf" name="Centicore" hidden="false" profileTypeId="16d6-f94c-4e0d-8993">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="When another friendly ship resolves a Squadron command, up to 2 of the squadrons it activates can be at close-medium range of you."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd8d-8407-4255-94ad" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da78-246c-0d1c-95a2" name="•Hand of Justice" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="0d6e-d3ed-338f-2070" name="Hand of Justice" hidden="false" profileTypeId="16d6-f94c-4e0d-8993">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="Before you reveal a command, you may exhaust this card to choose another friendly ship at distance 1-5 and ready 1 of its defense tokens."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="07b8-c3d3-1344-5b99" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d896-fa8f-d9c0-1a81" name="Bomber" hidden="false">
@@ -5789,6 +6366,27 @@
       <infoLinks/>
       <modifiers/>
       <description>You can attack squadrons at distance 2 with an anti-squadron armament of 4 blue dice.  This attack ignores the Counter keyword.</description>
+    </rule>
+    <rule id="430d-ebea-279b-235d" name="Cloak" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the end of the Squadron Phase, you may move up to distance 1, even if you are engaged.</description>
+    </rule>
+    <rule id="b959-2019-afec-197a" name="Relay 2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a friendly ship resloves a Squadron command, up to 2 of the squadrons it activates can be at distance 1-3 of you.</description>
+    </rule>
+    <rule id="721f-d9c5-8afc-2c49" name="Strategic " hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When you end your movement at distance 1 of 1 or more objective tokens, you may move 1 of those tokens so that it is at distance 1 of you.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
