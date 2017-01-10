@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="18" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="19" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -140,14 +140,14 @@
       <modifiers/>
       <constraints/>
       <categoryEntries>
-        <categoryEntry id="469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false">
+        <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-Class Cruiser" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate MkII" hidden="false">
+       <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate MkII" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -161,7 +161,14 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false">
+        <categoryEntry id="469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+       <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-Class Flotilla" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -175,7 +182,14 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false">
+        <categoryEntry id="d71c-f6f0-4044-3252" name="Interdictor Refit" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -189,7 +203,35 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false">
+        <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Liberty-Class Cruiser" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="9810-b289-b172-52b4" name="Modified Pelta-Class Ship" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+      <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="8180-3b0c-4e1a-d22a" name="Rebel Transport Flotilla" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -207,9 +249,17 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxPoints" value="1">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="points" scope="parent" value="134.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPoints" type="max"/>
+            <constraint field="points" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPoints" type="max"/>
           </constraints>
         </categoryEntry>
         <categoryEntry id="c9d8-3a89-4028-05d0" name="Objectives" hidden="false">
@@ -219,49 +269,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-Class Flotilla" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="8180-3b0c-4e1a-d22a" name="Rebel Transport Flotilla" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Liberty-Class Cruiser" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="d71c-f6f0-4044-3252" name="Interdictor Refit" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-Class Cruiser" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="9810-b289-b172-52b4" name="Modified Pelta-Class Ship" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-      </categoryEntries>
+        </categoryEntries>
       <forceEntries/>
     </forceEntry>
   </forceEntries>
