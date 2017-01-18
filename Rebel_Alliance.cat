@@ -195,9 +195,9 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37bc-3213-7cba-8aa7" name="Assault Frigate Mark IIA" hidden="false" collective="false" categoryEntryId="62d1-ec41-79d6-0a08" type="model">
+    <selectionEntry id="37bc-3213-7cba-8aa7" name="Assault Frigate Mark II A" hidden="false" collective="false" categoryEntryId="62d1-ec41-79d6-0a08" type="model">
       <profiles>
-        <profile id="4925-5f4c-6682-0783" name="Assault Frigate Mark IIA" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="4925-5f4c-6682-0783" name="Assault Frigate Mark II A" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -282,9 +282,9 @@
         <cost name="pts" costTypeId="points" value="81.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd9c-4f9e-48c4-40c7" name="Assault Frigate Mark IIB" hidden="false" collective="false" categoryEntryId="62d1-ec41-79d6-0a08" type="model">
+    <selectionEntry id="fd9c-4f9e-48c4-40c7" name="Assault Frigate Mark II B" hidden="false" collective="false" categoryEntryId="62d1-ec41-79d6-0a08" type="model">
       <profiles>
-        <profile id="64a0-15cf-269c-733c" name="Assault Frigate Mark IIB" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="64a0-15cf-269c-733c" name="Assault Frigate Mark II B" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -816,7 +816,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="84f9-c194-d8cd-e718" name="CR90 Corvette A" hidden="false" collective="false" categoryEntryId="319a-5aa9-59e5-30fa" type="model">
       <profiles>
@@ -1240,7 +1242,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="30b6-b861-c851-a996" hidden="false" targetId="d3b2-16fc-f50d-a5f1" type="rule">
+        <infoLink id="30b6-b861-c851-a996" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1320,7 +1322,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="b14e-9f27-06b7-a2d2" hidden="false" targetId="d3b2-16fc-f50d-a5f1" type="rule">
+        <infoLink id="b14e-9f27-06b7-a2d2" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1429,7 +1431,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0df8-6b95-5627-b20b" name="•Jan Ors (Moldy Crow)" hidden="false" collective="false" type="model">
               <profiles>
@@ -1482,7 +1486,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="34d6-c129-c2b5-56bc" name="MC30c Scout Frigate" hidden="false" collective="false" categoryEntryId="167d-fd4d-28e2-f646" type="model">
       <profiles>
@@ -2548,7 +2554,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9ab1-394c-8040-3499" name="X-Wing" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3107,7 +3115,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ca61-2655-4ac3-a25e" name="YT-2400" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3215,11 +3225,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="6dbe-e35a-0c22-f436" name="Modified Pelta-Class Assault Ship" hidden="false" collective="false" categoryEntryId="9810-b289-b172-52b4" type="model">
+    <selectionEntry id="6dbe-e35a-0c22-f436" name="Modified Pelta-class Assault Ship" hidden="false" collective="false" categoryEntryId="9810-b289-b172-52b4" type="model">
       <profiles>
-        <profile id="1fb7-0db5-1509-fd83" name="Modified Pelta-Class Assault Ship" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="1fb7-0db5-1509-fd83" name="Modified Pelta-class Assault Ship" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3317,9 +3329,9 @@
         <cost name="pts" costTypeId="points" value="56.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dbb1-f7bc-b05c-fad6" name="Modified Pelta-Class Command Ship" hidden="false" collective="false" categoryEntryId="9810-b289-b172-52b4" type="model">
+    <selectionEntry id="dbb1-f7bc-b05c-fad6" name="Modified Pelta-class Command Ship" hidden="false" collective="false" categoryEntryId="9810-b289-b172-52b4" type="model">
       <profiles>
-        <profile id="5215-2918-f324-6575" name="Modified Pelta-Class Assault Ship" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="5215-2918-f324-6575" name="Modified Pelta-class Assault Ship" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3517,7 +3529,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6157-a74d-24fc-740b" name="E-Wing" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3637,7 +3651,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="066a-9ff3-e38b-5aa4" name="VCX-100" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3757,7 +3773,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e29e-574d-fc60-cbf7" name="Lancer-class Pursuit Craft" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3883,7 +3901,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -3918,11 +3938,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="bf35-7b0f-08e7-4a60" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3944,11 +3971,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="d527-3778-e18d-bca2" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3970,11 +4004,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="c10a-7aab-e8e8-e2f5" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3996,11 +4037,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="fa9b-f25a-8445-b526" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4022,11 +4070,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="9c9a-8e23-2205-086c" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4048,11 +4103,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="0f3d-edc5-6eaf-3b3c" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4074,11 +4136,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="9a25-5f70-09f2-0ae1" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4100,11 +4169,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="bc80-6203-4aeb-7d78" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -6074,7 +6150,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1402-7b91-d7d8-a61a" name="Title - MC80 Battle Cruiser" hidden="false" collective="false">
+    <selectionEntryGroup id="1402-7b91-d7d8-a61a" name="Title - MC80 Cruiser (Liberty type)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6172,7 +6248,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d3d4-ced8-c7e9-c669" name="Title - MC80 Cruiser" hidden="false" collective="false">
+    <selectionEntryGroup id="d3d4-ced8-c7e9-c669" name="Title - MC80 Cruiser (Home One type)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6270,7 +6346,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b08c-e05a-a195-ba46" name="Title - Nebulon-B" hidden="false" collective="false">
+    <selectionEntryGroup id="b08c-e05a-a195-ba46" name="Title - Nebulon-B Frigate" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6368,7 +6444,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="68b7-57ca-14ec-170f" name="Title - Rebel Transports" hidden="false" collective="false">
+    <selectionEntryGroup id="68b7-57ca-14ec-170f" name="Title - GR-75 Transport Flotilla" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7323,7 +7399,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7f9b-0dae-7871-3faf" name="Title - Modified Pelta-Class Ship" hidden="false" collective="false">
+    <selectionEntryGroup id="7f9b-0dae-7871-3faf" name="Title - Pelta-class Ship" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7370,14 +7446,6 @@
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="d3b2-16fc-f50d-a5f1" name="Flotillas" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
-    </rule>
-  </sharedRules>
+  <sharedRules/>
   <sharedProfiles/>
 </catalogue>

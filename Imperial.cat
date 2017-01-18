@@ -119,7 +119,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a536-fb81-0bde-c8c7" name="Assault Objective" hidden="false" collective="false" categoryEntryId="c9d8-3a89-4028-05d0" type="upgrade">
       <profiles/>
@@ -717,11 +719,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="0349-305d-cbef-de54" name="Gladiator I-Class Star Destroyer" hidden="false" collective="false" categoryEntryId="469b-896c-3ab9-d1b6" type="model">
+    <selectionEntry id="0349-305d-cbef-de54" name="Gladiator I-class Star Destroyer" hidden="false" collective="false" categoryEntryId="469b-896c-3ab9-d1b6" type="model">
       <profiles>
-        <profile id="b313-88e3-a40b-9869" name="Gladiator I-Class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="b313-88e3-a40b-9869" name="Gladiator I-class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -806,9 +810,9 @@
         <cost name="pts" costTypeId="points" value="56.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1db3-a85b-33fb-5273" name="Gladiator II-Class Star Destroyer" hidden="false" collective="false" categoryEntryId="469b-896c-3ab9-d1b6" type="model">
+    <selectionEntry id="1db3-a85b-33fb-5273" name="Gladiator II-class Star Destroyer" hidden="false" collective="false" categoryEntryId="469b-896c-3ab9-d1b6" type="model">
       <profiles>
-        <profile id="ae20-6265-6931-46f3" name="Gladiator II-Class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="ae20-6265-6931-46f3" name="Gladiator II-class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -893,9 +897,9 @@
         <cost name="pts" costTypeId="points" value="62.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65bf-eb5e-ea2e-01d3" name="Gozanti-Class Assault Carriers" hidden="false" collective="false" categoryEntryId="3c87-8b05-e880-8118" type="model">
+    <selectionEntry id="65bf-eb5e-ea2e-01d3" name="Gozanti-class Assault Carriers" hidden="false" collective="false" categoryEntryId="3c87-8b05-e880-8118" type="model">
       <profiles>
-        <profile id="946a-bc31-2803-e4c5" name="Gozanti-Class Assault Carriers" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="946a-bc31-2803-e4c5" name="Gozanti-class Assault Carriers" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -921,7 +925,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="3bf7-aefb-3661-3af2" hidden="false" targetId="9260-f8d5-4b02-2bdb" type="rule">
+        <infoLink id="3bf7-aefb-3661-3af2" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -980,9 +984,9 @@
         <cost name="pts" costTypeId="points" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eada-a46e-fab0-f89a" name="Gozanti-Class Cruisers" hidden="false" collective="false" categoryEntryId="3c87-8b05-e880-8118" type="model">
+    <selectionEntry id="eada-a46e-fab0-f89a" name="Gozanti-class Cruisers" hidden="false" collective="false" categoryEntryId="3c87-8b05-e880-8118" type="model">
       <profiles>
-        <profile id="9c13-e6bf-96eb-201a" name="Gozanti-Class Cruisers" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="9c13-e6bf-96eb-201a" name="Gozanti-class Cruisers" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1008,7 +1012,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="11be-609e-36d0-9954" hidden="false" targetId="9260-f8d5-4b02-2bdb" type="rule">
+        <infoLink id="11be-609e-36d0-9954" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1067,9 +1071,9 @@
         <cost name="pts" costTypeId="points" value="23.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b635-0210-c1a9-608a" name="Imperial I-Class Star Destroyer" hidden="false" collective="false" categoryEntryId="6da8-bdc7-4ba6-e86f" type="model">
+    <selectionEntry id="b635-0210-c1a9-608a" name="Imperial I-class Star Destroyer" hidden="false" collective="false" categoryEntryId="6da8-bdc7-4ba6-e86f" type="model">
       <profiles>
-        <profile id="5fb2-a5c2-e92e-7a28" name="Imperial I-Class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="5fb2-a5c2-e92e-7a28" name="Imperial I-class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1168,9 +1172,9 @@
         <cost name="pts" costTypeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fed-85c8-d87d-e4da" name="Imperial II-Class Star Destroyer" hidden="false" collective="false" categoryEntryId="6da8-bdc7-4ba6-e86f" type="model">
+    <selectionEntry id="8fed-85c8-d87d-e4da" name="Imperial II-class Star Destroyer" hidden="false" collective="false" categoryEntryId="6da8-bdc7-4ba6-e86f" type="model">
       <profiles>
-        <profile id="65a8-c043-bf29-0a70" name="Imperial II-Class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="65a8-c043-bf29-0a70" name="Imperial II-class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1569,7 +1573,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="40e6-7e9d-6218-e24c" name="Navigation Objective" hidden="false" collective="false" categoryEntryId="c9d8-3a89-4028-05d0" type="upgrade">
       <profiles/>
@@ -1834,9 +1840,9 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e58d-8015-91be-811a" name="Raider I-Class Corvette" hidden="false" collective="false" categoryEntryId="9ef5-a2c4-bc40-18b7" type="model">
+    <selectionEntry id="e58d-8015-91be-811a" name="Raider I-class Corvette" hidden="false" collective="false" categoryEntryId="9ef5-a2c4-bc40-18b7" type="model">
       <profiles>
-        <profile id="3bef-28d7-71d5-64cc" name="Raider I-Class Corvette" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="3bef-28d7-71d5-64cc" name="Raider I-class Corvette" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1921,9 +1927,9 @@
         <cost name="pts" costTypeId="points" value="44.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7af3-f48f-d830-fa46" name="Raider II-Class Corvette" hidden="false" collective="false" categoryEntryId="9ef5-a2c4-bc40-18b7" type="model">
+    <selectionEntry id="7af3-f48f-d830-fa46" name="Raider II-class Corvette" hidden="false" collective="false" categoryEntryId="9ef5-a2c4-bc40-18b7" type="model">
       <profiles>
-        <profile id="cae2-79fc-fca7-a456" name="Raider II-Class Corvette" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="cae2-79fc-fca7-a456" name="Raider II-class Corvette" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2200,7 +2206,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ad86-6f34-e3e4-1467" name="TIE Bomber" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -2410,7 +2418,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ddab-d28c-ae14-8d44" name="TIE Fighter" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -2635,7 +2645,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4917-9ba1-5c17-4cf8" name="TIE Interceptor" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -2839,11 +2851,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="1da0-310a-d8fc-25ea" name="Victory I-Class Star Destroyer" hidden="false" collective="false" categoryEntryId="7fb1-7ee5-3690-d880" type="model">
+    <selectionEntry id="1da0-310a-d8fc-25ea" name="Victory I-class Star Destroyer" hidden="false" collective="false" categoryEntryId="7fb1-7ee5-3690-d880" type="model">
       <profiles>
-        <profile id="4995-5f14-91bc-b472" name="Victory I-Class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="4995-5f14-91bc-b472" name="Victory I-class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2935,9 +2949,9 @@
         <cost name="pts" costTypeId="points" value="73.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a976-92f2-81c1-0082" name="Victory II-Class Star Destroyer" hidden="false" collective="false" categoryEntryId="7fb1-7ee5-3690-d880" type="model">
+    <selectionEntry id="a976-92f2-81c1-0082" name="Victory II-class Star Destroyer" hidden="false" collective="false" categoryEntryId="7fb1-7ee5-3690-d880" type="model">
       <profiles>
-        <profile id="6de4-e043-306b-42ae" name="Victory II-Class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="6de4-e043-306b-42ae" name="Victory II-class Star Destroyer" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3147,7 +3161,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4f81-dab4-61b9-7141" name="Arquitens-class Command Cruiser" hidden="false" collective="false" categoryEntryId="8988-a3d2-ecc4-c0e4" type="model">
       <profiles>
@@ -3416,7 +3432,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8b55-7d13-5bc0-5a3e" name="TIE Defender" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3524,7 +3542,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ce4a-c83a-60ca-779b" name="VT-49 Decimator" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3644,7 +3664,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c372-780b-34e4-36c9" name="Lambda-class Shuttle" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
       <profiles/>
@@ -3764,7 +3786,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -3825,11 +3849,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="4bb5-e2e1-ee70-c13e" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3851,11 +3882,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="7c84-8c3f-dc5c-ad4a" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3877,11 +3915,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="c474-623e-e1f8-ff7c" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3903,7 +3948,14 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="32fb-f4b2-ac83-194f" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
@@ -3915,7 +3967,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3937,11 +3989,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="202f-95f7-e06d-541f" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3963,11 +4022,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="04f2-d488-aeea-a13e" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3989,11 +4055,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="da42-1c69-7087-b89c" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4015,11 +4088,18 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="0ff3-fa6e-d3bc-54db" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5948,7 +6028,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b600-7501-5bed-c42a" name="Title - Gozanti-Class Flotilla" hidden="false" collective="false">
+    <selectionEntryGroup id="b600-7501-5bed-c42a" name="Title - Gozanti-class Flotilla" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6113,7 +6193,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ae52-b958-191b-7ef9" name="Title - Interdictor Refit" hidden="false" collective="false">
+    <selectionEntryGroup id="ae52-b958-191b-7ef9" name="Title - Interdictor" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7050,14 +7130,6 @@
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="9260-f8d5-4b02-2bdb" name="Flotillas" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
-    </rule>
-  </sharedRules>
+  <sharedRules/>
   <sharedProfiles/>
 </catalogue>

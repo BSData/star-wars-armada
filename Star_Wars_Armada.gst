@@ -137,14 +137,14 @@
       <modifiers/>
       <constraints/>
       <categoryEntries>
-        <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-Class Cruiser" hidden="false">
+        <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-class Cruiser" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate MkII" hidden="false">
+        <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -165,7 +165,14 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-Class Flotilla" hidden="false">
+        <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-class Flotilla" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="8180-3b0c-4e1a-d22a" name="GR-75 Transport Flotilla" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -179,7 +186,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="d71c-f6f0-4044-3252" name="Interdictor Refit" hidden="false">
+        <categoryEntry id="d71c-f6f0-4044-3252" name="Interdictor" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -193,21 +200,14 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="7be3-1906-a3ff-00ca" name="MC80 Cruiser" hidden="false">
+        <categoryEntry id="7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Liberty-Class Cruiser" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="9810-b289-b172-52b4" name="Modified Pelta-Class Ship" hidden="false">
+        <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty Type)" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -221,14 +221,14 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false">
+        <categoryEntry id="9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="8180-3b0c-4e1a-d22a" name="Rebel Transport Flotilla" hidden="false">
+        <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -365,6 +365,13 @@
       <infoLinks/>
       <modifiers/>
       <description>When a friendly ship resolves a Squadron command, up to X of the squadrons it activates can be at distance 1-3 of you.</description>
+    </rule>
+    <rule id="f348-1bef-ddbf-98bb" name="Flagship" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A flagship is a ship equipped with a Commander card. A fleet must have one flagship and cannot have more than one.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
