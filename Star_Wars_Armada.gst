@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="19" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="20" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -28,10 +28,13 @@
     </profileType>
     <profileType id="6590-7c7f-7387-8791" name="1.2 Squadrons">
       <characteristicTypes>
-        <characteristicType id="dc1b-7d57-479f-eea2" name="Movement Value"/>
+        <characteristicType id="dc1b-7d57-479f-eea2" name="Speed"/>
         <characteristicType id="7270-7235-8dde-f1a5" name="Hull Value"/>
-        <characteristicType id="5ab5-88d4-1761-39fd" name="Anti-Squadron Value"/>
-        <characteristicType id="0c90-10a7-96aa-17ec" name="Anti-Ship Value"/>
+        <characteristicType id="5ab5-88d4-1761-39fd" name="Anti-Squadron"/>
+        <characteristicType id="0c90-10a7-96aa-17ec" name="Battery"/>
+        <characteristicType id="0bb7-9857-bada-1cf5" name="Keywords"/>
+        <characteristicType id="72b0-d5ab-aaed-96b4" name="Defense Tokens"/>
+        <characteristicType id="f700-e5ab-06cc-1b31" name="Squadron Ability"/>
       </characteristicTypes>
     </profileType>
     <profileType id="ed38-5cd8-e875-d3e7" name="2.1 Commander">
@@ -77,12 +80,6 @@
     <profileType id="10fd-be4e-bb29-3708" name="2.9 Ordnance">
       <characteristicTypes>
         <characteristicType id="f587-f8ce-7d4d-e620" name="Ordnance Ability"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="72be-2d6c-163a-b811" name="1.3 Squadrons Abilities">
-      <characteristicTypes>
-        <characteristicType id="a74f-8029-7e0a-66b3" name="Squadron Ability"/>
-        <characteristicType id="51e2-4fb8-9870-34f6" name="Defense Tokens"/>
       </characteristicTypes>
     </profileType>
     <profileType id="16d6-f94c-4e0d-8993" name="2.10 Ship Titles">
@@ -147,7 +144,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-       <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate MkII" hidden="false">
+        <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate MkII" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -168,7 +165,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-       <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-Class Flotilla" hidden="false">
+        <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-Class Flotilla" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -217,7 +214,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-      <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false">
+        <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -269,7 +266,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        </categoryEntries>
+      </categoryEntries>
       <forceEntries/>
     </forceEntry>
   </forceEntries>
@@ -277,6 +274,98 @@
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="7022-8686-4ec8-eb64" name="Counter X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of X blue dice, even if you are destroyed.</description>
+    </rule>
+    <rule id="1d2a-cdbb-2b66-ce85" name="Bomber" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While attacking a ship, each of your Critical icons adds 1 damage to the damage total and you can resolve a critical effect.</description>
+    </rule>
+    <rule id="07d3-db6c-dc52-bd78" name="Escort" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Squadrons you are engaged with cannot attack squadrons that lack Escort unless performing a Counter attack.</description>
+    </rule>
+    <rule id="deb6-270e-150f-06d5" name="Heavy" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You do not prevent engaged squadrons from attacking ships or moving.</description>
+    </rule>
+    <rule id="07dd-35ce-00b5-aedf" name="Rogue" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You can move and attack during the Squadron Phase.</description>
+    </rule>
+    <rule id="0172-dd4d-907c-a8a9" name="Swarm" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
+    </rule>
+    <rule id="28b3-3ce6-3f2b-9ca1" name="Snipe X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You can attack squadrons at distance 2 with an anti-squadron armament of X blue dice.  This attack ignores the Counter keyword.</description>
+    </rule>
+    <rule id="64f9-c7b3-c2e0-e41a" name="Grit" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>You are not prevented from moving while you are engaged by only 1 squadron.</description>
+    </rule>
+    <rule id="f379-5e57-6d92-edb9" name="Intel" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While an enemy squadron is at distance 1 of you, it has Heavy.</description>
+    </rule>
+    <rule id="66ca-1e61-b6e8-c63e" name="Flotillas" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla. Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
+    </rule>
+    <rule id="405c-d276-9f64-9ae4" name="Cloak" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the end of the Squadron Phase, you may move up to distance 1, even if you are engaged.</description>
+    </rule>
+    <rule id="d374-f203-8873-7051" name="Strategic" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When you end your movement at distance 1 of 1 or more objective tokens, you may move 1 of those tokens so that it is at distance 1 of you.</description>
+    </rule>
+    <rule id="2dbc-c5ad-6def-194e" name="Relay X" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a friendly ship resolves a Squadron command, up to X of the squadrons it activates can be at distance 1-3 of you.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </gameSystem>

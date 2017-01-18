@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="32" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="33" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,37 +7,192 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="babe-a001-9cba-e3da" name="A-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="51fd-6e07-6538-199b" hidden="false" targetId="919c-73a7-3658-fd2e" type="rule">
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e47c-2b8b-11ae-080a" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fa89-92b8-0c43-e63a" name="A-Wing Squadrons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ba9-1f51-d7df-9a26" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8557-fcfa-10e8-d19b" name="A-Wing Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="ccfe-402b-99f7-a7c6" name="A-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Counter 2"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0606-5208-54fa-aa6c" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="74db-13b6-5af4-a71f" name="•Green Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="3995-5528-7c81-0cfd" name="•Green Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Counter 1"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e690-3432-0f2c-d0f7" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="3b2f-ef93-a608-7897" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413d-1832-7144-9ee3" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8168-d62d-407b-a537" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d732-88de-c3f7-d91b" name="•Shara Bey" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="a50f-7560-91e9-4a86" name="•Shara Bey" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Counter 3"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="Brace, Scatter"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While performing a Counter attack, each Critical icon adds 1 damage to the damage total."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c184-203b-3260-f6a4" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a8-5a13-2721-ee98" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d260-e092-a75c-1d5e" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="600f-2df5-794d-8084" name="•Tycho Celchu" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="2f5f-7438-646c-7361" name="•Tycho Celchu" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Counter 2"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="Brace, Scatter"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="You are not prevented from moving or attacking ships while you are engaged."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1c31-cf07-92b3-deaf" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd01-8fd4-56b7-52e3" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d658-817f-246a-0e4b" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="11.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37bc-3213-7cba-8aa7" name="Assault Frigate Mark IIA" hidden="false" collective="false" categoryEntryId="62d1-ec41-79d6-0a08" type="model">
@@ -477,38 +632,191 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9dd3-65ef-0609-5d59" name="B-Wing Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="4b21-d388-de93-8be3" name="B-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue 1 Black"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="9dd3-65ef-0609-5d59" name="B-Wing" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="bdf9-cf24-b691-a0c9" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62b1-c154-b15c-8f11" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d2ab-6594-cf72-ec9b" name="B-Wing Squadrons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f11-18ed-70d4-3bb9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="998f-403c-27eb-0621" name="B-Wing Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="eaf9-782e-840b-e753" name="B-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5c42-a90f-7e57-fbed" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="14.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e65-f528-c4e5-0506" name="•Dagger Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="2f52-c291-4eeb-fdcf" name="•Dagger Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 1 Black"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Swarm"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="136f-cba1-71d3-436e" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="6ffc-6d89-fbd9-04fe" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e2e-7e3d-17d4-c246" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0186-7d87-3bdd-9ef0" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4956-7a6b-7a22-1e79" name="•Keyan Farlander" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="92b5-2956-94cd-ae43" name="•Keyan Farlander" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While attacking a ship, if the defending hull zone has no shields, you may reroll any number of dice in your attack pool."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7656-a739-a9a7-daed" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22de-7e72-b97a-b5d8" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7596-9e3a-aaa2-8f30" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="37b6-f00a-b8c7-bc12" name="•Ten Numb" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="5e49-a5c3-4485-b3bf" name="•Ten Numb" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 1 Black"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While attacking a squadron, you may spend 1 blue die with a Critical icon.  If you do, each other enemy squadron at distance 1 of the defender suffers 1 damage."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a997-c7ed-3ffc-ed9c" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c636-7466-200d-07e4" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b67-ecc3-aceb-484b" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="19.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="14.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="84f9-c194-d8cd-e718" name="CR90 Corvette A" hidden="false" collective="false" categoryEntryId="319a-5aa9-59e5-30fa" type="model">
       <profiles>
@@ -1064,44 +1372,117 @@
         <cost name="pts" costTypeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8796-4f58-631e-f4a3" name="HWK-290" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="cfbc-0a8e-e6e1-5556" name="HWK-290" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="8796-4f58-631e-f4a3" name="HWK-290" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="cdf2-9186-c1eb-f202" hidden="false" targetId="59e1-8e70-7584-fa6b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c373-8379-d685-8304" hidden="false" targetId="919c-73a7-3658-fd2e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ba3-6cd5-3d28-95e2" type="max"/>
+      </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cfcf-e116-6f4b-16d2" name="HWK-290 Irregular Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c22-75fa-d253-ded0" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5866-803a-9d46-c43b" name="HWK-290" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="3914-b7bb-5338-2004" name="HWK-290" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Counter 2, Intel"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value=""/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="90b8-a991-1eaf-dfd3" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="3e18-1278-faed-89f8" name="" hidden="false" targetId="f379-5e57-6d92-edb9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="0df8-6b95-5627-b20b" name="•Jan Ors (Moldy Crow)" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="74b4-57a3-a0a0-b826" name="•Jan Ors (Moldy Crow)" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Counter 2, Intel"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="aa9f-fcf4-ac3b-43eb" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="5343-49cb-c25a-f9a0" name="" hidden="false" targetId="f379-5e57-6d92-edb9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1896-6025-45d4-b8aa" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3f5-adb2-4141-1179" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="19.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="12.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="34d6-c129-c2b5-56bc" name="MC30c Scout Frigate" hidden="false" collective="false" categoryEntryId="167d-fd4d-28e2-f646" type="model">
       <profiles>
@@ -2062,688 +2443,779 @@
         <cost name="pts" costTypeId="points" value="51.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50f9-a388-2ed1-984d" name="Scurrg H-6 Bomber" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="741e-32de-f122-78bc" name="Scurrg H-6 Bomber" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="50f9-a388-2ed1-984d" name="Scurrg H-6 Bomber" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="72aa-86ab-d57d-faca" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c2e8-5d96-683a-1f73" hidden="false" targetId="5819-af3f-afdb-16dc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d265-5985-6888-4785" hidden="false" targetId="cf20-fbe3-d98e-123b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="16.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9ab1-394c-8040-3499" name="X-Wing Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="a792-cc80-9195-d8b0" name="X-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="cd59-52f1-453a-d5cd" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="009d-0019-fa43-01f8" hidden="false" targetId="1949-cb6f-51a1-bc02" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="13.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ebd6-d14f-42c3-d06b" name="Y-Wing Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="a82a-2660-9ea4-d62b" name="Y-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="ccfd-0356-365d-ecc3" hidden="false" targetId="cf20-fbe3-d98e-123b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="19f5-274b-b073-1066" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="24e4-35a5-29f7-e338" name="YT-1300" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="46ca-532d-bf4a-1e9c" name="YT-1300" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="7"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2b5c-4d54-36f2-3189" hidden="false" targetId="1949-cb6f-51a1-bc02" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="cf07-54d7-3214-b58f" hidden="false" targetId="099d-7d77-bf8f-0bc1" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="13.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ca61-2655-4ac3-a25e" name="YT-2400" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="8106-ce6d-1a1d-fb90" name="YT-2400" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="cd23-46ee-36a2-30e7" hidden="false" targetId="9c73-dc50-7fe8-7b7a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="16.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b296-67d4-7b59-4301" name="•&quot;Dutch&quot; Vander" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="337b-3c6d-b3bb-c81e" name="Y-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="a3c6-a811-4fa7-5033" name="&quot;Dutch&quot; Vander" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="When a squadron you attack suffers at least 1 damage, you may toggle its activation slider to the activated side.  If it was already activated, it suffers 1 additional damage instead."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2ced-1424-1356-3304" hidden="false" targetId="cf20-fbe3-d98e-123b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="51b4-665e-b9d1-f3db" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f66-d875-3f52-ea51" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f38-acde-33f7-30b7" name="Scurrg H-6 Irregular Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d793-bc74-37f9-962b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="706a-8167-816b-b0b1" name="Scurrg H-6 Bomber" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="5418-6532-ed65-0b78" name="Scurrg H-6 Bomber" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Grit, Heavy"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e8b5-39cd-7143-49c2" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="aa6a-04fa-f533-de4c" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="6fae-f416-692c-d6ae" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2168-72f0-da10-0f82" name="•Nym (Havoc)" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="e549-fed7-0ee7-9532" name="•Nym (Havoc)" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Grit"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="Blue Critical: If the defender is a ship, you may choose and discard 1 of its defense tokens."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="109a-83a1-d6f3-a35e" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="545e-aa95-dbad-8844" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="21.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="16.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
-    <selectionEntry id="c9e6-9df0-272b-712a" name="•Dash Rendar" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="1078-eca3-810e-872e" name="Outrider" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="0de5-6518-3946-a377" name="Dash Rendar" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While attacking, you may reroll 1 die for each enemy squadron or enemy ship at distance 1."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="9ab1-394c-8040-3499" name="X-Wing" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="b794-44ca-e954-5576" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5dd6-40ef-9584-b04b" hidden="false" targetId="9c73-dc50-7fe8-7b7a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4bf-6a9e-778f-1cc1" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c5ff-da3d-bb59-2677" name="X-Wing Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5945-86ca-aba8-d9a3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="55f0-0a64-b063-acc8" name="X-Wing Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="c264-f94e-ec0c-48c0" name="X-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Escort"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e932-0f42-8b35-ebcb" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="fd8b-17bd-6428-f861" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="13.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7615-7235-1393-301d" name="•Rogue Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="466c-a68a-7bd9-263b" name="•Rogue Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a5b0-aa0c-706a-5fef" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4555-6680-6a98-fdad" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be78-ce98-e012-d84c" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f32-8085-78b3-ffd8" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="14.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="843e-59b8-9809-f67b" name="•Biggs Darklighter" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="c9c2-00c0-6ae9-289d" name="•Biggs Darklighter" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Escort"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="Before a friendly squadron with Escort at distance 1 suffers damage during an attack, you may reduce the total damage by 1. If you do, choose a friendly squadron with Escort at distance 1. That squadron suffers 1 damage."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="da24-dd49-9e3b-7b3f" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="da8b-39d2-7dbd-8c39" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1272-dfcb-e54c-296e" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa3e-0ae8-3539-e52c" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="19.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8854-bad8-d1f6-fc61" name="•Luke Skywalker" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="327b-b59b-757f-6891" name="•Luke Skywalker" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Escort"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While attacking a ship, treat the defender as having no shields."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1024-5569-0f32-44d5" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="5d80-de68-f4f8-710d" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0125-da17-0da5-b81c" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c9f-fbe4-b368-bb85" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ebed-86b2-a2f5-e4bf" name="•Wedge Antilles" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="3ada-dee7-f2d1-7157" name="•Wedge Antilles" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Escort"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While attacking an activated squadron, you may add 2 blue dice to your attack pool."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c0b3-5a91-2277-3c0f" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="12b2-3567-638c-e9f1" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdba-187a-e40b-c6c7" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d60-e730-b5d8-de4f" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="19.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="24.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef6b-a27e-cf33-af83" name="•Han Solo" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="8b1e-12cf-985e-7b0a" name="Millenium Falcon" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="7"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 2 Black"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="88c4-e9c8-df86-572d" name="Han Solo" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="At the start of the Ship Phase, you may activate as if you were activated by a Squadron command."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="ebd6-d14f-42c3-d06b" name="Y-Wing" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="af93-c6ef-3cb5-5ab8" hidden="false" targetId="5819-af3f-afdb-16dc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b81d-f142-3d00-0381" hidden="false" targetId="9c73-dc50-7fe8-7b7a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a66-0996-74b6-6c3f" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9c26-d9f4-400d-242e" name="Y-Wing Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddfc-da45-c536-6f51" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eae9-8a3d-c6e9-3575" name="Y-Wing Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="0d6f-867b-ab94-7dfc" name="Y-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Heavy"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7d2c-f8ff-b029-5271" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="720f-5c10-f7a0-b25f" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="659c-bfa4-744d-a436" name="•&quot;Dutch&quot; Vander" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="e15e-79dc-04fa-ec71" name="•&quot;Dutch&quot; Vander" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Heavy"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="When a squadron you attack suffers at least 1 damage, you may toggle its activation slider to the activated side. If it was already activated, it suffers 1 additional damage instead."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c1c4-2fbc-b926-ae31" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="dbf3-aaf2-d59c-b190" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd7-25ee-e122-6df7" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9530-10ae-73e8-48ed" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="677b-bc4e-0ff0-5583" name="•Gold Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="beb5-6d81-6c4e-1c37" name="•Gold Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Blue"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="8271-dda2-8917-acc7" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e889-ecd7-1c3a-46ac" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c5e-ac86-5c9c-fd6c" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8013-ff1c-f573-935e" name="•Norra Wexley" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="bf65-d201-9658-10df" name="•Norra Wexley" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="Friendly squadrons with Bomber at distance 1 gain &quot;[critical]: The defending hull zone loses 1 shield.&quot;"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9329-d8a6-c86b-3fa7" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8898-163e-bcc1-4b56" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f010-0932-2201-851b" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="17.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="26.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02b9-d65d-c896-7aa7" name="•Jan Ors" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="b9ba-4c04-1b0f-c663" name="Moldy Crow" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="9389-8f01-0001-4486" name="Jan Ors" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="24e4-35a5-29f7-e338" name="YT-1300" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="1ac4-2f6b-5d02-b54e" hidden="false" targetId="919c-73a7-3658-fd2e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2e3e-9ccf-cbd5-3800" hidden="false" targetId="59e1-8e70-7584-fa6b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5998-bbc5-b761-2600" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d5d-6b97-c13c-5ed2" name="YT-1300 Irregular Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7e5-053c-1a7c-78e5" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="716c-23bd-05f5-eecc" name="YT-1300" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="90d0-306a-6f66-2f57" name="YT-1300" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="7"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Counter 1, Escort"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="4296-e73a-0cd3-ba9f" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4cda-1ffd-b55c-3795" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="13.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aeca-d54a-7c3f-beff" name="•Han Solo (Millennium Falcon)" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="94b7-1b78-247a-b4b7" name="•Han Solo (Millennium Falcon)" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="7"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 2 Black"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Grit, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="At the start of the Ship Phase, you may activate as if you were activated by a Squadron command."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="8227-42db-149c-62b9" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="dea2-032e-0651-ba1d" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e73-90a9-f1c8-c2c6" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c2bd-cfd3-f0e3-6cee" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="26.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="19.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
-    <selectionEntry id="926e-08f3-b58d-8654" name="•Keyan Farlander" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="e27f-1957-3952-308c" name="B-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="92e8-e847-6da3-d12e" name="Keyan Farlander" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While attacking a ship, if the defending hull zone has no shields, you may reroll any number of dice in your attack pool."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="ca61-2655-4ac3-a25e" name="YT-2400" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="8b96-36c9-c62f-ba3d" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4006-b416-52b9-ee46" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f99e-ee4b-7056-24de" name="YT-2400 Irregular Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="466a-7446-ad1d-bd1b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="19a8-81a8-4e78-6a01" name="YT-2400" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="449d-826d-4f19-5f19" name="YT-2400" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d457-a9bb-6e6c-2147" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="49a8-ef24-7c1c-48de" name="•Dash Rendar (Outrider)" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="bfc5-bbb1-5ca4-71a0" name="•Dash Rendar (Outrider)" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While attacking, you may reroll 1 die for each enemy squadron or enemy ship at distance 1."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c27f-454e-2495-4d05" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="94c2-3d10-860b-c49e" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b93-42ef-5066-b294" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0883-d47d-6194-d331" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="24.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="548c-0306-3ff2-6996" name="•Luke Skywalker" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="911b-2b10-aae8-5269" name="X-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="e084-a654-edc2-24f8" name="Luke Skywalker" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While attacking a ship, treat the defender as having no shields."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="516f-b913-47d0-b9b3" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2cb3-86f6-d79c-544f" hidden="false" targetId="1949-cb6f-51a1-bc02" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b883-01ea-e040-2922" name="•Nym" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="db72-bc59-9039-fb1f" name="Scurrg H-6 Bomber" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="6"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="c7f5-a94a-16f6-0b8a" name="Nym" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="Blue Critical: If the defender is a ship, you may choose and discard 1 of its defense tokens."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="bbac-1572-4152-5779" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e839-fbab-3b03-433a" hidden="false" targetId="9c73-dc50-7fe8-7b7a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="21.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="df37-edd4-16f1-8ee8" name="•Rogue Squadron" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="bdee-5470-135a-dac5" name="X-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="5241-b8d0-56db-4988" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b40a-8af8-6be7-911f" hidden="false" targetId="9c73-dc50-7fe8-7b7a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="14.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="87b0-7198-63d5-b0bb" name="•Tycho Celchu" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="c996-86d9-df01-d712" name="A-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="8e57-826e-8f4e-ca0b" name="Tycho Celchu" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="You are not prevented from moving or attacking ships while you are engaged."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Scatter"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3e6f-263f-18b6-e1c0" hidden="false" targetId="919c-73a7-3658-fd2e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="16.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7ca3-3f73-9213-86e8" name="•Wedge Antilles" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="dc6b-52e8-f11d-d8ba" name="X-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="fef9-c40d-c044-e1e8" name="Wedge Antilles" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While attacking an activated squadron, you may add 2 blue dice to your attack pool."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="8e50-2126-119d-efad" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4a71-8c20-921e-0db2" hidden="false" targetId="1949-cb6f-51a1-bc02" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="19.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="6dbe-e35a-0c22-f436" name="Modified Pelta-Class Assault Ship" hidden="false" collective="false" categoryEntryId="9810-b289-b172-52b4" type="model">
       <profiles>
@@ -2945,197 +3417,473 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c62a-69d0-4d89-d126" name="•Hera Syndulla" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="f6fa-fbf8-ac77-7a54" name="Ghost" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="8"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 2 Black"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="4d2d-93ae-79da-e563" name="Hera Syndulla" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="At the start of the Squadron Phase, choose up to 2 friendly squadrons at distance 1-2.  Those squadrons gain Rogue until the end of the round."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="6a10-b9e9-33b3-39b6" name="Z-95 Headhunter" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="ca96-7431-f060-58c1" hidden="false" targetId="5819-af3f-afdb-16dc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8631-2271-11f4-9f2d" hidden="false" targetId="9c73-dc50-7fe8-7b7a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5901-e214-a56c-e59b" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0690-09e4-2b43-bac9" name="Z-95 Headhunter Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d50-d0dc-c556-18a2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="80f1-7076-8b79-7f1d" name="Z-95 Headhunter Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="23aa-6c45-2030-8450" name="Z-95 Headhunter Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="3"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Red"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Swarm"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ec5e-2c24-b7f0-539d" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="31f7-4fc9-f080-5d0a" name="•Lieutenant Blount" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="711c-16bc-28cc-886c" name="•Lieutenant Blount" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="3"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Red"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Swarm"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="1 Brace, 1 Scatter"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While another friendly squadron with Swarm at distance 1 is attacking a squadron, it may reroll 1 die (in addition to any dice rerolled from Swarm)."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0c55-a3f9-f058-43d9" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f8-55a8-8d8c-fb5d" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c071-e103-662e-c70c" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="28.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
-    <selectionEntry id="7ac9-4e77-2cdd-90df" name="•Biggs Darklighter" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="6e83-d2c7-58e0-c732" name="X-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
-          </characteristics>
-        </profile>
-        <profile id="8759-d988-c765-db01" name="Biggs Darklighter" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="Before a friendly squadron with Escort at distance 1 suffers damage during an attack, you may reduce the total damage by 1.  If you do, choose a friendly squadron with Escort at distance 1.  That squadron suffers 1 damage."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="6157-a74d-24fc-740b" name="E-Wing" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="0e71-34ce-ff8a-e683" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ee2b-1ac7-2c68-2e0e" hidden="false" targetId="1949-cb6f-51a1-bc02" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ad-e33a-8bb8-f920" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6abe-f97f-5209-9a6e" name="E-Wing Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d185-784f-f4f8-c663" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d487-e729-1be1-d293" name="E-Wing Squadron" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="a91a-cf56-6f94-b6fc" name="E-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Snipe 3"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="bd18-a5a2-83a5-b6c3" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="45c3-16b2-8b1a-be40" name="" hidden="false" targetId="28b3-3ce6-3f2b-9ca1" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="09ef-3f0c-9823-56c5" name="•Corran Horn" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="0476-aea5-d5cf-76ff" name="•Corran Horn" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="4 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Red"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Rogue, Snipe 4"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="2 Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c8ff-6655-87c9-c364" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="dee8-4337-0004-55f7" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="7efc-2bce-2270-23a9" name="" hidden="false" targetId="28b3-3ce6-3f2b-9ca1" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a4-ea1f-f1ea-d3e8" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2116-d26e-d052-f8e9" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="22.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="19.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
-    <selectionEntry id="3998-7359-9f89-e2e5" name="•Shara Bey" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="10b9-2f67-9a41-1199" name="A-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="5"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="92cd-74a3-02d3-ea7f" name="Shara Bey" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While performing a Counter attack, each [Crit] icon adds 1 damage to the damage total."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Scatter"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="066a-9ff3-e38b-5aa4" name="VCX-100" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="f1d2-dab6-3a0a-9bd8" hidden="false" targetId="30b8-f101-5bd3-71f2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afbf-29da-09e0-0db8" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9c66-7c48-51e3-a146" name="VCX-100 Freighter Irregular Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8084-6bcd-cc26-b98e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6b39-1a8e-9b82-f1e1" name="VCX-100 Freighter" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="42d3-f72c-20fa-592a" name="VCX-100 Freighter" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="8"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Heavy, Relay 1, Strategic"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3e6a-e5c6-f6a7-2b7e" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4005-ffee-7f82-5dde" name="" hidden="false" targetId="2dbc-c5ad-6def-194e" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="baf5-a487-005c-b122" name="" hidden="false" targetId="d374-f203-8873-7051" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="44f3-0c49-3c3d-47d9" name="•Hera Syndulla (Ghost)" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="14f9-572e-c53a-4b49" name="•Hera Syndulla (Ghost)" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="3"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="8"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 2 Black"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Grit, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="At the start of the Squadron Phase, choose up to 2 friendly squadrons at distance 1-2.  Those squadrons gain Rogue until the end of the round."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1ad4-2ca9-6404-e940" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="0699-c218-433d-21de" name="New InfoLink" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-a261-0ccc-5096" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="397e-fb68-dbb4-a719" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="28.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="17.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
-    <selectionEntry id="b849-2ded-da3c-5153" name="•Ten Numb" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="model">
-      <profiles>
-        <profile id="0837-cb0a-f346-16f1" name="B-Wing Squadron" hidden="false" profileTypeId="6590-7c7f-7387-8791">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Movement Value" characteristicTypeId="dc1b-7d57-479f-eea2" value="2"/>
-            <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="5"/>
-            <characteristic name="Anti-Squadron Value" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 1 Black"/>
-            <characteristic name="Anti-Ship Value" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
-          </characteristics>
-        </profile>
-        <profile id="1a02-db8a-f0fa-322a" name="Ten Numb" hidden="false" profileTypeId="72be-2d6c-163a-b811">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Squadron Ability" characteristicTypeId="a74f-8029-7e0a-66b3" value="While attacking a squadron, you may spend 1 blue die with a [Crit] icon.  If you do, each other enemy squadron at distance 1 of the defender suffers 1 damage."/>
-            <characteristic name="Defense Tokens" characteristicTypeId="51e2-4fb8-9870-34f6" value="Brace, Brace"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="e29e-574d-fc60-cbf7" name="Lancer-class Pursuit Craft" hidden="false" collective="false" categoryEntryId="f0dc-ae6a-6219-19ef" type="unit">
+      <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="0511-ae0b-347f-603e" hidden="false" targetId="d896-fa8f-d9c0-1a81" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f7-e458-7215-8340" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4089-fcb6-171d-cfd5" name="Lancer-class Pursuit Craft Irregular Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d5f-85ed-0036-4847" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8ebf-c192-b7f8-d3f4" name="Lancer-class Pursuit Craft" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="d730-b4c8-9467-b544" name="Lancer-class Pursuit Craft" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Grit, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1557-64a2-258c-16b4" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="d7a2-3d40-4aff-52fb" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="83cd-7bf3-7a39-3451" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f4f0-b0b7-b932-90f9" name="•Ketsu Onyo (Shadow Caster)" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="652f-0bcc-e7b2-02aa" name="•Ketsu Onyo (Shadow Caster)" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="4"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="3 Blue"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Blue"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Bomber, Grit, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="Brace, Scatter"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="While an enemy squadron is at distance 1, its speed is reduced by 2 to a minimum of 1."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="322b-8388-2d56-bd40" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4563-bcad-e281-16f8" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="deb5-374d-c270-a62b" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82fa-9ba9-15f3-6046" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3e7-6dcd-d575-0b2c" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="22.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="19.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -6623,89 +7371,12 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="d896-fa8f-d9c0-1a81" name="Bomber" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>While attacking a ship, each of your Critical icons adds 1 damage to the damage total and you can resolve a critical effect.</description>
-    </rule>
-    <rule id="099d-7d77-bf8f-0bc1" name="Counter 1" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of 1 blue dice, even if you are destroyed.</description>
-    </rule>
-    <rule id="919c-73a7-3658-fd2e" name="Counter 2" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of 2 blue dice, even if you are destroyed.</description>
-    </rule>
-    <rule id="1949-cb6f-51a1-bc02" name="Escort" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Squadrons you are engaged with cannot attack squadrons that lack Escort unless performing a Counter attack.</description>
-    </rule>
     <rule id="d3b2-16fc-f50d-a5f1" name="Flotillas" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla.  Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
-    </rule>
-    <rule id="5819-af3f-afdb-16dc" name="Grit" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>You are not prevented from moving while you are engaged by only 1 squadron.</description>
-    </rule>
-    <rule id="cf20-fbe3-d98e-123b" name="Heavy" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>You do not prevent engaged squadrons from attacking ships or moving.</description>
-    </rule>
-    <rule id="59e1-8e70-7584-fa6b" name="Intel" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>While an enemy squadron is at distance 1 of you, it has Heavy.</description>
-    </rule>
-    <rule id="9c73-dc50-7fe8-7b7a" name="Rogue" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>You can move and attack during the Squadron Phase.</description>
-    </rule>
-    <rule id="11db-e8d0-66e9-6855" name="Swarm" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
-    </rule>
-    <rule id="987b-3b69-7f58-0474" name="Snipe 4" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>You can attack squadrons at distance 2 with an anti-squadron armament of 4 blue dice.  This attack ignores the Counter keyword.</description>
-    </rule>
-    <rule id="30b8-f101-5bd3-71f2" name="Counter 3" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of 3 blue dice, even if you are destroyed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
