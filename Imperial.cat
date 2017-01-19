@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="34" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="35" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3586,53 +3586,6 @@
             <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d32a-817c-a344-eb6a" name="Redundant Shields" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="201c-c06a-593e-b7d5" name="Redundant Shields" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="Modification. At the start of each Status Phase, you may recover 1 shield."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d32a-817c-a344-eb6a" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa4b-f5fb-9dac-bc94" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="bc89-2b60-7750-9e26" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" costTypeId="points" value="8.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="6a67-f656-61c1-ecb0" name="Cluster Bombs" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="0d29-1410-6d5c-026b" name="Cluster Bombs" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e">
@@ -3681,6 +3634,53 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="407c-d47c-f128-1423" name="Redundant Shields" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0fdc-d2e0-abf3-acd8" name="Redundant Shields" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e" profileTypeName="5.2 Defensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="Modification. At the start of each Status Phase, you may recover 1 shield."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="407c-d47c-f128-1423" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e3cc-1517-a451-8cdc" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="cc25-635d-fde9-5462" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
