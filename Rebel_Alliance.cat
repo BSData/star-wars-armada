@@ -1211,14 +1211,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="6c1d-45c5-e11d-ced8" hidden="false" targetId="b655-1833-9346-0731" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="ba63-7016-9a52-6b54" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
@@ -1333,17 +1332,16 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="31d3-5060-4e66-1599" hidden="false" targetId="1402-7b91-d7d8-a61a" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="bd0b-7116-9749-fc1b" hidden="false" targetId="d721-fa49-cc5d-4f7d" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1521,14 +1519,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="4e6b-b0e7-8632-640f" hidden="false" targetId="d721-fa49-cc5d-4f7d" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="dd28-1d4e-1424-e785" hidden="false" targetId="1402-7b91-d7d8-a61a" type="selectionEntryGroup">
@@ -2475,7 +2472,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Officer, Support Team, Fleet Command, Ordnance">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6dbe-e35a-0c22-f436" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecea-7b1f-1b28-f81a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="5"/>
             <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Blue, 1 Black"/>
@@ -2513,7 +2518,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6dbe-e35a-0c22-f436" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ecea-7b1f-1b28-f81a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="1288-7498-abde-d016" hidden="false" targetId="7f9b-0dae-7871-3faf" type="selectionEntryGroup">
@@ -2537,26 +2550,6 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="90f4-9012-fc96-3156" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecea-7b1f-1b28-f81a" type="lessThan"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints/>
-        </entryLink>
         <entryLink id="4927-0c2c-8cfa-f4b5" hidden="false" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -2571,11 +2564,19 @@
     </selectionEntry>
     <selectionEntry id="dbb1-f7bc-b05c-fad6" name="Modified Pelta-class Command Ship" hidden="false" collective="false" categoryEntryId="9810-b289-b172-52b4" type="model">
       <profiles>
-        <profile id="5215-2918-f324-6575" name="Modified Pelta-class Assault Ship" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
+        <profile id="5215-2918-f324-6575" name="Modified Pelta-class Command Ship" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Officer, Support Team, Fleet Command, Offensive Retrofit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="dbb1-f7bc-b05c-fad6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecea-7b1f-1b28-f81a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="5"/>
             <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Blue"/>
@@ -2613,7 +2614,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="dbb1-f7bc-b05c-fad6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ecea-7b1f-1b28-f81a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="3779-9791-6422-dc89" hidden="false" targetId="7f9b-0dae-7871-3faf" type="selectionEntryGroup">
@@ -2635,26 +2644,6 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="71c3-eac4-a054-5c65" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecea-7b1f-1b28-f81a" type="lessThan"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <constraints/>
         </entryLink>
         <entryLink id="e7ee-e76e-2922-3037" hidden="false" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup">
@@ -3448,14 +3437,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="5648-e62e-d587-8aac" name="Electronic Countermeasures" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3474,7 +3456,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decc-e8a6-3537-4751" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="decc-e8a6-3537-4751" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3499,7 +3481,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a03-527d-c7d1-a8d8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a03-527d-c7d1-a8d8" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3516,7 +3498,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="Modification.  At the start of each Status Phase, you may recover 1 shield."/>
+                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="Modification. At the start of each Status Phase, you may recover 1 shield."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3527,19 +3509,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f63d-618a-a045-a418" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -3547,12 +3520,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afb2-7f66-e608-a6ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="afb2-7f66-e608-a6ad" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="2b18-3d75-dab2-9c0c" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
@@ -3573,7 +3553,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07c8-8441-a2a0-48b9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="07c8-8441-a2a0-48b9" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3598,176 +3578,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b225-df40-d2de-81d5" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b655-1833-9346-0731" name="Defensive Retrofit" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="9a82-2c7d-5826-1072" name="Electronic Countermeasures" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="4c04-267a-6cda-c51f" name="Electronic Countermeasures" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an Accuracy result."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd2-fd61-311f-d315" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="7.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b61d-1da3-e602-bcee" name="Advanced Projectors" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="8d7d-ae01-d707-8565" name="Advanced Projectors" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="When you resolve the Redirect token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0feb-c832-5575-4eca" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d28c-9cdc-7ab1-3049" name="Redundant Shields" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="407b-9d76-b026-2c7b" name="Redundant Shields" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="Modification.  At the start of each Status Phase, you may recover 1 shield."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1997-9e59-31b5-a454" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="8.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="429f-ca3f-0998-ba1d" name="Cluster Bombs" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="333e-659d-a7df-8ee2" name="Cluster Bombs" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each Hit or Critical icon rolled."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5723-0738-c3df-f119" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8069-92d4-9a61-a237" name="Reinforced Blast Doors" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="0958-87a2-0708-3d6b" name="Reinforced Blast Doors" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="At the start of the ship phase, you may discard this card to discard up to 3 of your facedown damage cards."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="198a-bac0-0caa-de35" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b225-df40-d2de-81d5" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3786,14 +3597,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="7f13-d8ca-5234-d5c5" name="Bomber Command Center" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3811,7 +3615,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cfe7-9919-67af-283e" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3834,7 +3640,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ffa6-5471-c78f-f6bc" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3857,7 +3665,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c56-45f3-58cb-4f61" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3880,7 +3690,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc4d-d077-dbd9-e868" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3903,7 +3715,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8913-56b6-87bc-587f" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3921,14 +3735,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="3ac5-8d13-7a3f-73a0" name="Overload Pulse" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3946,7 +3753,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1537-6e60-fb55-1b6b" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3994,7 +3803,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e6c-cf1b-ea72-fde6" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4017,7 +3828,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87ca-c144-653f-ee22" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4040,7 +3853,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5dd1-e283-4266-3d58" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4056,7 +3871,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 blue die."/>
+                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Modification. The battery armaments for your left and right hull zones are increased by 1 blue die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4067,19 +3882,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="433f-78dc-95d8-a10f" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -4087,11 +3893,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5519-6e6c-3575-1c5f" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="39f2-9bf7-df09-c6a1" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
@@ -4111,7 +3925,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c686-c69f-81e7-8789" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4129,14 +3945,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="73be-1487-338a-3a70" name="Expanded Hangar Bay" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4154,7 +3963,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7cb7-31d3-4712-01f0" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4177,7 +3988,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59bd-4d25-4101-5915" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4193,7 +4006,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" characteristicTypeId="cfe9-897e-edba-6c69" value="Modification  When you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5.  That ship must spend a Navigate token or reduce its speed by 1 to a minimum of 1."/>
+                <characteristic name="Offensive Retrofit Ability" characteristicTypeId="cfe9-897e-edba-6c69" value="Modification. When you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5. That ship must spend a Navigate token or reduce its speed by 1 to a minimum of 1."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4204,19 +4017,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="909b-ff40-3019-a96f" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -4224,11 +4028,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ba8-b80e-a30b-f75a" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="690c-fafb-f9a8-5cd5" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
@@ -4248,7 +4060,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2300-aa25-ae69-bbf2" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4271,7 +4085,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="54d1-3b96-3e6f-d5ca" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4289,14 +4105,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="62a7-5ba1-aa92-fc39" name="Defense Liason" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4315,7 +4124,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a2-3166-c5be-0da8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21a2-3166-c5be-0da8" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4340,7 +4149,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625f-89eb-e019-79da" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="625f-89eb-e019-79da" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4366,7 +4175,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4391,8 +4200,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4b5-d5db-8113-e66f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f4b5-d5db-8113-e66f" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4418,7 +4226,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4444,7 +4252,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4469,7 +4277,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9526-7c19-a5c6-6ca0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9526-7c19-a5c6-6ca0" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4494,7 +4302,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f7-6058-3605-a97e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52f7-6058-3605-a97e" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4520,7 +4328,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4546,7 +4354,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4571,7 +4379,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8236-6ad3-7b12-9274" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8236-6ad3-7b12-9274" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4596,7 +4404,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e7-79ca-7b96-5e26" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21e7-79ca-7b96-5e26" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4621,7 +4429,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f327-d46b-60ce-0d7b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f327-d46b-60ce-0d7b" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4646,7 +4454,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7c0-032c-dcfa-4b5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7c0-032c-dcfa-4b5a" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4672,7 +4480,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4697,7 +4505,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4374-62c3-d992-2c28" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4374-62c3-d992-2c28" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4722,7 +4530,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ea7-9ca9-87bb-ffb4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ea7-9ca9-87bb-ffb4" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4747,7 +4555,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a58-15e2-ce30-e13b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a58-15e2-ce30-e13b" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4773,7 +4581,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4799,7 +4607,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4824,7 +4632,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbb1-a67a-1f11-d8dc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cbb1-a67a-1f11-d8dc" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -4843,14 +4651,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="408f-65d6-1a89-1ed7" name="Assault Concussion Missiles" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4868,7 +4669,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="063e-0b49-d6d4-0982" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4884,7 +4687,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="The battery armament for your front hull zone is increased by 2 black dice. "/>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="Modification. The battery armament for your front hull zone is increased by 2 black dice. "/>
               </characteristics>
             </profile>
           </profiles>
@@ -4895,19 +4698,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e253-c328-9245-89a1" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -4915,11 +4709,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5551-2aad-c917-26ef" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="5a94-209e-c512-cab0" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="13.0"/>
           </costs>
@@ -4939,7 +4741,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a09d-51e8-af20-fd33" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4955,7 +4759,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 black die."/>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="Modification. The battery armaments for your left and right hull zones are increased by 1 black die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4966,19 +4770,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7e20-d50a-2289-349f" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -4986,11 +4781,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7921-3364-feff-b18a" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="1134-25b2-dda2-6585" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
@@ -5005,14 +4808,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="c0bd-addf-a8c8-fd40" name="Engineering Team" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5030,7 +4826,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67e0-771b-c21d-cd07" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5053,7 +4851,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4aef-5480-3cf1-aab2" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5076,7 +4876,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="44eb-90ed-e7a4-7202" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5099,7 +4901,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c778-7d9f-8659-e6ef" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5122,7 +4926,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f432-882c-b002-cc6b" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5145,7 +4951,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7937-8d85-d69d-9ed4" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5163,14 +4971,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="6516-9461-a841-7d88" name="•Gallant Haven" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5190,7 +4991,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5216,7 +5017,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5235,14 +5036,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="90d8-141f-14cc-f59c" name="•Dodonna&apos;s Pride" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5262,7 +5056,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5288,7 +5082,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5314,7 +5108,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5333,14 +5127,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="1983-36ff-9add-3dbf" name="•Admonition" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5360,7 +5147,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5386,7 +5173,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5405,14 +5192,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="4c28-c84b-2d13-af98" name="•Endeavor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5432,7 +5212,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5458,7 +5238,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5484,7 +5264,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5503,14 +5283,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="818a-7906-03bc-428c" name="•Defiance" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5530,7 +5303,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5556,7 +5329,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5582,7 +5355,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5601,14 +5374,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="c8fd-afd0-24d0-004d" name="•Redemption" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5628,7 +5394,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5654,7 +5420,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5680,7 +5446,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5699,14 +5465,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="8742-cf79-ca25-6f87" name="•Bright Hope" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5726,7 +5485,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5752,7 +5511,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5771,14 +5530,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="74d4-d1f0-2570-64e3" name="Enhanced Armament" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5789,7 +5541,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 red die."/>
+                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification. The battery armaments for your left and right hull zones are increased by 1 red die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5800,19 +5552,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="74d4-d1f0-2570-64e3" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -5820,11 +5563,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c1d4-4855-19cb-93f9" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="92ef-071b-2e19-34dd" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
@@ -5844,7 +5595,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e241-eb21-7823-7441" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5867,7 +5620,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d73-591f-7e15-b738" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5890,7 +5645,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d53-00a5-2a7a-1442" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5913,7 +5670,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97b7-d2ce-7785-209e" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5936,7 +5695,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dd79-10a4-a0da-bdb2" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -5952,7 +5713,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification.  You cannot attack more than once per round.  While attacking a ship, add 1 red die to your attack pool."/>
+                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification. You cannot attack more than once per round. While attacking a ship, add 1 red die to your attack pool."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5963,19 +5724,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb65-58a7-6336-f805" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -5983,11 +5735,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="875f-56b4-05fb-c0bd" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="95a9-9977-0224-da30" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
@@ -6000,7 +5760,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification.  The battery armaments for your front and rear hull zones are increased by 1 red die."/>
+                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification. The battery armaments for your front and rear hull zones are increased by 1 red die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6011,19 +5771,10 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="524a-c5b5-48fb-abf4" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -6031,11 +5782,19 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c12b-f7f5-949d-cd8a" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="ea1d-8577-be8b-cff1" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="9.0"/>
           </costs>
@@ -6055,309 +5814,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="d721-fa49-cc5d-4f7d" name="Turbolasers" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="39e8-dbd0-935c-7d4a" name="Enhanced Armament" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="6c14-cd81-6cae-c865" name="Enhanced Armament" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification.  The battery armaments for your left and right hull zones are increased by 1 red die."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a21-e5ca-3887-c5a2" type="max"/>
           </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8335-3bf8-38cc-e550" name="H9 Turbolasers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="50f1-462c-a63e-02c0" name="H9 Turbolasers" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="While attacking, you may change 1 die face with a Hit or Critical icon to a face with an Accuracy icon."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="8.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="29e7-25f5-e6ec-08b6" name="XI7 Turbolasers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="7f31-29b5-28ae-7316" name="XI7 Turbolasers" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="While attacking, if the defender spends a Redirect token, it cannot suffer more than 1 damage on hull zones other than the defending hull zone. "/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="44f9-5c38-1144-e83d" name="XX-9 Turbolasers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="a6dc-287b-921f-b6b7" name="XX-9 Turbolasers" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Critical Hit: The first 2 damage cards dealt to the defender by this attack are dealt faceup."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0a75-7d2a-6d6c-daf8" name="Heavy Turbolaser Turrets" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="d614-8380-1b9a-1d08" name="Heavy Turbolaser Turrets" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="While attacking, the Brace defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6f1d-3f30-79fc-f0ec" name="Turbolaser Reroute Circuits" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="cdb4-fd13-cf70-a124" name="Turbolaser Reroute Circuits" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="While attacking, you may spend 1 Evade defense token to change 1 red die to a face with a Critical icon or 2 Hit icons."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="7.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="53b4-7517-7e87-a36b" name="Slaved Turrets" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="1870-d561-dcaa-eb23" name="Slaved Turrets" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification.  You cannot attack more than once per round.  While attacking a ship, add 1 red die to your attack pool."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f30e-78f7-7e6a-5c83" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f30e-78f7-7e6a-5c83" name="Spinal Armament" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="6f3e-0024-31cb-d682" name="Spinal Armament" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification.  The battery armaments for your front and rear hull zones are increased by 1 red die."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e253-c328-9245-89a1" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb65-58a7-6336-f805" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f63d-618a-a045-a418" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="909b-ff40-3019-a96f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e20-d50a-2289-349f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d28c-9cdc-7ab1-3049" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74d4-d1f0-2570-64e3" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="433f-78dc-95d8-a10f" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39e8-dbd0-935c-7d4a" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b4-7517-7e87-a36b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-c5b5-48fb-abf4" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="9.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="cd2b-8be8-6344-692d" name="Quad Turbolaser Cannons" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="d2f6-74e0-c869-696e" name="Quad Turbolaser Cannons" hidden="false" profileTypeId="f6bb-908e-778e-3884">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="While attacking, if at least 1 red die face has an Accuracy icon, add 1 red die set to the Accuracy icon to your attack pool."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6375,14 +5834,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="a2ad-7e34-7471-914a" name="Gunnery Team" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -6400,7 +5852,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="408a-7e99-57b9-d575" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6423,7 +5877,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b889-72cb-8eae-21e3" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6446,7 +5902,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f63-655b-c01f-3f43" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6469,7 +5927,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddc7-926c-6296-bc67" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6492,7 +5952,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4962-9ecd-7e88-6e4a" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6515,7 +5977,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6d1-3ec7-4cf5-a22f" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6538,7 +6002,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d669-7757-a677-fbd9" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6556,14 +6022,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="a828-49e8-01a9-2974" name="•All Fighters, Follow Me!" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -6583,7 +6042,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -6609,7 +6068,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -6635,7 +6094,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -6654,14 +6113,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="ecea-7b1f-1b28-f81a" name="•Phoenix Home" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -6672,7 +6124,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="You gain 1 additional [Officer] icon in your upgrade bar.  You can be assigned up to 4 command tokens instead of a number of command tokens equal to your command value."/>
+                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="You gain 1 additional Officer icon in your upgrade bar. You can be assigned up to 4 command tokens instead of a number of command tokens equal to your command value."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6681,7 +6133,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>

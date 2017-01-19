@@ -37,59 +37,54 @@
         <characteristicType id="f700-e5ab-06cc-1b31" name="Squadron Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ed38-5cd8-e875-d3e7" name="2.1 Commander">
+    <profileType id="ed38-5cd8-e875-d3e7" name="2.0 Commander">
       <characteristicTypes>
         <characteristicType id="1ebb-c216-cd61-f014" name="Commander Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="80b7-1645-65c7-8a81" name="2.2 Officer">
+    <profileType id="80b7-1645-65c7-8a81" name="3.1 Officer">
       <characteristicTypes>
         <characteristicType id="b9fd-ed9d-6333-0e67" name="Officer Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="229c-c950-27d2-b599" name="2.3 Weapons Team">
+    <profileType id="229c-c950-27d2-b599" name="3.2 Weapons Team">
       <characteristicTypes>
         <characteristicType id="f63e-d559-f525-14e3" name="Weapons Team Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="253b-6595-ea04-90bc" name="2.4 Support Team">
+    <profileType id="253b-6595-ea04-90bc" name="3.3 Support Team">
       <characteristicTypes>
         <characteristicType id="ae22-c426-3790-a78f" name="Support Team Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ebbe-2c25-a937-60f3" name="2.5 Offensive Retrofit">
+    <profileType id="ebbe-2c25-a937-60f3" name="5.1 Offensive Retrofit">
       <characteristicTypes>
         <characteristicType id="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="c4ed-b3c1-3b29-236e" name="2.6 Defensive Retrofit">
+    <profileType id="c4ed-b3c1-3b29-236e" name="5.2 Defensive Retrofit">
       <characteristicTypes>
         <characteristicType id="8539-a418-bf73-51cd" name="Defensive Retrofit Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="f6bb-908e-778e-3884" name="2.7 Turbolasers">
+    <profileType id="f6bb-908e-778e-3884" name="6.3 Turbolasers">
       <characteristicTypes>
         <characteristicType id="43e5-b6c8-39de-139b" name="Turbolasers Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="82fe-f045-0a3b-a5da" name="2.8 Ion Cannons">
+    <profileType id="82fe-f045-0a3b-a5da" name="6.2 Ion Cannons">
       <characteristicTypes>
-        <characteristicType id="2ce0-48c0-d090-1720" name="Ion Cannon Ability"/>
+        <characteristicType id="2ce0-48c0-d090-1720" name="Ion Cannons Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="10fd-be4e-bb29-3708" name="2.9 Ordnance">
+    <profileType id="10fd-be4e-bb29-3708" name="6.1 Ordnance">
       <characteristicTypes>
         <characteristicType id="f587-f8ce-7d4d-e620" name="Ordnance Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="16d6-f94c-4e0d-8993" name="2.10 Ship Titles">
+    <profileType id="16d6-f94c-4e0d-8993" name="2.1 Title">
       <characteristicTypes>
-        <characteristicType id="7040-d6d1-e20e-c16c" name="Ship Title Abilities"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="255e-e0c0-ca1b-c4d9" name="2.11 Modifications">
-      <characteristicTypes>
-        <characteristicType id="de01-f8c6-c256-1195" name="Modification Ability"/>
+        <characteristicType id="7040-d6d1-e20e-c16c" name="Title Ability"/>
       </characteristicTypes>
     </profileType>
     <profileType id="d2a5-335d-ee6f-ac1d" name="8.1 Assault Objective">
@@ -115,17 +110,17 @@
         <characteristicType id="d2d6-4fa4-8a6c-0d7d" name="Symbol key"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ed35-7d25-a151-5780" name="2.12 Fleet Support">
+    <profileType id="ed35-7d25-a151-5780" name="4.1 Fleet Support">
       <characteristicTypes>
         <characteristicType id="bed9-437f-c45a-c805" name="Fleet Support Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="2907-d622-4480-ea97" name="2.13 Experimental Retrofit">
+    <profileType id="2907-d622-4480-ea97" name="5.3 Experimental Retrofit">
       <characteristicTypes>
         <characteristicType id="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="1310-5c89-5c82-8e3b" name="2.14 Fleet Command">
+    <profileType id="1310-5c89-5c82-8e3b" name="4.2 Fleet Command">
       <characteristicTypes>
         <characteristicType id="67d1-23ac-2af6-6b5a" name="Fleet Command Ability"/>
       </characteristicTypes>
@@ -1063,7 +1058,22 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="4a8e-0cd7-d82c-267d" name="Modification" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c397-e6bb-6d07-d6a9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="caa0-8210-9b09-7950" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
     <rule id="7022-8686-4ec8-eb64" name="Counter X" hidden="false">
