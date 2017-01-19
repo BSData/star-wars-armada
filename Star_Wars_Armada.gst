@@ -332,7 +332,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9479-83d8-20a5-74d4" name="Intel Sweep" hidden="false" collective="false" type="model">
               <profiles>
@@ -360,7 +362,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b3d8-5ed2-b8a4-5e85" name="Minefields" hidden="false" collective="false" type="model">
               <profiles>
@@ -388,7 +392,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b595-a1e1-d5d8-6f98" name="Superior Positions" hidden="false" collective="false" type="model">
               <profiles>
@@ -416,7 +422,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d15d-5599-3518-c84d" name="Navigational Hazards" hidden="false" collective="false" type="model">
               <profiles>
@@ -444,7 +452,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f2b6-8c61-99f4-2c5f" name="Salvage Run" hidden="false" collective="false" type="model">
               <profiles>
@@ -472,7 +482,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="77fe-7d9b-7709-2ecc" name="Sensor Net" hidden="false" collective="false" type="model">
               <profiles>
@@ -500,7 +512,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="030f-14e6-940a-1b3f" name="Solar Corona" hidden="false" collective="false" type="model">
               <profiles>
@@ -528,7 +542,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -536,7 +552,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e868-fe52-8679-4e1b" name="Assault Objective" hidden="false" collective="false" categoryEntryId="c9d8-3a89-4028-05d0" type="unit">
       <profiles/>
@@ -585,7 +603,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8669-7199-5f13-c15d" name="Most Wanted" hidden="false" collective="false" type="model">
               <profiles>
@@ -613,7 +633,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b691-2e71-79ea-49e2" name="Opening Salvo" hidden="false" collective="false" type="model">
               <profiles>
@@ -641,7 +663,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5917-9e03-b1cd-a425" name="Precision Strike" hidden="false" collective="false" type="model">
               <profiles>
@@ -669,7 +693,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="39e0-3111-50ea-6191" name="Blockade Run" hidden="false" collective="false" type="model">
               <profiles>
@@ -697,7 +723,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2f07-d707-4e37-b69d" name="Close-Range Intel Scan" hidden="false" collective="false" type="model">
               <profiles>
@@ -725,7 +753,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9e4c-b6bb-85a7-dc3b" name="Targeting Beacons" hidden="false" collective="false" type="model">
               <profiles>
@@ -753,7 +783,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="84dc-dcf7-acd7-e6a6" name="Station Assault" hidden="false" collective="false" type="model">
               <profiles>
@@ -793,7 +825,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -801,7 +835,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e6cf-4ff3-f8da-22ee" name="Defense Objective" hidden="false" collective="false" categoryEntryId="c9d8-3a89-4028-05d0" type="unit">
       <profiles/>
@@ -850,7 +886,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2c91-fa18-6021-bab4" name="Fire Lanes" hidden="false" collective="false" type="model">
               <profiles>
@@ -878,7 +916,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="66da-ed25-4d19-315e" name="Fleet Ambush" hidden="false" collective="false" type="model">
               <profiles>
@@ -906,7 +946,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7406-dc25-d3a0-abfd" name="Hyperspace Assault" hidden="false" collective="false" type="model">
               <profiles>
@@ -934,7 +976,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="074e-26f8-6960-5409" name="Fighter Ambush" hidden="false" collective="false" type="model">
               <profiles>
@@ -962,7 +1006,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="af42-a630-888d-c895" name="Jamming Barrier" hidden="false" collective="false" type="model">
               <profiles>
@@ -990,7 +1036,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d4e9-537e-493a-9a16" name="Planetary Ion Cannon" hidden="false" collective="false" type="model">
               <profiles>
@@ -1018,7 +1066,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a014-3d43-6321-b2bc" name="Capture the VIP" hidden="false" collective="false" type="model">
               <profiles>
@@ -1046,7 +1096,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1054,7 +1106,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -1071,7 +1125,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>

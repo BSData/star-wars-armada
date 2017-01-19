@@ -3956,7 +3956,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue Critical: Exhaust all of the defender&apos;s defense tokens."/>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue Critical: Exhaust all of the defender&apos;s defense tokens."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3981,7 +3981,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue Critical: Choose and discard 1 command token from the defender. If the defender does not have any command tokens, the defending hull zone loses 1 shield instead."/>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue Critical: Choose and discard 1 command token from the defender. If the defender does not have any command tokens, the defending hull zone loses 1 shield instead."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4006,7 +4006,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="While attacking, you may spend 1 blue die to reroll any number of dice in your attack pool."/>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="While attacking, you may spend 1 blue die to reroll any number of dice in your attack pool."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4031,7 +4031,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="While attacking a ship, each of your unspent blue Accuracy icons adds 1 damage to the damage total."/>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="While attacking a ship, each of your unspent blue Accuracy icons adds 1 damage to the damage total."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4056,7 +4056,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue Critical: You may exhaust this card to force the defender to choose and discard 1 of his defense tokens."/>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue Critical: You may exhaust this card to force the defender to choose and discard 1 of his defense tokens."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4081,7 +4081,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue critical: Choose and exhaust 1 of the defender&apos;s upgrade cards."/>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue critical: Choose and exhaust 1 of the defender&apos;s upgrade cards."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4106,7 +4106,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ion Cannon Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Modification. The battery armaments for your left and right hull zones are increased by 1 blue die."/>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Modification. The battery armaments for your left and right hull zones are increased by 1 blue die."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4303,6 +4303,31 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cec0-31a2-94e7-da6d" name="Rapid Launch Bays" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1ca5-9522-1a8f-3950" name="Rapid Launch Bays" hidden="false" profileTypeId="ebbe-2c25-a937-60f3" profileTypeName="5.1 Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" characteristicTypeId="cfe9-897e-edba-6c69" value="Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card.  Squadron: For each squadron you would activate with this command, you may instead place 1 of your set-aside squadrons within distance 1. It cannot move this activation."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fe07-c6ed-425b-241a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4958,7 +4983,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca1-c2c0-d26c-516b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aca1-c2c0-d26c-516b" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -5000,9 +5025,34 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4509-4282-6a9c-15d9" name="Rapid Reload" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="0913-26e1-c462-2000" name="Flechette Torpedoes" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="8bdb-abb4-a2d4-3eb4" name="Rapid Reload" hidden="false" profileTypeId="10fd-be4e-bb29-3708">
+            <profile id="7cc0-6b06-e8d1-3e01" name="Flechette Torpedoes" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="While attacking a squadron, you may spend 1 black die with a Critical icon to toggle its activation slider to the activated side."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b122-1031-96e9-6820" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="13ac-9b84-f684-7a00" name="Rapid Reload" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9755-4609-ccd1-995a" name="Rapid Reload" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5021,8 +5071,8 @@
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4509-4282-6a9c-15d9" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="13ac-9b84-f684-7a00" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -5030,12 +5080,12 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="085e-6da8-246c-ba94" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d83d-44f6-bcd2-96cd" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="6860-7795-6dd0-20c4" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+            <entryLink id="bf4d-e996-8374-15aa" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5231,7 +5281,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="The black dice in your battery armament can be used at medium range. This effect applies only while attacking the rear hull zone of a ship."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="The black dice in your battery armament can be used at medium range. This effect applies only while attacking the rear hull zone of a ship."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5257,7 +5307,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="During your activation, you can perform 1 of your attacks after you execute a maneuver. "/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="During your activation, you can perform 1 of your attacks after you execute a maneuver. "/>
               </characteristics>
             </profile>
           </profiles>
@@ -5296,7 +5346,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="After an enemy ship ends its activation, if it is at distance 1-3, you may choose and exhaust 1 of its defense tokens."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="After an enemy ship ends its activation, if it is at distance 1-3, you may choose and exhaust 1 of its defense tokens."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5322,7 +5372,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="Squadron: The speed of each squadron without HEAVY you activate is increased by 1, to a maximum of 5 until the end of its activation."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="Squadron: The speed of each squadron without HEAVY you activate is increased by 1, to a maximum of 5 until the end of its activation."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5361,7 +5411,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5387,7 +5437,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="While attacking, the defender cannot spend exhausted defense tokens."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="While attacking, the defender cannot spend exhausted defense tokens."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5413,7 +5463,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="The total number of command dials that must be assigned to your ship during the Command Phase is reduced by 1."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="The total number of command dials that must be assigned to your ship during the Command Phase is reduced by 1."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5452,7 +5502,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="When a ship activates, you may exhaust this card to ready 1 other upgrade card equipped to this ship."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="When a ship activates, you may exhaust this card to ready 1 other upgrade card equipped to this ship."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5491,7 +5541,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="At the end of your Attack Step, choose 1 of your hull zones.  You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="At the end of your Attack Step, choose 1 of your hull zones.  You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5517,7 +5567,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5556,7 +5606,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="While attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="While attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5582,7 +5632,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="Squadron: The speed of each squadron with Bomber you activate is increased by 1 until the end of its activation."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="Squadron: The speed of each squadron with Bomber you activate is increased by 1 until the end of its activation."/>
               </characteristics>
             </profile>
           </profiles>
@@ -5608,7 +5658,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="While attacking you may rotate 1 die face with an Accuracy icon to a face with a Hit icon. "/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="While attacking you may rotate 1 die face with an Accuracy icon to a face with a Hit icon. "/>
               </characteristics>
             </profile>
           </profiles>
@@ -5930,6 +5980,53 @@
             <cost name="pts" costTypeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="c946-e0da-84d7-b2ee" name="Dual Turbolaser Turrets" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8bed-d933-993c-c458" name="Dual Turbolaser Turrets" hidden="false" profileTypeId="f6bb-908e-778e-3884" profileTypeName="6.3 Turbolasers">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="Modification. While attacking, you may exhaust this card to add 1 red die to your attack pool. If you do, remove 1 die from the attack pool."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c946-e0da-84d7-b2ee" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2588-3d01-615d-3ca7" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b014-0853-9978-d678" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -6139,7 +6236,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="When another friendly ship resolves a Squadron command, up to 2 of the squadrons it activates can be at close-medium range of you."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="When another friendly ship resolves a Squadron command, up to 2 of the squadrons it activates can be at close-medium range of you."/>
               </characteristics>
             </profile>
           </profiles>
@@ -6165,7 +6262,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ship Title Abilities" characteristicTypeId="7040-d6d1-e20e-c16c" value="Before you reveal a command, you may exhaust this card to choose another friendly ship at distance 1-5 and ready 1 of its defense tokens."/>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="Before you reveal a command, you may exhaust this card to choose another friendly ship at distance 1-5 and ready 1 of its defense tokens."/>
               </characteristics>
             </profile>
           </profiles>
