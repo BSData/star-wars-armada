@@ -144,6 +144,7 @@
         <characteristicType id="23ba-a60d-b8cf-7321" name="Hull Value"/>
         <characteristicType id="a9be-d179-8d6b-7c4a" name="Anti-Squadron"/>
         <characteristicType id="34cd-8ef0-d983-e032" name="Battery"/>
+        <characteristicType id="4f61-ae6b-86d9-6e58" name="Station Ability"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -600,7 +601,7 @@
                   <modifiers/>
                   <characteristics>
                     <characteristic name="Setup" characteristicTypeId="bb3a-c93f-bd14-0c7b" value="After deploying fleets, the second player chooses 1 of his ships and 1 of the first player&apos;s ships to be objective ships."/>
-                    <characteristic name="Special Rule" characteristicTypeId="a90f-1f9a-066b-1153" value="While attacking an objective ship, the attacker may add 1 die of any color that is already in its attack pool to its attack pool."/>
+                    <characteristic name="Special Rule" characteristicTypeId="a90f-1f9a-066b-1153" value="While a ship is attacking an objective ship, it may add 1 die of any color that is already in its attack pool to its attack pool."/>
                     <characteristic name="End of Round" characteristicTypeId="6ecd-ea77-564f-e40a"/>
                     <characteristic name="End of Game" characteristicTypeId="8724-e0d0-2a6a-177c" value="The fleet point cost of a destroyed objective ship is doubled. Do not double the cost of its upgrade cards."/>
                     <characteristic name="Victory Token Value" characteristicTypeId="4a0a-04e9-d3e0-311b" value="--"/>
@@ -783,6 +784,7 @@
                     <characteristic name="Hull Value" characteristicTypeId="23ba-a60d-b8cf-7321" value="10"/>
                     <characteristic name="Anti-Squadron" characteristicTypeId="a9be-d179-8d6b-7c4a" value="-"/>
                     <characteristic name="Battery" characteristicTypeId="34cd-8ef0-d983-e032" value="-"/>
+                    <characteristic name="Station Ability" characteristicTypeId="4f61-ae6b-86d9-6e58" value="This station cannot suffer critical effects. To determine line of sight to this station, trace to the point of its token that is closest to the attacking squadron or hull zone."/>
                   </characteristics>
                 </profile>
               </profiles>

@@ -3873,7 +3873,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Fleet Support Ability" characteristicTypeId="bed9-437f-c45a-c805" value="While a squadron at distance 1-2 is attacking or defending against a squadron, the attack is treated as obstructed."/>
+                <characteristic name="Fleet Support Ability" characteristicTypeId="bed9-437f-c45a-c805" value="While a squadron at distance 1-2 is attacking a squadron or defending against a squadron, the attack must be treated as obstructed."/>
               </characteristics>
             </profile>
           </profiles>
