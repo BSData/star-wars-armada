@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="20" battleScribeVersion="2.00" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="21" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -143,6 +143,127 @@
       </characteristicTypes>
     </profileType>
   </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-class Cruiser" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-class Flotilla" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="8180-3b0c-4e1a-d22a" name="GR-75 Transport Flotilla" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d71c-f6f0-4044-3252" name="Interdictor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty Type)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="7fb1-7ee5-3690-d880" name="Victory Star Destroyer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c9d8-3a89-4028-05d0" name="Objectives" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
       <profiles/>
@@ -150,113 +271,114 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryEntries>
-        <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-class Cruiser" hidden="false">
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Arquitens-class Cruiser" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-class Flotilla" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-3c87-8b05-e880-8118" name="Gozanti-class Flotilla" hidden="false" targetId="3c87-8b05-e880-8118" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="8180-3b0c-4e1a-d22a" name="GR-75 Transport Flotilla" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-8180-3b0c-4e1a-d22a" name="GR-75 Transport Flotilla" hidden="false" targetId="8180-3b0c-4e1a-d22a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="d71c-f6f0-4044-3252" name="Interdictor" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-d71c-f6f0-4044-3252" name="Interdictor" hidden="false" targetId="d71c-f6f0-4044-3252" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false" targetId="167d-fd4d-28e2-f646" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty Type)" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty Type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="7fb1-7ee5-3690-d880" name="Victory Star Destroyer" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-7fb1-7ee5-3690-d880" name="Victory Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -272,20 +394,19 @@
           <constraints>
             <constraint field="points" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPoints" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="c9d8-3a89-4028-05d0" name="Objectives" hidden="false">
+        </categoryLink>
+        <categoryLink id="1b44-1532-e7c9-9663-c9d8-3a89-4028-05d0" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-      </categoryEntries>
-      <forceEntries/>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="5f48-a1c4-7986-1f40" name="Navigation Objective" hidden="false" collective="false" categoryEntryId="c9d8-3a89-4028-05d0" type="unit">
+    <selectionEntry id="5f48-a1c4-7986-1f40" name="Navigation Objective" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -294,6 +415,15 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a16-95b2-4475-a8dc" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3457-d7b9-e215-f2f2" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="5f48-a1c4-7986-1f40-c9d8-3a89-4028-05d0" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="9e42-8484-040b-d6c6" name="Navigation Objective" hidden="false" collective="false" defaultSelectionEntryId="d927-a1fa-181c-569f">
@@ -305,6 +435,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0940-6261-b2a3-ea17" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc5f-8136-ada0-db4a" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="d927-a1fa-181c-569f" name="Dangerous Territory" hidden="false" collective="false" type="model">
               <profiles>
@@ -329,6 +460,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4274-a76c-d607-0d65" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de4c-d3b3-20f8-3b84" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -359,6 +491,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9db-2719-7d91-5e93" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="357c-a3ee-0651-7a78" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -389,6 +522,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1899-ff43-0eba-fbc4" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb39-8111-1201-9d8a" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -419,6 +553,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f16a-204f-9d35-6a6a" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f93d-9574-beda-9f0a" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -449,6 +584,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac8-ddda-76c5-236d" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0796-79d3-524e-4c2c" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -479,6 +615,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5acd-c84f-9a8d-c862" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3ca-05e3-31cc-8060" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -509,6 +646,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce6-5dc9-f05e-4ba4" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ab07-a863-834d-1dca" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -539,6 +677,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e5b-eb2c-24f1-8c49" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f467-2fb8-4e17-53d8" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -556,7 +695,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e868-fe52-8679-4e1b" name="Assault Objective" hidden="false" collective="false" categoryEntryId="c9d8-3a89-4028-05d0" type="unit">
+    <selectionEntry id="e868-fe52-8679-4e1b" name="Assault Objective" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -565,6 +704,15 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="deae-3690-501c-2705" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="484c-2c0d-90b3-050c" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="e868-fe52-8679-4e1b-c9d8-3a89-4028-05d0" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="4839-a221-a58d-344d" name="Assault Objective" hidden="false" collective="false" defaultSelectionEntryId="51cf-53ee-0118-5cd7">
@@ -576,6 +724,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09f4-78a5-121d-ec30" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e0ca-cbe7-c9f1-7cec" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="51cf-53ee-0118-5cd7" name="Advanced Gunnery" hidden="false" collective="false" type="model">
               <profiles>
@@ -600,6 +749,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ce-f961-831b-4f2e" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a64-769c-c621-2b10" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -630,6 +780,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0615-d831-6bef-9b0a" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ec0e-2547-fabc-9e3f" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -660,6 +811,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be96-c4e9-1cbc-23c7" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f66d-241c-56c3-0509" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -690,6 +842,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b6-7024-12c8-a48b" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d32-fba8-0e8d-747c" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -720,6 +873,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b533-d070-8b53-6920" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c130-984c-c1fc-ad29" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -750,6 +904,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fec-12dd-4e43-e458" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="472f-bfcb-c214-8046" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -780,6 +935,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9bc-d35f-b084-6143" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8ae7-89ce-3acd-6baf" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -822,6 +978,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d4-6327-2615-9bfc" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7acd-42ad-b3dd-73ca" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -839,7 +996,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e6cf-4ff3-f8da-22ee" name="Defense Objective" hidden="false" collective="false" categoryEntryId="c9d8-3a89-4028-05d0" type="unit">
+    <selectionEntry id="e6cf-4ff3-f8da-22ee" name="Defense Objective" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -848,6 +1005,15 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a374-fa52-5dc1-a0e1" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ffb-6656-3cb3-6089" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="e6cf-4ff3-f8da-22ee-c9d8-3a89-4028-05d0" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="dc74-8b30-3bdd-baf7" name="Defense Objective" hidden="false" collective="false" defaultSelectionEntryId="a014-3d43-6321-b2bc">
@@ -859,6 +1025,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="90d3-15f7-54e9-4ec8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93c1-b491-5b26-045a" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="9297-70b4-8d0b-cacf" name="Contested Outpost" hidden="false" collective="false" type="model">
               <profiles>
@@ -883,6 +1050,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ba-5104-3fdb-bf91" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c90d-179f-0b48-2035" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -913,6 +1081,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c3-92c5-3a6d-8a48" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f276-f0a9-4864-6e38" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -943,6 +1112,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85db-1551-3f52-d828" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3da0-4c0c-2071-1352" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -973,6 +1143,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b893-2005-58be-4a2a" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="925b-9ffd-46ce-3284" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1003,6 +1174,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b76a-0e52-c3ba-12d6" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="91c5-9ac2-3beb-d0e0" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1033,6 +1205,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34d4-42ad-4da1-004c" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee38-2aef-7183-8767" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1063,6 +1236,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f0e-db79-f2f0-cfb4" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c6ad-ef5c-a23b-e72a" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1093,6 +1267,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4568-24a4-0bc2-5fae" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc49-86a7-aa67-c258" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1122,6 +1297,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c397-e6bb-6d07-d6a9" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="caa0-8210-9b09-7950" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1200,7 +1376,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla. Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla.</description>
+      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla. Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla. A flotilla cannot equip a Commander upgrade card.</description>
     </rule>
     <rule id="405c-d276-9f64-9ae4" name="Cloak" hidden="false">
       <profiles/>
