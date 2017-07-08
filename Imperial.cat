@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="36" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="37" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -783,14 +783,21 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0d34-682f-af13-d1d9" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+        <entryLink id="0d34-682f-af13-d1d9" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="maxSelections" value="2">
+            <modifier type="increment" field="maxSelections" value="1">
               <repeats/>
               <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b635-0210-c1a9-608a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -908,11 +915,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="65ad-89b8-c90c-6268" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+        <entryLink id="65ad-89b8-c90c-6268" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8fed-85c8-d87d-e4da" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1415,11 +1430,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a970-5da6-002f-9929" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+        <entryLink id="a970-5da6-002f-9929" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e58d-8015-91be-811a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1534,11 +1557,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2d84-727d-e427-36d4" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+        <entryLink id="2d84-727d-e427-36d4" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7af3-f48f-d830-fa46" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2567,11 +2598,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1a62-1eb9-f59b-2378" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+        <entryLink id="1a62-1eb9-f59b-2378" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1da0-310a-d8fc-25ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2694,11 +2733,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b534-f14e-2d65-da70" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+        <entryLink id="b534-f14e-2d65-da70" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a976-92f2-81c1-0082" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2710,7 +2757,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5785-c3c4-7747-1996" name="" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+        <entryLink id="5785-c3c4-7747-1996" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3583,6 +3630,255 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d20-740c-2c47-6a5b" name="Quasar Fire I-class Cruiser-Carrier" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a26c-943c-8cf1-0b1c" name="Quasar Fire I-class Cruiser-Carrier" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit, Defensive Retrofit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9d20-740c-2c47-6a5b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27f5-aa0d-1fc0-4d4b" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="6"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Blue"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="2"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="4"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="2"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Brace, Redirect"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="3 Blue"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="2 Blue"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="2 Blue"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="1 Blue"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="2"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="2"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="2"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="1"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c7c2-1288-467c-e9f7" name="New CategoryLink" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="798d-7185-7b96-5735" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9d20-740c-2c47-6a5b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27f5-aa0d-1fc0-4d4b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fce9-e478-399e-94b2" name="Commander" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4a00-dae7-eca8-49ad" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9d20-740c-2c47-6a5b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5001-6e72-b2fd-b6e0" name="Weapons Team" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="01e3-d1f0-99b1-f0ce" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="097f-da58-7a8c-66e9" name="Title - Quasar Fire Cruiser-Carrier" hidden="false" targetId="fe71-89fd-813c-c1e4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="54.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="002f-dd84-9b02-d929" name="Quasar Fire II-class Cruiser-Carrier" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="661d-f4d6-702f-f57e" name="Quasar Fire II-class Cruiser-Carrier" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Weapons Team, Offensive Retrofit, Defensive Retrofit">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="002f-dd84-9b02-d929" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27f5-aa0d-1fc0-4d4b" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="6"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Red"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="2"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="4"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="2"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Brace, Redirect"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="2 Red, 1 Blue"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="1 Red, 1 Blue"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="1 Red, 1 Blue"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="1 Blue"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="2"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="2"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="2"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="1"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Weapons Team, Offensive Retrofit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="39d6-9d1f-1b49-7059" name="New CategoryLink" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7970-7906-dc9e-b9b9" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="002f-dd84-9b02-d929" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27f5-aa0d-1fc0-4d4b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="65bc-d8d2-9634-784e" name="Commander" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e41e-2063-6d86-7ee8" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="002f-dd84-9b02-d929" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8061-b45f-93ce-ece3" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1a98-96d7-f207-b44d" name="Title - Quasar Fire Cruiser-Carrier" hidden="false" targetId="fe71-89fd-813c-c1e4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9d22-4de3-6697-7583" name="Weapons Team" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="61.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -6702,6 +6998,116 @@
             <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="37ed-91f9-133c-68ff" name="Boarding Engineers" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="467f-5109-b35c-3050" name="Boarding Engineers" hidden="false" profileTypeId="68e2-2506-5078-dca9" profileTypeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Dual Type Upgrade Ability" characteristicTypeId="1e09-635d-6def-1999" value="When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. Look at its facedown damage cards and flip a number of them faceup up to your engineering value (one at a time)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="469b-896c-3ab9-d1b6" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="734f-c6da-1cec-9c4a" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c65c-bd79-1b79-b9e5" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="734f-c6da-1cec-9c4a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6756-8b18-0f11-8f38" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" targetId="93ae-e0a4-adcf-2297" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c65c-bd79-1b79-b9e5" name="Boarding Troopers" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d164-5062-1214-48bd" name="Boarding Troopers" hidden="false" profileTypeId="68e2-2506-5078-dca9" profileTypeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Dual Type Upgrade Ability" characteristicTypeId="1e09-635d-6def-1999" value="When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. Choose and spend a number of its defense tokens up to your squadron value."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="469b-896c-3ab9-d1b6" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="3c37-4e35-d277-a07d" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37ed-91f9-133c-68ff" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c37-4e35-d277-a07d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1970-b967-7504-ad4a" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" targetId="93ae-e0a4-adcf-2297" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -6768,6 +7174,101 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fe71-89fd-813c-c1e4" name="Title - Quasar Fire Cruiser-Carrier" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb4c-09df-bd00-9822" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="4d17-ab65-dcdc-007e" name="•Pursuant" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5f2c-13ba-2780-337e" name="Pursuant" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="When you reveal a command other than a Squadron command, you may discard this card to resolve a Squadron. Treat this command as if you spent a Squadron dial."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a63-6c08-fa6a-af79" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c3d-93de-79a3-cc53" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0d31-3fc4-9e39-2bcd" name="•Squall" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1ac0-eb32-e65e-90d4" name="Squall" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="When you activate, you may choose up to 3 unengaged friendly squadrons at close-medium range. Those squadrons may move up to distance 2. If they do, they cannot end their movement engaged."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3089-c018-997e-133c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6adf-f0b1-8ca4-287a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9f77-ef37-7f05-0122" name="•Stronghold" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6db6-ddeb-53f1-d450" name="Stronghold" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="While a friendly squadron with Swarm at distance 1-2 is defending, the attack is treated as obstructed."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="553b-012d-ec02-0cb0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="22df-ea3a-18c4-36ae" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

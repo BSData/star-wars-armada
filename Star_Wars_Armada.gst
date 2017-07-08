@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="21" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="22" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -142,6 +142,11 @@
         <characteristicType id="4f61-ae6b-86d9-6e58" name="Station Ability"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="68e2-2506-5078-dca9" name="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
+      <characteristicTypes>
+        <characteristicType id="1e09-635d-6def-1999" name="Dual Type Upgrade Ability"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-class Cruiser" hidden="false">
@@ -186,6 +191,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="a934-33f8-cb37-c53d" name="Hammerhead Corvette" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
     <categoryEntry id="6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false">
       <profiles/>
       <rules/>
@@ -214,7 +226,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty Type)" hidden="false">
+    <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -229,6 +241,13 @@
       <constraints/>
     </categoryEntry>
     <categoryEntry id="9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="0fba-00f3-05fd-d2b7" name="Quasar Fire Cruiser-Carrier" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -315,6 +334,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3eb1-6fa9-a58d-87e0" name="Hammerhead Corvette" hidden="false" targetId="a934-33f8-cb37-c53d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
         <categoryLink id="1b44-1532-e7c9-9663-6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="false">
           <profiles/>
           <rules/>
@@ -343,7 +369,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1b44-1532-e7c9-9663-ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty Type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false">
+        <categoryLink id="1b44-1532-e7c9-9663-ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -364,7 +390,14 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false">
+        <categoryLink id="da8e-611e-fed3-1860" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -402,7 +435,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
+        </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
@@ -1296,6 +1329,23 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c397-e6bb-6d07-d6a9" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="caa0-8210-9b09-7950" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93ae-e0a4-adcf-2297" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1cd-0882-fb3f-8900" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c98e-1805-57f2-0eb5" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
