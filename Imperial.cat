@@ -4191,6 +4191,40 @@
             <cost name="pts" costTypeId="points" value="23.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="589e-874d-5873-99a3" name="•Admiral Sloane" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="677e-18b9-281f-0d06" name="Admiral Sloane" hidden="false" profileTypeId="ed38-5cd8-e875-d3e7" profileTypeName="2.0 Commander">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Commander Ability" characteristicTypeId="1ebb-c216-cd61-f014" value="While a friendly squadron without Rogue is attacking, it may spend 1 die with an Accuracy icon to choose and spend 1 of the defender&apos;s defense tokens. While attacking a ship, it may also reroll 1 die with a Critical icon."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="99ab-f370-fc42-a255" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1657-2e18-1e74-d5ad" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1604-6ddc-1a64-57f6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="24.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5033,6 +5067,45 @@
             <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="eff5-d966-d9b9-9ded" name="Disposable Capacitors" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b698-0b04-accc-d215" name="Disposable Capacitors" hidden="false" profileTypeId="ebbe-2c25-a937-60f3" profileTypeName="5.1 Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" characteristicTypeId="cfe9-897e-edba-6c69" value="When you activate, you may discard this card. If you do, the blue dice in your battery armament can be used while attacking ships at close-long range until the end of the round."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6da8-bdc7-4ba6-e86f" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b5c9-cbbb-d166-f8ef" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5641,6 +5714,60 @@
             <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0832-5ed8-369a-33c3" name="•The Grand Inquisitor" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5cae-fcd7-9a1e-6765" name="The Grand Inquisitor" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="When an enemy ship at distance 1-5 changes its speed, you may exhaust this card to increase or decrease your speed by 1."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fbe-11e2-05d2-ebcf" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3cd4-a443-537d-4aad" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f9ab-847f-4139-d30a" name="•Hondo Ohnaka" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="df05-4376-0d65-2bfe" name="Hondo Ohnaka" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="At the start of the ship phase, you may discard this card to choose 2 different command tokens and place them on 2 different ships. Then your opponent chooses 2 different command tokens you did not choose and places them on 2 different ships."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4c8-ccf6-4efd-6001" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0703-d499-68cc-4357" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5829,6 +5956,32 @@
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dcfd-9c91-1189-9ff6" name="External Racks" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ad79-6f7c-985e-18ca" name="External Racks" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="While attacking at close range, you may discard this card to add 2 black dice to your attack pool."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="16d5-ff08-2c5f-521c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6790,6 +6943,55 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="b014-0853-9978-d678" name="" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f507-b077-da66-d1cf" name="Quad Battery Turrets" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="18ad-bbbc-7cfc-fffc" name="Quad Battery Turrets" hidden="false" profileTypeId="f6bb-908e-778e-3884" profileTypeName="6.3 Turbolasers">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Turbolasers Ability" characteristicTypeId="43e5-b6c8-39de-139b" value="While attacking a ship with a higher speed than yours, you may add 1 blue die to your attack pool."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f507-b077-da66-d1cf" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67c5-b7f3-670a-eaa1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="74a3-6a22-8298-c255" name="Modification" hidden="false" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
