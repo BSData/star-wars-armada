@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="37" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="38" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -248,6 +248,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="27a3-9082-2add-e1b4" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -345,6 +352,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="fd9c-4f9e-48c4-40c7-62d1-ec41-79d6-0a08" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="62e0-5579-4a80-7d88" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -656,6 +670,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="fe6a-9398-47b0-0ce1" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -745,6 +766,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="9638-6bed-5646-56f4-319a-5aa9-59e5-30fa" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="08ae-95dc-44e2-7a9c" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -853,6 +881,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="01b9-e337-6bc4-68a8" name="New CategoryLink" hidden="false" targetId="85e7-c532-9071-4160" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c161-8c59-b2dd-e5b2" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -933,6 +975,20 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="7928-9325-451b-6e2a-8180-3b0c-4e1a-d22a" hidden="false" targetId="8180-3b0c-4e1a-d22a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9b7c-af44-c34e-f7e4" name="New CategoryLink" hidden="false" targetId="85e7-c532-9071-4160" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8d6b-d941-c1f0-5a3c" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1146,6 +1202,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f5d5-ece2-50ff-5e4d" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1249,6 +1312,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="efb8-7ddd-2857-62cd" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1346,6 +1416,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="5c0f-310c-1677-05a2-7be3-1906-a3ff-00ca" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3397-6b70-26c5-cab8" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1461,6 +1538,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="21a8-49dc-dc04-b2e4" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1564,6 +1648,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="85a3-f5e9-7349-d420-7be3-1906-a3ff-00ca" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c647-05c9-1949-88bc" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1681,6 +1772,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c409-19d5-ebd0-2086" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1790,6 +1888,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5a78-fcb4-542c-37b4" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1871,6 +1976,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="666c-5bdb-92b3-13bf-e589-c88e-f2d0-7413" hidden="false" targetId="e589-c88e-f2d0-7413" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3537-429e-5087-bfed" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2817,6 +2929,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a460-d971-bf12-f98f" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2922,6 +3041,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="dbb1-f7bc-b05c-fad6-9810-b289-b172-52b4" hidden="false" targetId="9810-b289-b172-52b4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9378-011a-8dcf-6e4e" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3555,6 +3681,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="68a6-8a33-707a-fc63" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3643,7 +3776,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="9c52-43f9-0884-84a4" name="New CategoryLink" hidden="false" targetId="a934-33f8-cb37-c53d" primary="true">
+        <categoryLink id="3696-3994-16d5-17ae" name="New CategoryLink" hidden="false" targetId="a934-33f8-cb37-c53d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2574-2cfe-8b8f-6384" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4049,6 +4189,40 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="38.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c8aa-725d-8c28-bf35" name="•Admiral Raddus†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6c5e-1bf5-93c7-b3a0" name="Admiral Raddus" hidden="false" profileTypeId="ed38-5cd8-e875-d3e7" profileTypeName="2.0 Commander">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Commander Ability" characteristicTypeId="1ebb-c216-cd61-f014" value="Before deploying fleets, you may set aside 1 other friendly ship. At the start of any round, you may deploy that ship at distance 1 of a friendly ship. That ship cannot be deployed overlapping squadrons and cannot be the first ship to activate that round."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1641-db43-e4b2-6842" name="Flotillas" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="958a-bd08-ad86-f6e8" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="515b-f480-9f4f-0ee1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="26.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4799,16 +4973,10 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca88-dc53-e3b3-73f3" type="atLeast"/>
-                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7be3-1906-a3ff-00ca" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28b9-dee2-dcc6-c2a7" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
@@ -7167,7 +7335,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a [Squadron] token.  If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron&apos;s activation."/>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a Squadron token.  If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron&apos;s activation."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7194,7 +7362,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a [Navigation] token.  If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step."/>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a Navigation token.  If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7221,7 +7389,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend an [Engineering] token.  If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield."/>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend an Engineering token.  If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7372,6 +7540,47 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e4c7-eb6e-3dc8-b9ea" name="Title - MC75 Cruiser" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d235-24f7-9595-0c40" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="dbdb-fa3a-2ceb-97cd" name="•Profundity†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d5f4-68f7-5d43-b70e" name="Profundity" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="Before deploying fleets, you may set aside 1 small ship with a command value of 1. At the start of any round, you may deploy the set-aside ship at distance 1. You may un-equip up to 1 Commander and 1 Officer upgrade cards and equip them to it (if able)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5ecc-02a3-8ec2-c120" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8475-204a-5833-ef38" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

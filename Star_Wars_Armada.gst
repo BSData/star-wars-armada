@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="22" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="23" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -282,6 +282,41 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="7124-ce4d-f2f7-b1fc" name="MC75 Cruiser" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="fe1d-3608-d9e7-491e" name="Small Ship" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="034d-5d10-2acd-a23f" name="Medium Ship" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="28b9-dee2-dcc6-c2a7" name="Large Ship" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="85e7-c532-9071-4160" name="Flotilla" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
@@ -362,7 +397,14 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false">
+        <categoryLink id="653f-fec5-1be3-4c1c" name="MC75 Cruiser" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -397,7 +439,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false">
+        <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>

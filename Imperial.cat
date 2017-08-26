@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="37" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="38" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -297,6 +297,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8421-c659-6692-fcdb" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -410,6 +417,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="1db3-a85b-33fb-5273-469b-896c-3ab9-d1b6" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fecf-13b7-0978-69d3" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -542,6 +556,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7b15-1288-48e4-efe5" name="New CategoryLink" hidden="false" targetId="85e7-c532-9071-4160" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2061-efac-179e-f7b2" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -652,6 +680,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="afe6-a29d-5a65-7247" name="New CategoryLink" hidden="false" targetId="85e7-c532-9071-4160" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="be00-14c0-a54d-5e51" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -755,6 +797,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8a76-9f00-ac75-5540" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -767,7 +816,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ddc2-36b2-8af7-317b" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+        <entryLink id="ddc2-36b2-8af7-317b" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -828,7 +877,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1d7b-fad1-9d7e-6613" name="" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+        <entryLink id="1d7b-fad1-9d7e-6613" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -887,11 +936,18 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="43c8-5e74-2e17-88d4" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="be5d-a3d1-229f-34fd" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+        <entryLink id="be5d-a3d1-229f-34fd" name="Commander" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -899,7 +955,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8845-0d71-46fd-4ac7" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+        <entryLink id="8845-0d71-46fd-4ac7" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -907,7 +963,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5531-a6f3-229a-601f" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+        <entryLink id="5531-a6f3-229a-601f" name="Weapons Team" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -931,7 +987,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3e5a-cb09-356e-b6de" hidden="false" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup">
+        <entryLink id="3e5a-cb09-356e-b6de" name="Ion Cannons" hidden="false" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -939,7 +995,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c8e5-3ee3-69c2-62c2" hidden="false" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
+        <entryLink id="c8e5-3ee3-69c2-62c2" name="Turbolasers" hidden="false" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -947,7 +1003,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f286-b2ff-e19d-e9b0" hidden="false" targetId="daad-14c6-116b-d6ba" type="selectionEntryGroup">
+        <entryLink id="f286-b2ff-e19d-e9b0" name="Title - Imperial Star Destroyer" hidden="false" targetId="daad-14c6-116b-d6ba" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -955,7 +1011,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1b0a-088a-5fd9-3244" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+        <entryLink id="1b0a-088a-5fd9-3244" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1008,6 +1064,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="d68c-9a24-9073-a3fd-d71c-f6f0-4044-3252" hidden="false" targetId="d71c-f6f0-4044-3252" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1231-d45e-1e91-49e8" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1135,6 +1198,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="a35b-b5da-f71e-cf8a-d71c-f6f0-4044-3252" hidden="false" targetId="d71c-f6f0-4044-3252" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="26a4-a8bb-24e5-38d5" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1402,6 +1472,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="62fc-ad65-80b5-2b22" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1523,6 +1600,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="7af3-f48f-d830-fa46-9ef5-a2c4-bc40-18b7" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fec9-9742-03c3-3079" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1752,10 +1836,16 @@
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98a2-742a-a35c-61f0" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98a2-742a-a35c-61f0" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6c8-1803-8ce4-574f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -2554,6 +2644,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d9bf-b1ce-f481-c6fa" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2683,6 +2780,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="a976-92f2-81c1-0082-7fb1-7ee5-3690-d880" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="794d-7311-4758-0c0b" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2958,6 +3062,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="eea8-f76a-03fe-f578" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3063,6 +3174,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="2abf-4046-f18b-8acb-8988-a3d2-ecc4-c0e4" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bea3-0494-be82-87a9" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3678,6 +3796,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c27c-95e5-3409-5dfa" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3802,6 +3927,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="acb2-7058-7b20-109c" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3872,6 +4004,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="maxSelections" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="002f-dd84-9b02-d929" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints/>
           <categoryLinks/>
@@ -3879,6 +4018,280 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="61.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b06a-013c-e02e-0047" name="Imperial Star Destroyer Kuat Refit†" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d0d4-2af2-47a5-c9ea" name="Imperial Star Destroyer Kuat Refit" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="11"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Black, 1 Blue"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="3"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="2"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="4"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Brace, Redirect, Redirect, Contain"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="3 Red, 2 Blue, 3 Black"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="1 Red, 1 Blue, 2 Black"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="1 Red, 1 Blue, 2 Black"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="1 Red, 1 Blue, 1 Black"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="4"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="3"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="3"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="2"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ion Cannons, Ordnance"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="27d5-f2b5-10ad-d2df" name="New CategoryLink" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="33a7-87d1-514e-aabb" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fc57-eda3-6942-b615" name="Commander" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1036-8e89-bc7e-86bc" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6958-08e4-0ce0-ce09" name="Ion Cannons" hidden="false" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bcb4-ec47-ee55-d792" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0022-f4cc-12eb-c37c" name="Title - Imperial Star Destroyer" hidden="false" targetId="daad-14c6-116b-d6ba" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ff05-5822-f87d-538d" name="Weapons Team" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2dcd-6c64-153d-8d0d" name="Ordnance" hidden="false" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b58a-f2ee-cf82-1473" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b06a-013c-e02e-0047" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="112.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f7b-d87c-c2c9-7f8c" name="Imperial Star Destroyer Cymoon 1 Refit†" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9932-4d3f-c27f-6792" name="Imperial Star Destroyer Cymoon 1 Refit" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Defensive Retrofit, Turbolasers, Turbolasers">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3f7b-d87c-c2c9-7f8c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27f5-aa0d-1fc0-4d4b" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="11"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="2 Black"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="3"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="3"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="4"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Brace, Redirect, Redirect, Contain"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="5 Red, 2 Blue"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="1 Red, 3 Blue"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="1 Red, 3 Blue"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="1 Red, 2 Blue"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="4"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="3"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="3"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="2"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Turbolasers, Turbolasers"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3cd0-de35-08c3-9d1f" name="New CategoryLink" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9c16-9dd0-6416-7f3f" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1865-f96d-e40b-3016" name="Commander" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="70df-2309-3583-1362" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3f7b-d87c-c2c9-7f8c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27f5-aa0d-1fc0-4d4b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8486-4b05-f970-0531" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a237-ffe8-b36a-b890" name="Title - Imperial Star Destroyer" hidden="false" targetId="daad-14c6-116b-d6ba" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6bc7-7672-9e36-c54c" name="Weapons Team" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="758b-60f5-1c62-8a0d" name="Fleet Command" hidden="false" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1f64-f0fd-20c0-9c8d" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3f7b-d87c-c2c9-7f8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3d04-932f-5eb3-1b08" name="Turbolasers" hidden="false" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="112.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -4037,10 +4450,16 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fce5-2b0e-2fa4-461f" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6c8-1803-8ce4-574f" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fce5-2b0e-2fa4-461f" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -4223,6 +4642,40 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="24.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cfc6-f1ca-9a11-78ee" name="•Grand Admiral Thrawn†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4ee2-7f43-e7f1-4e30" name="Grand Admiral Thrawn" hidden="false" profileTypeId="ed38-5cd8-e875-d3e7" profileTypeName="2.0 Commander">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Commander Ability" characteristicTypeId="1ebb-c216-cd61-f014" value="After deploying fleets, place 3 facedown command dials on this card. At the start of each Ship Phase, you may reveal and discard 1 of those dials. If you do, until the end of the round, before each friendly ship activates, it gains 1 additional dial matching that discarded dial."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2dd0-8b46-7ebf-be63" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f8e6-34e3-2e3d-4744" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea76-5d71-f0f1-da90" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="32.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5084,15 +5537,10 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6da8-bdc7-4ba6-e86f" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28b9-dee2-dcc6-c2a7" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
@@ -5695,6 +6143,7 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b06a-013c-e02e-0047" type="instanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8fed-85c8-d87d-e4da" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
@@ -7227,13 +7676,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="734f-c6da-1cec-9c4a" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c65c-bd79-1b79-b9e5" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="734f-c6da-1cec-9c4a" type="max"/>
@@ -7282,13 +7724,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="3c37-4e35-d277-a07d" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37ed-91f9-133c-68ff" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c37-4e35-d277-a07d" type="max"/>
@@ -7298,6 +7733,57 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="1970-b967-7504-ad4a" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" targetId="93ae-e0a4-adcf-2297" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d6c8-1803-8ce4-574f" name="•Darth Vader†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9ba0-b58e-9197-733c" name="Darth Vader" hidden="false" profileTypeId="68e2-2506-5078-dca9" profileTypeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Dual Type Upgrade Ability" characteristicTypeId="1e09-635d-6def-1999" value="When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. Choose and discard 1 non-Commander upgrade card equipped to that ship."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="469b-896c-3ab9-d1b6" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98a2-742a-a35c-61f0" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fce5-2b0e-2fa4-461f" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e13-a1eb-a0b3-a6c0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="22dc-f4f2-a1e5-ddeb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5fa0-0c14-91c2-f865" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" targetId="93ae-e0a4-adcf-2297" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7471,6 +7957,101 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="69c5-17fb-4def-4b65" name="Fleet Command" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="883a-7ded-f9fc-accc" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="57b3-e7b1-cb9a-4494" name="•All Fighters, Follow Me!" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="344c-d9a7-67f0-a0ec" name="All Fighters, Follow Me!" hidden="false" profileTypeId="1310-5c89-5c82-8e3b" profileTypeName="4.2 Fleet Command">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a Squadron token.  If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron&apos;s activation."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9ca-eaa3-3480-5935" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f517-4267-b097-9355" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b84-f32b-424b-a683" name="•Entrapment Formation!" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0353-f750-36dc-e80c" name="Entrapment Formation!" hidden="false" profileTypeId="1310-5c89-5c82-8e3b" profileTypeName="4.2 Fleet Command">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a Navigation token.  If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="455e-626e-caec-b97e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2656-3c87-f0e2-02a5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1d4d-7cfb-2376-076e" name="•Shields to Maximum!" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="339d-2ecf-1fe2-03ae" name="Shields to Maximum!" hidden="false" profileTypeId="1310-5c89-5c82-8e3b" profileTypeName="4.2 Fleet Command">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend an Engineering token.  If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5050-a326-4aad-eb3d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1eaf-ef8c-fbc1-37e9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
