@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="38" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="39" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -227,7 +227,20 @@
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="46b7-d82a-f2f7-1054" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="58d2-f560-16cf-1c09" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="596b-2aba-5e35-e372" type="max"/>
@@ -765,6 +778,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="append" field="5ba4-e836-287d-1b42" value=", Fleet Command">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b635-0210-c1a9-608a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4d5-c816-9b9f-ba85" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="11"/>
@@ -893,6 +913,22 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="56a9-d40e-2702-af04" name="Fleet Command" hidden="false" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b635-0210-c1a9-608a" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4d5-c816-9b9f-ba85" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="110.0"/>
@@ -904,7 +940,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="append" field="5ba4-e836-287d-1b42" value=", Fleet Command">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8fed-85c8-d87d-e4da" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4d5-c816-9b9f-ba85" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="11"/>
             <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="2 Blue"/>
@@ -1016,6 +1060,22 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d54b-9243-49db-43ce" name="Fleet Command" hidden="false" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8fed-85c8-d87d-e4da" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4d5-c816-9b9f-ba85" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -4026,7 +4086,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="append" field="5ba4-e836-287d-1b42" value=", Fleet Command">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b06a-013c-e02e-0047" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4d5-c816-9b9f-ba85" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="11"/>
             <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Black, 1 Blue"/>
@@ -4134,6 +4202,22 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="b06a-013c-e02e-0047" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93ae-e0a4-adcf-2297" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="839e-d5ab-1956-7d86" name="Fleet Command" hidden="false" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b06a-013c-e02e-0047" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4d5-c816-9b9f-ba85" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4294,9 +4378,162 @@
         <cost name="pts" costTypeId="points" value="112.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9c1f-18bf-a44d-4e65" name="Mandalorian Gauntlet Fighter" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22c-ad1b-3b99-5f12" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e878-da98-9103-47c1" name="New CategoryLink" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fe2d-0b51-f6ab-7016" name="Mandalorian Gauntlet Fighter Irregular Squadrons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b3f-d51e-97e9-09c9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f1e2-a62f-7243-60cb" name="Mandalorian Gauntlet Fighter†" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="ba1a-e04d-ac29-52a2" name="Mandalorian Gauntlet Fighter" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="7"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 1 Red"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="2 Blue"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Assault, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1840-65b0-45f6-54b1" name="Assault" hidden="false" targetId="0e25-812e-a5fd-7f07" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="da1b-bb09-fa53-78da" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5ec8-e48a-a9d4-4bd3" name="•Gar Saxon†" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="e3eb-0327-f71c-1478" name="•Gar Saxon" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Speed" characteristicTypeId="dc1b-7d57-479f-eea2" value="4"/>
+                    <characteristic name="Hull Value" characteristicTypeId="7270-7235-8dde-f1a5" value="7"/>
+                    <characteristic name="Anti-Squadron" characteristicTypeId="5ab5-88d4-1761-39fd" value="2 Blue, 1 Red"/>
+                    <characteristic name="Battery" characteristicTypeId="0c90-10a7-96aa-17ec" value="1 Blue, 1 Black"/>
+                    <characteristic name="Keywords" characteristicTypeId="0bb7-9857-bada-1cf5" value="Assault, Rogue"/>
+                    <characteristic name="Defense Tokens" characteristicTypeId="72b0-d5ab-aaed-96b4" value="Brace"/>
+                    <characteristic name="Squadron Ability" characteristicTypeId="f700-e5ab-06cc-1b31" value="When an enemy squadron with Intel or Relay at distance 1 activates, it suffers 1 damage."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7268-1bb4-7ff4-6bba" name="Assault" hidden="false" targetId="0e25-812e-a5fd-7f07" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="04f8-bcf9-9a27-9c59" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c539-9434-3b10-3ff8" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7822-421a-b239-c80e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="23.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="34be-6e4f-a75f-cd95" name="Seventh Fleet Star Destroyer†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b7c2-f172-34a6-78cc" name="Seventh Fleet Star Destroyer" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="While defending against an attack that targets your front hull zone, before you suffer damage, you may choose and exhaust a copy of this card on another friendly ship at distance 1-4 to reduce the total damage by 1."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c43-da48-2ce0-3221" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d77d-f98a-9b86-934a" name="Commander" hidden="false" collective="false">
       <profiles/>
@@ -4843,6 +5080,32 @@
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6193-e9e4-d691-4718" name="Early Warning System†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="fcc7-ecf7-79c3-46a3" name="Early Warning System" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e" profileTypeName="5.2 Defensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="At the start of each Ship Phase, you may choose 1 of your hull zones and mark it with a chaff token. Until the end of the round, while a ship or squadron is attacking that hull zone, the attack is obstructed. After the Status Phase, remove that chaff token."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e7c-e1d5-0411-2b11" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5554,6 +5817,40 @@
             <cost name="pts" costTypeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0f3a-4a19-7b72-d4a1" name="Hardened Bulkheads†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8128-40dc-525e-0ecf" name="Hardened Bulkheads" hidden="false" profileTypeId="ebbe-2c25-a937-60f3" profileTypeName="5.1 Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" characteristicTypeId="cfe9-897e-edba-6c69" value="When you overlap a ship of a smaller size class (or are overlapped by a ship of a smaller size class), deal 1 fewer facedown damage card to your ship."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28b9-dee2-dcc6-c2a7" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7756-56d0-602c-3dd7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -6217,6 +6514,157 @@
             <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="dc5f-276b-640c-3cdb" name="•Captain Brunson†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ec2f-cd4f-2472-782c" name="Captain Brunson" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="While defending at distance 1-2 of an obstacle, during the Spend Defense Tokens step, you may exhaust this card to choose and cancel 1 attack die."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d5a-a33e-5f1b-5cda" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f28-9c69-cbc5-c626" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0886-f28b-4113-3218" name="•Governor Pryce†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d338-7a32-f932-59f1" name="Governor Pryce" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="After deploying fleets, you may place 1 round token on this card. If you do, during the round matching that round token, you must activate at the end of the Ship Phase (after all other ships have activated)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1d-3608-d9e7-491e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47c7-5807-6a4d-4e7b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82d1-c199-42a7-5464" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7a63-833f-0b90-ae12" name="•Instructor Goran†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7933-c61b-69f0-06a9" name="Instructor Goran" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="While a friendly non-Heavy squadron is at distance 1-2, it has Counter 1 or increases its Counter value by 1."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c741-dcdb-dd85-9423" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee84-9561-2397-1cad" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bc42-4933-51ea-cd1b" name="•Taskmaster Grint†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3f5e-92c5-a55b-61a9" name="Taskmaster Grint" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="After deploying fleets, choose and place 1 command token on this card. When you reveal a command matching that token, you may gain 1 matching command token without spending the command dial."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="abcb-dd49-bcdc-914a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3607-8af6-5ad3-f2f3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e9e2-6cbc-72ae-4d6f" name="•Strategic Advisor†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4b9c-3c1a-2bf1-0df0" name="Strategic Advisor" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="When it is your turn to activate, you may exhaust this card to pass your turn (your opponent activates a ship instead)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28b9-dee2-dcc6-c2a7" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a01-97a9-1957-64a9" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3fe9-249d-b96f-d33b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -6673,7 +7121,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c2ab-01d0-9c61-ce71" name="Seventh Fleet Star Destroyer†" hidden="false" targetId="34be-6e4f-a75f-cd95" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b600-7501-5bed-c42a" name="Title - Gozanti-class Flotilla" hidden="false" collective="false">
       <profiles/>
@@ -6834,9 +7291,80 @@
             <cost name="pts" costTypeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="63cc-a1a2-1393-ae19" name="•Sovereign†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7dd8-eadd-97fc-8e45" name="Sovereign" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="At the start of the ship phase, you may exhaust this card to discard 1 command token from up to 3 friendly ships at distance 1-5. If you do, each of those ships may gain 1 command token of any type."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0fa0-e1b7-ab9d-66a8" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20c8-9a26-a4ba-c165" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a4d5-c816-9b9f-ba85" name="•Chimaera†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="767a-18ff-9da2-ba73" name="Chimaera" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="You gain 1 Fleet Command icon in your upgrade bar. You cannot equip this card if you have a Fleet Command icon in your upgrade bar. At the start of the Command Phase, you may discard 1 Fleet Command upgrade card you have equipped and replace it with another Fleet Command upgrade card."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f7b-d87c-c2c9-7f8c" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5eae-5ce8-fc03-1e80" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe10-3625-f257-98a0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="ed96-9132-5286-539c" name="Seventh Fleet Star Destroyer†" hidden="false" targetId="34be-6e4f-a75f-cd95" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="ae52-b958-191b-7ef9" name="Title - Interdictor" hidden="false" collective="false">
       <profiles/>
@@ -7040,7 +7568,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="0977-352a-59fc-b773" name="Seventh Fleet Star Destroyer†" hidden="false" targetId="34be-6e4f-a75f-cd95" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="919f-0faf-d84f-79ff" name="Turbolasers" hidden="false" collective="false">
       <profiles/>
@@ -8045,6 +8582,33 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5050-a326-4aad-eb3d" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1eaf-ef8c-fbc1-37e9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b928-dd30-6349-f6c2" name="•Intensify Firepower!†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="74be-046b-825e-35d1" name="Intensify Firepower!" hidden="false" profileTypeId="1310-5c89-5c82-8e3b" profileTypeName="4.2 Fleet Command">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a Concentrate Fire token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 Hit icon and no other icons."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="050b-fd01-9851-2e4a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ef1-0d39-6c5f-d4bb" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>

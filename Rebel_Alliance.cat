@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="38" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="39" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4392,6 +4392,32 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ac04-3474-22cd-5478" name="Early Warning System†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8fbe-2878-b86e-2319" name="Early Warning System" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e" profileTypeName="5.2 Defensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Defensive Retrofit Ability" characteristicTypeId="8539-a418-bf73-51cd" value="At the start of each Ship Phase, you may choose 1 of your hull zones and mark it with a chaff token. Until the end of the round, while a ship or squadron is attacking that hull zone, the attack is obstructed. After the Status Phase, remove that chaff token."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="369d-c464-7926-0642" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="7.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4988,6 +5014,40 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b143-e083-43df-e2d6" name="Hardened Bulkheads†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f074-790c-3935-98d5" name="Hardened Bulkheads" hidden="false" profileTypeId="ebbe-2c25-a937-60f3" profileTypeName="5.1 Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" characteristicTypeId="cfe9-897e-edba-6c69" value="When you overlap a ship of a smaller size class (or are overlapped by a ship of a smaller size class), deal 1 fewer facedown damage card to your ship."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28b9-dee2-dcc6-c2a7" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ecdd-96e4-8960-bdc8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5591,6 +5651,41 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9fa5-a2fb-0ef9-2ba2" name="•Strategic Advisor†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d8e7-7938-6394-65ce" name="Strategic Advisor" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="When it is your turn to activate, you may exhaust this card to pass your turn (your opponent activates a ship instead)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28b9-dee2-dcc6-c2a7" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da42-f63d-efe8-731a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b460-cb58-bef4-b37c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7399,6 +7494,33 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5fa7-86c7-89c3-a8ee" name="•Intensify Firepower!†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="90ec-bd89-7872-cd70" name="Intensify Firepower!" hidden="false" profileTypeId="1310-5c89-5c82-8e3b" profileTypeName="4.2 Fleet Command">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Fleet Command Ability" characteristicTypeId="67d1-23ac-2af6-6b5a" value="At the start of the Ship Phase, you may discard this card or spend a Concentrate Fire token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 Hit icon and no other icons."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac35-e796-6030-24cc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="27d5-e554-8719-a339" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>

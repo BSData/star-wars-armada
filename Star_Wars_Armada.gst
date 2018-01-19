@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="23" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="25" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -404,7 +404,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false">
+        <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -477,7 +477,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        </categoryLinks>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
@@ -1497,6 +1497,13 @@
       <infoLinks/>
       <modifiers/>
       <description>A flagship is a ship equipped with a Commander card. A fleet must have one flagship and cannot have more than one.</description>
+    </rule>
+    <rule id="0e25-812e-a5fd-7f07" name="Assault" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While attacking a ship, you may spend 1 die with a Hit icon. If you do, the defender gains 1 raid token of your choice.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
