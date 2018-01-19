@@ -5590,6 +5590,32 @@
             <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7acc-0a26-819b-efc6" name="Heavy Ion Emplacements†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0f32-1dd4-71bd-5e2a" name="Heavy Ion Emplacements" hidden="false" profileTypeId="82fe-f045-0a3b-a5da" profileTypeName="6.2 Ion Cannons">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue critical: You may exhaust this card. If you do, the defending hull zone and each adjacent hull zone loses 1 shield."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9f60-a794-26a6-0b6d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="9.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -6872,6 +6898,66 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="16d5-ff08-2c5f-521c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="abec-d097-ce36-45d6" name="Wide-Area Barrage†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b5f9-5ec7-b03b-49b1" name="Wide-Area Barrage" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="Black critical: If the defender is a ship, choose 1 other ship or squadron at close range of the defender. That ship or squadron suffers damage equal to half of the total number of black Hit icons in your attack pool, rounded up."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e2c-072d-3ec1-a9eb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bff8-4da0-4ef6-419f" name="Ordnance Pods†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1c1c-4ea8-853e-d1f9" name="Ordnance Pods" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="At the end of your Attack Step, you may exhaust this card and choose 1 of your hull zones. Then, perform an attack from that hull zone with an anti-squadron armament of 1 black die, even if you have already attacked from that zone this round."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1d-3608-d9e7-491e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="216f-6cc9-5192-0715" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>

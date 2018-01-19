@@ -3847,9 +3847,278 @@
         <cost name="pts" costTypeId="points" value="41.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3641-3e06-896e-17d4" name="MC75 Armored Cruiser†" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2b35-36c1-6df2-7ff8" name="MC75 Armored Cruiser" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="9"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Blue, 1 Black"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="3"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="3"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="4"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Brace, Redirect, Contain, Contain"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="3 Blue, 2 Black"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="3 Red, 2 Blue"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="3 Red, 2 Blue"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="1 Blue, 1 Black"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="4"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="3"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="3"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="3"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ordnance, Ion Cannons, Turbolasers"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c0ce-8e4f-dad0-87ec" name="New CategoryLink" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d95c-f372-140b-86f1" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="af61-db64-511f-8928" name="Commander" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="455e-02b5-b8f5-2766" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="de2f-c951-517b-0213" name="Weapons Team" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ca43-e93b-0b68-eff3" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="002c-f016-144a-cea4" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3c6c-8ac0-3ddb-dc48" name="Ordnance" hidden="false" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="49ac-96a0-b81f-6719" name="Ion Cannons" hidden="false" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e745-c853-3b81-7518" name="Turbolasers" hidden="false" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cfd1-e8b2-f533-b0c0" name="Title - MC75 Cruiser" hidden="false" targetId="e4c7-eb6e-3dc8-b9ea" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="104.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12b1-340f-d1aa-3abf" name="MC75 Ordnance Cruiser†" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e6f0-cd51-d2bd-8b07" name="MC75 Ordnance Cruiser" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Hull" characteristicTypeId="dce4-e1e2-4600-db77" value="9"/>
+            <characteristic name="Anti-Squadron Value" characteristicTypeId="4691-4ce0-0e70-7711" value="1 Black"/>
+            <characteristic name="Command" characteristicTypeId="1d2d-071c-feaa-7f6e" value="3"/>
+            <characteristic name="Squadron" characteristicTypeId="b7a0-8944-9c2a-ca69" value="2"/>
+            <characteristic name="Engineering" characteristicTypeId="6069-def8-10bd-ab4b" value="4"/>
+            <characteristic name="Defense Tokens" characteristicTypeId="f211-7be9-035b-a0cf" value="Brace, Redirect, Contain, Contain"/>
+            <characteristic name="Front Firing Arc" characteristicTypeId="8d51-161b-6a35-8c8c" value="2 Blue, 3 Black"/>
+            <characteristic name="Left Firing Arc" characteristicTypeId="b4b4-b590-eb56-726f" value="3 Red, 2 Black"/>
+            <characteristic name="Right Firing Arc" characteristicTypeId="748c-7972-54e2-1bd1" value="3 Red, 2 Black"/>
+            <characteristic name="Rear Firing Arc" characteristicTypeId="2949-52b4-c630-9e14" value="2 Black"/>
+            <characteristic name="Front Shield Value" characteristicTypeId="b626-c94b-bb41-4893" value="4"/>
+            <characteristic name="Left Shield Value" characteristicTypeId="634e-fa2b-63b6-bef2" value="3"/>
+            <characteristic name="Right Shield Value" characteristicTypeId="590e-4eb6-d942-884d" value="3"/>
+            <characteristic name="Rear Shield Value" characteristicTypeId="5753-1a48-06df-40af" value="3"/>
+            <characteristic name="Upgrade Bar" characteristicTypeId="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ordnance, Ordnance"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="887c-c682-527d-3c86" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f0d0-6ca3-fb16-64be" name="New CategoryLink" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4f31-b835-7f5e-bfd8" name="Commander" hidden="false" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ce05-dd44-1585-4765" name="Officer" hidden="false" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d90e-f2e5-f354-eac4" name="Weapons Team" hidden="false" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9958-879b-6ebd-5143" name="Offensive Retrofit" hidden="false" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="af7a-1388-3438-8bdd" name="Defensive Retrofit" hidden="false" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3b11-785f-0045-31af" name="Ordnance" hidden="false" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8586-017a-0bd0-6f19" name="Title - MC75 Cruiser" hidden="false" targetId="e4c7-eb6e-3dc8-b9ea" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="171b-f108-2764-5ff2" name="Mon Calamari Exodus Fleet†" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ccbd-62ee-12c3-f22d" name="Mon Calamari Exodus Fleet" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="Engineering: You may choose and exhaust another copy of this card on a friendly ship at distance 1-4. If you do, you gain 2 additional engineering points."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e414-a225-286b-513e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d77d-f98a-9b86-934a" name="Commander" hidden="false" collective="false">
       <profiles/>
@@ -4205,7 +4474,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="1641-db43-e4b2-6842" name="Flotillas" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule">
+            <infoLink id="1641-db43-e4b2-6842" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4779,6 +5048,32 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5dfb-070c-8337-8fea" name="Heavy Ion Emplacements†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a23a-9f57-5011-6ddf" name="Heavy Ion Emplacements" hidden="false" profileTypeId="82fe-f045-0a3b-a5da" profileTypeName="6.2 Ion Cannons">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ion Cannons Ability" characteristicTypeId="2ce0-48c0-d090-1720" value="Blue critical: You may exhaust this card. If you do, the defending hull zone and each adjacent hull zone loses 1 shield."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="008b-123a-e873-a743" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5688,6 +5983,68 @@
             <cost name="pts" costTypeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="c7d7-4be5-9005-0d71" name="•Bail Organa†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="76e7-25c9-c0fb-bf9f" name="Bail Organa" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="After deploying fleets, you may place 1 round token on this card. At the start of the Ship Phase of the round matching the round token, if you are the second player, you must activate; if you are the first player, you may gain up to 2 command tokens of your choice."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1d-3608-d9e7-491e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="932d-d5f1-41e3-97be" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0015-810c-76ab-7578" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="60fe-b34f-9097-1a4c" name="•General Draven†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5a49-2bdf-97a7-0019" name="General Draven" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Officer Ability" characteristicTypeId="b9fd-ed9d-6333-0e67" value="While attacking a squadron with Counter or Intel, add 1 die of any color to your attack pool."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ce9-cf12-9585-65f3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6aed-ca0b-0fa8-53bd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5895,6 +6252,66 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac60-db22-2931-ad15" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b292-d3c5-d94b-180a" name="Wide-Area Barrage†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="24a4-7d49-375f-4941" name="Wide-Area Barrage" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="Black critical: If the defender is a ship, choose 1 other ship or squadron at close range of the defender. That ship or squadron suffers damage equal to half of the total number of black Hit icons in your attack pool, rounded up."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eb27-caf4-11e5-efff" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5baf-cbf1-96c7-dec3" name="Ordnance Pods†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="79ec-c506-57be-1dea" name="Ordnance Pods" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ordnance Ability" characteristicTypeId="f587-f8ce-7d4d-e620" value="At the end of your Attack Step, you may exhaust this card and choose 1 of your hull zones. Then, perform an attack from that hull zone with an anti-squadron armament of 1 black die, even if you have already attacked from that zone this round."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1d-3608-d9e7-491e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="851b-2466-c279-88fc" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -6307,7 +6724,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="bc1d-d505-6019-7454" name="Mon Calamari Exodus Fleet†" hidden="false" targetId="171b-f108-2764-5ff2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1402-7b91-d7d8-a61a" name="Title - MC80 Cruiser (Liberty type)" hidden="false" collective="false">
       <profiles/>
@@ -6402,7 +6828,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="fa21-ab77-867b-3ad0" name="Mon Calamari Exodus Fleet†" hidden="false" targetId="171b-f108-2764-5ff2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d3d4-ced8-c7e9-c669" name="Title - MC80 Cruiser (Home One type)" hidden="false" collective="false">
       <profiles/>
@@ -6497,7 +6932,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="bdfa-236d-6950-0b91" name="Mon Calamari Exodus Fleet†" hidden="false" targetId="171b-f108-2764-5ff2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b08c-e05a-a195-ba46" name="Title - Nebulon-B Frigate" hidden="false" collective="false">
       <profiles/>
@@ -7369,7 +7813,7 @@
         </selectionEntry>
         <selectionEntry id="8c3a-61c6-2103-5b67" name="•Cham Syndulla" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="2a83-2e73-6ead-8b91" name="•Cham Syndulla" hidden="false" profileTypeId="68e2-2506-5078-dca9" profileTypeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
+            <profile id="2a83-2e73-6ead-8b91" name="Cham Syndulla" hidden="false" profileTypeId="68e2-2506-5078-dca9" profileTypeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7403,9 +7847,95 @@
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="4343-744b-5094-5e26" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" targetId="93ae-e0a4-adcf-2297" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1620-54ad-69db-a241" name="•Caitken and Shollan†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5e43-be7b-0bf6-1b00" name="Caitken and Shollan" hidden="false" profileTypeId="229c-c950-27d2-b599" profileTypeName="3.2 Weapons Team">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Weapons Team Ability" characteristicTypeId="f63e-d559-f525-14e3" value="While attacking, you may exhaust this card to reroll any number of dice of 1 color."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="69af-7a20-8165-16da" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e1ea-dd91-6614-cbb3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="85c1-97c9-7561-f961" name="•Jyn Erso†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d262-0d9d-a018-bd89" name="Jyn Erso" hidden="false" profileTypeId="68e2-2506-5078-dca9" profileTypeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Dual Type Upgrade Ability" characteristicTypeId="1e09-635d-6def-1999" value="When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. If that ship has no raid tokens, it gains 2 raid tokens of your choice. If that ship has an objective token, you may also gain 1 victory token."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca88-dc53-e3b3-73f3" type="atLeast"/>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="167d-fd4d-28e2-f646" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="10f2-6670-705b-844d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ee5-6e21-1c9d-49a1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2076-240b-2f42-9b59" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" targetId="93ae-e0a4-adcf-2297" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7705,9 +8235,45 @@
             <cost name="pts" costTypeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ecf4-6fea-961d-eb50" name="•Aspiration†" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ad77-598d-e497-b3c1" name="Aspiration" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Title Ability" characteristicTypeId="7040-d6d1-e20e-c16c" value="When you deploy this ship, you may move shields to up to 2 of your hull zones. If you do, the number of shields in a zone cannot exceed a maximum of &quot;6&quot;. You cannot recover shields while any zone is greater than its maximum shield value."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7bb-2b9e-2f96-c4e0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbef-40ba-76f0-cb8b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="23d4-aeae-9e3d-602a" name="Mon Calamari Exodus Fleet†" hidden="false" targetId="171b-f108-2764-5ff2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>
