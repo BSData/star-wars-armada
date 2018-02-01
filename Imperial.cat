@@ -4407,7 +4407,7 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="f1e2-a62f-7243-60cb" name="Mandalorian Gauntlet Fighter†" hidden="false" collective="false" type="model">
+            <selectionEntry id="f1e2-a62f-7243-60cb" name="Mandalorian Gauntlet Fighter" hidden="false" collective="false" type="model">
               <profiles>
                 <profile id="ba1a-e04d-ac29-52a2" name="Mandalorian Gauntlet Fighter" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
                   <profiles/>
@@ -4450,7 +4450,7 @@
                 <cost name="pts" costTypeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5ec8-e48a-a9d4-4bd3" name="•Gar Saxon†" hidden="false" collective="false" type="model">
+            <selectionEntry id="5ec8-e48a-a9d4-4bd3" name="•Gar Saxon" hidden="false" collective="false" type="model">
               <profiles>
                 <profile id="e3eb-0327-f71c-1478" name="•Gar Saxon" hidden="false" profileTypeId="6590-7c7f-7387-8791" profileTypeName="1.2 Squadrons">
                   <profiles/>
