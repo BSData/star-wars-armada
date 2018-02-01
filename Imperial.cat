@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="39" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="40" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4080,7 +4080,7 @@
         <cost name="pts" costTypeId="points" value="61.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b06a-013c-e02e-0047" name="Imperial Star Destroyer Kuat Refit†" hidden="false" collective="false" type="model">
+    <selectionEntry id="b06a-013c-e02e-0047" name="Imperial Star Destroyer Kuat Refit" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d0d4-2af2-47a5-c9ea" name="Imperial Star Destroyer Kuat Refit" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
           <profiles/>
@@ -4230,7 +4230,7 @@
         <cost name="pts" costTypeId="points" value="112.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f7b-d87c-c2c9-7f8c" name="Imperial Star Destroyer Cymoon 1 Refit†" hidden="false" collective="false" type="model">
+    <selectionEntry id="3f7b-d87c-c2c9-7f8c" name="Imperial Star Destroyer Cymoon 1 Refit" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9932-4d3f-c27f-6792" name="Imperial Star Destroyer Cymoon 1 Refit" hidden="false" profileTypeId="e72b-10bf-c14e-b3a8" profileTypeName="1.1 Ships">
           <profiles/>
@@ -4502,12 +4502,14 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="34be-6e4f-a75f-cd95" name="Seventh Fleet Star Destroyer†" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="34be-6e4f-a75f-cd95" name="Seventh Fleet Star Destroyer" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="b7c2-f172-34a6-78cc" name="Seventh Fleet Star Destroyer" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
           <profiles/>
@@ -4881,7 +4883,7 @@
             <cost name="pts" costTypeId="points" value="24.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cfc6-f1ca-9a11-78ee" name="•Grand Admiral Thrawn†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="cfc6-f1ca-9a11-78ee" name="•Grand Admiral Thrawn" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="4ee2-7f43-e7f1-4e30" name="Grand Admiral Thrawn" hidden="false" profileTypeId="ed38-5cd8-e875-d3e7" profileTypeName="2.0 Commander">
               <profiles/>
@@ -5082,7 +5084,7 @@
             <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6193-e9e4-d691-4718" name="Early Warning System†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6193-e9e4-d691-4718" name="Early Warning System" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="fcc7-ecf7-79c3-46a3" name="Early Warning System" hidden="false" profileTypeId="c4ed-b3c1-3b29-236e" profileTypeName="5.2 Defensive Retrofit">
               <profiles/>
@@ -5590,7 +5592,7 @@
             <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7acc-0a26-819b-efc6" name="Heavy Ion Emplacements†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7acc-0a26-819b-efc6" name="Heavy Ion Emplacements" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="0f32-1dd4-71bd-5e2a" name="Heavy Ion Emplacements" hidden="false" profileTypeId="82fe-f045-0a3b-a5da" profileTypeName="6.2 Ion Cannons">
               <profiles/>
@@ -5843,7 +5845,7 @@
             <cost name="pts" costTypeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0f3a-4a19-7b72-d4a1" name="Hardened Bulkheads†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0f3a-4a19-7b72-d4a1" name="Hardened Bulkheads" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="8128-40dc-525e-0ecf" name="Hardened Bulkheads" hidden="false" profileTypeId="ebbe-2c25-a937-60f3" profileTypeName="5.1 Offensive Retrofit">
               <profiles/>
@@ -6540,7 +6542,7 @@
             <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dc5f-276b-640c-3cdb" name="•Captain Brunson†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="dc5f-276b-640c-3cdb" name="•Captain Brunson" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="ec2f-cd4f-2472-782c" name="Captain Brunson" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
               <profiles/>
@@ -6567,7 +6569,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0886-f28b-4113-3218" name="•Governor Pryce†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0886-f28b-4113-3218" name="•Governor Pryce" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="d338-7a32-f932-59f1" name="Governor Pryce" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
               <profiles/>
@@ -6602,7 +6604,7 @@
             <cost name="pts" costTypeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7a63-833f-0b90-ae12" name="•Instructor Goran†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7a63-833f-0b90-ae12" name="•Instructor Goran" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="7933-c61b-69f0-06a9" name="Instructor Goran" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
               <profiles/>
@@ -6629,7 +6631,7 @@
             <cost name="pts" costTypeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bc42-4933-51ea-cd1b" name="•Taskmaster Grint†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="bc42-4933-51ea-cd1b" name="•Taskmaster Grint" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="3f5e-92c5-a55b-61a9" name="Taskmaster Grint" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
               <profiles/>
@@ -6656,7 +6658,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e9e2-6cbc-72ae-4d6f" name="•Strategic Advisor†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e9e2-6cbc-72ae-4d6f" name="•Strategic Advisor" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="4b9c-3c1a-2bf1-0df0" name="Strategic Advisor" hidden="false" profileTypeId="80b7-1645-65c7-8a81" profileTypeName="3.1 Officer">
               <profiles/>
@@ -6907,7 +6909,7 @@
             <cost name="pts" costTypeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="abec-d097-ce36-45d6" name="Wide-Area Barrage†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="abec-d097-ce36-45d6" name="Wide-Area Barrage" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="b5f9-5ec7-b03b-49b1" name="Wide-Area Barrage" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
               <profiles/>
@@ -6933,7 +6935,7 @@
             <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bff8-4da0-4ef6-419f" name="Ordnance Pods†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="bff8-4da0-4ef6-419f" name="Ordnance Pods" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="1c1c-4ea8-853e-d1f9" name="Ordnance Pods" hidden="false" profileTypeId="10fd-be4e-bb29-3708" profileTypeName="6.1 Ordnance">
               <profiles/>
@@ -7377,7 +7379,7 @@
             <cost name="pts" costTypeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="63cc-a1a2-1393-ae19" name="•Sovereign†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="63cc-a1a2-1393-ae19" name="•Sovereign" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="7dd8-eadd-97fc-8e45" name="Sovereign" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
               <profiles/>
@@ -7404,7 +7406,7 @@
             <cost name="pts" costTypeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a4d5-c816-9b9f-ba85" name="•Chimaera†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a4d5-c816-9b9f-ba85" name="•Chimaera" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="767a-18ff-9da2-ba73" name="Chimaera" hidden="false" profileTypeId="16d6-f94c-4e0d-8993" profileTypeName="2.1 Title">
               <profiles/>
@@ -8368,7 +8370,7 @@
             <cost name="pts" costTypeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d6c8-1803-8ce4-574f" name="•Darth Vader†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d6c8-1803-8ce4-574f" name="•Darth Vader" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="9ba0-b58e-9197-733c" name="Darth Vader" hidden="false" profileTypeId="68e2-2506-5078-dca9" profileTypeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
               <profiles/>
@@ -8677,7 +8679,7 @@
             <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b928-dd30-6349-f6c2" name="•Intensify Firepower!†" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b928-dd30-6349-f6c2" name="•Intensify Firepower!" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="74be-046b-825e-35d1" name="Intensify Firepower!" hidden="false" profileTypeId="1310-5c89-5c82-8e3b" profileTypeName="4.2 Fleet Command">
               <profiles/>
