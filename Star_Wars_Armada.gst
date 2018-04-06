@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="25" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="26" battleScribeVersion="2.01" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -476,6 +476,15 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="4e6f-8494-b0c4-86f9" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1489,7 +1498,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a friendly ship resolves a Squadron command, up to X of the squadrons it activates can be at distance 1-3 of you.</description>
+      <description>When a friendly ship resolves a Squadron command, if you are in range to be activated, up to X of the squadrons it activates can be at distance 1-3 of you.</description>
     </rule>
     <rule id="f348-1bef-ddbf-98bb" name="Flagship" hidden="false">
       <profiles/>
