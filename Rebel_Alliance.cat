@@ -316,6 +316,13 @@
     <selectionEntry id="84f9-c194-d8cd-e718" name="CR90 Corvette A" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="e72b-288f-6350-80c9" name="CR90 Corvette A" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Support Team, Fleet Command, Defensive Retrofit, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="84f9-c194-d8cd-e718" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7658-5de3-7bd5-3df5" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">4</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue</characteristic>
@@ -346,6 +353,15 @@
         <entryLink id="7c07-0682-d506-15f8" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
         <entryLink id="1832-1a92-094a-d556" hidden="false" collective="false" import="true" targetId="5c1d-02e5-2431-fb6f" type="selectionEntryGroup"/>
         <entryLink id="c7d1-f27b-8493-f5d5" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="723d-2325-11c2-99a6" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="84f9-c194-d8cd-e718" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7658-5de3-7bd5-3df5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="44.0"/>
@@ -354,6 +370,13 @@
     <selectionEntry id="9638-6bed-5646-56f4" name="CR90 Corvette B" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="faec-23d9-b0cb-5a97" name="CR90 Corvette B" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Support Team, Fleet Command, Defensive Retrofit, Ion Cannons">
+              <conditions>
+                <condition field="selections" scope="9638-6bed-5646-56f4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7658-5de3-7bd5-3df5" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">4</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue</characteristic>
@@ -369,7 +392,7 @@
             <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">2</characteristic>
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
-            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Ion Cannon</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Ion Cannons</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -384,6 +407,15 @@
         <entryLink id="4d38-99f4-be89-76dc" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
         <entryLink id="f7f2-649c-7c08-8962" hidden="false" collective="false" import="true" targetId="5c1d-02e5-2431-fb6f" type="selectionEntryGroup"/>
         <entryLink id="042d-9cd5-6cf5-ec7e" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="74d0-41ad-05dc-2e01" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="9638-6bed-5646-56f4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7658-5de3-7bd5-3df5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="39.0"/>
@@ -787,6 +819,13 @@
     <selectionEntry id="665d-d5d3-7e6d-7a9d" name="Nebulon-B Escort Frigate" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="845d-57ee-3b44-1ae2" name="Nebulon-B Escort Frigate" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Support Team, Weapons Team, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="665d-d5d3-7e6d-7a9d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="efb2-2cf5-f571-ce17" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">5</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">2 Blue</characteristic>
@@ -816,6 +855,15 @@
         <entryLink id="5ec3-3657-39d5-3d21" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
         <entryLink id="ccbc-3357-5f6f-e6a9" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="de73-3412-a67a-2d5d" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="dcb8-f111-dcec-fd57" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="665d-d5d3-7e6d-7a9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="efb2-2cf5-f571-ce17" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="57.0"/>
@@ -824,6 +872,13 @@
     <selectionEntry id="666c-5bdb-92b3-13bf" name="Nebulon-B Support Frigate" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="7563-1f05-f218-d0f2" name="Nebulon-B Support Frigate" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Support Team, Weapons Team, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="666c-5bdb-92b3-13bf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="efb2-2cf5-f571-ce17" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">5</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue</characteristic>
@@ -853,6 +908,15 @@
         <entryLink id="c29d-318f-fe27-5bf3" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
         <entryLink id="b49a-f7c6-cd50-ec25" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="dc2f-2432-7300-c4af" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="f31d-bea2-a2ee-94a3" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="666c-5bdb-92b3-13bf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="efb2-2cf5-f571-ce17" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="51.0"/>
@@ -2596,6 +2660,66 @@
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="92d1-235f-b815-bc03" name="Advanced Transponder Net" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="92d1-235f-b815-bc03" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2782-a7a7-ae57-4718" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dff5-cefb-996c-d30a" name="Advanced Transponder Net" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Modification. Friendly Heavy Squadrons at distance 1-2 prevent engaged squadrons from attacking ships.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="61a2-964d-a68d-17fd" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fb45-79ab-f78b-618e" name="Proximity Mines" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77c7-cd0d-161e-82a5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ac5f-daa9-b1bf-6d48" name="Proximity Mines" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Before deploying fleets, you may discard this card to place a number of proximity mine tokens equal to half your engineering value, rounded down. You may place these tokens anywhere in the play area beyond distance 5 of enemy ships (and distance 1 of each other).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac5f-b963-9539-0244" name="Reserve Hangar Deck" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a126-2459-80dc-d829" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="51e7-c7e3-d551-5f39" name="Reserve Hangar Deck" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">When a non-unique squadron with Swarm at distance 1-5 is destroyed, you may discard this card. If you do, you may set that squadron&apos;s hull points to &quot;2&quot; and place that squadron, unengaged, at distance 1 with its activation slider toggled to the activated side.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="10d5-12af-b773-cd45" name="Officer" hidden="false" collective="false" import="true">
@@ -3011,6 +3135,69 @@
             <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0233-187c-0748-b987" name="Expert Shield Tech" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f58-2f6e-a06a-80ec" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="780d-9ff6-f3b3-4102" name="Expert Shield Tech" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While defending, during the Spend Defense Tokens step, when you spend a Redirect defense token you may reduce the total damage from the attack by 1 instead of resolving that token&apos;s effect.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9fd0-3825-9d76-af56" name="•Captain Rex" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c25-1b2e-c7ca-482d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="357e-39a8-fd0f-60d0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fcaf-7749-fa4f-8164" name="Captain Rex" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Squadron: You may choose 1 enemy ship at close range. That ship gains 1 raid token of your choice. While you are at distance 1-3 of an enemy ship, that ship can discard only 1 raid token of any type when it discards a command dial.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d834-979a-7c47-ce33" name="•Ezra Bridger" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ee9-93df-da6e-e368" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="101f-3689-7d64-0c7c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2763-abd9-d049-8a8b" name="Ezra Bridger" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you reveal a command, you may discard this card to move 1 obstacle at distance 1-2 so that it is within distance 1-2 of its current location.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed8d-3eb3-50a4-5873" name="•Sabine Wren" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f456-439b-54f6-c999" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="06b4-853f-297d-960b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4226-95b0-427e-8dd3" name="Sabine Wren" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">At the start of the Ship Phase, you may discard this card to place 1 proximity mine token in the play area at distance 1-2 of an obstacle and beyond distance 3 of enemy ships.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="23f2-ace7-4294-434e" name="Ordnance" hidden="false" collective="false" import="true">
@@ -3272,6 +3459,21 @@
             <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="54f1-9fe4-a6ea-c274" name="Auxiliary Shields Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a68d-9692-ea97-8a89" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f2f0-7a1e-47b0-3d1f" name="Auxiliary Shields Team" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
+              <characteristics>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">Repair: You may treat the maximum shield values of your right and left hull zones as increased by 1 when you recover or move shields to those zones. If you do, the number of shields in those zones cannot exceed a maximum of &quot;4&quot;.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="3dab-7f1b-0c57-2c5b" name="Title - Assault Frigate Mk II" hidden="false" collective="false" import="true">
@@ -3364,6 +3566,22 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7658-5de3-7bd5-3df5" name="•Liberator" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d491-0a8f-b4c7-f64b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="543f-2d21-a7f2-192b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1da5-e4e8-a1b6-12d1" name="Liberator" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">You gain 1 additional Fleet Command icon in your upgrade bar. You cannot equip this card if you have a Fleet Command icon in your upgrade bar. You cannot spend a command token to resolve a Fleet Command card&apos;s effect.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3579,6 +3797,22 @@
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="efb2-2cf5-f571-ce17" name="•Vanguard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6937-5896-9b6c-aa9d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6dfa-d7cb-3899-20bf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fe67-858d-7d7f-8ef1" name="Vanguard" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">You gain 1 additional Weapons Team icon in your upgrade bar. At the start of the first round, you may replace 1 of your defense tokens with a Redirect defense token.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="68b7-57ca-14ec-170f" name="Title - GR-75 Transport Flotilla" hidden="false" collective="false" import="true">
@@ -3692,7 +3926,7 @@
           <profiles>
             <profile id="1a33-86fd-2e0a-400d" name="XX-9 Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Critical Hit: The first 2 damage cards dealt to the defender by this attack are dealt faceup.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Critical: The first 2 damage cards dealt to the defender by this attack are dealt faceup.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3863,6 +4097,21 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b23-6f4b-b919-da41" name="Linked Turbolaser Towers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9da4-3e63-9db8-592a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0424-be04-0578-e476" name="Linked Turbolaser Towers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
+              <characteristics>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">You may reroll 1 red die in your attack pool. While attacking the first squadron during your activation, you may add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4115,6 +4364,21 @@
             <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="8216-88fd-95e6-9dea" name="Weapons Battery Techs" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ccc3-02c2-1cc1-6052" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5269-256c-b408-7a97" name="Weapons Battery Techs" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
+              <characteristics>
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking a ship, you may change 1 die face with an Accuracy icon to a face with a Critical icon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="e9c2-667f-db59-c935" name="Fleet Command" hidden="false" collective="false" import="true">
@@ -4146,7 +4410,7 @@
           <profiles>
             <profile id="f5dc-af5a-1464-2c25" name="Entrapment Formation!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
               <characteristics>
-                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Navigation token.  If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step.</characteristic>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Navigate token.  If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4179,6 +4443,22 @@
             <profile id="90ec-bd89-7872-cd70" name="Intensify Firepower!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
               <characteristics>
                 <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Concentrate Fire token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 Hit icon and no other icons.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4556-cccc-cec8-b1e8" name="•Take Evasive Action!" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f3a3-7e18-da16-3aa4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c820-a451-5d5d-dfa4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0e06-eaaa-9326-181b" name="Take Evasive Action!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
+              <characteristics>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Navigate token.  If you do, until the end of the round, each friendly ship may increase the last yaw value of its current speed by 1 during its Determine Course step.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -181,10 +181,13 @@
     <categoryEntry id="167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false"/>
     <categoryEntry id="7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false"/>
     <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false"/>
+    <categoryEntry id="8a78-6994-2a47-92c9" name="Nadiri Starhawk" hidden="false"/>
     <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false"/>
+    <categoryEntry id="e093-475a-5469-0b76" name="Onager-class Star Destroyer" hidden="false"/>
     <categoryEntry id="9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false"/>
     <categoryEntry id="0fba-00f3-05fd-d2b7" name="Quasar Fire Cruiser-Carrier" hidden="false"/>
     <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false"/>
+    <categoryEntry id="78bb-d906-bb13-b3b3" name="Super Star Destroyer" hidden="false"/>
     <categoryEntry id="7fb1-7ee5-3690-d880" name="Victory Star Destroyer" hidden="false"/>
     <categoryEntry id="f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false"/>
     <categoryEntry id="c9d8-3a89-4028-05d0" name="Objectives" hidden="false"/>
@@ -194,7 +197,6 @@
     <categoryEntry id="28b9-dee2-dcc6-c2a7" name="Large Ship" hidden="false"/>
     <categoryEntry id="85e7-c532-9071-4160" name="Flotilla" hidden="false"/>
     <categoryEntry id="6ea5-34d9-23d0-8729" name="Huge Ship" hidden="false"/>
-    <categoryEntry id="78bb-d906-bb13-b3b3" name="Super Star Destroyer" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
@@ -212,14 +214,17 @@
         <categoryLink id="653f-fec5-1be3-4c1c" name="MC75 Cruiser" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false"/>
+        <categoryLink id="a97d-9753-f88c-89bb" name="Nadiri Starhawk" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false"/>
+        <categoryLink id="1775-efc7-4d37-1a32" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
         <categoryLink id="da8e-611e-fed3-1860" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false"/>
+        <categoryLink id="f859-78b9-5fe3-82d6" name="Super Star Destroyer" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-7fb1-7ee5-3690-d880" name="Victory Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="false">
           <modifiers>
-            <modifier type="increment" field="maxPoints" value="1">
+            <modifier type="increment" field="maxPoints" value="1.0">
               <repeats>
                 <repeat field="limit::points" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
               </repeats>
@@ -235,7 +240,6 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="4e6f-8494-b0c4-86f9" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f859-78b9-5fe3-82d6" name="Super Star Destroyer" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
