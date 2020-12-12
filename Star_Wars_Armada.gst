@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star Wars Armada" revision="27" battleScribeVersion="2.03" authorName="Brian Black" authorContact="Brian_Black on BGG or FFG forums" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="29" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Added Onager and Starhawk.
+Added Rebellion in the Rim Objectives
+First pass of new Clone wars data</comment>
+  <readme>Added Onager and Starhawk.
+Added Rebellion in the Rim Objectives
+First pass of new Clone wars data</readme>
   <costTypes>
-    <costType id="points" name="pts" defaultCostLimit="0.0"/>
+    <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="e72b-10bf-c14e-b3a8" name="1.1 Ships">
@@ -21,6 +27,7 @@
         <characteristicType id="590e-4eb6-d942-884d" name="Right Shield Value"/>
         <characteristicType id="5753-1a48-06df-40af" name="Rear Shield Value"/>
         <characteristicType id="5ba4-e836-287d-1b42" name="Upgrade Bar"/>
+        <characteristicType id="44b7-80c3-1f4f-8b7c" name="Keywords"/>
       </characteristicTypes>
     </profileType>
     <profileType id="6590-7c7f-7387-8791" name="1.3 Squadrons">
@@ -165,30 +172,36 @@
         <characteristicType id="0e45-b574-68f8-b2eb" name="Right-Auxiliary Shield Value"/>
         <characteristicType id="d82b-f19d-718f-48bf" name="Rear Shield Value"/>
         <characteristicType id="b58a-528d-9e95-2e5b" name="Upgrade Bar"/>
+        <characteristicType id="6971-9ddc-3d67-25bb" name="Keywords"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="844f-22b2-b44e-a2cb" name="6.4 Superweapon">
+      <characteristicTypes>
+        <characteristicType id="d746-aadb-5ab9-e3e0" name="Superweapon Ability"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Arquitens-class Cruiser" hidden="false"/>
+    <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Acclamator-class Assault Ship" hidden="false"/>
     <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false"/>
     <categoryEntry id="319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false"/>
-    <categoryEntry id="469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false"/>
+    <categoryEntry id="469b-896c-3ab9-d1b6" name="Gladiator-class Star Destroyer" hidden="false"/>
     <categoryEntry id="3c87-8b05-e880-8118" name="Gozanti-class Flotilla" hidden="false"/>
     <categoryEntry id="8180-3b0c-4e1a-d22a" name="GR-75 Transport Flotilla" hidden="false"/>
     <categoryEntry id="a934-33f8-cb37-c53d" name="Hammerhead Corvette" hidden="false"/>
-    <categoryEntry id="6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false"/>
+    <categoryEntry id="6da8-bdc7-4ba6-e86f" name="Imperial-class Star Destroyer" hidden="false"/>
     <categoryEntry id="d71c-f6f0-4044-3252" name="Interdictor" hidden="false"/>
     <categoryEntry id="167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false"/>
     <categoryEntry id="7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false"/>
     <categoryEntry id="ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false"/>
-    <categoryEntry id="8a78-6994-2a47-92c9" name="Nadiri Starhawk" hidden="false"/>
+    <categoryEntry id="8a78-6994-2a47-92c9" name="Starhawk-Class Battleship" hidden="false"/>
     <categoryEntry id="e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false"/>
     <categoryEntry id="e093-475a-5469-0b76" name="Onager-class Star Destroyer" hidden="false"/>
-    <categoryEntry id="9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false"/>
+    <categoryEntry id="9810-b289-b172-52b4" name="Modified Pelta-class Ship" hidden="false"/>
     <categoryEntry id="0fba-00f3-05fd-d2b7" name="Quasar Fire Cruiser-Carrier" hidden="false"/>
-    <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false"/>
+    <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider-class Corvette" hidden="false"/>
     <categoryEntry id="78bb-d906-bb13-b3b3" name="Super Star Destroyer" hidden="false"/>
-    <categoryEntry id="7fb1-7ee5-3690-d880" name="Victory Star Destroyer" hidden="false"/>
+    <categoryEntry id="7fb1-7ee5-3690-d880" name="Victory-class Star Destroyer" hidden="false"/>
     <categoryEntry id="f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false"/>
     <categoryEntry id="c9d8-3a89-4028-05d0" name="Objectives" hidden="false"/>
     <categoryEntry id="7124-ce4d-f2f7-b1fc" name="MC75 Cruiser" hidden="false"/>
@@ -197,11 +210,17 @@
     <categoryEntry id="28b9-dee2-dcc6-c2a7" name="Large Ship" hidden="false"/>
     <categoryEntry id="85e7-c532-9071-4160" name="Flotilla" hidden="false"/>
     <categoryEntry id="6ea5-34d9-23d0-8729" name="Huge Ship" hidden="false"/>
+    <categoryEntry id="3d39-29d1-22ef-34de" name="Armed Station" hidden="false"/>
+    <categoryEntry id="0b6b-2d9b-bdb2-4ba8" name="Arquitens-class Cruiser" hidden="false"/>
+    <categoryEntry id="4e6e-9ee3-e44b-de5e" name="Consular-class Cruiser" hidden="false"/>
+    <categoryEntry id="9aea-dbf4-376c-b22b" name="Hardcell-class" hidden="false"/>
+    <categoryEntry id="748a-3a7d-d223-580f" name="Munificent-class Frigate" hidden="false"/>
+    <categoryEntry id="8322-2087-0da5-10c1" name="Unarmed Station" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
       <categoryLinks>
-        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Arquitens-class Cruiser" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Acclamator-class Assault Ship" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="false"/>
@@ -217,7 +236,7 @@
         <categoryLink id="a97d-9753-f88c-89bb" name="Nadiri Starhawk" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false"/>
         <categoryLink id="1775-efc7-4d37-1a32" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="false"/>
-        <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
         <categoryLink id="da8e-611e-fed3-1860" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false"/>
         <categoryLink id="f859-78b9-5fe3-82d6" name="Super Star Destroyer" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="false"/>
@@ -235,11 +254,13 @@
           </constraints>
         </categoryLink>
         <categoryLink id="1b44-1532-e7c9-9663-c9d8-3a89-4028-05d0" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
-        <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="4e6f-8494-b0c4-86f9" type="max"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
+        <categoryLink id="e4fe-5eec-e2cc-7e21" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
+        <categoryLink id="b096-2fdf-44fa-ef0f" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
+        <categoryLink id="a462-4d48-1996-a1cd" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
+        <categoryLink id="4fc7-8152-436a-0381" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
+        <categoryLink id="a01c-a7ca-df56-e9a3" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
+        <categoryLink id="49b2-f49d-de86-c491" name="Unarmed Station" hidden="false" targetId="8322-2087-0da5-10c1" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -412,6 +433,91 @@
                     <characteristic name="End of Round" typeId="fa5d-9649-202a-f528"/>
                     <characteristic name="End of Game" typeId="8dad-11c4-b910-7882"/>
                     <characteristic name="Victory Token Value" typeId="66f0-2152-a2f0-97b5">--</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5228-6303-32f5-4d15" name="Doomed Station" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f914-0e3c-a3c1-77e5" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8ea0-3acb-1156-30a8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d0ad-0353-2727-964b" name="Doomed Station" hidden="false" typeId="4dcf-fa1c-f3bf-1b53" typeName="8.3 Navigation Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="6abf-158a-3b97-3f5c">The second player places the gravity rift in the center of the setup area. Then, starting with the first player, the players alternate placing the remaining obstacles, excluding the station. Then the second player places the station in the setup area beyond distance 1 of all obstacles and beyond distance 5 of both player&apos;s edges.</characteristic>
+                    <characteristic name="Special Rule" typeId="52c8-b374-6fa0-19d4"></characteristic>
+                    <characteristic name="End of Round" typeId="fa5d-9649-202a-f528">Starting with the second player and alternating, each player chooses 1 obstacle that does not have an objective token on it and moves it to within distance 1-2 of its current location toward the gravity rift (which cannot be chosen). Then that player places an objective token on that obstacle. When an obstacle touches the gravity rift, that obstacle is removed from the play area.
+After all obstacles are moved, each player sums the command values of their ships at distance 1 of the station. The player with the highest total gains 1 victory token. Then remove all objectives tokens from the play area.</characteristic>
+                    <characteristic name="End of Game" typeId="8dad-11c4-b910-7882"/>
+                    <characteristic name="Victory Token Value" typeId="66f0-2152-a2f0-97b5">20</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="013d-2b2d-0325-70fd" name="Hyperspace Migration" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f40-d749-70e9-fbe3" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8356-3da5-15dd-09cc" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2284-70b6-dc33-af13" name="Hyperspace Migration" hidden="false" typeId="4dcf-fa1c-f3bf-1b53" typeName="8.3 Navigation Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="6abf-158a-3b97-3f5c">Place obstacles as normal, excluding the station. Then the second player places 1 objective token in the play area at distance 1 of a 3&apos; edge and another objective token at distance 1 of the opposite 3&apos; edge.</characteristic>
+                    <characteristic name="Special Rule" typeId="52c8-b374-6fa0-19d4">At the start of the Ship Phase of the first and third rounds, the second player places 1 purrgil not in the play area at distance 1 of 1 objective token (the objective token must be the same during both rounds).
+When a purrgil moves, it must move toward the objective token at the opposite 3&apos; edge. When a purrgil touches that objective token, that purrgil is removed from the play area.</characteristic>
+                    <characteristic name="End of Round" typeId="fa5d-9649-202a-f528">If a ship has 1 objective token on it, remove the token and that ship&apos;s owner gains 1 victory token. If a ship is at distance 1 from a purrgil and has no objective tokens on it, place 1 objective token on the ship.</characteristic>
+                    <characteristic name="End of Game" typeId="8dad-11c4-b910-7882"/>
+                    <characteristic name="Victory Token Value" typeId="66f0-2152-a2f0-97b5">20</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5a76-ea39-9703-605c" name="Infested Fields" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b8a-acc9-d05d-bda0" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf96-b793-0012-2fda" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f0b3-79f8-b047-3d45" name="Infested Fields" hidden="false" typeId="4dcf-fa1c-f3bf-1b53" typeName="8.3 Navigation Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="6abf-158a-3b97-3f5c">Place obstacles as normal, excluding the station. After placing obstacles, place 1 objective token on each obstacle. Then the second player places 2 exogorth obstacles, each touching a different obstacle.</characteristic>
+                    <characteristic name="Special Rule" typeId="52c8-b374-6fa0-19d4">When a ship or squadron overlaps an obstacle, that ship or squadron&apos;s owner may remove the objective token on the obstacle to gain 1 victory token.
+After the start of each squadrons phase (after exogorths perform attacks), remove each exogorth from the play area. Then the second player moves the obstacle each exogorth was touching to within distance 1-2 of its current location.</characteristic>
+                    <characteristic name="End of Round" typeId="fa5d-9649-202a-f528">For each exogorth obstacle not in the play area, the second player chooses an obstacle and place 1 exogorth to﻿uching that ob﻿stacl﻿e.</characteristic>
+                    <characteristic name="End of Game" typeId="8dad-11c4-b910-7882"/>
+                    <characteristic name="Victory Token Value" typeId="66f0-2152-a2f0-97b5">15</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5438-f808-c94b-711d" name="Volatile Deposits" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1304-4aa0-e96b-d863" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c3e-2128-2d41-194b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a266-555e-921f-c766" name="Volatile Deposits" hidden="false" typeId="4dcf-fa1c-f3bf-1b53" typeName="8.3 Navigation Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="6abf-158a-3b97-3f5c">Place obstacles as normal, adding 2 dust fields and excluding the station.</characteristic>
+                    <characteristic name="Special Rule" typeId="52c8-b374-6fa0-19d4">While a ship is attacking a ship, the attacker can choose 1 obstacle at distance 1 of the defender, then resolve the following critical effect:
+Blue [Crit]:  Each ship or squadron at distance 1 of the chosen obstacle suffers damage equal to half of the total number of [Crit] icons in your attack pool, rounded up.
+If the defender is one of the first player&apos;s ships, the attacker can resolve this effect with any [Crit] icon.</characteristic>
+                    <characteristic name="End of Round" typeId="fa5d-9649-202a-f528">For each asteroid field, each player sums the command values of their ships at distance 1. Then for each astroid field, the player with the highest total gains 1 victory token.</characteristic>
+                    <characteristic name="End of Game" typeId="8dad-11c4-b910-7882"/>
+                    <characteristic name="Victory Token Value" typeId="66f0-2152-a2f0-97b5">15</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -609,6 +715,93 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1d1b-754d-8095-db28" name="Ion Storm" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2bc-a221-3444-1690" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f9c3-2fed-e70c-7f3d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bd9f-85e0-429b-f77a" name="Ion Storm" hidden="false" typeId="d2a5-335d-ee6f-ac1d" typeName="8.1 Assault Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="bb3a-c93f-bd14-0c7b">The second player places all obstacles, excluding the station, beyond distance 5 of both players&apos; edges.</characteristic>
+                    <characteristic name="Special Rule" typeId="a90f-1f9a-066b-1153">When a ship that does not have an objective token ends it movement beyond distance 2 of any obstacles (or beyond distance 1 if that ship belongs to the first player), assign 1 objective token to that ship.  When a ship resolved a [Engineering] command, it may discard its objective token.
+Each ship has the following critical effect:
+[Crit]:  If the defender has an objective toke, the attacking ship&apos;s owner gains 1 victory token.  Then choose and discard 1 command token from the defender.  If the defender does not have any command tokens, the defending hull zone loses 1 shield instead.</characteristic>
+                    <characteristic name="End of Round" typeId="6ecd-ea77-564f-e40a"/>
+                    <characteristic name="End of Game" typeId="8724-e0d0-2a6a-177c"/>
+                    <characteristic name="Victory Token Value" typeId="4a0a-04e9-d3e0-311b">15</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f804-d8ee-5ba3-a1af" name="Marked for Destruction" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec4-7ba7-ea27-263f" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c9a5-1bfa-5ffc-3245" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="cd09-0235-4dff-a429" name="Marked for Destruction" hidden="false" typeId="d2a5-335d-ee6f-ac1d" typeName="8.1 Assault Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="bb3a-c93f-bd14-0c7b">Place obstacles as normal, adding the 2 dust fields and excluding the station and asteroid fields.  Then the second player places the 2 purrgil in the setup area.  Each purrgil must be placed beyond distance 1 of all obstacles and beyond distance 5 of both player&apos;s edges.</characteristic>
+                    <characteristic name="Special Rule" typeId="a90f-1f9a-066b-1153">Each ship has the following critical effect:
+[Crit]:  If this attack is at close-medium range, remove all objective tokens from enemy ships.  Then assign an objective token to the defender.
+After a player moves a purrgil, if that purrgil is at distance 1 of a ship with an objective token, that player may choose and discard 1 objective token.  Then that ship suffers 1 facedown damage and the oppsoing fleet&apos;s owner gains 1 victory token.</characteristic>
+                    <characteristic name="End of Round" typeId="6ecd-ea77-564f-e40a"/>
+                    <characteristic name="End of Game" typeId="8724-e0d0-2a6a-177c"/>
+                    <characteristic name="Victory Token Value" typeId="4a0a-04e9-d3e0-311b">15</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dd54-ca42-c658-93cd" name="Rift Assault" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd2a-235b-8a44-57a9" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="78d2-5e16-6131-7a41" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a2d4-d297-16dd-eca8" name="Rift Assault" hidden="false" typeId="d2a5-335d-ee6f-ac1d" typeName="8.1 Assault Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="bb3a-c93f-bd14-0c7b">Place obstacles as normal, adding the gravity rift and excluding the station.</characteristic>
+                    <characteristic name="Special Rule" typeId="a90f-1f9a-066b-1153">While a ship is attacking a ship, if the defender is beyond distance 1 of any obstacles and the defender does not have an objective token, the attacker can spend 1 die with any icon to assign an objective token to the defender.
+While a ship with an objective token is defending, during the Resolve Attack Effects step, the attacker can discard that objective token to change 1 die to a face with a [Accuracy] icon or 1 [Hit] icon and no other icon.  If the attacker belongs to the second player, it can change 1 die to a face with any icon.  Then the attacker&apos;s owner gains 1 victory token.</characteristic>
+                    <characteristic name="End of Round" typeId="6ecd-ea77-564f-e40a">Each ship at distance 1-2 of the gravity rift that is at speed-1 or lower suffers 1 facedown damage card.</characteristic>
+                    <characteristic name="End of Game" typeId="8724-e0d0-2a6a-177c"/>
+                    <characteristic name="Victory Token Value" typeId="4a0a-04e9-d3e0-311b">10</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0c64-f33a-440f-8f3f" name="Surprise Attack" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267e-997f-3a39-d9d8" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6254-4db5-8b87-3435" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="478c-e3b9-a7bb-a792" name="Suprise Attack" hidden="false" typeId="d2a5-335d-ee6f-ac1d" typeName="8.1 Assault Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="bb3a-c93f-bd14-0c7b">The second player places the station at distance 1-5 of the first player&apos;s edge.  Then place the remaining obstacles as normal.
+While deploying fleets, the first player must deploy their flagship before deploying any other ships.  Their fladship must overlap the station, even if the flagship extends beyonf their deployment zone.  The first player cannot deploy any ship at a speed greater than half of that ship&apos;s maximum speed (rounded up.)
+After deploying fleets, the second player places 3 facedown command dials in a stack on this card.</characteristic>
+                    <characteristic name="Special Rule" typeId="a90f-1f9a-066b-1153">At the start of the Ship Phase during the first, second, and third rounds, the second player reveals the top command dial on this card, and each of the first player&apos;s ships gain a raid token matching that dial.</characteristic>
+                    <characteristic name="End of Round" typeId="6ecd-ea77-564f-e40a"/>
+                    <characteristic name="End of Game" typeId="8724-e0d0-2a6a-177c"/>
+                    <characteristic name="Victory Token Value" typeId="4a0a-04e9-d3e0-311b"></characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -791,6 +984,91 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="00cb-5ae0-a79c-7608" name="Abandoned Mining Facility" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="398b-f295-7e96-d51b" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef51-72ee-9105-4a19" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5a8e-be77-df46-c156" name="Abandoned Mining Facility" hidden="false" typeId="8e28-f0e4-5cd7-b34b" typeName="8.2 Defense Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="ccb1-3750-038f-f0b6">The second player places the station in the center of the setup area.  Then starting with the second player, the players alternate placing the remaining obstacles, addin the 2 purrgil and 2 dust fields and excluding the asteriod fields, at distance 2-5 of the station.
+After deploying fleets, each of the second players&apos; ships gain a [Engineering] token.</characteristic>
+                    <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">Each ship can resolve the following effect:
+[Engineering]:  You may spend engineering points to gain victory tokens from 1 station or dust field at distance 1.  If that obstacle is a station, gain 1 toke for each 3 points you spend.  If that obstacle is a dust field, gain 1 token for every 2 points you spend.  Then, if that obstacle is a dust field and you gained more than 1 victory token, remove that obstacle from the play area.</characteristic>
+                    <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57"/>
+                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"></characteristic>
+                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e">10</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14b6-833f-270d-78d8" name="Asteroid Tactics" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f4-d2a1-36f4-cc3c" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8d3c-342e-3105-2e68" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3623-7e14-3167-7ead" name="Asteroid Tactics" hidden="false" typeId="8e28-f0e4-5cd7-b34b" typeName="8.2 Defense Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="ccb1-3750-038f-f0b6">The second player places all obstacles, excluding the station.</characteristic>
+                    <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">When one fo the first player&apos;s ships or unique squadrons overlaps an astroid field, it may recover 1 of its non-[Scatter] defense tokens. That token must be exhausted.
+When one of the second player&apos;s ships or unique squadrons overlaps an asteroid field, that obstacle has no effect and that ship or squadron may recover 1 of its non-[Scatter] defense tokens or may ready 1 of its defense tokens.
+After the start of each squadron phase (after exogorths perform attacks), remove each exogorth obstacle from the play area.</characteristic>
+                    <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57">The second player places the 2 exogorth obstacles, each touching a different obstacle.</characteristic>
+                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"></characteristic>
+                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e"></characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ac36-0f2d-2385-05f3" name="Fleet in Being" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3706-8a95-fb54-e66c" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d781-a45b-d6f6-88a8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8a4d-0913-2030-7c4e" name="Fleet in Being" hidden="false" typeId="8e28-f0e4-5cd7-b34b" typeName="8.2 Defense Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="ccb1-3750-038f-f0b6">After deploying fleets, the first player assigns each of their ships 1 objective token. Then the second player assigns each of their ships a number of objective tokens equal to that ships command value.</characteristic>
+                    <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">When a ship with an objective token is declared as the target of an attack, it may discard 1 objective token to ready 1 of its exhausted defense tokens.</characteristic>
+                    <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57">If a ship is at distance 1-5 of 1 of the 3&apos; edges of the play area, or at distance 1-3 of a player edge, remove 1 objective token from that ship.</characteristic>
+                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b">Each player gains 1 victory token for each enemy ship in the play area that does not have an objective token.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e">15</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0e82-b0f9-d220-859e" name="Rift Ambush" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49c2-a8e7-d7d5-db00" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b999-5252-a8af-5bf8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8343-7dc1-099c-44e3" name="Rift Ambush" hidden="false" typeId="8e28-f0e4-5cd7-b34b" typeName="8.2 Defense Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="ccb1-3750-038f-f0b6">The second player places all obstacles, adding the gravity rift and 2 dust fields and excluding the station. The gravity rift must be placed beyond distance 5 of both players&apos; edges.
+After deploying fleets, the second player may choose 1 enemy ship. That ship must execute a speed-1 maneuver with a yaw of &apos;-&apos;. Then the second player may increase or decrease that ship&apos;s speed by 1, to a minimum speed of 0.</characteristic>
+                    <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">Once per activation, after a ship executes a maneuver, if it is at distance 1-2 of the gravity rift, it must execute a speed-1 maneuver with a yaw of &apos;-&apos;. If that ship belongs to the second player, it may use its speed-1 yaw value. The gravity rift does not have the ability to temporarily reduce that ship&apos;s speed during this maneuver.</characteristic>
+                    <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57"/>
+                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"></characteristic>
+                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e"></characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -821,49 +1099,83 @@
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="7022-8686-4ec8-eb64" name="Counter X" hidden="false">
-      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of X blue dice, even if you are destroyed.</description>
+      <description>After a squadron performs a non-Counter attack against you, you may attack that squadron with an anti-squadron armament of blue dice equal to X, even if you are destroyed.</description>
     </rule>
     <rule id="1d2a-cdbb-2b66-ce85" name="Bomber" hidden="false">
-      <description>While attacking a ship, each of your Critical icons adds 1 damage to the damage total and you can resolve a critical effect.</description>
+      <description>While attacking a ship, each of your [Crit] icons adds 1 damage to the damage total and you can resolve a critical effect.</description>
     </rule>
     <rule id="07d3-db6c-dc52-bd78" name="Escort" hidden="false">
-      <description>Squadrons you are engaged with cannot attack squadrons that lack Escort unless performing a Counter attack.</description>
+      <description>Squadrons you are engaged with cannot attack squadrons that lack escort unless performing a Counter attack.</description>
     </rule>
     <rule id="deb6-270e-150f-06d5" name="Heavy" hidden="false">
       <description>You do not prevent engaged squadrons from attacking ships or moving.</description>
     </rule>
     <rule id="07dd-35ce-00b5-aedf" name="Rogue" hidden="false">
-      <description>You can move and attack during the Squadron Phase.</description>
+      <description>You can move and attack during the Squadron Phase (in any order).</description>
     </rule>
     <rule id="0172-dd4d-907c-a8a9" name="Swarm" hidden="false">
-      <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.</description>
+      <description>While attacking a squadron engaged with another squadron, you may reroll 1 die.
+
+A Counter attack can be modified by effects that modify a standard attack, such as the Swarm keyword.</description>
     </rule>
     <rule id="28b3-3ce6-3f2b-9ca1" name="Snipe X" hidden="false">
-      <description>You can attack squadrons at distance 2 with an anti-squadron armament of X blue dice.  This attack ignores the Counter keyword.</description>
+      <description>You can attack squadrons at distance 2 with an anti-squadron armament of blue dice equal to X. This attack ignores the Counter keyword.
+
+A Snipe attack can be modified by effects that modify a standard attack, such as the Swarm keyword.
+A squadron with Snipe that is engaged with a squadron with Escort cannot perform a Snipe attack against another squadron that lacks escort.</description>
     </rule>
     <rule id="64f9-c7b3-c2e0-e41a" name="Grit" hidden="false">
-      <description>You are not prevented from moving while you are engaged by only 1 squadron.</description>
+      <description>You are not prevented from moving while you are engaged by only 1 squadron.
+
+A squadron with Grit is prevented from moving while engaged with multiple squadrons if at least 1 of those squadrons lacks Heavy.</description>
     </rule>
     <rule id="f379-5e57-6d92-edb9" name="Intel" hidden="false">
-      <description>While an enemy squadron is at distance 1 of you, it has Heavy.</description>
+      <description>While a friendly squadron is at distance 1 of you, it has Grit.</description>
     </rule>
     <rule id="66ca-1e61-b6e8-c63e" name="Flotillas" hidden="false">
-      <description>When a flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the flotilla. Do not deal a facedown damage card to the closest ship the flotilla overlapped (or that overlapped it) unless that ship is also a flotilla. A flotilla cannot equip a Commander upgrade card.</description>
+      <description>Some ships are Flotillas. Ships of this type feature two plastic ship models (instead of one). Flotillas follow the same rules as other ships with the following exceptions:
+
+When a Flotilla would overlap another ship (or be overlapped by another ship), deal one facedown damage card to the Flotilla. Do not deal a facedown damage card to the closest ship the Flotilla overlapped (or that overlapped it) unless that ship is also a Flotilla.
+A Flotilla cannot equip a Commander upgrade card.</description>
     </rule>
     <rule id="405c-d276-9f64-9ae4" name="Cloak" hidden="false">
       <description>At the end of the Squadron Phase, you may move up to distance 1, even if you are engaged.</description>
     </rule>
     <rule id="d374-f203-8873-7051" name="Strategic" hidden="false">
-      <description>When you end your movement at distance 1 of 1 or more objective tokens, you may move 1 of those tokens so that it is at distance 1 of you.</description>
+      <description>When you end your movement at distance 1 of 1 or more objective tokens, you may move 1 of those tokens so that it is at distance 1 of you.
+
+A squadron with Strategic cannot move objective tokens that are assigned to a ship.</description>
     </rule>
     <rule id="2dbc-c5ad-6def-194e" name="Relay X" hidden="false">
-      <description>When a friendly ship resolves a Squadron command, if you are in range to be activated, up to X of the squadrons it activates can be at distance 1-3 of you.</description>
+      <description>When a friendly ship resolves a [Squadron] command, if you are in range to be activated, up to X of the squadrons it activates can be at distance 1–3 of you.</description>
     </rule>
     <rule id="f348-1bef-ddbf-98bb" name="Flagship" hidden="false">
-      <description>A flagship is a ship equipped with a Commander card. A fleet must have one flagship and cannot have more than one.</description>
+      <description>A flagship is a ship equipped with a commander card. Some objective cards include special rules for flagships.
+
+Any ship can be a flagship regardless of the upgrade icons in its upgrade bar.
+A fleet must have one flagship and cannot have more than one.
+Each flagship must be assigned a flagship ID token pair of the appropriate faction.</description>
     </rule>
     <rule id="0e25-812e-a5fd-7f07" name="Assault" hidden="false">
-      <description>While attacking a ship, you may spend 1 die with a Hit icon. If you do, the defender gains 1 raid token of your choice.</description>
+      <description>While attacking a ship, you may spend 1 die with a [Hit] icon. If you do, the defender gains 1 raid token of your choice.</description>
+    </rule>
+    <rule id="6915-37a9-4dfd-3263" name="Adept X" hidden="false">
+      <description>While attacking, you may reroll up to X dice.</description>
+    </rule>
+    <rule id="7f1d-e149-5445-61f4" name="AI: Anti-Squadron X" hidden="false">
+      <description>While attacking with Anti-Squadron armament, if you are activated by a [Squadron] command, you may add X dice to your attack pool of a color or colors that are already in your attack pool.</description>
+    </rule>
+    <rule id="ebc4-b132-7dc6-5337" name="Dodge X" hidden="false">
+      <description>While you are defending against a squadron, during the “Spend Defense Tokens” step, you may choose X dice to be rerolled.</description>
+    </rule>
+    <rule id="f2a7-fd2f-6141-c125" name="Screen" hidden="false">
+      <description>While you are defending against a squadron, for each other friendly squadron the attacker is engaged with that lacks Screen, up to 3, you gain Dodge 1.</description>
+    </rule>
+    <rule id="14b3-73fa-ba00-b318" name="AI: Battery X" hidden="false">
+      <description>While attacking with battery armament, if you are activated by a [Squadron] command, you may add X dice to your attack pool of a color or colors that are already in your attack pool.</description>
+    </rule>
+    <rule id="789d-183f-ff28-e8c3" name="Scout" hidden="false">
+      <description>While deploying fleets, you can be placed outside of deployment zones and do not need to be at distance 1–2 of a friendly ship, but must be placed beyond distance 1–5 of enemy ships or squadrons.</description>
     </rule>
   </sharedRules>
 </gameSystem>

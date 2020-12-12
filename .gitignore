@@ -18,3 +18,5 @@
 
 # Don't ignore .yml for CI build definitions
 !*.yml
+Imperial.cat
+Rebel_Alliance.cat

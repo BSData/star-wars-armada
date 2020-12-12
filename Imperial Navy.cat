@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="42" battleScribeVersion="2.03" authorName="Brian Black" authorContact="Brian_Black on BGG and FFG Forums" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="43" battleScribeVersion="2.03" authorName="Brian Black with updated by vadersson" authorContact="Brian_Black on BGG and FFG Forums" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Update by DAM</comment>
+  <readme>Begining to add new Armada 1.5 content.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -163,6 +165,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Support Team, Ordnance</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -217,6 +220,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Support Team, Ordnance</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -271,6 +275,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">1</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Fleet Support, Offensive Retrofit</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -327,6 +332,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">1</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Fleet Support, Offensive Retrofit</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -388,6 +394,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit, Ion Cannons, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -461,6 +468,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -525,6 +533,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Offensive Retrofit, Experimental Retrofit, Ion Cannons</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -580,6 +589,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Offensive Retrofit, Experimental Retrofit, Experimental Retrofit, Ion Cannons</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -707,6 +717,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ordnance</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -769,6 +780,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ion Cannons</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1349,6 +1361,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ordnance, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1426,6 +1439,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ion Cannons, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1567,6 +1581,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1620,6 +1635,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Defensive Retrofit, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1943,6 +1959,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2005,6 +2022,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Weapons Team, Offensive Retrofit</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2075,6 +2093,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ion Cannons, Ordnance</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2139,6 +2158,7 @@
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Fleet Command, Offensive Retrofit, Turbolasers, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2172,7 +2192,7 @@
         </entryLink>
         <entryLink id="3d04-932f-5eb3-1b08" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1"/>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
@@ -2271,6 +2291,7 @@
             <characteristic name="Right-Auxiliary Shield Value" typeId="0e45-b574-68f8-b2eb">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="d82b-f19d-718f-48bf">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="b58a-528d-9e95-2e5b">Officer, Officer, Officer, Weapons Team, Fleet Command, Fleet Command, Offensive Retrofit, Ion Cannons, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="6971-9ddc-3d67-25bb"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2331,6 +2352,7 @@
             <characteristic name="Right-Auxiliary Shield Value" typeId="0e45-b574-68f8-b2eb">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="d82b-f19d-718f-48bf">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="b58a-528d-9e95-2e5b">Officer, Officer, Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit, Ion Cannons, Ion Cannons, Turbolasers, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="6971-9ddc-3d67-25bb"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2395,6 +2417,7 @@
             <characteristic name="Right-Auxiliary Shield Value" typeId="0e45-b574-68f8-b2eb">5</characteristic>
             <characteristic name="Rear Shield Value" typeId="d82b-f19d-718f-48bf">3</characteristic>
             <characteristic name="Upgrade Bar" typeId="b58a-528d-9e95-2e5b">Officer, Officer, Officer, Officer, Weapons Team, Fleet Command, Fleet Command, Fleet Command, Fleet Command, Offensive Retrofit, Ion Cannons, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="6971-9ddc-3d67-25bb"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2455,6 +2478,7 @@
             <characteristic name="Right-Auxiliary Shield Value" typeId="0e45-b574-68f8-b2eb">5</characteristic>
             <characteristic name="Rear Shield Value" typeId="d82b-f19d-718f-48bf">3</characteristic>
             <characteristic name="Upgrade Bar" typeId="b58a-528d-9e95-2e5b">Officer, Officer, Officer, Officer, Weapons Team, Fleet Command, Offensive Retrofit, Offensive Retrofit, Ion Cannons, Ion Cannons, Turbolasers, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="6971-9ddc-3d67-25bb"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2495,6 +2519,124 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="411.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dadc-fa46-6875-c05b" name="Onager-class Star Destroyer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="efd9-0823-062d-3a36" name="Onager-class Star Destroyer" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Weapons Team, Defensive Retrofit, Turbolasers, Superweapon">
+              <conditions>
+                <condition field="selections" scope="dadc-fa46-6875-c05b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27f5-aa0d-1fc0-4d4b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">10</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue, 1 Black</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">3</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">2</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">3</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Redirect, Salvo</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, 2 Blue, 1 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">3 Red, 1 Black</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">3 Red, 1 Black</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">2 Red, 1 Blue</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">5</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">2</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Weapons Team, Turbolasers, Superweapon</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0674-d294-3a91-baa8" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+        <categoryLink id="2694-18a5-240a-8572" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cd84-cf0d-6ea3-c470" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="9d54-8fdf-82e3-4852" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="8ca1-7065-6c07-9a1f" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2ef0-f400-7cec-5160" name="Superweapon" hidden="false" collective="false" import="true" targetId="de1c-158a-113c-72a6" type="selectionEntryGroup"/>
+        <entryLink id="767a-327e-9035-8c79" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="f73f-a309-1dde-d2eb" name="Title - Onager-class Star Destroyer" hidden="false" collective="false" import="true" targetId="aa22-d973-3e98-0717" type="selectionEntryGroup"/>
+        <entryLink id="e8fd-607d-d5af-983f" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="dadc-fa46-6875-c05b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27f5-aa0d-1fc0-4d4b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4878-a8f2-25a5-a45b" name="Onager-class Testbed" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d83c-7fa3-b849-30af" name="Onager-class Testbed" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Weapons Team, Defensive Retrofit, Support Team, Superweapon">
+              <conditions>
+                <condition field="selections" scope="4878-a8f2-25a5-a45b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27f5-aa0d-1fc0-4d4b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">10</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Black</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">3</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">1</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">3</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Redirect, Salvo</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">1 Red, 2 Blue, 1 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">2 Red, 1 Blue</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">2 Red, 1 Blue</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Blue</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">5</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">2</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Weapons Team, Support Team, Superweapon</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d124-355b-3183-8bd5" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+        <categoryLink id="3595-3398-3dcf-53bb" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9a6d-74dd-a24e-f50a" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="91ec-def2-19ab-6bab" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="ba5c-1013-1859-b53d" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0e28-4d30-e478-a106" name="Superweapon" hidden="false" collective="false" import="true" targetId="de1c-158a-113c-72a6" type="selectionEntryGroup"/>
+        <entryLink id="d31f-055e-74fb-4544" name="Support Team" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
+        <entryLink id="af00-0a64-e610-8a26" name="Title - Onager-class Star Destroyer" hidden="false" collective="false" import="true" targetId="aa22-d973-3e98-0717" type="selectionEntryGroup"/>
+        <entryLink id="5f16-3913-6ee1-3a64" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="4878-a8f2-25a5-a45b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27f5-aa0d-1fc0-4d4b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="96.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -5414,6 +5556,129 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="de1c-158a-113c-72a6" name="Superweapon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5187-3a48-8d75-d7d2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0b80-7e61-57bf-8457" name="Superheavy Composite Beam Turbolasers" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0b80-7e61-57bf-8457" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99c6-f19e-d8a3-541e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ccca-339b-3fb1-e510" name="Superheavy Composite Beam Turbolasers" hidden="false" typeId="844f-22b2-b44e-a2cb" typeName="6.4 Superweapon">
+              <characteristics>
+                <characteristic name="Superweapon Ability" typeId="d746-aadb-5ab9-e3e0">Modification. Iginition [Medium]  Ignition, Red [Crit]:  The defender suffers 1 damage.  This occurs once for each red or blue [Crit] icon in the pool.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="3aae-5269-ca21-6366" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="619a-cf47-b35b-28dc" name="Orbital Bombardment Particle Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="619a-cf47-b35b-28dc" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff01-1a01-306a-2e08" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6102-f651-b9d8-77b9" name="Orbital Bombardment Particle Cannons" hidden="false" typeId="844f-22b2-b44e-a2cb" typeName="6.4 Superweapon">
+              <characteristics>
+                <characteristic name="Superweapon Ability" typeId="d746-aadb-5ab9-e3e0">Modification.  Ingition [Long]  Igintion, Red [Crit]:  Each other ship at distance 1 of the defender suffers 2 damage, and each squadron at distance 1 of the defender suffers 1 damage.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="fbf1-6afc-4cef-0dd7" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="aa22-d973-3e98-0717" name="Title - Onager-class Star Destroyer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9637-4ab9-e62f-d0a4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5642-309d-ce8c-f355" name="•Cataclysm" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e80-5f08-f668-c0b3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d652-f275-9555-e5ba" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d4d0-c2e5-476d-4ebe" name="Cataclysm" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">After the start of the Ship Phase, you may spend 1 [Concentrate Fire] token to place targeting token within your special firing arc withing the range specified by one of your ignition keywords.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6c02-a694-59ce-06b2" name="•Rakehell" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db8a-cb6e-14d4-bea4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0aeb-cc79-a272-df7f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="04e6-a1a0-d482-866b" name="Rakehell" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">[Manuver]:  While executing a 0-speed maneuver, you can resolve clicks of yaw at the speed-0 joint, and are treated as having a yaw value of &quot;1&quot; for that maneuver.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8e48-7551-18f8-ae7e" name="•Sunder" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="95c3-79f2-9cbc-a050" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddea-4a39-41c3-ccaf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e8b4-4868-2e25-b216" name="Sunder" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">Blue or Black [Crit]: You may discard this card to choose and discard 1 [Offensive Retrofit], [Defensesive Retrofit], [Ordanance], [Ion Cannons], or [Turbolaser] upgrade card equipped to the defender.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
