@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="29" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="30" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Added Onager and Starhawk.
 Added Rebellion in the Rim Objectives
 First pass of new Clone wars data</comment>
@@ -44,51 +44,81 @@ First pass of new Clone wars data</readme>
     <profileType id="ed38-5cd8-e875-d3e7" name="2.0 Commander">
       <characteristicTypes>
         <characteristicType id="1ebb-c216-cd61-f014" name="Commander Ability"/>
+        <characteristicType id="64ba-4cc9-c7ee-8717" name="Setup"/>
+        <characteristicType id="cdbe-ae0d-96bc-7d42" name="Recur"/>
+        <characteristicType id="2fed-4325-7b01-be48" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="80b7-1645-65c7-8a81" name="3.1 Officer">
       <characteristicTypes>
         <characteristicType id="b9fd-ed9d-6333-0e67" name="Officer Ability"/>
+        <characteristicType id="ed20-d6e7-c4cf-932e" name="Setup"/>
+        <characteristicType id="eecf-59d7-382a-c4c1" name="Recur"/>
+        <characteristicType id="c76d-721a-b31a-0340" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="229c-c950-27d2-b599" name="3.2 Weapons Team">
       <characteristicTypes>
         <characteristicType id="f63e-d559-f525-14e3" name="Weapons Team Ability"/>
+        <characteristicType id="1bf9-55e6-8728-ac34" name="Setup"/>
+        <characteristicType id="4edf-cbf3-3e26-fa72" name="Recur"/>
+        <characteristicType id="2c53-184d-5e9d-fa22" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="253b-6595-ea04-90bc" name="3.3 Support Team">
       <characteristicTypes>
         <characteristicType id="ae22-c426-3790-a78f" name="Support Team Ability"/>
+        <characteristicType id="1425-9589-e191-7555" name="Setup"/>
+        <characteristicType id="a754-50a3-9ea2-5d76" name="Recur"/>
+        <characteristicType id="23e1-5a11-a78f-adc7" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="ebbe-2c25-a937-60f3" name="5.1 Offensive Retrofit">
       <characteristicTypes>
         <characteristicType id="cfe9-897e-edba-6c69" name="Offensive Retrofit Ability"/>
+        <characteristicType id="c5c0-97fc-eb28-1983" name="Setup"/>
+        <characteristicType id="cdc3-8791-d7fb-4d2a" name="Recur"/>
+        <characteristicType id="cb24-1848-db0d-5c8f" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="c4ed-b3c1-3b29-236e" name="5.2 Defensive Retrofit">
       <characteristicTypes>
         <characteristicType id="8539-a418-bf73-51cd" name="Defensive Retrofit Ability"/>
+        <characteristicType id="1177-d2f9-43f7-1773" name="Setup"/>
+        <characteristicType id="7280-a06c-6155-cccd" name="Recur"/>
+        <characteristicType id="803e-a62b-9cf4-a6d3" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="f6bb-908e-778e-3884" name="6.3 Turbolasers">
       <characteristicTypes>
         <characteristicType id="43e5-b6c8-39de-139b" name="Turbolasers Ability"/>
+        <characteristicType id="0612-1ebf-fc72-3853" name="Setup"/>
+        <characteristicType id="d983-0594-058a-0e02" name="Recur"/>
+        <characteristicType id="8391-4b57-4643-bf2f" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="82fe-f045-0a3b-a5da" name="6.2 Ion Cannons">
       <characteristicTypes>
         <characteristicType id="2ce0-48c0-d090-1720" name="Ion Cannons Ability"/>
+        <characteristicType id="bff8-e0b0-0377-41c5" name="Setup"/>
+        <characteristicType id="aba1-c625-09d8-540a" name="Recur"/>
+        <characteristicType id="18ca-2956-de71-852a" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="10fd-be4e-bb29-3708" name="6.1 Ordnance">
       <characteristicTypes>
         <characteristicType id="f587-f8ce-7d4d-e620" name="Ordnance Ability"/>
+        <characteristicType id="7f20-a4fd-d76d-1ce8" name="Setup"/>
+        <characteristicType id="210a-5850-b75b-aad1" name="Recur"/>
+        <characteristicType id="71dc-e239-abb6-63a9" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="16d6-f94c-4e0d-8993" name="2.1 Title">
       <characteristicTypes>
         <characteristicType id="7040-d6d1-e20e-c16c" name="Title Ability"/>
+        <characteristicType id="6f6a-5eba-c2ee-2006" name="Setup"/>
+        <characteristicType id="cf46-034d-372c-3792" name="Recur"/>
+        <characteristicType id="b20e-3783-9a5e-dbf7" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="d2a5-335d-ee6f-ac1d" name="8.1 Assault Objective">
@@ -117,16 +147,25 @@ First pass of new Clone wars data</readme>
     <profileType id="ed35-7d25-a151-5780" name="4.1 Fleet Support">
       <characteristicTypes>
         <characteristicType id="bed9-437f-c45a-c805" name="Fleet Support Ability"/>
+        <characteristicType id="d1e5-93c3-3840-9f6c" name="Setup"/>
+        <characteristicType id="b216-ad3e-9e88-f4e4" name="Recur"/>
+        <characteristicType id="43a4-4bd5-cb89-62fd" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="2907-d622-4480-ea97" name="5.3 Experimental Retrofit">
       <characteristicTypes>
         <characteristicType id="8e5f-9df9-a449-7982" name="Experimental Retrofit Ability"/>
+        <characteristicType id="3b02-afb1-2eac-4d8d" name="Setup"/>
+        <characteristicType id="1dbe-3f77-44fc-b447" name="Recur"/>
+        <characteristicType id="5bff-98ae-f464-452c" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="1310-5c89-5c82-8e3b" name="4.2 Fleet Command">
       <characteristicTypes>
         <characteristicType id="67d1-23ac-2af6-6b5a" name="Fleet Command Ability"/>
+        <characteristicType id="fe32-50a3-41a4-c521" name="Setup"/>
+        <characteristicType id="90e2-ff61-cc26-03d7" name="Recur"/>
+        <characteristicType id="28f0-e3fe-0af2-dbab" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="4dcf-fa1c-f3bf-1b53" name="8.3 Navigation Objective">
@@ -149,6 +188,9 @@ First pass of new Clone wars data</readme>
     <profileType id="68e2-2506-5078-dca9" name="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
       <characteristicTypes>
         <characteristicType id="1e09-635d-6def-1999" name="Dual Type Upgrade Ability"/>
+        <characteristicType id="11c6-e7ff-d897-8e01" name="Setup"/>
+        <characteristicType id="1a2f-7d5a-90d4-2dcb" name="Recur"/>
+        <characteristicType id="8c3b-3f6c-edea-d754" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
     <profileType id="f729-3ef8-1c42-536e" name="1.2 Huge Ships">
@@ -178,6 +220,9 @@ First pass of new Clone wars data</readme>
     <profileType id="844f-22b2-b44e-a2cb" name="6.4 Superweapon">
       <characteristicTypes>
         <characteristicType id="d746-aadb-5ab9-e3e0" name="Superweapon Ability"/>
+        <characteristicType id="57bc-95c9-dfda-9b00" name="Setup"/>
+        <characteristicType id="b62a-22ba-f705-4745" name="Recur"/>
+        <characteristicType id="0390-7d02-e2d9-932a" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -233,7 +278,7 @@ First pass of new Clone wars data</readme>
         <categoryLink id="653f-fec5-1be3-4c1c" name="MC75 Cruiser" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false"/>
-        <categoryLink id="a97d-9753-f88c-89bb" name="Nadiri Starhawk" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
+        <categoryLink id="a97d-9753-f88c-89bb" name="Starhawk-Class Battleship" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false"/>
         <categoryLink id="1775-efc7-4d37-1a32" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
@@ -449,7 +494,7 @@ First pass of new Clone wars data</readme>
                 <profile id="d0ad-0353-2727-964b" name="Doomed Station" hidden="false" typeId="4dcf-fa1c-f3bf-1b53" typeName="8.3 Navigation Objective">
                   <characteristics>
                     <characteristic name="Setup" typeId="6abf-158a-3b97-3f5c">The second player places the gravity rift in the center of the setup area. Then, starting with the first player, the players alternate placing the remaining obstacles, excluding the station. Then the second player places the station in the setup area beyond distance 1 of all obstacles and beyond distance 5 of both player&apos;s edges.</characteristic>
-                    <characteristic name="Special Rule" typeId="52c8-b374-6fa0-19d4"></characteristic>
+                    <characteristic name="Special Rule" typeId="52c8-b374-6fa0-19d4"/>
                     <characteristic name="End of Round" typeId="fa5d-9649-202a-f528">Starting with the second player and alternating, each player chooses 1 obstacle that does not have an objective token on it and moves it to within distance 1-2 of its current location toward the gravity rift (which cannot be chosen). Then that player places an objective token on that obstacle. When an obstacle touches the gravity rift, that obstacle is removed from the play area.
 After all obstacles are moved, each player sums the command values of their ships at distance 1 of the station. The player with the highest total gains 1 victory token. Then remove all objectives tokens from the play area.</characteristic>
                     <characteristic name="End of Game" typeId="8dad-11c4-b910-7882"/>
@@ -794,7 +839,7 @@ After deploying fleets, the second player places 3 facedown command dials in a s
                     <characteristic name="Special Rule" typeId="a90f-1f9a-066b-1153">At the start of the Ship Phase during the first, second, and third rounds, the second player reveals the top command dial on this card, and each of the first player&apos;s ships gain a raid token matching that dial.</characteristic>
                     <characteristic name="End of Round" typeId="6ecd-ea77-564f-e40a"/>
                     <characteristic name="End of Game" typeId="8724-e0d0-2a6a-177c"/>
-                    <characteristic name="Victory Token Value" typeId="4a0a-04e9-d3e0-311b"></characteristic>
+                    <characteristic name="Victory Token Value" typeId="4a0a-04e9-d3e0-311b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -997,7 +1042,7 @@ After deploying fleets, each of the second players&apos; ships gain a [Engineeri
                     <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">Each ship can resolve the following effect:
 [Engineering]:  You may spend engineering points to gain victory tokens from 1 station or dust field at distance 1.  If that obstacle is a station, gain 1 toke for each 3 points you spend.  If that obstacle is a dust field, gain 1 token for every 2 points you spend.  Then, if that obstacle is a dust field and you gained more than 1 victory token, remove that obstacle from the play area.</characteristic>
                     <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57"/>
-                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"></characteristic>
+                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"/>
                     <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e">10</characteristic>
                   </characteristics>
                 </profile>
@@ -1019,8 +1064,8 @@ After deploying fleets, each of the second players&apos; ships gain a [Engineeri
 When one of the second player&apos;s ships or unique squadrons overlaps an asteroid field, that obstacle has no effect and that ship or squadron may recover 1 of its non-[Scatter] defense tokens or may ready 1 of its defense tokens.
 After the start of each squadron phase (after exogorths perform attacks), remove each exogorth obstacle from the play area.</characteristic>
                     <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57">The second player places the 2 exogorth obstacles, each touching a different obstacle.</characteristic>
-                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"></characteristic>
-                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e"></characteristic>
+                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"/>
+                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1060,8 +1105,8 @@ After the start of each squadron phase (after exogorths perform attacks), remove
 After deploying fleets, the second player may choose 1 enemy ship. That ship must execute a speed-1 maneuver with a yaw of &apos;-&apos;. Then the second player may increase or decrease that ship&apos;s speed by 1, to a minimum speed of 0.</characteristic>
                     <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">Once per activation, after a ship executes a maneuver, if it is at distance 1-2 of the gravity rift, it must execute a speed-1 maneuver with a yaw of &apos;-&apos;. If that ship belongs to the second player, it may use its speed-1 yaw value. The gravity rift does not have the ability to temporarily reduce that ship&apos;s speed during this maneuver.</characteristic>
                     <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57"/>
-                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"></characteristic>
-                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e"></characteristic>
+                    <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"/>
+                    <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e"/>
                   </characteristics>
                 </profile>
               </profiles>
