@@ -2353,10 +2353,10 @@ During your &quot;Spend Defense Tokens&quot; step, if your speed is not 0, you m
           <profiles>
             <profile id="590c-8b31-b6cf-8dd0" name="Electronic Countermeasures" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an Accuracy result.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an [Accuracy] result.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
-                <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
-                <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
+                <characteristic name="Recur" typeId="7280-a06c-6155-cccd">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3">1 [Engineering] token</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2519,10 +2519,11 @@ During your &quot;Spend Defense Tokens&quot; step, if your speed is not 0, you m
           <profiles>
             <profile id="b943-d633-99a3-a15d" name="Slicer Tools" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3.  You may choose a new command on its top command dial.</characteristic>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">This card begins the game exhausted.
+After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1–3. You may choose a new command on its top command dial.</characteristic>
                 <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
-                <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4"/>
-                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd"/>
+                <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd">1 [Engineering] token</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3645,6 +3646,46 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
             <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6ef0-4ac9-c768-afe3" name="•Kyrsta Agate" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3843-6a9f-75f4-ae0f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c97-e319-9853-99be" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c722-fb97-8de8-3c78" name="Kyrsta Agate" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Red or Blue [Crit]: You may exhaust this card to ready 1 of your exhausted defense tokens.
+
+You can resolve this critical effect during a Salvo attack.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4e13-3751-3427-7c50" name="•Wedge Antilles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7922-455a-8cf4-7ed2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed26-e305-2f51-076e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1945-8b47-7dba-9674" name="Wedge Antilles" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before the end of the Squadron Phase, you may spend 1 [Squadron] token to choose up to 3 friendly non-unique squadrons without Strategic at distance 1-5. Those squadrons gain Cloak until the end of the round.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="23f2-ace7-4294-434e" name="Ordnance" hidden="false" collective="false" import="true">
@@ -3955,7 +3996,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="f2f0-7a1e-47b0-3d1f" name="Auxiliary Shields Team" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">Repair: You may treat the maximum shield values of your right and left hull zones as increased by 1 when you recover or move shields to those zones. If you do, the number of shields in those zones cannot exceed a maximum of &quot;4&quot;.</characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Engineering]:  You may treat the maximum shield values of your right and left hull zones as increased by 1 when you recover or move shields to those zones. If you do, the number of shields in each of those zones cannot exceed a maximum of “4”.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
                 <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
@@ -4176,7 +4217,9 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="a207-06a2-ac1c-b004" name="Mon Karren" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While attacking a ship, the defender cannot spend more than 1 defense token.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">[Concetrate Fire]:  While attacking a ship, the defender
+cannot spend more than 1 defense token
+during this attack</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
@@ -4184,7 +4227,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="48e5-8967-f430-d28f" name="•Liberty" hidden="false" collective="false" import="true" type="upgrade">
@@ -4329,7 +4372,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="f24b-c139-61e4-3496" name="Yavaris" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">Squadron: Each squadron you activate can attack twice if it does not move during your activation. </characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">[Squadron]: Each squadron you activate may choose to only attack during your activation. If it does, while attacking, it may add 1 die to its attack pool of a color already in its attack pool.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
@@ -4463,7 +4506,8 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="4273-7468-a6d1-ab8d" name="H9 Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, you may change 1 die face with a Hit or Critical icon to a face with an Accuracy icon.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.
+While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face with an [Accuracy] icon.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4767,7 +4811,8 @@ die.</characteristic>
           <profiles>
             <profile id="aed0-7aa6-d1f1-adb3" name="Gunnery Team" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
               <characteristics>
-                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">You can attack from the same hull zone more than once per activation.  That hull zone cannot target the same ship or squadron more than once during that activation.</characteristic>
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">[Concetrate Fire[]:  The next attack you perform this activation can be performed from this hull zone.
+Each of your hull zones cannot target the same ship or squadron more than once during your activation.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
                 <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
@@ -4839,7 +4884,7 @@ die.</characteristic>
           <profiles>
             <profile id="1585-3777-f95a-5d64" name="Ordnance Experts" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
               <characteristics>
-                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking, you may reroll any number of your black dice.</characteristic>
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking, you may reroll up to 2 black dice.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
                 <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
