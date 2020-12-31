@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="44" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added additional missing cards.  
-Continued update to 1.5 data.</comment>
-  <readme>Continued update to Armada 1.5 data
+  <comment>Add cards added.  Main Errata updateded.</comment>
+  <readme>Card format redone to Armada 1.5 standards.  All cards have been added.  
+Not all card functionality may be working yet and not all changes have been populated in the new feildss.
 </readme>
   <selectionEntries>
     <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" import="true" type="unit">

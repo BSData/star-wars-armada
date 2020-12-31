@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="30" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Partial Update to Armada 1.5 Text and data.</comment>
-  <readme>Beginning update of cards and data to Armada 1.5 wording.</readme>
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="30" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums 
+vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Card Format Updated to Armada 1.5
+All cards added to catalogs.</comment>
+  <readme>This version has all cards added through Clone Wars.  Some functionality of cards may not be working.
+Limit of 1 unique squadron per 100 poits not applied yet.
+Not all updated card forms are complete.</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>

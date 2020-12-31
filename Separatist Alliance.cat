@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="2" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>More Clone Wars updates</comment>
-  <readme>Continued updates of Seperatist forces.</readme>
+  <comment>All cards added.</comment>
+  <readme>Card format redone to Armada 1.5 standards.  All cards have been added.  
+Not all card functionality may be working yet and not all changes have been populated in the new feildss.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Droid Tri-Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
