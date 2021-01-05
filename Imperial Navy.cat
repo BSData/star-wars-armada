@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="44" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums vadersson most places." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Add cards added.  Main Errata updateded.</comment>
-  <readme>Card format redone to Armada 1.5 standards.  All cards have been added.  
-Not all card functionality may be working yet and not all changes have been populated in the new feildss.
-</readme>
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="45" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums vadersson most places." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Fixed the Arquitens</comment>
+  <readme>Fixed Arquitens</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1588,8 +1586,8 @@ Not all card functionality may be working yet and not all changes have been popu
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="4f81-dab4-61b9-7141-8988-a3d2-ecc4-c0e4" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="true"/>
         <categoryLink id="eea8-f76a-03fe-f578" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false"/>
+        <categoryLink id="a026-8e3b-e65b-a3d7" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a10c-db41-263d-940f" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
@@ -1642,8 +1640,8 @@ Not all card functionality may be working yet and not all changes have been popu
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="2abf-4046-f18b-8acb-8988-a3d2-ecc4-c0e4" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="true"/>
         <categoryLink id="bea3-0494-be82-87a9" name="New CategoryLink" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false"/>
+        <categoryLink id="22a9-398e-c2cf-fc05" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4021-dfde-36ac-7724" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
