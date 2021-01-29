@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="2" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>All cards available to Galactic Republic added</comment>
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="3" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added Clone War Previews</comment>
   <readme>Card format redone to Armada 1.5 standards.  All cards have been added.  
 Not all card functionality may be working yet and not all changes have been populated in the new feildss.
 </readme>
@@ -174,6 +174,7 @@ Not all card functionality may be working yet and not all changes have been popu
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit, Ordnance, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Clone.  Transport.</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
           </characteristics>
         </profile>
       </profiles>
@@ -218,6 +219,7 @@ Not all card functionality may be working yet and not all changes have been popu
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Defensive Retrofit, Ordnance, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Clone.  Bombard.  Transport.</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
           </characteristics>
         </profile>
       </profiles>
@@ -497,6 +499,7 @@ Not all card functionality may be working yet and not all changes have been popu
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Offensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Clone.</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
           </characteristics>
         </profile>
       </profiles>
@@ -553,6 +556,7 @@ Not all card functionality may be working yet and not all changes have been popu
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Senate.  Comms.</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
           </characteristics>
         </profile>
       </profiles>
@@ -579,6 +583,47 @@ Not all card functionality may be working yet and not all changes have been popu
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="37.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be24-c216-6f4f-6299" name="Venator I-class Star Destroyer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dccf-8000-30b6-a905" name="Venator I-class Star Destroyer" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">2 Blue</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">1</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">1</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">1</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf"/>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">3 Red, 3 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">1 Red, 1 Blue, 2 Black</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">1 Red, 1 Blue, 2 Black</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Blue, 1 Black</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">4</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Fleet Command, Offensive Retrofit, Ordnance, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Clone.  Jedi.  Comms.</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="48d0-10a9-2e3a-188e" name="Acclamator-class Assault Ship" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="true"/>
+        <categoryLink id="4b16-c209-82fa-8d56" name="Large Ship" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="387d-e0cc-1b1b-ec4d" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="dda3-77d2-c18d-ed01" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="1495-53c1-88eb-876b" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="52bc-51ef-f719-472d" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="ae1f-cd93-e72c-4108" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="f753-8f7e-3e78-610e" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+        <entryLink id="36b5-d438-52a9-cfaf" name="Fleet Command" hidden="false" collective="false" import="true" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -663,7 +708,7 @@ Not all card functionality may be working yet and not all changes have been popu
                 <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an [Accuracy] result.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
                 <characteristic name="Recur" typeId="7280-a06c-6155-cccd">Non-Recur</characteristic>
-                <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3">1 [Engineering] token</characteristic>
+                <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3">1 [Repair] token</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -678,7 +723,7 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="be47-976c-b882-08e3" name="Advanced Projectors" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">When you resolve the Redirect token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">When you resolve the [Redirect] token effect, you can choose more than 1 hull zone to suffer damage, which may include a nonadjacent hull zone.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
                 <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
                 <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
@@ -696,7 +741,7 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="0d29-1410-6d5c-026b" name="Cluster Bombs" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each Hit or Critical icon rolled.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice.  That squadron suffers 1 damage for each [Hit] or [Crit] icon rolled.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
                 <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
                 <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
@@ -714,7 +759,7 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="4d6d-3bbc-4bb8-b784" name="Reinforced Blast Doors" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">At the start of the ship phase, you may discard this card to discard up to 3 of your facedown damage cards.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">At the start of the Ship Phase, you may discard this card to discard up to 3 of your facedown damage cards.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
                 <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
                 <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
@@ -744,7 +789,8 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="0fdc-d2e0-abf3-acd8" name="Redundant Shields" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">Modification. At the start of each Status Phase, you may recover 1 shield.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">Modification.  
+At the start of each Status Phase, you may recover 1 shield.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
                 <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
                 <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
@@ -765,7 +811,7 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="fcc7-ecf7-79c3-46a3" name="Early Warning System" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">At the start of each Ship Phase, you may choose 1 of your hull zones and mark it with a chaff token. Until the end of the round, while a ship or squadron is attacking that hull zone, the attack is obstructed. After the Status Phase, remove that chaff token.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">At the start of each Ship Phase, you may choose 1 of your hull zones and mark it with a chaff token.  Until the end of the round, while a ship or squadron is attacking that hull zone, the attack is obstructed.  After the Status Phase, remove that chaff token.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
                 <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
                 <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
@@ -783,9 +829,9 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="a3bf-3df8-828a-47ec" name="Reactive Gunnery" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">While defending, you may exhaust this card and spend a readied defense token to resolve the [salvo] defense effect instead of that token&apos;s effect.  You cannon resolve the [salvo] defense effect more than once per attack.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">While defending, you may exhaust this card and spend a readied defense token to resolve the [Salvo] defense effect instead of that token&apos;s effect.  You cannon resolve the [Salvo] defense effect more than once per attack.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
-                <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
+                <characteristic name="Recur" typeId="7280-a06c-6155-cccd">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
               </characteristics>
             </profile>
@@ -888,7 +934,8 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="a94f-76c8-5d03-876d" name="Bomber Command Center" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">While a friendly squadron with BOMBER at distance 1-5 is attacking a ship, it may reroll 1 die. A squadron cannot resolve more than 1 &quot;Bomber Command Squadron&quot; card per attack.</characteristic>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">While a friendly squadron with Bomber at distance 1-5 is attacking a ship, it may reroll 1 die.  
+A squadron cannot resolve more than 1 &quot;Bomber Command Center&quot; card per attack.</characteristic>
                 <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
                 <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4"/>
                 <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd"/>
@@ -906,11 +953,11 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="dd2f-237b-d440-3d16" name="Slicer Tools" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">This card begins the game exhausted.
-After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1–3. You may choose a new command on its top command dial.</characteristic>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">This card begins the game exhausted.  
+After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3.  You may choose a new command on its top command dial.</characteristic>
                 <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
                 <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4">Non-Recur</characteristic>
-                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd">1 [Engineering] token</characteristic>
+                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd">1 [Repair] token</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -925,7 +972,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="a97b-a3c0-b558-8e6b" name="Comms Net" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After the Reveal Command Dial Step, you may remove 1 command token from this ship to assign a matching token to another friendly ship at distance 1-5.</characteristic>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After your Reveal Command Dial step, you may discard 1 command token from this ship to assign a matching token to another friendly ship at distance 1-5.</characteristic>
                 <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
                 <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4"/>
                 <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd"/>
@@ -961,7 +1008,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="36ae-1cc5-a053-d8a5" name="Repair Crews" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">Engineering: Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2.</characteristic>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">[Repair]:  Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2.</characteristic>
                 <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
                 <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4"/>
                 <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd"/>
@@ -980,9 +1027,9 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             <profile id="bbd4-0f85-0347-7109" name="Munitions Resupply" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
                 <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After your Reveal Command Dial step, you may exhaust this card and discard any number of [concentrate fire] tokens from it to choose that many friendly ships at distance 1-5.  Assign each chosen ship a [concentrate fire] token.</characteristic>
-                <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
-                <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4"/>
-                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd"/>
+                <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c">5 [Concentrate Fire] Tokens</characteristic>
+                <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd">1 [Concentrate Fire] or [Repair], or [Navigate] token</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -997,10 +1044,10 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="5e7e-4b39-55f8-d06a" name="Parts Resupply" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After your Reveal Command Dial step, you may exhaust this card and discard any number of [engineering] tokens from it to choose that many friendly ships at distance 1-5.  Assign each chosen ship a [engineering] token.</characteristic>
-                <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
-                <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4"/>
-                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd"/>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After your Reveal Command Dial step, you may exhaust this card and discard any number of [Repair] tokens from it to choose that many friendly ships at distance 1-5.  Assign each chosen ship a [Repair] token.</characteristic>
+                <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c">5 [Repair] tokens</characteristic>
+                <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd">1 [Repair] or [Navigate] or [Squadron] token</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1188,7 +1235,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="b40c-3563-331b-4bd6" name="Expanded Hangar Bay" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Your squadron value is increased by 1</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Your squadron value is increased by 1.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1206,7 +1253,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="7740-14a2-f39d-0c4a" name="Point Defense Reroute" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">While attacking a squadron at close range, you may reroll your Critical icons.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">While attacking a squadron at close range, you may reroll your [Crit] icons.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1236,9 +1283,10 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="f796-6530-bb06-1ce8" name="Phylon Q7 Tractor Beams" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Modification. When you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5.  That ship must spend a Navigate token or reduce its speed by 1 to a minimum of 1.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Modification.
+When you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5.  That ship must spend a [Navigate] token or reduce its speed by 1 to a minimum of 1.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
-                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
+                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
               </characteristics>
             </profile>
@@ -1257,7 +1305,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="b8b2-583f-bace-4bc7" name="Quad Laser Turrets" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">While defending at distance 1, if the attacker is a squadron, you have Counter 1.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">While defending at distance 1, if the attacker is a squadron, you have counter 1.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1275,7 +1323,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="ecb7-a974-a214-7eda" name="Boosted Comms" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Squadron: You can activate friendly squadrons at close-long range (instead of close-medium).</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">[Squadron]:  You can activate friendly squadrons at close-long range (instead of close-medium).</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1293,7 +1341,8 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="1ca5-9522-1a8f-3950" name="Rapid Launch Bays" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card.  Squadron: For each squadron you would activate with this command, you may instead place 1 of your set-aside squadrons within distance 1. It cannot move this activation.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card.  
+[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 1.  If cannot move this activation.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1318,7 +1367,8 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="b698-0b04-accc-d215" name="Disposable Capacitors" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">When you activate, you may discard this card. If you do, the blue dice in your battery armament can be used while attacking ships at close-long range until the end of the round.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Small or medium ship only.
+When you activate, you may discard this card.  If you do, the blue dice in your battery armament can be used while attacking ships at close-long range until the end of the round.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1343,7 +1393,8 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="8128-40dc-525e-0ecf" name="Hardened Bulkheads" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">When you overlap a ship of a smaller size class (or are overlapped by a ship of a smaller size class), deal 1 fewer facedown damage card to your ship.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Large ship only.  
+When you overlap a ship of smaller size class (or are overlapped by a ship of a smaller size class), deal 1 fewer facedown damage cards to your ship.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1373,10 +1424,10 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="8122-58ee-e1f2-3f38" name="Flag Bridge" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Medium or large ship only.
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Medium or Large ship only.
 Flagship only.
-Modification
-You gain 1 [Fleet Command] icon in you upgrade bar.
+Modification.
+You gain 1 [Fleet Command] icon in your upgrade bar.
 You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
@@ -1416,7 +1467,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="bb2e-33e6-eff2-6527" name="Reserve Hangar Deck" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">When a non-unique squadron with Swarm at distance 1-5 is destroyed, you may discard this card. If you do, you may set that squadron&apos;s hull points to &quot;2&quot; and place that squadron, unengaged, at distance 1 with its activation slider toggled to the activated side.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">When a non-unique squadron with Swarm at distance 1-5 is destroyed, you may discard this card.  If you do, you may set that squadron&apos;s hull points to &quot;2&quot; and place that squadron, unengaged, at distance 1 with its activation slider toggled to the activated side.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -1464,7 +1515,8 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="b628-7d95-6244-3aab" name="Advanced Transponder Net" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Modification. Friendly Heavy Squadrons at distance 1-2 prevent engaged squadrons from attacking ships.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Modification.
+Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attacking ships.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -2854,7 +2906,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="344c-d9a7-67f0-a0ec" name="All Fighters, Follow Me!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
               <characteristics>
-                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Squadron token.  If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron&apos;s activation.</characteristic>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a [Squadron] token.  If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron&apos;s activation.</characteristic>
                 <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
                 <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
                 <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
@@ -2873,7 +2925,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="0353-f750-36dc-e80c" name="Entrapment Formation!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
               <characteristics>
-                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Navigate token.  If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step.</characteristic>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a [Navigate] token.  If you do, until the end of the round, each friendly ship may change its speed by 1 during it Determine Course step.</characteristic>
                 <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
                 <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
                 <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
@@ -2892,7 +2944,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="339d-2ecf-1fe2-03ae" name="Shields to Maximum!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
               <characteristics>
-                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Repair token.  If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield.</characteristic>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a [Repair] token.  If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield.</characteristic>
                 <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
                 <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
                 <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
@@ -2911,7 +2963,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="74be-046b-825e-35d1" name="Intensify Firepower!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
               <characteristics>
-                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Concentrate Fire token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 Hit icon and no other icons.</characteristic>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a [Concentrate Fire] token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 [Hit] icon and no other icons.</characteristic>
                 <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
                 <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
                 <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
@@ -2930,7 +2982,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="6a01-6e37-9e1d-a1aa" name="Take Evasive Action!" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
               <characteristics>
-                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a Navigate token.  If you do, until the end of the round, each friendly ship may increase the last yaw value of its current speed by 1 during its Determine Course step.</characteristic>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Ship Phase, you may discard this card or spend a [Navigate] token. If you do, until the end of the round, each friendly ship may increase the last yaw value of its current speed by 1 during its Determine Course step.</characteristic>
                 <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
                 <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
                 <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>

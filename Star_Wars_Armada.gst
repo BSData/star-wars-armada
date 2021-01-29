@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="30" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums 
-vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Card Format Updated to Armada 1.5
-All cards added to catalogs.</comment>
-  <readme>This version has all cards added through Clone Wars.  Some functionality of cards may not be working.
-Limit of 1 unique squadron per 100 poits not applied yet.
-Not all updated card forms are complete.</readme>
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="31" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums  vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Updated all cards to 1.5 standard.
+Added Preview Clone Wars units</comment>
+  <readme>Updated all cards to 1.5 standard
+Added Clone War previews
+Not all functionality is working</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -28,6 +27,7 @@ Not all updated card forms are complete.</readme>
         <characteristicType id="5753-1a48-06df-40af" name="Rear Shield Value"/>
         <characteristicType id="5ba4-e836-287d-1b42" name="Upgrade Bar"/>
         <characteristicType id="44b7-80c3-1f4f-8b7c" name="Keywords"/>
+        <characteristicType id="b650-9c38-4a65-44a7" name="Max Speed"/>
       </characteristicTypes>
     </profileType>
     <profileType id="6590-7c7f-7387-8791" name="1.3 Squadrons">
@@ -215,6 +215,7 @@ Not all updated card forms are complete.</readme>
         <characteristicType id="d82b-f19d-718f-48bf" name="Rear Shield Value"/>
         <characteristicType id="b58a-528d-9e95-2e5b" name="Upgrade Bar"/>
         <characteristicType id="6971-9ddc-3d67-25bb" name="Keywords"/>
+        <characteristicType id="0008-e99d-e206-85be" name="Max Speed"/>
       </characteristicTypes>
     </profileType>
     <profileType id="844f-22b2-b44e-a2cb" name="6.4 Superweapon">
@@ -225,9 +226,18 @@ Not all updated card forms are complete.</readme>
         <characteristicType id="0390-7d02-e2d9-932a" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="6aab-c5a8-8550-5f3a" name="8.4 Campaign Objective">
+      <characteristicTypes>
+        <characteristicType id="fa59-8161-5e62-2ef5" name="Setup"/>
+        <characteristicType id="fc66-e901-6b99-d3cb" name="Special Rule"/>
+        <characteristicType id="fe21-e9ae-c56c-1f06" name="End of Round"/>
+        <characteristicType id="8566-c967-8a18-6c6b" name="End of Game"/>
+        <characteristicType id="0b8c-5722-b073-5bf4" name="Victory Token Value"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Acclamator-class Assault Ship" hidden="false"/>
+    <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false"/>
     <categoryEntry id="62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false"/>
     <categoryEntry id="319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false"/>
     <categoryEntry id="469b-896c-3ab9-d1b6" name="Gladiator-class Star Destroyer" hidden="false"/>
@@ -261,11 +271,15 @@ Not all updated card forms are complete.</readme>
     <categoryEntry id="9aea-dbf4-376c-b22b" name="Hardcell-class" hidden="false"/>
     <categoryEntry id="748a-3a7d-d223-580f" name="Munificent-class Frigate" hidden="false"/>
     <categoryEntry id="8322-2087-0da5-10c1" name="Unarmed Station" hidden="false"/>
+    <categoryEntry id="8c65-1e25-1a94-a65f" name="Acclamator-class Assault Ship" hidden="false"/>
+    <categoryEntry id="d53e-d6ae-cd55-7265" name="Pelta-class Frigate" hidden="false"/>
+    <categoryEntry id="a1ce-1cc4-a94f-5cbe" name="Providence-class Dreadnaught Carrier" hidden="false"/>
+    <categoryEntry id="0252-613d-1528-9434" name="Recusant-class Destroyer" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
       <categoryLinks>
-        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Acclamator-class Assault Ship" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="false"/>
@@ -285,7 +299,7 @@ Not all updated card forms are complete.</readme>
         <categoryLink id="da8e-611e-fed3-1860" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false"/>
         <categoryLink id="f859-78b9-5fe3-82d6" name="Super Star Destroyer" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="false"/>
-        <categoryLink id="1b44-1532-e7c9-9663-7fb1-7ee5-3690-d880" name="Victory Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-7fb1-7ee5-3690-d880" name="Victory-class Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="false">
           <modifiers>
             <modifier type="increment" field="maxPoints" value="1.0">
@@ -306,6 +320,9 @@ Not all updated card forms are complete.</readme>
         <categoryLink id="4fc7-8152-436a-0381" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
         <categoryLink id="a01c-a7ca-df56-e9a3" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
         <categoryLink id="49b2-f49d-de86-c491" name="Unarmed Station" hidden="false" targetId="8322-2087-0da5-10c1" primary="false"/>
+        <categoryLink id="4a8e-4abb-a4e2-8c1f" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="false"/>
+        <categoryLink id="9f08-60d3-fa45-61db" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
+        <categoryLink id="7891-7e38-0893-25ed" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1107,6 +1124,47 @@ After deploying fleets, the second player may choose 1 enemy ship. That ship mus
                     <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57"/>
                     <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"/>
                     <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c356-7d17-624e-ad61" name="Campaign Objective" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29a0-e49e-2506-2d79" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f33d-7f20-0321-2ff1" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="198f-8476-21a2-3ef1" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6da8-5847-f387-749c" name="Campaign Objective" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55ed-6fa9-bf3b-876e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0369-b900-da6a-91a1" name="Hyperlane Raid" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbdf-d7b5-0e0e-1dc5" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1639-842a-3b7b-1ef4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bcbd-fabb-208e-0c67" name="Hyperlane Raid" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">After deploying fleets, each player chooses 1 of his ships to be an objective ship, starting with the first player.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">The first player&apos;s objective ship may perform each of its attacks from the same hull zone. It cannot target the same hull zone or squadron more than once each round with that hull zone. The second player&apos;s objective ship may perform each of its attacks from the same hull zone, and it may do so against the same targets.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">The fleet point cost of a destroyed objective ship is doubled. Do not double the cost of its upgrade cards.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">15</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
