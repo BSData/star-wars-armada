@@ -2659,7 +2659,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="c87d-9962-22e4-8a8e" name="Overload Pulse" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
               <characteristics>
-                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue Critical: Exhaust all of the defender&apos;s defense tokens.</characteristic>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue [Crit]:  Exhaust all of the defender&apos;s defense tokens.</characteristic>
                 <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
                 <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
                 <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
@@ -2677,7 +2677,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="7f08-bb0b-6115-fc49" name="Ion Cannon Batteries" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
               <characteristics>
-                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue critical: Choose and discard 1 command token from the defender. If the defender does not have any command tokens, the defending hull zone loses 1 shield instead.</characteristic>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue [Crit]:  Choose and discard 1 command token from the defender.  If the defender does not have any command tokens, the defending hull zone loses 1 shield instead.</characteristic>
                 <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
                 <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
                 <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
@@ -2713,7 +2713,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="68c4-a588-4bff-fa6e" name="SW-7 Ion Batteries" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
               <characteristics>
-                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">While attacking a ship, each of your unspent blue Accuracy icons adds 1 damage to the damage total.</characteristic>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">While attacking a ship, each of your unspent blue [Accuracy] icons adds 1 damage to the damage total.</characteristic>
                 <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
                 <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
                 <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
@@ -2761,7 +2761,8 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="77df-fadf-05d3-d89b" name="High-Capacity Ion Turbines" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
               <characteristics>
-                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Modification. The battery armaments for your left and right hull zones are increased by 1 blue die.</characteristic>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Modification.  
+The battery armaments for your left and right hull zones are increased by 1 blue die.</characteristic>
                 <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
                 <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
                 <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
@@ -2782,7 +2783,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="91df-cb88-e1f0-9813" name="MS-1 Ion Cannons" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
               <characteristics>
-                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue critical: Choose and exhaust 1 of the defender&apos;s upgrade cards.</characteristic>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue [Crit]:  Choose and exhaust 1 of the defender&apos;s upgrade cards.</characteristic>
                 <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
                 <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
                 <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
@@ -2800,7 +2801,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
           <profiles>
             <profile id="a23a-9f57-5011-6ddf" name="Heavy Ion Emplacements" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
               <characteristics>
-                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue [Crit]:  Exhaust this card. The defending hull zone and each adjacent hull zone loses 1 shield.</characteristic>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Blue [crit]:  Exhaust this card.  The defending hull zone and each adjacent hull zone loses 1 shield.</characteristic>
                 <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
                 <characteristic name="Recur" typeId="aba1-c625-09d8-540a">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
@@ -3909,7 +3910,7 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="7def-c9f4-756a-091c" name="Engineering Team" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">Repair: Gain 1 additional engineering point.</characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Repair]:  Gain 1 additional engineering point.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
                 <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
@@ -3927,7 +3928,7 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="0c73-964f-8225-d7ec" name="Nav Team" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">Navigate: Your Navigate tokens can either change your speed or increase 1 yaw value by 1.</characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Navigate]:  Your [Navigate] tokens can either change your speed or increase 1 yaw value by 1.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
                 <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
@@ -3945,9 +3946,10 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="9488-8c68-00e4-2b80" name="Engine Techs" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">Navigate: After you execute a maneuver, you may exhaust this card to execute a speed-1 maneuver. </characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Navigate]:  After you execute a maneuver, you may exhaust this card to execute a speed-1 maneuver.
+After you execute a maneuver, if you overlapped a ship, exhaust this card.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
-                <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
+                <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
               </characteristics>
             </profile>
@@ -3963,7 +3965,7 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="8802-853d-25d2-838f" name="Projection Experts" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">Repair: You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5.</characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Repair]:  You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
                 <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
@@ -4017,7 +4019,7 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="f2f0-7a1e-47b0-3d1f" name="Auxiliary Shields Team" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Engineering]:  You may treat the maximum shield values of your right and left hull zones as increased by 1 when you recover or move shields to those zones. If you do, the number of shields in each of those zones cannot exceed a maximum of “4”.</characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Repair]:  You may treat the maximum shield values of your right and left hull zones as increased by 1 when you recover or move shields to those zones.  If you do, the number of shields in each of those zones cannot exceed a maximum of &quot;4&quot;.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
                 <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
@@ -4832,7 +4834,7 @@ die.</characteristic>
           <profiles>
             <profile id="aed0-7aa6-d1f1-adb3" name="Gunnery Team" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
               <characteristics>
-                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">[Concetrate Fire[]:  The next attack you perform this activation can be performed from this hull zone.
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">[Concentrate Fire]:  The next attack you perform this activation can be performed from this hull zone.  
 Each of your hull zones cannot target the same ship or squadron more than once during your activation.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
                 <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
@@ -4851,9 +4853,9 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="c5c2-84f2-9013-bf69" name="Sensor Team" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
               <characteristics>
-                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking, you may exhaust this card and spend 1 die to change 1 of your dice to a face with an Accuracy icon.</characteristic>
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking, you may exhaust this card and spend 1 die to change 1 of your dice to a face with an [Accuracy] icon.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
-                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
+                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
               </characteristics>
             </profile>
@@ -4869,7 +4871,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="4f59-f6f8-38b7-18c2" name="Flight Controllers" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
               <characteristics>
-                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">Squadron: The anti-squadron armament of each squadron that you activate is increased by 1 blue die until the end of its activation.</characteristic>
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">[Squadron]:  The anti-squadron armament of each squadron that you activate is increased by 1 blue die until the end of its activation.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
                 <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
@@ -4925,7 +4927,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
               <characteristics>
                 <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking, you may exhaust this card to reroll all dice in your attack pool.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
-                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
+                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
               </characteristics>
             </profile>
@@ -4941,9 +4943,9 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="3232-359a-e0f2-8a26" name="Fire-Control Team" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
               <characteristics>
-                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">During the Resolve Damage Step, you may exhaust this card to resolve 1 additional critical effect.  You cannot resolve the same critical effect twice.</characteristic>
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">During the Resolve Damage step, you may exhaust this card to resolve 1 additional critical effect.  You cannot resolve the same critical effect twice.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
-                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
+                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
               </characteristics>
             </profile>
@@ -4971,7 +4973,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="8f3c-89ad-f2a7-265c" name="Boarding Troopers" hidden="false" typeId="68e2-2506-5078-dca9" typeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
               <characteristics>
-                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. Choose and spend a number of its defense tokens up to your squadron value.</characteristic>
+                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a [Squadron] dial or token and this card to choose 1 enemy ship at close range.  Choose and spend a number of its defense tokens up to your squadron value.</characteristic>
                 <characteristic name="Setup" typeId="11c6-e7ff-d897-8e01"/>
                 <characteristic name="Recur" typeId="1a2f-7d5a-90d4-2dcb"/>
                 <characteristic name="Ready Cost" typeId="8c3b-3f6c-edea-d754"/>
@@ -5004,7 +5006,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="7dfa-9d4b-51af-c771" name="Boarding Engineers" hidden="false" typeId="68e2-2506-5078-dca9" typeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
               <characteristics>
-                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. Look at its facedown damage cards and flip a number of them faceup up to your engineering value (one at a time).</characteristic>
+                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a [Squadron] dial or token and this card to choose 1 enemy ship at close range.  Look at its facedown damage cards and flip a number of them faceup up to your engineering value (one at a time).</characteristic>
                 <characteristic name="Setup" typeId="11c6-e7ff-d897-8e01"/>
                 <characteristic name="Recur" typeId="1a2f-7d5a-90d4-2dcb"/>
                 <characteristic name="Ready Cost" typeId="8c3b-3f6c-edea-d754"/>
@@ -5038,7 +5040,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="2a83-2e73-6ead-8b91" name="Cham Syndulla" hidden="false" typeId="68e2-2506-5078-dca9" typeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
               <characteristics>
-                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. If you do, you may choose a new command for each command dial assigned to that ship.</characteristic>
+                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a [Squadron] dial or token and this card to choose 1 enemy ship at close range. If you do, you may choose a new command for each command dial assigned to that ship.</characteristic>
                 <characteristic name="Setup" typeId="11c6-e7ff-d897-8e01"/>
                 <characteristic name="Recur" typeId="1a2f-7d5a-90d4-2dcb"/>
                 <characteristic name="Ready Cost" typeId="8c3b-3f6c-edea-d754"/>
@@ -5062,7 +5064,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
               <characteristics>
                 <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking, you may exhaust this card to reroll any number of dice of 1 color.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
-                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
+                <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
               </characteristics>
             </profile>
@@ -5091,7 +5093,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="d262-0d9d-a018-bd89" name="Jyn Erso" hidden="false" typeId="68e2-2506-5078-dca9" typeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
               <characteristics>
-                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a Squadron dial or token and this card to choose 1 enemy ship at close range. If that ship has no raid tokens, it gains 2 raid tokens of your choice. If that ship has an objective token, you may also gain 1 victory token.</characteristic>
+                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a [Squadron] dial or token and this card to choose 1 enemy ship at close range.  If that ship has no raid tokens, it gains 2 raid tokens of your choice.  If that ship has an objective token, you may also gain 1 victory token.</characteristic>
                 <characteristic name="Setup" typeId="11c6-e7ff-d897-8e01"/>
                 <characteristic name="Recur" typeId="1a2f-7d5a-90d4-2dcb"/>
                 <characteristic name="Ready Cost" typeId="8c3b-3f6c-edea-d754"/>
@@ -5112,7 +5114,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="5269-256c-b408-7a97" name="Weapons Battery Techs" hidden="false" typeId="229c-c950-27d2-b599" typeName="3.2 Weapons Team">
               <characteristics>
-                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking a ship, you may change 1 die face with an Accuracy icon to a face with a Critical icon.</characteristic>
+                <characteristic name="Weapons Team Ability" typeId="f63e-d559-f525-14e3">While attacking a ship, you may change 1 die face with a [Accuracy] icon to a face with [Crit] icon.</characteristic>
                 <characteristic name="Setup" typeId="1bf9-55e6-8728-ac34"/>
                 <characteristic name="Recur" typeId="4edf-cbf3-3e26-fa72"/>
                 <characteristic name="Ready Cost" typeId="2c53-184d-5e9d-fa22"/>
