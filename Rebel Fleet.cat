@@ -3117,7 +3117,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="7dff-19e1-490b-08de" name="Defense Liaison" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may spend 1 command token to change that command to a Navigate or Repair command.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may spend 1 command token to change that command to a [Navigate] or [Repair] command.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3135,7 +3135,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="3d02-bca3-a6dd-9acd" name="Weapons Liaison" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may spend 1 command token to change that command to a Concentrate Fire or Squadron command.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may spend 1 command token to change that command to a [Concentrate Fire] or [Squadron] command.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3179,9 +3179,9 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="5561-b07b-bc2d-ebb1" name="Intel Officer" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While attacking, after you roll your attack pool, you may exhaust this card to choose 1 defense token.  If that token is spent during this attack, discard that token.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While attacking, after you roll your attack pool, you may exhaust this card to choose 1 defense token.  If that defense token is spent during this attack, discard that token.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
-                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
               </characteristics>
             </profile>
@@ -3309,7 +3309,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="ed65-1f8c-d12d-f7cb" name="Engineering Captain" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a Repair command.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a [Repair] command.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3327,7 +3327,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="687f-c20d-eae1-6b8d" name="Wing Commander" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a Squadron command.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a [Squadron] command.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3345,7 +3345,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="6cd3-a9c9-cad1-10b3" name="Navigation Officer" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a Navigation command.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a [Navigate] command.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3363,7 +3363,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="7fb8-74c6-df33-9008" name="Tactical Expert" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a Concentrate Fire command.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Before you reveal a command, you may change that command to a [Concentrate Fire] command.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3436,7 +3436,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="400e-0b02-62da-013f" name="Flight Commander" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">During your activation, you can resolve your Squadron command after you execute a maneuver.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">During your activation, you can resolve your [Squadron] command after you execute a maneuver.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3492,7 +3492,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="808e-d03e-fc63-cb9f" name="Damage Control Officer" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you resolve the Contain defense effect, you can prevent the attacker from resolving any critical effects.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you resolve the [Contain] defense effect, you can prevent the attacker from resolving any critical effects.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3511,7 +3511,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="ee54-c73a-2c2c-cd18" name="Hondo Ohnaka" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">At the start of the ship phase, you may discard this card to choose 2 different command tokens and place them on 2 different ships. Then your opponent chooses 2 different command tokens you did not choose and places them on 2 different ships.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">At the start of the Ship Phase, you may discard this card to choose 2 different command tokens and place them on 2 different ships.  Then your opponent chooses 2 different command tokens you did not choose and places them on 2 different ships.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3600,7 +3600,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           <profiles>
             <profile id="780d-9ff6-f3b3-4102" name="Expert Shield Tech" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While defending, during the Spend Defense Tokens step, when you spend a Redirect defense token you may reduce the total damage from the attack by 1 instead of resolving that token&apos;s effect.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While defending, during the Spend Defense Tokens step, when you spend a [Redirect] defense token, you may reduce the total damage from the attack by 1 instead of resolving that token&apos;s effect.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -3720,9 +3720,9 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="063e-0b49-d6d4-0982" type="max"/>
           </constraints>
           <profiles>
-            <profile id="265a-0265-6bc4-33d7" name="Assault Concussion Missiles" hidden="false" typeId="10fd-be4e-bb29-3708" typeName="6.1 Ordnance">
+            <profile id="265a-0265-6bc4-33d7" name="Assault Concussion Missiles" hidden="true" typeId="10fd-be4e-bb29-3708" typeName="6.1 Ordnance">
               <characteristics>
-                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Black [Crit]:  Exhaust this card. Each hull zone adjacent to the defending hull zone suffers 1 damage.</characteristic>
+                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Black [Crit]:  Exhaust this card.  Each hull zone adjacent to the defending hull zone suffers 1 damage.</characteristic>
                 <characteristic name="Setup" typeId="7f20-a4fd-d76d-1ce8"/>
                 <characteristic name="Recur" typeId="210a-5850-b75b-aad1">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="71dc-e239-abb6-63a9"/>
@@ -3752,7 +3752,8 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="06c4-4053-4b06-e3a9" name="Expanded Launchers" hidden="false" typeId="10fd-be4e-bb29-3708" typeName="6.1 Ordnance">
               <characteristics>
-                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Modification. The battery armament for your front hull zone is increased by 2 black dice. </characteristic>
+                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Modification.  
+The battery armaments for your front hull zone is increased by 2 black die.</characteristic>
                 <characteristic name="Setup" typeId="7f20-a4fd-d76d-1ce8"/>
                 <characteristic name="Recur" typeId="210a-5850-b75b-aad1"/>
                 <characteristic name="Ready Cost" typeId="71dc-e239-abb6-63a9"/>
@@ -3803,7 +3804,8 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="b0f0-6e08-647e-61f0" name="Rapid Reload" hidden="false" typeId="10fd-be4e-bb29-3708" typeName="6.1 Ordnance">
               <characteristics>
-                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Modification. The battery armaments for your left and right hull zones are increased by 1 black die.</characteristic>
+                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Modification.  
+The battery armaments for your left and right hull zones are increased by 1 black die.</characteristic>
                 <characteristic name="Setup" typeId="7f20-a4fd-d76d-1ce8"/>
                 <characteristic name="Recur" typeId="210a-5850-b75b-aad1"/>
                 <characteristic name="Ready Cost" typeId="71dc-e239-abb6-63a9"/>
@@ -3824,7 +3826,7 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="1e97-8c21-ab2f-86cb" name="Flechette Torpedoes" hidden="false" typeId="10fd-be4e-bb29-3708" typeName="6.1 Ordnance">
               <characteristics>
-                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">While attacking a squadron, you may spend 1 black die with a Critical icon to toggle its activation slider to the activated side.</characteristic>
+                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">While attacking a squadron, you may spend 1 black die with a [Crit] icon to toggle its activation slider to the activated side.</characteristic>
                 <characteristic name="Setup" typeId="7f20-a4fd-d76d-1ce8"/>
                 <characteristic name="Recur" typeId="210a-5850-b75b-aad1"/>
                 <characteristic name="Ready Cost" typeId="71dc-e239-abb6-63a9"/>
@@ -3860,7 +3862,7 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="24a4-7d49-375f-4941" name="Wide-Area Barrage" hidden="false" typeId="10fd-be4e-bb29-3708" typeName="6.1 Ordnance">
               <characteristics>
-                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Black critical: If the defender is a ship, choose 1 other ship or squadron at close range of the defender. That ship or squadron suffers damage equal to half of the total number of black Hit icons in your attack pool, rounded up.</characteristic>
+                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Black [Crit]:  If the defender is a ship, choose 1 other ship or squadron at close range of the defender.  That ship or squadron suffers damage equal to half of the total number of black [Hit] icons in your attack pool, rounded up.</characteristic>
                 <characteristic name="Setup" typeId="7f20-a4fd-d76d-1ce8"/>
                 <characteristic name="Recur" typeId="210a-5850-b75b-aad1"/>
                 <characteristic name="Ready Cost" typeId="71dc-e239-abb6-63a9"/>
@@ -3885,9 +3887,10 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           <profiles>
             <profile id="79ec-c506-57be-1dea" name="Ordnance Pods" hidden="false" typeId="10fd-be4e-bb29-3708" typeName="6.1 Ordnance">
               <characteristics>
-                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">At the end of your Attack Step, you may exhaust this card and choose 1 of your hull zones. Then, perform an attack from that hull zone with an anti-squadron armament of 1 black die, even if you have already attacked from that zone this round.</characteristic>
+                <characteristic name="Ordnance Ability" typeId="f587-f8ce-7d4d-e620">Medium or large ship only.  
+At the end of your Attack Step, you may exhaust this card and choose 1 of your hull zones.  Then, perform an attack from that hull zone with an anti-squadron armament of 1 black die, even if you have already attacked from that zone this round.</characteristic>
                 <characteristic name="Setup" typeId="7f20-a4fd-d76d-1ce8"/>
-                <characteristic name="Recur" typeId="210a-5850-b75b-aad1"/>
+                <characteristic name="Recur" typeId="210a-5850-b75b-aad1">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="71dc-e239-abb6-63a9"/>
               </characteristics>
             </profile>
@@ -4496,7 +4499,8 @@ during this attack</characteristic>
           <profiles>
             <profile id="8574-3a6d-80a8-398b" name="Enhanced Armament" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification. The battery armaments for your left and right hull zones are increased by 1 red die.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.  
+The battery armaments for your left and right hull zones are increased by 1 red die.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4529,8 +4533,8 @@ during this attack</characteristic>
           <profiles>
             <profile id="4273-7468-a6d1-ab8d" name="H9 Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.
-While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face with an [Accuracy] icon.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.  
+While attacking, you may change 1 die face with a [Hit] or [Crit] icon to a face with an [Accuracy] icon.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4551,7 +4555,7 @@ While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face
           <profiles>
             <profile id="c349-92f1-b055-c75f" name="XI7 Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, if the defender spends a [Rediret] token, it cannot suffer more than 1 damage on each hull zone other than the defending hull zone when it resolves the [Redirect] defense effect.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, if the defender spends a [Redirect] token, it cannot suffer more than 1 damage on each hull zone other than the defending hull zone when it resolves the [Redirect] defense token.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4569,7 +4573,7 @@ While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face
           <profiles>
             <profile id="1a33-86fd-2e0a-400d" name="XX-9 Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Critical: The first 2 damage cards dealt to the defender by this attack are dealt faceup.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">[Crit]:  The first 2 damage cards dealt to the defender by this attack are dealt faceup.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4587,7 +4591,7 @@ While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face
           <profiles>
             <profile id="e459-7b4e-1510-f950" name="Heavy Turbolaser Turrets" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, the Brace defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, the [Brace] defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4605,7 +4609,7 @@ While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face
           <profiles>
             <profile id="a0c3-ac2e-dec0-4b69" name="Turbolaser Reroute Circuits" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, you may exhaust this card and spend 1 Evade defense token to change 1 red die to a face with a Critical icon or 2 Hit icons.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, you may exhaust this card and spend 1 [Evade] defense token to change 1 red die to a face with a [Crit] icon or 2 [Hit] icons.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4635,7 +4639,9 @@ While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face
           <profiles>
             <profile id="20ef-1bb2-1fd8-67f5" name="Slaved Turrets" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification. You cannot attack more than once per round. While attacking a ship, add 1 red die to your attack pool.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.
+You cannot attack more than once per round.
+While attacking a ship, add 1 red die to your attack pool.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4668,7 +4674,8 @@ While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face
           <profiles>
             <profile id="3ac3-d7dd-91bc-acc4" name="Spinal Armament" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification. The battery armaments for your front and rear hull zones are increased by 1 red die.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification. 
+The battery armaments for your front and rear hull zones are increased by 1 red die.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4701,8 +4708,8 @@ While attacking, you may change 1 die face with a [Hit[ or [Crit] icon to a face
           <profiles>
             <profile id="24a4-88d4-9e18-25e5" name="Quad Turbolaser Cannons" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.
-While attacking, if at least 1 red die face has an Accuracy icon, add 1 red die set to the Accuracy icon to your attack pool.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification. 
+While attacking, if at least 1 red die face has an [Accuracy] icon, add 1 red die set to the [Accuracy] icon to your attack pool.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4735,9 +4742,8 @@ While attacking, if at least 1 red die face has an Accuracy icon, add 1 red die 
           <profiles>
             <profile id="76f9-9ad7-46e0-48a0" name="Dual Turbolaser Turrets" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.
-While attacking, you may exhaust this card to add 1 red die to your attack pool.  If you do, choose and cancel 1 attack
-die.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.  
+While attacking, you may exhaust this card to add 1 red die to your attack pool.  If you do, choose and cancel 1 attack die.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4770,7 +4776,8 @@ die.</characteristic>
           <profiles>
             <profile id="9ee7-b58f-a993-b627" name="Quad Battery Turrets" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking a ship with a higher speed than yours, you may add 1 blue die to your attack pool.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">Modification.
+While attacking a ship with a higher speed than yours, you may add 1 blue die to your attack pool.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
@@ -4809,7 +4816,7 @@ die.</characteristic>
           <profiles>
             <profile id="2fca-996c-a93a-5afd" name="Heavy Fire Zone" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking a squadron, before you gather dice, if the defender is not engaged with a friendly squadron you may replace all of the blue dice in your anti-squadron armament with red dice.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking a squadron, before you gather dice, if the defender is not engaged with a friendly squadron, you may replace all of the blue dice in your anti-squadron armament with red dice.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
                 <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
