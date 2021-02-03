@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="2" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>All cards added.</comment>
-  <readme>Card format redone to Armada 1.5 standards.  All cards have been added.  
-Not all card functionality may be working yet and not all changes have been populated in the new feildss.</readme>
+<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="3" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Updated all cards to Armada 1.5 text
+Clone War Wave 2 previews added</comment>
+  <readme>All card text has been updated to the new Armada 1.5 wording and icons.
+Clone War Previews have been added with as much information as known.
+Not all functionality is working for upgrades.  Some modifications might allow you to still mount other modifications.  Added icons might not be working.  Etc.
+I hope to address these issues in the next pass.
+</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Droid Tri-Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -523,6 +527,166 @@ Not all card functionality may be working yet and not all changes have been popu
         <cost name="pts" typeId="points" value="52.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="41e4-a9fd-cdc6-61d0" name="Recusant-class Light Destroyer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="eaec-2f2d-eaea-9fde" name="Recusant-class Light Destroyer" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">8</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e"/>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69"/>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b"/>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf"/>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">4 Red, 2 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">3 Red, 1 Black</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">3 Red, 1 Black</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Black</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">3</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ordnance, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Droid.</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0e7f-944c-9033-891d" name="Large Ship" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+        <categoryLink id="7a90-602c-9bc5-b2d3" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="51aa-77c2-9e90-1e0e" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="f97f-2c9e-9e79-2d4a" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="c8d1-76ad-f071-417f" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="86c5-b7ba-30b4-0ebe" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="db7c-173a-4da1-68ee" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="8721-e67c-c5b1-cf9d" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1f5-bad7-507a-627c" name="Recusant-class Support Destroyer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9140-589f-2123-ef1d" name="Recusant-class Support Destroyer" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">8</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Red</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">3</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">3</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">3</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Evade,  Redirect</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c"/>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f"/>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1"/>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14"/>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893"/>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2"/>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d"/>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af"/>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42"/>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f169-3a9d-198b-a233" name="Large Ship" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+        <categoryLink id="010a-f1c1-1e72-b91f" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a58a-b30e-92b7-b5de" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="eac3-5aa2-92ad-5ae2" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="b361-9428-6e74-4b09" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="6eee-2f09-6d5f-820a" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="0609-535c-d264-b5d3" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="467d-46a2-2b88-1435" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7953-a4ce-f74b-c466" name="Providence-class Dreadbought" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="519b-175a-da9e-875a" name="Providence-class Dreadbought" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e"/>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69"/>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b"/>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf"/>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, 1 Blue, 2 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">3 Red, 1 Blue, 2 Black</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">3 Red, 1 Blue, 2 Black</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Blue, 1 Black</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">5</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ordnance, Ion Cannon, Turbolasers, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Droid.  Bombard.  Transport</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7cec-618e-f341-d713" name="Large Ship" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+        <categoryLink id="c7c9-85fb-4066-b1cb" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="50dc-8389-fb6e-6f43" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="018a-a8ae-16f2-c62b" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="4d7c-2850-edff-c999" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="da00-4ca5-edef-6dd9" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="123a-dc04-a052-81e3" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="025f-218d-0ccb-d286" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0083-8d4e-e272-2a09" name="Providence-class Carrier" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="db90-30e9-140b-7551" name="Providence-class Carrier" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">2 Black</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">3</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">4</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">4</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Contain</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c"/>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f"/>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1"/>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14"/>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893"/>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2"/>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d"/>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af"/>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42"/>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bd83-cbf6-a9ef-45a2" name="Large Ship" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+        <categoryLink id="bb78-90a9-037c-428d" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2f2d-6d56-2cc9-0441" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="2278-97f5-a843-0c42" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="645c-9a52-acdd-77c6" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="7765-a892-0c9a-b932" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="b564-838d-7a7b-c34e" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="98f7-e8da-e2ae-1456" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="85.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d77d-f98a-9b86-934a" name="Commander" hidden="false" collective="false" import="true">
@@ -574,8 +738,9 @@ Not all card functionality may be working yet and not all changes have been popu
           <profiles>
             <profile id="e886-d604-3d60-544f" name="•Count Dooku" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
               <characteristics>
-                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">You must choose at least 2 types of command tokens for this card.  At the start of each Ship Phase, you may discard 1 command token from this card.  If you do, each enemy ship gains a raid token matching that command token.</characteristic>
-                <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">You must choose at least 2 types of command tokens for this card.
+At the start of each Ship Phase, you may discard 1 command token from this card.  If you do, each enemy ship gains a raid token matching that command token.</characteristic>
+                <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717">3 Any command tokens</characteristic>
                 <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
                 <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
               </characteristics>
@@ -586,6 +751,28 @@ Not all card functionality may be working yet and not all changes have been popu
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0234-3f9d-e956-6105" name="•General Grievous" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41c6-65bd-1186-dfa3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e09-28dd-3ad8-21a8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b9f9-7d99-1732-e36d" name="•General Grievous" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
+              <characteristics>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">When a friendly ship or squadron is destroyed, you may choose 1 friendly ship or unique squadron at distance 1-5 of the destroyed ship or squadron.  If you do, the chosen ship or unique squadron may either ready 1 of its defense tokens or recove 1 of its discarded defense tokens and then exhaust that token.</characteristic>
+                <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
+                <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
+                <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="27c6-3483-a653-ca29" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -744,16 +931,16 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="8aa2-6167-255a-48e6" name="G-8 Experimental Projector" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8aa2-6167-255a-48e6" name="•G-8 Experimental Projector" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc60-260d-ad59-46fe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f846-16b5-3299-e4d1" name="G-8 Experimental Projector" hidden="false" typeId="2907-d622-4480-ea97" typeName="5.3 Experimental Retrofit">
+            <profile id="f846-16b5-3299-e4d1" name="•G-8 Experimental Projector" hidden="false" typeId="2907-d622-4480-ea97" typeName="5.3 Experimental Retrofit">
               <characteristics>
                 <characteristic name="Experimental Retrofit Ability" typeId="8e5f-9df9-a449-7982">Before an enemy ship at distance 1-5 resolves the Determine Course step, you may exhaust this card to temporarily reduce its speed by 1 to a minimum of speed 0 until the end of the maneuver.</characteristic>
                 <characteristic name="Setup" typeId="3b02-afb1-2eac-4d8d"/>
-                <characteristic name="Recur" typeId="1dbe-3f77-44fc-b447"/>
+                <characteristic name="Recur" typeId="1dbe-3f77-44fc-b447">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="5bff-98ae-f464-452c"/>
               </characteristics>
             </profile>
@@ -769,7 +956,7 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
           <profiles>
             <profile id="5dad-08ce-ff95-cb8e" name="G7-X Grav Well Projector" hidden="false" typeId="2907-d622-4480-ea97" typeName="5.3 Experimental Retrofit">
               <characteristics>
-                <characteristic name="Experimental Retrofit Ability" typeId="8e5f-9df9-a449-7982">Before deploying fleets, place 1 grav well token anywhere in the play area.  When a ship deploys at distance 1-3 of a grav well token, its speed dial must be set to 0.</characteristic>
+                <characteristic name="Experimental Retrofit Ability" typeId="8e5f-9df9-a449-7982">Before deploying fleets, place 1 grav well token anywhere in the play area.  When a ship deploys at distance 1-3 of a grav well token, its speed must be set to 0.</characteristic>
                 <characteristic name="Setup" typeId="3b02-afb1-2eac-4d8d"/>
                 <characteristic name="Recur" typeId="1dbe-3f77-44fc-b447"/>
                 <characteristic name="Ready Cost" typeId="5bff-98ae-f464-452c"/>
@@ -789,7 +976,7 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
               <characteristics>
                 <characteristic name="Experimental Retrofit Ability" typeId="8e5f-9df9-a449-7982">While a friendly ship at distance 1-3 is defending at close range, during the Spend Defense Tokens step, you may exhaust this card to force the attacker to reroll up to 4 dice of your choice.</characteristic>
                 <characteristic name="Setup" typeId="3b02-afb1-2eac-4d8d"/>
-                <characteristic name="Recur" typeId="1dbe-3f77-44fc-b447"/>
+                <characteristic name="Recur" typeId="1dbe-3f77-44fc-b447">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="5bff-98ae-f464-452c"/>
               </characteristics>
             </profile>
@@ -798,7 +985,7 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2b24-3434-8fa3-fdec" name="•Grav Shift Reroute" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2b24-3434-8fa3-fdec" name="Grav Shift Reroute" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="229d-dcb3-3d4c-2f0e" type="max"/>
@@ -1380,10 +1567,10 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
           <profiles>
             <profile id="c8f8-ab41-93b9-adcb" name="Hyperwave Signal Boost" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">During the Squadron Phase, when it is your turn to activate squadrons, you may exhaust this card to coose a number of unactivated, firendly squadrons at close-long range up to your squadron value.  This turn, activate each of those squadrons.  While attacking, each of those squadrons with AI are treated as if activated by a [squadron] command.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">During the Squadron Phase, when it is your fleet&apos;s turn to activate squadrons, you may exhaust this card to choose a number of unactivated, friendly squadrons at close-long range up to your squadron value.  This turn, activate each of those squadrons.  While attacking, each of those squadrons with AI are treated as if activated by a [Squadron] command.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
-                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
-                <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
+                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f">1 [Repair] or [Squadron] token</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2134,9 +2321,9 @@ Discarding facedown damage cards costs 1 fewer engineering point.</characteristi
           <profiles>
             <profile id="09fa-8c2d-1faa-cc16" name="•Beast of Burden" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">When you activate, you may exhaust this card and spent 1 or more of your defense tokens to choose up to that many defense tokens on friendly ships at distance 1-3 and ready those defense tokens.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">When you activate, you may exhaust this card and spend 1 or more of your defense tokens to choose up to that many defense tokens on friendly ships at distance 1-3 and ready those defense tokens.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
-                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
               </characteristics>
             </profile>
@@ -2155,7 +2342,7 @@ Discarding facedown damage cards costs 1 fewer engineering point.</characteristi
               <characteristics>
                 <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">Before you suffer damage from an attack, if the defending hull zone has at least 1 shield remaining, you may exhaust this card to reduce the total damage by 1.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
-                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
               </characteristics>
             </profile>
@@ -2801,7 +2988,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="b206-a368-1f15-a0cf" name="•Sa Nalaor" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While defending, if you are at speed 2 or higher, you may spend a defense token to resolve the [dodge] defense effect instead of the token&apos;s effect.  You cannot resolve the [dodge] defense effect more than once per attack.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While defending, if you are at speed 2 or higher, you may spend a defense token to resolve the [Evade] defense effect instead of that token&apos;s effect.  You cannot resolve the [Evade] defense effect more than once per attack.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
@@ -2820,10 +3007,10 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="0d6e-d3ed-338f-2070" name="•Tide of Progress XII" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">Before you are dealt a faceup damage card with the SHIP trait, you may exhaust this card to discard that damage card (without resolving its effect).</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">Before you are dealt a faceup damage card with the Ship trait, you may exhaust this card to discard that damage card (without resolving its effect).</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
-                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
-                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7">1 [Repair] token</characteristic>
               </characteristics>
             </profile>
           </profiles>

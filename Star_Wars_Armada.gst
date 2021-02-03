@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="31" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums  vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Updated all cards to 1.5 standard.
-Added Preview Clone Wars units</comment>
-  <readme>Updated all cards to 1.5 standard
-Added Clone War previews
-Not all functionality is working</readme>
+  <comment>Updated all cards to Version 1.5 text.
+Added Clone War Previews</comment>
+  <readme>All card text has been updated to the new Armada 1.5 wording and icons.
+Clone War Previews have been added with as much information as known.
+Not all funtionality is working for upgrades.  Some modifications might allow you to still mount other modifications.  Added icons might not be working.  Etc.
+I hope to address these issues in the next pass.</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
