@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="31" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums  vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Updated all cards to Version 1.5 text.
-Added Clone War Previews</comment>
-  <readme>All card text has been updated to the new Armada 1.5 wording and icons.
-Clone War Previews have been added with as much information as known.
-Not all funtionality is working for upgrades.  Some modifications might allow you to still mount other modifications.  Added icons might not be working.  Etc.
-I hope to address these issues in the next pass.</readme>
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="32" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums  vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Fixed Requirement for Campaign Objective</comment>
+  <readme>Fixed requirement for Campaign Objective</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -1142,7 +1138,6 @@ After deploying fleets, the second player may choose 1 enemy ship. That ship mus
     <selectionEntry id="c356-7d17-624e-ad61" name="Campaign Objective" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29a0-e49e-2506-2d79" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f33d-7f20-0321-2ff1" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="198f-8476-21a2-3ef1" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="true"/>

@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="45" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums vadersson most places." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>All card text has been updated to the new Armada 1.5 wording and icons.
-Clone War Previews have been added with as much information as known.
-Not all functionality is working for upgrades.  Some modifications might allow you to still mount other modifications.  Added icons might not be working.  Etc.
-I hope to address these issues in the next pass.
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="46" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums vadersson most places." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added missing squadrons
 </comment>
-  <readme>All card text has been updated to the new Armada 1.5 wording and icons.
-Clone War Previews have been added with as much information as known.
-Not all functionality is working for upgrades.  Some modifications might allow you to still mount other modifications.  Added icons might not be working.  Etc.
-I hope to address these issues in the next pass.
-</readme>
+  <readme>Added missing squadrons</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -54,7 +47,7 @@ I hope to address these issues in the next pass.
               <profiles>
                 <profile id="b5f4-6a4d-8c11-1d25" name="•IG-88 (IG-2000)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
                   <characteristics>
-                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
                     <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">4 Blue</characteristic>
                     <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Black</characteristic>
@@ -65,8 +58,34 @@ I hope to address these issues in the next pass.
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="11a9-1632-857c-fc61" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
-                <infoLink id="0dfa-3a74-b19e-07d4" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
+                <infoLink id="11a9-1632-857c-fc61" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
+                <infoLink id="0dfa-3a74-b19e-07d4" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="21.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="19ac-212c-448e-bc29" name="•IG-88B (IG-2000B)" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f9-ca71-8636-af28" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73ed-576e-e981-faf9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="565d-db5c-b51e-cab8" name="•IG-88B (IG-2000B)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">2 Blue, 2 Black</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Black</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Counter 1, Rogue</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Scatter</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">At the start of teh Squadron Phase, you may toggle your activation slider to the activated side.  If you do, you may perform an anti-squadron attack against each enemy squadron at distance 1.  Treat these attacks as obstructed.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="107e-5892-5c65-d383" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
+                <infoLink id="bb63-9916-5c39-c940" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
@@ -138,6 +157,33 @@ I hope to address these issues in the next pass.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="26.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4924-ec72-e87b-fb2a" name="•Hondo Ohnaka (Slave I)" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7006-a582-1f53-dec6" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d326-5e8b-313b-a5ee" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="fe6d-8388-beac-5442" name="•Hondo Ohnaka (Slave I)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">4 Blue</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">2 Blue</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Bomber, Grit, Rogue</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">2 Brace</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">During your activation, instead of attacking, you may toggle the activation slider of 1 squadron at distance 1 to the activated side. If it was already activated, you may place it anywhere at distance 1 of you.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5cfa-a08a-fdfc-bce6" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
+                <infoLink id="b8c7-f5b3-5c94-903f" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
+                <infoLink id="d3ff-5a82-91a7-3e80" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -698,6 +744,32 @@ I hope to address these issues in the next pass.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="827b-20b2-d0d0-56c9" name="•Tel Trevura" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca36-cee9-a738-d71f" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aabc-eba6-8dd9-82a6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="58ea-c2df-0d29-0d46" name="•Tel Trevura" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">3 Blue</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Blue</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Grit, Rogue</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Brace, Scatter</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">While you have a readied defense token, you gain Escort.  After defending against an attack, if you discarded a defense token, you may recover up to 3 hull (even if you would be destroyed).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8d5d-9366-b24e-06c3" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
+                <infoLink id="3b5c-0665-221f-777a" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="17.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1550,7 +1622,7 @@ I hope to address these issues in the next pass.
               <profiles>
                 <profile id="0ef0-0eab-42dd-8786" name="•Bossk (Hound&apos;s Tooth)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
                   <characteristics>
-                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">7</characteristic>
                     <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">4 Black</characteristic>
                     <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Blue, 1 Black</characteristic>
@@ -1566,6 +1638,32 @@ I hope to address these issues in the next pass.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dba8-4132-72f5-267f" name="•Moralo Eval" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d550-7329-21cc-5848" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55d1-03ac-81ed-567e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="acb7-aac5-563b-5928" name="•Moralo Eval" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">7</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">2 Blue, 2 Black</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">2 Blue</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Grit, Rogue</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Brace</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">When an objective token at distance 1-2 and not on an obstacle is moved or removed from the play area, you may move up to distance 1 and attack as if you were activated.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="84c7-df09-50d6-17b3" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
+                <infoLink id="d8c6-5796-cf0a-c122" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
