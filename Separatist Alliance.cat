@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="3" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="4" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Updated all cards to Armada 1.5 text
 Clone War Wave 2 previews added</comment>
   <readme>All card text has been updated to the new Armada 1.5 wording and icons.
@@ -224,6 +224,17 @@ I hope to address these issues in the next pass.
               </costs>
             </selectionEntry>
             <selectionEntry id="a6b0-3492-cb22-0736" name="•General Grievous" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0234-3f9d-e956-6105" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc8d-562a-a944-3441" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2620-87e7-2180-053c" type="max"/>
@@ -562,6 +573,7 @@ I hope to address these issues in the next pass.
         <entryLink id="86c5-b7ba-30b4-0ebe" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
         <entryLink id="db7c-173a-4da1-68ee" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="8721-e67c-c5b1-cf9d" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+        <entryLink id="f70f-e303-81b2-f115" name="Title - Recusant-class" hidden="false" collective="false" import="true" targetId="7d74-8049-f1bb-e30d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="85.0"/>
@@ -602,6 +614,7 @@ I hope to address these issues in the next pass.
         <entryLink id="6eee-2f09-6d5f-820a" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
         <entryLink id="0609-535c-d264-b5d3" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="467d-46a2-2b88-1435" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+        <entryLink id="e19b-fd85-32ef-ed5f" name="Title - Recusant-class" hidden="false" collective="false" import="true" targetId="7d74-8049-f1bb-e30d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="85.0"/>
@@ -642,6 +655,7 @@ I hope to address these issues in the next pass.
         <entryLink id="da00-4ca5-edef-6dd9" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
         <entryLink id="123a-dc04-a052-81e3" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="025f-218d-0ccb-d286" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+        <entryLink id="5d4f-b596-d611-20b2" name="Title - Providence-class" hidden="false" collective="false" import="true" targetId="808f-0581-30f1-9ce3" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="105.0"/>
@@ -682,6 +696,7 @@ I hope to address these issues in the next pass.
         <entryLink id="7765-a892-0c9a-b932" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
         <entryLink id="b564-838d-7a7b-c34e" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="98f7-e8da-e2ae-1456" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+        <entryLink id="176b-30b7-2bcf-d063" name="Title - Providence-class" hidden="false" collective="false" import="true" targetId="808f-0581-30f1-9ce3" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="85.0"/>
@@ -754,6 +769,17 @@ At the start of each Ship Phase, you may discard 1 command token from this card.
           </costs>
         </selectionEntry>
         <selectionEntry id="0234-3f9d-e956-6105" name="•General Grievous" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6b0-3492-cb22-0736" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41c6-65bd-1186-dfa3" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e09-28dd-3ad8-21a8" type="max"/>
@@ -773,6 +799,73 @@ At the start of each Ship Phase, you may discard 1 command token from this card.
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0236-1299-663d-7fe7" name="•Admiral Trench" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bfa0-dbb4-57c4-5d2a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f58-64ac-95a5-9954" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fb56-d0bf-f58d-2781" name="•Admiral Trench" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
+              <characteristics>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">At the start of each Ship Phase, you may reveal and discard 1 command dial from this card.  If you do, until the end of the round, when a friendly ship spends only a matching command token to resolve a command, that ship resolves that command as if it had spent a dial and token of the same type instead.</characteristic>
+                <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717">4 Any Dial</characteristic>
+                <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
+                <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0f64-4ed9-83ae-8ea3" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="36.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="35ab-9360-4935-a8d0" name="•TF-1726" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="513f-15ca-159a-a8bb" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd55-0e03-15ef-d2a6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cdbe-0c2b-1483-c088" name="•TF-1726" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
+              <characteristics>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014"/>
+                <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
+                <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
+                <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8c43-96eb-eabb-962b" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be24-c569-2137-4f0e" name="•Mar Tuuk" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa39-803e-f566-75a1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b2d5-6495-29f3-97e7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="52d0-0cec-b70b-c152" name="•Mar Tuuk" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
+              <characteristics>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">While a friendly ship is attacking, if the defending hull zone has at least 1 shield remaining, the attacker may add 1 red die to its attack pool.
+While a friendly ship is attacking a ship that has no shields remaining, after rolling attack dice, the attacker must cancel 1 attack die.</characteristic>
+                <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
+                <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
+                <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c3b6-5696-d2c7-0a73" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="28.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1960,6 +2053,79 @@ During each round matching 1 of those tokens, while attacking a ship, you may re
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="cf90-a22f-f712-e5c7" name="•TI-99" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="541a-c21c-bbdd-8336" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1b13-7cb5-2fe9-5250" name="•TI-99" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While a friendly unactivated squadron is at distance 1-3, it gains Counter 3 or, if it has the printed Counter keyword, gains an additional Counter 1.  After it performs a Counter attack, toggle its activation slider to the activated side.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c4a-1af8-12f0-0c0d" name="•Tikkes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e65-47bb-170c-884c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1af5-91bd-67a8-1749" name="•Tikkes" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you reveal a command, you may place a matching command token on this card.  If you do, gain a command token of your choice.
+During the Command Phase, if you have a command token on this card, you must choose that command on each command dial that is to be assigned to you and show those dials to your opponent.  Then discard that command token.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8e12-b3ad-d005-d4c3" name="•Passel Argente" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="092b-8be8-4ca9-f6dc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9894-90ff-d07b-0f26" name="•Passel Argente" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you reveal a command, you may place a matching command token on this card.  Then, if you have at least 1 [Navigate]. 1 [Squadron, 1 [Concentrate Fire], and 1 [Repair] command token on this card, you may gain 1 additional command dial of your choice.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6b9c-ebdc-e98b-7e16" name="•San Hill" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc13-0367-7985-7957" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0440-b37b-440e-51af" name="•San Hill" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">At the start of the Squadron Phase, you may discard any number of tokens from this card.  For each token you discard in this way, 1 additional squadronat close-long range of you may be activated during each of your fleet&apos;s turns to activate squadrons this phase.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e">2 [Squadron] tokens</characteristic>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="23f2-ace7-4294-434e" name="Ordnance" hidden="false" collective="false" import="true">
@@ -3126,6 +3292,59 @@ Each of your hull zones cannot target the same ship or squadron more than once d
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5187-3a48-8d75-d7d2" type="max"/>
       </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7d74-8049-f1bb-e30d" name="Title - Recusant-class" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c35-12e7-ece7-39f4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7501-1e27-8d82-0760" name="•Beast of Burden (temp)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fb30-19b4-00e3-3d5e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab64-6c86-3c7f-56c7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f26c-e120-fe2d-da0d" name="•Beast of Burden (temp)" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">When you activate, you may exhaust this card and spend 1 or more of your defense tokens to choose up to that many defense tokens on friendly ships at distance 1-3 and ready those defense tokens.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792">Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="808f-0581-30f1-9ce3" name="Title - Providence-class" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b3f-d53a-47e2-855b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4d3d-26be-2163-06a2" name="•Invisible Hand" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a2bb-2849-e75e-ff37" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8739-3b16-a8a8-ec4c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b6c2-9356-d90e-c66a" name="•Invisible Hand" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While deploying fleets, if you are in the play area, when you would deploy a squadron with Swarm, you may set that squadron aside next to your ship card instead.  You may set aside up to 5 squadrons in this way.
+[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadron within distance 3.  If connot move this actication, and if it has AI, increase its AI valve by 1.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"></characteristic>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="3" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="4" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Updated all cards to Armada 1.5 text
 Clone War Wave 2 previews added</comment>
   <readme>All card text has been updated to the new Armada 1.5 wording and icons.
@@ -45,6 +45,17 @@ I hope to address these issues in the next pass.
               </costs>
             </selectionEntry>
             <selectionEntry id="cd29-2920-0bdc-d7d1" name="•Ahsoka Tano" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ad4-3dd4-32bc-2575" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9985-d21c-58b5-879f" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e37-fd50-786f-b963" type="max"/>
@@ -99,6 +110,17 @@ I hope to address these issues in the next pass.
               </costs>
             </selectionEntry>
             <selectionEntry id="b7b4-6ff8-5e4b-7274" name="•Luminara Unduli" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d68f-4f24-d179-bf54" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5c5-434a-21c6-f325" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c83-2823-e58a-0c70" type="max"/>
@@ -125,6 +147,17 @@ I hope to address these issues in the next pass.
               </costs>
             </selectionEntry>
             <selectionEntry id="ddb4-6c68-ea35-a417" name="•Plo Koon" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e679-4ba7-6c1e-0a4a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75c2-4367-4d43-1873" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c078-104d-febf-b200" type="max"/>
@@ -512,7 +545,15 @@ I hope to address these issues in the next pass.
       </categoryLinks>
       <entryLinks>
         <entryLink id="75dc-42a3-4244-d030" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
-        <entryLink id="cf57-33a9-83a1-d2d8" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="cf57-33a9-83a1-d2d8" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="8795-e911-4096-002c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="58e9-84d4-02b1-e045" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
         <entryLink id="8393-ec70-69bc-e338" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
         <entryLink id="27bb-462c-d54c-048e" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
         <entryLink id="62da-be3c-abbf-8d6f" name="Support Team" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
@@ -569,7 +610,15 @@ I hope to address these issues in the next pass.
       </categoryLinks>
       <entryLinks>
         <entryLink id="56c7-9b9a-7310-892f" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
-        <entryLink id="9c14-c85c-1d0f-da14" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
+        <entryLink id="9c14-c85c-1d0f-da14" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="4eaa-a922-354c-6fdc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="58e9-84d4-02b1-e045" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
         <entryLink id="c4f8-573d-7c5d-0357" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
         <entryLink id="6b18-20d2-09f1-7400" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
         <entryLink id="792a-3ef4-144f-3f3c" name="Support Team" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
@@ -838,6 +887,17 @@ I hope to address these issues in the next pass.
           </costs>
         </selectionEntry>
         <selectionEntry id="d68f-4f24-d179-bf54" name="•Luminara Unduli" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7b4-6ff8-5e4b-7274" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e5f-a92a-30fa-e6d1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="800f-88f2-516a-3c82" type="max"/>
@@ -860,6 +920,17 @@ I hope to address these issues in the next pass.
           </costs>
         </selectionEntry>
         <selectionEntry id="e679-4ba7-6c1e-0a4a" name="•Plo Kloon" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ddb4-6c68-ea35-a417" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c071-bc57-70b9-4480" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f6d4-1f1f-539f-0935" type="max"/>
@@ -867,7 +938,8 @@ I hope to address these issues in the next pass.
           <profiles>
             <profile id="b05e-7612-9738-5dcb" name="•Plo Kloon" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
               <characteristics>
-                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014"/>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">While a friendly squadron is attacking a ship that is at distance 1-3 of a friendly ship, the attacker may add 1 blue die set to an [Accuracy] icon to its attack pool.  That die cannon be rerolled or changed.
+Friendly squadrons without Adept gain Grit while they are at distance 1 of a friendly squadron with Adept.</characteristic>
                 <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
                 <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
                 <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
@@ -878,7 +950,31 @@ I hope to address these issues in the next pass.
             <infoLink id="7522-88a2-c927-d1fa" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="26.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c42e-d89e-9d06-0a30" name="•Admiral Yularen" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51eb-a711-ec5b-8765" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0d6-5e80-d2ad-6cff" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1c04-7ed5-17c5-a6ca" name="•Admiral Yularen" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
+              <characteristics>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">When a friendly ship resolves a [Squadron] command, if it spent a [Squadron] token, it may activate 1 additional squadron.
+When a friendly ship resolved a [Repair] command, it may spend engineering points on the following repair effect:
+Repair Squadron:  Spend 2 points to choose a friendly squadron at distance 1-3.  That squadron recovers 1 hull point.</characteristic>
+                <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
+                <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
+                <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5502-1b32-10c1-090a" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="24.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2053,6 +2149,93 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
             <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="516b-2cf9-d9df-d97b" name="•Adi Gallia" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4bbc-c5ed-f075-4bd1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="62cc-d377-6900-6df3" name="•Adi Gallia" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While defending, when you suffer damage from an attack, you may suffer up to 1 of that damage on the shields of a hull zone adjacent to the defending hull zone for each defense token you spend during the Spend Defense Tokens step.  If you do, suffer any remaining damage on the defending hull zone.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be62-0109-962e-5e30" name="•Clone Captain Silver" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba8b-189b-128e-035e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="274e-e170-996d-4a48" name="•Clone Captain Silver" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you execute a maneuver, during your Determine Course step, if you have not resolved a [Navigate] command during this activation, you may exhaust this card to increase or decrease your speed by up to 3.  If you do, you cannot resolve a [Navigate] command during this activation.
+You can spend tokens from this card to ready it.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e">1 [Navigate] token</characteristic>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340">1 [Navigate] token</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3ad4-3dd4-32bc-2575" name="•Ahsoka Tano" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd29-2920-0bdc-d7d1" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="71b7-2c04-cbde-0a10" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="900f-4b85-31eb-4f66" name="•Ahsoka Tano" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">[Squadron]:  Each of up to 3 non-unique squadrons that you activate gain Snipe 1 for each die in their anti-squadron armament, to a maximum of Snipe 3, until the end of its activation.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1631-cadb-6c26-eb8d" name="•Clone Commander Wolffe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a2a-c859-fc82-584b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ab4d-8f80-835a-9ceb" name="•Clone Captain Silver" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">[Squadron]:  You may exhaust this card.  If you do:
+•Each of up to 3 squadrons that you activate without Adept gain Assault until the end of its activation.
+•Each squadron that you activate with the printed Assault keyword can spend a die with a [Hit] or [Accuracy] icon to resolve the Assault effect.
+You can spend tokens from this card to ready it.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e">1 [Squadron] token</characteristic>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340">1 [Squadron] token</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="23f2-ace7-4294-434e" name="Ordnance" hidden="false" collective="false" import="true">
@@ -3217,6 +3400,58 @@ Each of your hull zones cannot target the same ship or squadron more than once d
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5187-3a48-8d75-d7d2" type="max"/>
       </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bdde-4605-88ec-5acf" name="Title - Venator-class Star Destroyer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8a4a-d6b7-2848-a6d9" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="21af-46dc-65c2-2a65" name="•Swift Return (temp)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7244-5501-ee6f-b02b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f427-cf6f-27c0-33c6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c91e-c4e0-2228-3979" name="•Swift Return (temp)" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">During your Determine Course step, if you are at distance 1-2 of an obstacle, you may change your speed by 1 or increased 1 yaw value by 1.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f6dd-e2ee-ffb7-2631" name="Title - Pelta-class Frigate" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f274-7d7b-5404-64a7" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1172-68da-40d1-876b" name="•Swift Return (temp2)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="644f-10bd-ad0c-5f57" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc18-7dd4-c939-8bb2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="aaf4-22bf-b607-dea5" name="•Swift Return (temp2)" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">During your Determine Course step, if you are at distance 1-2 of an obstacle, you may change your speed by 1 or increased 1 yaw value by 1.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
