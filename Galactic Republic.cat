@@ -1084,7 +1084,7 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="cc25-635d-fde9-5462" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
+            <entryLink id="cc25-635d-fde9-5462" name="Modification" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="8.0"/>
@@ -1704,6 +1704,17 @@ When you overlap a ship of smaller size class (or are overlapped by a ship of a 
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1d-3608-d9e7-491e" type="atLeast"/>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ea5-34d9-23d0-8729" type="atLeast"/>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="85e7-c532-9071-4160" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e92-1806-d5b1-ba1b" type="max"/>
@@ -1790,7 +1801,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e488-7f0c-2835-cb55" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3032-5528-8b26-e18b" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>

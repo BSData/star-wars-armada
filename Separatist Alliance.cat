@@ -1674,9 +1674,25 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
         <selectionEntry id="b75b-c303-154f-566c" name="Flag Bridge" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1d-3608-d9e7-491e" type="atLeast"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b75b-c303-154f-566c" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1d-3608-d9e7-491e" type="atLeast"/>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ea5-34d9-23d0-8729" type="atLeast"/>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="85e7-c532-9071-4160" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -3335,7 +3351,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
                 <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While deploying fleets, if you are in the play area, when you would deploy a squadron with Swarm, you may set that squadron aside next to your ship card instead.  You may set aside up to 5 squadrons in this way.
 [Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadron within distance 3.  If connot move this actication, and if it has AI, increase its AI valve by 1.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
-                <characteristic name="Recur" typeId="cf46-034d-372c-3792"></characteristic>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
               </characteristics>
             </profile>
