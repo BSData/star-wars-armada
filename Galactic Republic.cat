@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="4" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Updated all cards to Armada 1.5 text
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="5" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Repairs due to messed up data files
+Updated all cards to Armada 1.5 text
 Clone War Wave 2 previews added</comment>
   <readme>All card text has been updated to the new Armada 1.5 wording and icons.  Functionality should be working.
-Clone War Previews have been added with as much information as known.</readme>
+Clone War Previews have been added with as much information as known.
+
+Ok, so I goofed.  Ships should be fixed.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -220,7 +223,7 @@ Clone War Previews have been added with as much information as known.</readme>
       </profiles>
       <categoryLinks>
         <categoryLink id="d9bf-b1ce-f481-c6fa" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false"/>
-        <categoryLink id="36f4-3457-1d28-0f18" name="Acclamator-class Assault Ship" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="true"/>
+        <categoryLink id="7dc7-13ba-4852-8c59" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4e2e-b42a-c183-766d" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
@@ -281,7 +284,7 @@ Clone War Previews have been added with as much information as known.</readme>
       </profiles>
       <categoryLinks>
         <categoryLink id="6510-c0e7-2b02-9957" name="New CategoryLink" hidden="false" targetId="034d-5d10-2acd-a23f" primary="false"/>
-        <categoryLink id="4ea6-f307-25cf-158e" name="Acclamator-class Assault Ship" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="true"/>
+        <categoryLink id="0b3b-23e0-78f8-732f" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="953d-b05e-f6cb-f27c" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
@@ -803,8 +806,8 @@ Clone War Previews have been added with as much information as known.</readme>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="929d-40d4-7cb0-246b" name="New CategoryLink" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="true"/>
         <categoryLink id="feee-a172-1eb6-9f6c" name="Small Ship" hidden="false" targetId="fe1d-3608-d9e7-491e" primary="false"/>
+        <categoryLink id="ec31-0a32-6fee-56d5" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9d12-62ab-b4a2-97ee" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
