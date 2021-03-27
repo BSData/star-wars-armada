@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="47" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added Missing Irregular Squadrons</comment>
-  <readme>Added missing irregular squadron from Rebellion in the Rim
+  <comment>Improved Functionality for Modification and cards that add icons.</comment>
+  <readme>All card text has been updated to the new Armada 1.5 wording and icons.  Functionality should be working.
 </readme>
   <selectionEntries>
     <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" import="true" type="unit">
@@ -124,6 +124,13 @@
     <selectionEntry id="37bc-3213-7cba-8aa7" name="Assault Frigate Mark II A" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4925-5f4c-6682-0783" name="Assault Frigate Mark II A" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Defensive Retrofit, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="37bc-3213-7cba-8aa7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">6</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">2 Blue</characteristic>
@@ -151,12 +158,21 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="e554-8e28-11f0-bf41" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
-        <entryLink id="0e5a-046c-cabe-30f2" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
-        <entryLink id="efac-c89e-c156-f6fc" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
-        <entryLink id="f9b5-bd6d-c5d7-c862" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
-        <entryLink id="41ec-3532-3c7f-68d3" hidden="false" collective="false" import="true" targetId="3dab-7f1b-0c57-2c5b" type="selectionEntryGroup"/>
-        <entryLink id="992e-920c-00c2-15ef" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
-        <entryLink id="c778-320d-896a-e227" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="0e5a-046c-cabe-30f2" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
+        <entryLink id="efac-c89e-c156-f6fc" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="f9b5-bd6d-c5d7-c862" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="41ec-3532-3c7f-68d3" name="Title - Assault Frigate Mk II" hidden="false" collective="false" import="true" targetId="3dab-7f1b-0c57-2c5b" type="selectionEntryGroup"/>
+        <entryLink id="992e-920c-00c2-15ef" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="c778-320d-896a-e227" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="0f10-7bde-5623-50c5" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="37bc-3213-7cba-8aa7" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="81.0"/>
@@ -165,6 +181,13 @@
     <selectionEntry id="fd9c-4f9e-48c4-40c7" name="Assault Frigate Mark II B" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="64a0-15cf-269c-733c" name="Assault Frigate Mark II B" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Defensive Retrofit, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="fd9c-4f9e-48c4-40c7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">6</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue</characteristic>
@@ -197,7 +220,16 @@
         <entryLink id="7aaa-31af-633f-fdb3" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
         <entryLink id="0090-84d0-105c-74f9" hidden="false" collective="false" import="true" targetId="3dab-7f1b-0c57-2c5b" type="selectionEntryGroup"/>
         <entryLink id="9e17-cedc-5e7f-36c9" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
-        <entryLink id="7f6d-687c-8118-6d33" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="7f6d-687c-8118-6d33" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="6468-1abb-6b1e-60da" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="fd9c-4f9e-48c4-40c7" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="72.0"/>
@@ -359,7 +391,7 @@
         <entryLink id="0cd4-5762-3233-a05a" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
         <entryLink id="3a94-2af2-71ce-ad58" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="b219-9b4b-a938-296b" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
-        <entryLink id="7c07-0682-d506-15f8" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
+        <entryLink id="7c07-0682-d506-15f8" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
         <entryLink id="1832-1a92-094a-d556" hidden="false" collective="false" import="true" targetId="5c1d-02e5-2431-fb6f" type="selectionEntryGroup"/>
         <entryLink id="c7d1-f27b-8493-f5d5" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
         <entryLink id="723d-2325-11c2-99a6" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
@@ -696,6 +728,13 @@
     <selectionEntry id="5c0f-310c-1677-05a2" name="MC80 Assault Cruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="74dd-cdb3-c5c7-5eba" name="MC80 Assault Cruiser" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Support Team, Fleet Command, Defensive Retrofit, Ion Cannons, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="5c0f-310c-1677-05a2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">8</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">2 Blue</characteristic>
@@ -723,7 +762,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="0036-1e9e-2d08-7e3f" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
-        <entryLink id="6482-0216-282d-6a42" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+        <entryLink id="6482-0216-282d-6a42" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="maxSelections" value="2"/>
           </modifiers>
@@ -733,6 +772,15 @@
         <entryLink id="1c95-468e-3e4e-2de7" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="47a4-9fcf-c85d-e13e" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
         <entryLink id="92ff-40e7-35e6-8563" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
+        <entryLink id="b8bd-f7b6-1836-6739" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="5c0f-310c-1677-05a2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="114.0"/>
@@ -741,6 +789,13 @@
     <selectionEntry id="08aa-ef7d-35e6-66a2" name="MC80 Battle Cruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4e91-098c-73bb-8481" name="MC80 Battle Cruiser" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Support Team, Fleet Command, Ion Cannons, Turbloasers">
+              <conditions>
+                <condition field="selections" scope="08aa-ef7d-35e6-66a2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">8</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">2 Black</characteristic>
@@ -771,13 +826,22 @@
         <entryLink id="8e2d-178e-0e68-053a" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
         <entryLink id="1ca3-1cc9-bdc5-c5ea" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
         <entryLink id="3b40-cf60-5466-24d0" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
-        <entryLink id="fd7c-b399-b549-a2ac" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
+        <entryLink id="fd7c-b399-b549-a2ac" name="Ion Cannons" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
         <entryLink id="43fe-8abd-c59f-1573" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="maxSelections" value="2"/>
           </modifiers>
         </entryLink>
         <entryLink id="31d3-5060-4e66-1599" hidden="false" collective="false" import="true" targetId="1402-7b91-d7d8-a61a" type="selectionEntryGroup"/>
+        <entryLink id="7a57-8dab-9eec-ee38" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="08aa-ef7d-35e6-66a2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="103.0"/>
@@ -786,6 +850,13 @@
     <selectionEntry id="85a3-f5e9-7349-d420" name="MC80 Command Cruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="ef3c-be2b-394f-733c" name="MC80 Command Cruiser" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Support Team, Fleet Command, Offensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="85a3-f5e9-7349-d420" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">8</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue, 1 Black</characteristic>
@@ -816,10 +887,19 @@
         <entryLink id="5c91-768a-24df-4590" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
         <entryLink id="5a21-1033-a1bd-b13b" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
         <entryLink id="d086-1dbb-a7a4-7684" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
-        <entryLink id="8b80-fe17-86ad-76fe" hidden="false" collective="false" import="true" targetId="d3d4-ced8-c7e9-c669" type="selectionEntryGroup"/>
+        <entryLink id="8b80-fe17-86ad-76fe" name="Title - MC80 Cruiser (Home One type)" hidden="false" collective="false" import="true" targetId="d3d4-ced8-c7e9-c669" type="selectionEntryGroup"/>
         <entryLink id="3183-0f67-d56a-f584" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="10d1-4914-171b-91fe" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
         <entryLink id="4408-f709-0b26-7252" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
+        <entryLink id="b216-c130-f762-1efe" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="85a3-f5e9-7349-d420" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="106.0"/>
@@ -1948,6 +2028,13 @@
     <selectionEntry id="3641-3e06-896e-17d4" name="MC75 Armored Cruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="2b35-36c1-6df2-7ff8" name="MC75 Armored Cruiser" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Defensive Retrofit, Ordnance, Ion Cannons, Turbolasers">
+              <conditions>
+                <condition field="selections" scope="3641-3e06-896e-17d4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue, 1 Black</characteristic>
@@ -1983,6 +2070,15 @@
         <entryLink id="49ac-96a0-b81f-6719" name="Ion Cannons" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
         <entryLink id="e745-c853-3b81-7518" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="cfd1-e8b2-f533-b0c0" name="Title - MC75 Cruiser" hidden="false" collective="false" import="true" targetId="e4c7-eb6e-3dc8-b9ea" type="selectionEntryGroup"/>
+        <entryLink id="a4b2-87a9-ed77-a92c" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="3641-3e06-896e-17d4" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="104.0"/>
@@ -1991,6 +2087,13 @@
     <selectionEntry id="12b1-340f-d1aa-3abf" name="MC75 Ordnance Cruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="e6f0-cd51-d2bd-8b07" name="MC75 Ordnance Cruiser" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Defensive Retrofit, Ordnance">
+              <conditions>
+                <condition field="selections" scope="12b1-340f-d1aa-3abf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Black</characteristic>
@@ -2028,6 +2131,15 @@
           </modifiers>
         </entryLink>
         <entryLink id="8586-017a-0bd0-6f19" name="Title - MC75 Cruiser" hidden="false" collective="false" import="true" targetId="e4c7-eb6e-3dc8-b9ea" type="selectionEntryGroup"/>
+        <entryLink id="9953-2cba-4073-7b57" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="12b1-340f-d1aa-3abf" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
@@ -2036,6 +2148,13 @@
     <selectionEntry id="e084-7eab-46f3-a198" name="MC80 Star Cruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="2948-e5de-9c7e-755d" name="MC80 Star Cruiser" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Support Team, Fleet Command, Ion Cannons, Turbloasers">
+              <conditions>
+                <condition field="selections" scope="e084-7eab-46f3-a198" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">8</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Black</characteristic>
@@ -2062,10 +2181,10 @@
         <categoryLink id="3922-d24f-7929-5c82" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="998a-1e77-b488-2719" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="998a-1e77-b488-2719" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
         <entryLink id="84d3-1107-2664-34d8" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
         <entryLink id="11c8-3977-c543-727f" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
-        <entryLink id="4843-e66e-83ac-5aeb" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
+        <entryLink id="4843-e66e-83ac-5aeb" name="Support Team" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
         <entryLink id="d656-dca3-6f02-ffcf" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
         <entryLink id="627a-daf0-0882-644c" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
           <modifiers>
@@ -2073,6 +2192,15 @@
           </modifiers>
         </entryLink>
         <entryLink id="f3db-7b4a-01c3-20f9" hidden="false" collective="false" import="true" targetId="1402-7b91-d7d8-a61a" type="selectionEntryGroup"/>
+        <entryLink id="2251-8cfb-8180-5c62" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="e084-7eab-46f3-a198" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="96.0"/>
@@ -2081,6 +2209,13 @@
     <selectionEntry id="177a-9aa2-3a99-90e5" name="Starhawk-class Battleship Mark I" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="97a7-4538-d87d-404c" name="Starhawk-class Battleship Mark I" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Ion Cannons, Turbolasers, Superweapon">
+              <conditions>
+                <condition field="selections" scope="177a-9aa2-3a99-90e5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">14</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue, 1 Black</characteristic>
@@ -2119,6 +2254,15 @@
         <entryLink id="d619-884a-3c6d-e250" name="Title - Starhawk-class Battleship" hidden="false" collective="false" import="true" targetId="1d1a-ec27-291b-1f3c" type="selectionEntryGroup"/>
         <entryLink id="f37a-f12b-76cb-1ff5" name="Superweapon" hidden="false" collective="false" import="true" targetId="9dd4-252a-61eb-b7ea" type="selectionEntryGroup"/>
         <entryLink id="d281-e5bc-e8a9-1621" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="a5e7-4924-e861-1b00" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="177a-9aa2-3a99-90e5" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140.0"/>
@@ -2127,6 +2271,13 @@
     <selectionEntry id="6e26-58cd-afa7-da7b" name="Starhawk-class Battleship Mark II" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="698d-b066-5e34-5763" name="Starhawk-class Battleship Mark II" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Ion Cannons, Turbolasers, Superweapon">
+              <conditions>
+                <condition field="selections" scope="6e26-58cd-afa7-da7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">14</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Red, 1 Blue</characteristic>
@@ -2165,6 +2316,15 @@
         <entryLink id="aa05-093b-c741-299e" name="Title - Starhawk-class Battleship" hidden="false" collective="false" import="true" targetId="1d1a-ec27-291b-1f3c" type="selectionEntryGroup"/>
         <entryLink id="6a58-091a-d8c0-b044" name="Superweapon" hidden="false" collective="false" import="true" targetId="9dd4-252a-61eb-b7ea" type="selectionEntryGroup"/>
         <entryLink id="10b1-48b3-3661-f35c" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="1597-4ffd-4a4e-f903" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="6e26-58cd-afa7-da7b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150.0"/>
