@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="33" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums  
-vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="33" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums   vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed messed up data files.</comment>
   <readme>Fixed some messed up data files.</readme>
   <costTypes>
@@ -312,7 +311,7 @@ vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescr
         </categoryLink>
         <categoryLink id="1b44-1532-e7c9-9663-c9d8-3a89-4028-05d0" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
         <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
-        <categoryLink id="e4fe-5eec-e2cc-7e21" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
+        <categoryLink id="e4fe-5eec-e2cc-7e21" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="false"/>
         <categoryLink id="b096-2fdf-44fa-ef0f" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
         <categoryLink id="a462-4d48-1996-a1cd" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
         <categoryLink id="4fc7-8152-436a-0381" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
@@ -321,6 +320,7 @@ vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescr
         <categoryLink id="4a8e-4abb-a4e2-8c1f" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="false"/>
         <categoryLink id="9f08-60d3-fa45-61db" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
         <categoryLink id="7891-7e38-0893-25ed" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
+        <categoryLink id="4ac5-a5ea-7fa9-5d82" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
