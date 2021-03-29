@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="32" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums  vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Fixed Requirement for Campaign Objective</comment>
-  <readme>Fixed requirement for Campaign Objective</readme>
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="33" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums  
+vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Fixed messed up data files.</comment>
+  <readme>Fixed some messed up data files.</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>

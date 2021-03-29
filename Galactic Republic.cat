@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="5" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Repairs due to messed up data files
-Updated all cards to Armada 1.5 text
-Clone War Wave 2 previews added</comment>
-  <readme>All card text has been updated to the new Armada 1.5 wording and icons.  Functionality should be working.
-Clone War Previews have been added with as much information as known.
-
-Ok, so I goofed.  Ships should be fixed.</readme>
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="6" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Update to fix messed up data files
+Add Max Speed to Ships</comment>
+  <readme>This data file got messed up somehow.  So I think I fixed it and added max ship speed stat as well.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -790,18 +786,18 @@ Ok, so I goofed.  Ships should be fixed.</readme>
             <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">2</characteristic>
             <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">2</characteristic>
             <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">4</characteristic>
-            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf"/>
-            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c"/>
-            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f"/>
-            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1"/>
-            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14"/>
-            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893"/>
-            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2"/>
-            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d"/>
-            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af"/>
-            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42"/>
-            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Evade, Redirect</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, 1 Blue</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">Red, Blue</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">Red, Blue</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">2 Red</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">3</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">2</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">2</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Fleet Support, Offensive Retrofit</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Clone.  Medical.</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -842,7 +838,7 @@ Ok, so I goofed.  Ships should be fixed.</readme>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Fleet Support, Defensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Clone.  Transport.</characteristic>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>

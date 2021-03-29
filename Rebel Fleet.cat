@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="47" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Improved Functionality for Modification and cards that add icons.</comment>
-  <readme>All card text has been updated to the new Armada 1.5 wording and icons.  Functionality should be working.
-</readme>
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="48" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums
+vadersson in lots of places" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Fixed messed up data files
+Added max speed stat for ships</comment>
+  <readme>Fixed some messed up data files.
+Added a max speed stat to ship entries.</readme>
   <selectionEntries>
     <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -148,7 +150,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -205,7 +207,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -379,7 +381,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -435,7 +437,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Ion Cannons</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -484,12 +486,12 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Fleet Support, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="30b6-b861-c851-a996" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule"/>
+        <infoLink id="30b6-b861-c851-a996" name="Flotillas" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6348-a2d3-d605-5c68-8180-3b0c-4e1a-d22a" hidden="false" targetId="8180-3b0c-4e1a-d22a" primary="true"/>
@@ -526,7 +528,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Fleet Support, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -663,7 +665,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Defensive Retrofit, Ordnance, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -704,7 +706,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Defensive Retrofit, Ordnance, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -752,7 +754,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">3</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -813,7 +815,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Support Team, Ion Cannons, Turbolasers, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -874,7 +876,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">3</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Offensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -932,7 +934,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -987,7 +989,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1588,7 +1590,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Fleet Command, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1643,7 +1645,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Fleet Command, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1965,7 +1967,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Offensive Retrofit, Weapons Team, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2005,7 +2007,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Offensive Retrofit, Weapons Team, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2052,7 +2054,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">3</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ordnance, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2111,7 +2113,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">3</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ordnance, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2172,7 +2174,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Support Team, Ion Cannons, Turbolasers, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2233,7 +2235,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Officer, Weapons Team, Offensive Retrofit, Ion Cannons, Turbolasers, Superweapon</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2295,7 +2297,7 @@
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Officer, Weapons Team, Offensive Retrofit, Ion Cannons, Turbolasers, Superweapon</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
-            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7"/>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
