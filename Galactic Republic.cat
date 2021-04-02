@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="6" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Update to fix messed up data files
-Add Max Speed to Ships</comment>
-  <readme>This data file got messed up somehow.  So I think I fixed it and added max ship speed stat as well.</readme>
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="7" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added last preview</comment>
+  <readme>Added Venator II</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -746,8 +745,8 @@ Add Max Speed to Ships</comment>
             <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
-            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42"/>
-            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ordnance, Turbolasers</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Clone.  Bombard</characteristic>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
@@ -763,18 +762,19 @@ Add Max Speed to Ships</comment>
         <entryLink id="e0cd-a900-0be5-607f" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
         <entryLink id="960a-6fe2-47fb-86eb" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
         <entryLink id="4bcf-6741-c41e-57b9" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
-        <entryLink id="a212-1bc2-ff5c-d883" name="Fleet Command" hidden="false" collective="false" import="true" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup">
+        <entryLink id="a212-1bc2-ff5c-d883" name="Fleet Command" hidden="true" collective="false" import="true" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="883a-7ded-f9fc-accc" value="2.0">
+            <modifier type="set" field="hidden" value="false">
               <conditions>
                 <condition field="selections" scope="3240-fd8a-04a3-ce98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e488-7f0c-2835-cb55" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="59f8-5ebe-1577-ba4f" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6143-f5f7-e034-e96e" name="Pelta-class Medical Frigate" hidden="false" collective="false" import="true" type="model">
