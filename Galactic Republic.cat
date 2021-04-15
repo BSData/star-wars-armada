@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="7" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added last preview</comment>
-  <readme>Added Venator II</readme>
+  <comment>Added latest preview</comment>
+  <readme>Added Venator II and Pelta Titles</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1182,6 +1182,37 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5187-2bdf-bf83-75ce" name="Thermal Shields" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="034d-5d10-2acd-a23f" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28b9-dee2-dcc6-c2a7" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa76-0c3a-89db-29f9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f2b4-1577-7050-3cd4" name="Thermal Shields" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
+              <characteristics>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">Medium or Large ship only.
+While defending, after the attacker gathers dice, you may spend 1 [Brace] token.  If you do, choose and remove half of the dice in the attack pool, rounded down.</characteristic>
+                <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
+                <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
+                <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3464,6 +3495,46 @@ Each of your hull zones cannot target the same ship or squadron more than once d
             <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d694-7a56-b4df-b356" name="•Mercy Mission" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c30-4a5f-7fa4-9de4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="971c-0149-f98f-0bdc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e1b9-0ea0-f440-cef5" name="•Mercy Mission" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
+              <characteristics>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">Before deploying fleets, un-equip this card and choose 1 friendly small ship that is not your flagship.  Equipm this card to the choosen ship (even if it does not have a [Fleet Command] icon in its upgrade bar.)
+At the end of the game, if you are within the enemy deployment zone, increase your score by 40 points; if you were destroyed, increase your fleet value by 20 points.</characteristic>
+                <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
+                <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
+                <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aa78-63f1-5aba-f932" name="•Hot Landing" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff7c-1a08-0816-1157" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="244c-6bda-5357-2989" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d93e-bbc8-c9d4-c56a" name="•Hot Landing" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
+              <characteristics>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Squadron Phase, friendly squadrons with Adept gain Grit until the end of the phase.
+When a friendly squadron with Adept is destroyed, you may choose 1 enemy ship at distance 1-2 of that squadron.  If you do, that ship gains 1 raid token of your choice.</characteristic>
+                <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
+                <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
+                <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="de1c-158a-113c-72a6" name="Superweapon" hidden="false" collective="false" import="true">
@@ -3502,15 +3573,15 @@ Each of your hull zones cannot target the same ship or squadron more than once d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f274-7d7b-5404-64a7" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="1172-68da-40d1-876b" name="•Swift Return (temp2)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1172-68da-40d1-876b" name="•FB-88" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="644f-10bd-ad0c-5f57" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc18-7dd4-c939-8bb2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="aaf4-22bf-b607-dea5" name="•Swift Return (temp2)" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+            <profile id="aaf4-22bf-b607-dea5" name="•FB-88" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">During your Determine Course step, if you are at distance 1-2 of an obstacle, you may change your speed by 1 or increased 1 yaw value by 1.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">Before you reveal a command, you may discard your top command dial.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
@@ -3518,7 +3589,26 @@ Each of your hull zones cannot target the same ship or squadron more than once d
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c99d-ed39-182a-742d" name="•TB-73" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a4a7-9b9a-09cf-3f84" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d2ec-6e11-7228-1289" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e1bb-dae0-3aaa-dcf3" name="•TB-73" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">After you deploy, gain 1 additional [evade] defense token.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

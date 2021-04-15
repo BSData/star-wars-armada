@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="33" battleScribeVersion="2.03" authorName="Brian Black - with additional work by vadersson" authorContact="Brian_Black on BGG or FFG forums   vadersson or vadersson109 on reddit, BGG, FFG, etc." xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Fixed messed up data files.</comment>
-  <readme>Fixed some messed up data files.</readme>
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="34" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc.
+Brian_Black on BGG or FFG forums   " xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Added more campaign objectives
+Added remaining Clone Wars Wave 2 data</comment>
+  <readme>Slowly adding Campaign Objectives
+Trying to work out a solution to the limit on unique squadrons.
+Updated Clone War wave 2 data.</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -1149,13 +1153,37 @@ After deploying fleets, the second player may choose 1 enemy ship. That ship mus
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55ed-6fa9-bf3b-876e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0369-b900-da6a-91a1" name="Hyperlane Raid" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0369-b900-da6a-91a1" name="Base Defense:  Ion Cannon" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbdf-d7b5-0e0e-1dc5" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1639-842a-3b7b-1ef4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="bcbd-fabb-208e-0c67" name="Hyperlane Raid" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                <profile id="bcbd-fabb-208e-0c67" name="Base Defense:  Ion Cannon" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">The second player must deploy all of his ships and squadron before the first player.  After deploying fleets, the second player places  3 objective tokens anywhere in the play area.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">At the end of the Command Phase, the second player may select 1 enemy ship at distance 1-3 of an objective token and perform an attack against that ship.  The attacker is treated as if it is a ship with a battery armament of 4 blue dice, but is not friendly to any ship or squadrons.  The attack is treated as being at medium range, cannot be obstructed, can target any of the defender&apos;s hull zones. and has the following critical effect:
+Blue [Crit]:  The defender must choose and exhaust 1 of his defense tokens.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b"></characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4"></characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="d2cd-f4ba-79da-7fd6" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b39-c2f9-f8b0-12de" name="Hyperlane Raid" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c30-7a57-5ed5-29d5" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e704-bf69-417b-06d9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="36bb-6e51-e88c-ccb0" name="Hyperlane Raid" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
                   <characteristics>
                     <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">After deploying fleets, each player chooses 1 of his ships to be an objective ship, starting with the first player.</characteristic>
                     <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">The first player&apos;s objective ship may perform each of its attacks from the same hull zone. It cannot target the same hull zone or squadron more than once each round with that hull zone. The second player&apos;s objective ship may perform each of its attacks from the same hull zone, and it may do so against the same targets.</characteristic>
