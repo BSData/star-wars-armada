@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="5" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Fixed some messed up data
-Added Max Speed Stat to ships</comment>
-  <readme>Fixed some messed up data
-Added a max speed stat to ships.</readme>
+<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="6" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added Clone Wars Wave 2</comment>
+  <readme>Add all revealed data from Clone wars wave 2</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Droid Tri-Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -519,7 +517,11 @@ Added a max speed stat to ships.</readme>
       <entryLinks>
         <entryLink id="75dc-42a3-4244-d030" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
         <entryLink id="cf57-33a9-83a1-d2d8" name="Fleet Support" hidden="false" collective="false" import="true" targetId="7ff0-e45e-cb37-dc1f" type="selectionEntryGroup"/>
-        <entryLink id="8393-ec70-69bc-e338" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="8393-ec70-69bc-e338" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
+          </modifiers>
+        </entryLink>
         <entryLink id="62da-be3c-abbf-8d6f" name="Support Team" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup"/>
         <entryLink id="af77-62cd-553b-2229" name="Title - Hardcell-class" hidden="false" collective="false" import="true" targetId="aca3-46d3-9915-1ed3" type="selectionEntryGroup"/>
       </entryLinks>
@@ -684,9 +686,9 @@ Added a max speed stat to ships.</readme>
         <cost name="pts" typeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7953-a4ce-f74b-c466" name="Providence-class Dreadbought" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7953-a4ce-f74b-c466" name="Providence-class Dreadnought" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="519b-175a-da9e-875a" name="Providence-class Dreadbought" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+        <profile id="519b-175a-da9e-875a" name="Providence-class Dreadnought" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
           <modifiers>
             <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Weapons Team, Fleet Command, Offensive Retrofit, Ordnance, Ion Cannon, Turbolasers, Turbolasers">
               <conditions>
@@ -697,10 +699,10 @@ Added a max speed stat to ships.</readme>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
             <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue</characteristic>
-            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e"/>
-            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69"/>
-            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b"/>
-            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf"/>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">3</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">4</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">4</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Redirect, Contain, Salvo</characteristic>
             <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, 1 Blue, 2 Black</characteristic>
             <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">3 Red, 1 Blue, 2 Black</characteristic>
             <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">3 Red, 1 Blue, 2 Black</characteristic>
@@ -708,7 +710,7 @@ Added a max speed stat to ships.</readme>
             <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">5</characteristic>
             <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
-            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">1</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ordnance, Ion Cannon, Turbolasers, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Droid.  Bombard.  Transport</characteristic>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
@@ -724,7 +726,7 @@ Added a max speed stat to ships.</readme>
         <entryLink id="018a-a8ae-16f2-c62b" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
         <entryLink id="4d7c-2850-edff-c999" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
         <entryLink id="da00-4ca5-edef-6dd9" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
-        <entryLink id="123a-dc04-a052-81e3" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+        <entryLink id="123a-dc04-a052-81e3" name="Ion Cannons" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
         <entryLink id="025f-218d-0ccb-d286" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
         <entryLink id="5d4f-b596-d611-20b2" name="Title - Providence-class" hidden="false" collective="false" import="true" targetId="808f-0581-30f1-9ce3" type="selectionEntryGroup"/>
         <entryLink id="fb2b-13d6-6ad0-6136" name="Fleet Command" hidden="false" collective="false" import="true" targetId="69c5-17fb-4def-4b65" type="selectionEntryGroup">
@@ -734,6 +736,11 @@ Added a max speed stat to ships.</readme>
                 <condition field="selections" scope="7953-a4ce-f74b-c466" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b75b-c303-154f-566c" type="equalTo"/>
               </conditions>
             </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5512-f5f3-fa09-d49f" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
           </modifiers>
         </entryLink>
       </entryLinks>
@@ -796,7 +803,7 @@ Added a max speed stat to ships.</readme>
         <entryLink id="9e1e-f0c1-319d-7a00" name="Ion Cannons" hidden="false" collective="false" import="true" targetId="a176-c60f-7d96-1496" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="85.0"/>
+        <cost name="pts" typeId="points" value="105.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -928,7 +935,7 @@ At the start of each Ship Phase, you may discard 1 command token from this card.
           <profiles>
             <profile id="cdbe-0c2b-1483-c088" name="•TF-1726" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
               <characteristics>
-                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014"/>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">Once per activation, while a friendly ship is attacking a ship, the attacker adds 1 black die to its attack pool for each raid token the defender has, to a maximum of 2 additional dice.</characteristic>
                 <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
                 <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
                 <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
@@ -939,7 +946,7 @@ At the start of each Ship Phase, you may discard 1 command token from this card.
             <infoLink id="8c43-96eb-eabb-962b" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="be24-c569-2137-4f0e" name="•Mar Tuuk" hidden="false" collective="false" import="true" type="upgrade">
@@ -1112,6 +1119,37 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c19b-eb08-eb97-9c30" name="Thermal Shields" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="034d-5d10-2acd-a23f" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28b9-dee2-dcc6-c2a7" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0918-1345-7cd5-49ef" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="39fb-ba9f-e4e8-eccb" name="Thermal Shields" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
+              <characteristics>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">Medium or Large ship only.
+While defending, after the attacker gathers dice, you may spend 1 [Brace] token.  If you do, choose and remove half of the dice in the attack pool, rounded down.</characteristic>
+                <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
+                <characteristic name="Recur" typeId="7280-a06c-6155-cccd"/>
+                <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1496,6 +1534,25 @@ The battery armaments for your left and right hull zones are increased by 1 blue
             <cost name="pts" typeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="b6cf-8f4e-7005-da49" name="Point Defense Ion Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="04ec-6325-b65b-6725" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1e72-c946-e16f-288c" name="Point Defense Ion Cannons" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
+              <characteristics>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Non-huge ship only.
+While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.</characteristic>
+                <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
+                <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
+                <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="0a55-2f8b-aff3-154e" name="Offensive Retrofit" hidden="false" collective="false" import="true">
@@ -1815,6 +1872,44 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="44e0-bc87-df8b-de39" name="B2 Rocket Troopers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c078-e6e5-78a6-39f3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3e49-9429-0612-da82" name="B2 Rocket Troopers" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">While performing a non-[Salvo] attack against a ship at close-medium range, you may exhaust this card.  If you do, the defender gains 1 raid token of your choice.
+While attacking a squadron, you may exhaust this card.  If you do, add 1 die of a color already in your attack pool to your attack pool.</characteristic>
+                <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
+                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a">Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2378-0d1c-16dc-f973" name="Flak Guns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76fc-b731-d37c-d8f4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="238a-1a6f-12e4-209e" name="Flak Guns" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Treat each die in your anti-squadron armament as black.
+While performing a [Salvo] attack, the black dice in your battery armamentt can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
+                <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
+                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
+                <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3019,6 +3114,24 @@ When you reveal a command, you may exhaust this card to choose 1 of your hull zo
             <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="57ea-2deb-caa1-9568" name="DBY-827 Heavy Turbolasers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="111b-d235-787a-c358" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7184-2e5a-2b3e-df25" name="DBY-827 Heavy Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
+              <characteristics>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While performing a [Salvo] attack, you may change 1 die to a face with a [Crit] icon.</characteristic>
+                <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
+                <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
+                <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="baa5-7a1e-92ea-a312" name="Weapons Team" hidden="false" collective="false" import="true">
@@ -3400,6 +3513,47 @@ Each of your hull zones cannot target the same ship or squadron more than once d
             <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="aaf4-6fa8-dcdd-eb84" name="•Hot Landing" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6491-de39-2ceb-6574" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a628-cfb6-1137-44e5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="73c5-0c4d-883e-5d2a" name="•Hot Landing" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
+              <characteristics>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">At the start of the Squadron Phase, friendly squadrons with Adept gain Grit until the end of the phase.
+When a friendly squadron with Adept is destroyed, you may choose 1 enemy ship at distance 1-2 of that squadron.  If you do, that ship gains 1 raid token of your choice.</characteristic>
+                <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
+                <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7"/>
+                <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="513a-adef-a6ba-24d6" name="•Jedi Hostage" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d385-36d0-a6e7-1b63" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd8f-9e8c-d7fd-4c2f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="893a-cadb-b1ee-81df" name="•Jedi Hostage" hidden="false" typeId="1310-5c89-5c82-8e3b" typeName="4.2 Fleet Command">
+              <characteristics>
+                <characteristic name="Fleet Command Ability" typeId="67d1-23ac-2af6-6b5a">When an enemy ship declares you as the target of a non-[Salvo] attack, if this card is readied, the attacker gains a raid token of its choice, if able.
+When an enemy ship at close range reveals a command, it may discard a [Squadron] dial to exhaust this card.
+While defending, if this card is exhausted, you cannot spend more than 1 defense token.</characteristic>
+                <characteristic name="Setup" typeId="fe32-50a3-41a4-c521"/>
+                <characteristic name="Recur" typeId="90e2-ff61-cc26-03d7">Non-Recur</characteristic>
+                <characteristic name="Ready Cost" typeId="28f0-e3fe-0af2-dbab"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="de1c-158a-113c-72a6" name="Superweapon" hidden="false" collective="false" import="true">
@@ -3412,17 +3566,58 @@ Each of your hull zones cannot target the same ship or squadron more than once d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c35-12e7-ece7-39f4" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="7501-1e27-8d82-0760" name="•Beast of Burden (temp)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7501-1e27-8d82-0760" name="•Gilded Aegis" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fb30-19b4-00e3-3d5e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab64-6c86-3c7f-56c7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f26c-e120-fe2d-da0d" name="•Beast of Burden (temp)" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+            <profile id="f26c-e120-fe2d-da0d" name="•Gilded Aegis" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">When you activate, you may exhaust this card and spend 1 or more of your defense tokens to choose up to that many defense tokens on friendly ships at distance 1-3 and ready those defense tokens.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">At the end of the Command Phase or Ship Phase, you may discard a [Redirect] defense token to move shields to 1 of your hull zones.  If you do, the number of shields in that zone cannot exceed a maximum of &quot;6&quot;.  You cannot recover shields in that zone while it is greater than its maximum shield value.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
-                <characteristic name="Recur" typeId="cf46-034d-372c-3792">Recur</characteristic>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"></characteristic>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da49-8d6f-866e-397a" name="•Nova Defiant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bfa9-a30e-4142-3316" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1695-09e4-b51c-b96b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="610a-52ee-64a7-a7b3" name="•Nova Defiant" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">When you are deployed, you must choose 1 of each type of command token for this card.
+Your command value is increased to 4.
+You can be assigned more than 1 of each type of command token.
+When you reveal a command, you may discard all of the tokens from this card to gain them.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006">1 of each command token</characteristic>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"></characteristic>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0647-8947-2987-a205" name="•Patriot Fist" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="19df-ee55-0910-b7a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8739-b78c-6216-dbc6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="61ec-7ede-4b3e-1b63" name="•Patriot Fist" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While attacking a ship at medium-long range, if this is your first attack during your activation, you may add 2 blue dice to your attack pool.  If you do, you cannot attack again during this activation.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"></characteristic>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
               </characteristics>
             </profile>
@@ -3438,13 +3633,32 @@ Each of your hull zones cannot target the same ship or squadron more than once d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b3f-d53a-47e2-855b" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="4d3d-26be-2163-06a2" name="•Invisible Hand" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4d3d-26be-2163-06a2" name="•Invincible" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a2bb-2849-e75e-ff37" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8739-3b16-a8a8-ec4c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b6c2-9356-d90e-c66a" name="•Invisible Hand" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+            <profile id="b6c2-9356-d90e-c66a" name="•Invincible" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">You gain 1 additional [Defensive Retrofit] icon in your upgrade bar.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9d22-f3eb-9ea9-79e0" name="•Invisible Hand" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dcc6-2b3e-b42f-c5f0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b35a-cce3-2fab-4112" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="874a-c69f-3b70-4098" name="•Invisible Hand" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
                 <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While deploying fleets, if you are in the play area, when you would deploy a squadron with Swarm, you may set that squadron aside next to your ship card instead.  You may set aside up to 5 squadrons in this way.
 [Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadron within distance 3.  If connot move this actication, and if it has AI, increase its AI valve by 1.</characteristic>
@@ -3456,6 +3670,26 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="18d8-c65f-cd4a-0423" name="•Lucid Voice" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2c0c-4396-93be-45ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e64-e71f-51a0-e90c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="06e8-7a84-962e-e12a" name="•Lucid Voice" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">Treat your rear hull zone&apos;s printed battery armament as 3 red dice.
+The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

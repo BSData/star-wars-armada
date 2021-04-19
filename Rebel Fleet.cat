@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="48" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums
-vadersson in lots of places" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Fixed messed up data files
-Added max speed stat for ships</comment>
-  <readme>Fixed some messed up data files.
-Added a max speed stat to ship entries.</readme>
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="49" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added Clone Wars Wave 2 Cards</comment>
+  <readme>Added all cards from Clone Wars Wave 2</readme>
   <selectionEntries>
     <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -3081,6 +3078,25 @@ The battery armaments for your left and right hull zones are increased by 1 blue
             <cost name="pts" typeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d0ae-a2c4-c4b4-15cf" name="Point Defense Ion Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c894-426f-0a35-f0d4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="06be-8dbf-1450-a988" name="Point Defense Ion Cannons" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
+              <characteristics>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Non-huge ship only.
+While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.</characteristic>
+                <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
+                <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
+                <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="0a55-2f8b-aff3-154e" name="Offensive Retrofit" hidden="false" collective="false" import="true">
@@ -3382,6 +3398,25 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e61-d5fd-f87b-5451" name="Flak Guns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce9b-523d-491e-0950" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f7ed-a70b-4c56-dead" name="Flak Guns" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Treat each die in your anti-squadron armament as black.
+While performing a [Salvo] attack, the black dice in your battery armamentt can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
+                <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
+                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
+                <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5059,6 +5094,24 @@ While attacking a ship with a higher speed than yours, you may add 1 blue die to
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9220-a435-1aa5-79a5" name="DBY-827 Heavy Turbolasers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8688-6fc5-1c74-d162" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dfee-b416-efa7-8a6c" name="DBY-827 Heavy Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
+              <characteristics>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While performing a [Salvo] attack, you may change 1 die to a face with a [Crit] icon.</characteristic>
+                <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
+                <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
+                <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

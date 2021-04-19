@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="7" battleScribeVersion="2.03" authorName="vadersson" authorContact="vadersson or vadersson109 most places online" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added latest preview</comment>
-  <readme>Added Venator II and Pelta Titles</readme>
+  <comment>Added all data from Clone Wars Wave 2.</comment>
+  <readme>Added all revealed cards.  Still Missing Pelta transport</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -227,7 +227,7 @@
         <entryLink id="75f9-bc63-7cee-4645" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
         <entryLink id="1a62-1eb9-f59b-2378" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="2.0"/>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
           </modifiers>
         </entryLink>
         <entryLink id="9345-752f-2f28-489e" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
@@ -1276,13 +1276,13 @@ While defending, after the attacker gathers dice, you may spend 1 [Brace] token.
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2b24-3434-8fa3-fdec" name="Grav Shift Reroute" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2b24-3434-8fa3-fdec" name="•Grav Shift Reroute" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="229d-dcb3-3d4c-2f0e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1e30-7d0a-1d0a-58ed" name="Grav Shift Reroute" hidden="false" typeId="2907-d622-4480-ea97" typeName="5.3 Experimental Retrofit">
+            <profile id="1e30-7d0a-1d0a-58ed" name="•Grav Shift Reroute" hidden="false" typeId="2907-d622-4480-ea97" typeName="5.3 Experimental Retrofit">
               <characteristics>
                 <characteristic name="Experimental Retrofit Ability" typeId="8e5f-9df9-a449-7982">Before deploying fleets, place 1 grav shift token anywhere in the play area.  After deploying fleets, you may move each obstacle at distance 1-3 of that token to within distance 2 of that obstacle&apos;s current location.  Obstacles cannot overlap tokens, obstacles, or ships.</characteristic>
                 <characteristic name="Setup" typeId="3b02-afb1-2eac-4d8d"/>
@@ -1597,6 +1597,25 @@ The battery armaments for your left and right hull zones are increased by 1 blue
             <cost name="pts" typeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="014c-3a16-0b22-8e78" name="Point Defense Ion Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="13b5-52a4-e711-0ec0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a97b-5ef9-5b15-bb66" name="Point Defense Ion Cannons" hidden="false" typeId="82fe-f045-0a3b-a5da" typeName="6.2 Ion Cannons">
+              <characteristics>
+                <characteristic name="Ion Cannons Ability" typeId="2ce0-48c0-d090-1720">Non-huge ship only.
+While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.</characteristic>
+                <characteristic name="Setup" typeId="bff8-e0b0-0377-41c5"/>
+                <characteristic name="Recur" typeId="aba1-c625-09d8-540a"/>
+                <characteristic name="Ready Cost" typeId="18ca-2956-de71-852a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="0a55-2f8b-aff3-154e" name="Offensive Retrofit" hidden="false" collective="false" import="true">
@@ -1668,7 +1687,7 @@ When you activate, you may exhaust this card to choose 1 enemy ship of your size
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="fb0c-b5af-eb19-d9fd" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
+            <entryLink id="fb0c-b5af-eb19-d9fd" name="Modification" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="6.0"/>
@@ -1916,6 +1935,65 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da66-d428-b8a4-f624" name="Flak Guns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37ce-6c1b-cb55-31d0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2d9b-22a2-b664-a0b6" name="Flak Guns" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Treat each die in your anti-squadron armament as black.
+While performing a [Salvo] attack, the black dice in your battery armamentt can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
+                <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
+                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
+                <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="773b-89cb-6631-6d7c" name="SPHA-T" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a8e-0cd7-d82c-267d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="773b-89cb-6631-6d7c" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4441-8dd7-3d5c-b655" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e008-5166-633f-888c" name="SPHA-T" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Treat each die in your anti-squadron armament as black.
+While performing a [Salvo] attack, the black dice in your battery armamentt can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
+                <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983">Modification.  &quot;Star Destroyer&quot; only.
+Decrease your squadron value by 2.
+Ignition [Close]
+Each of your front, left, or right firing arcs is also a special firing arc.  You have a special battery armament of 5 blue dice and 1 black die.
+After you place your targeting token, exhaust this card.  While this card is exhausted, you cannont place targeting tokens.</characteristic>
+                <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a">Non-Recur
+</characteristic>
+                <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f">1 [Concentrate Fire] token
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="12ee-4559-e4e4-1312" name="Modification" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3095,6 +3173,24 @@ When you reveal a command, you may exhaust this card to choose 1 of your hull zo
             <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="1ebe-365c-49e1-5101" name="DBY-827 Heavy Turbolasers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4457-3716-dac3-e07c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9e84-d16c-97a8-176f" name="DBY-827 Heavy Turbolasers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
+              <characteristics>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While performing a [Salvo] attack, you may change 1 die to a face with a [Crit] icon.</characteristic>
+                <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
+                <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
+                <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="baa5-7a1e-92ea-a312" name="Weapons Team" hidden="false" collective="false" import="true">
@@ -3547,16 +3643,37 @@ When a friendly squadron with Adept is destroyed, you may choose 1 enemy ship at
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8a4a-d6b7-2848-a6d9" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="21af-46dc-65c2-2a65" name="•Swift Return (temp)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="21af-46dc-65c2-2a65" name="•Resolute" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7244-5501-ee6f-b02b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f427-cf6f-27c0-33c6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c91e-c4e0-2228-3979" name="•Swift Return (temp)" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+            <profile id="c91e-c4e0-2228-3979" name="•Resolute" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">During your Determine Course step, if you are at distance 1-2 of an obstacle, you may change your speed by 1 or increased 1 yaw value by 1.</characteristic>
-                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">You must choose at least 2 types of command tokens for this card.
+After you resolve a command by spending a dial, you may discard 1 matching command token from this card to gain that token.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006">4 [Repair] or [Squadron] or [Concentrate Fire] tokens
+</characteristic>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e353-6de6-95f5-7415" name="•Tranquility" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e30-9394-231d-0dea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b84-1ba1-1ed0-7cca" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d7f4-63c2-7b30-c7c8" name="•Tranquility" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While defending, after the Spend Defense Tokens step, if you spent fewer than 2 defense tokens, you may move up to 2 shields from 1 of your hull zones to the defending hull zone.  If you do, the number of shields in that zone cannot exceed a maxiumum of &quot;6.&quot; You cannot recover shields while any zone is greater than its maximum shield value.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"></characteristic>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
               </characteristics>
@@ -3564,6 +3681,26 @@ When a friendly squadron with Adept is destroyed, you may choose 1 enemy ship at
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b56-b9ca-133a-8daf" name="•Triumphant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e146-9c86-c20f-f0c7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e50-a077-6b8c-3ce7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="36e5-9d11-15cd-7006" name="•Triumphant" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
+              <characteristics>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While another friendly non-flotilla ship resolves a [Squadron] command, up to 3 squadrons without Adept that it activates can be at close range of your (even if the squadrons are beyond close-medium range of that ship).
+This effect is not active during the first round.</characteristic>
+                <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"></characteristic>
+                <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
+                <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
