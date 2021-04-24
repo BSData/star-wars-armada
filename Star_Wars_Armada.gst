@@ -280,27 +280,38 @@ Updated Clone War wave 2 data.</readme>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
       <categoryLinks>
-        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
+        <categoryLink id="e4fe-5eec-e2cc-7e21" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="false"/>
+        <categoryLink id="b096-2fdf-44fa-ef0f" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="false"/>
+        <categoryLink id="a462-4d48-1996-a1cd" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-3c87-8b05-e880-8118" name="Gozanti-class Flotilla" hidden="false" targetId="3c87-8b05-e880-8118" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-8180-3b0c-4e1a-d22a" name="GR-75 Transport Flotilla" hidden="false" targetId="8180-3b0c-4e1a-d22a" primary="false"/>
         <categoryLink id="3eb1-6fa9-a58d-87e0" name="Hammerhead Corvette" hidden="false" targetId="a934-33f8-cb37-c53d" primary="false"/>
+        <categoryLink id="4fc7-8152-436a-0381" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-d71c-f6f0-4044-3252" name="Interdictor" hidden="false" targetId="d71c-f6f0-4044-3252" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false" targetId="167d-fd4d-28e2-f646" primary="false"/>
         <categoryLink id="653f-fec5-1be3-4c1c" name="MC75 Cruiser" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false"/>
-        <categoryLink id="a97d-9753-f88c-89bb" name="Starhawk-Class Battleship" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
+        <categoryLink id="a01c-a7ca-df56-e9a3" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false"/>
         <categoryLink id="1775-efc7-4d37-1a32" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="false"/>
-        <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
+        <categoryLink id="7891-7e38-0893-25ed" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
+        <categoryLink id="9f08-60d3-fa45-61db" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
         <categoryLink id="da8e-611e-fed3-1860" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false"/>
+        <categoryLink id="4a8e-4abb-a4e2-8c1f" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="false"/>
+        <categoryLink id="a97d-9753-f88c-89bb" name="Starhawk-Class Battleship" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
         <categoryLink id="f859-78b9-5fe3-82d6" name="Super Star Destroyer" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-7fb1-7ee5-3690-d880" name="Victory-class Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false"/>
+        <categoryLink id="4ac5-a5ea-7fa9-5d82" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
+        <categoryLink id="49b2-f49d-de86-c491" name="Unarmed Station" hidden="false" targetId="8322-2087-0da5-10c1" primary="false"/>
+        <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="false">
           <modifiers>
             <modifier type="increment" field="maxPoints" value="1.0">
@@ -314,17 +325,6 @@ Updated Clone War wave 2 data.</readme>
           </constraints>
         </categoryLink>
         <categoryLink id="1b44-1532-e7c9-9663-c9d8-3a89-4028-05d0" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
-        <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
-        <categoryLink id="e4fe-5eec-e2cc-7e21" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="false"/>
-        <categoryLink id="b096-2fdf-44fa-ef0f" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
-        <categoryLink id="a462-4d48-1996-a1cd" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
-        <categoryLink id="4fc7-8152-436a-0381" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
-        <categoryLink id="a01c-a7ca-df56-e9a3" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
-        <categoryLink id="49b2-f49d-de86-c491" name="Unarmed Station" hidden="false" targetId="8322-2087-0da5-10c1" primary="false"/>
-        <categoryLink id="4a8e-4abb-a4e2-8c1f" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="false"/>
-        <categoryLink id="9f08-60d3-fa45-61db" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
-        <categoryLink id="7891-7e38-0893-25ed" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
-        <categoryLink id="4ac5-a5ea-7fa9-5d82" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
