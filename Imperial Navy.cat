@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="48" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums vadersson most places." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Fixed some messed up data
-Added max speed stat to ships</comment>
-  <readme>Fixed Messed up data
-Add Max Speed stat</readme>
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="49" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added Rapid Reinforcements 1
+Added speed chards
+Added validation target for unique squadrons with defense tokens</comment>
+  <readme>Added Rapid Reinforcements 1
+Added speed charts
+Added validation target for unique squadrons with defense tokens</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -62,6 +64,9 @@ Add Max Speed stat</readme>
                 <infoLink id="11a9-1632-857c-fc61" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="0dfa-3a74-b19e-07d4" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="351f-38cf-e07c-da57" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
               </costs>
@@ -88,6 +93,9 @@ Add Max Speed stat</readme>
                 <infoLink id="107e-5892-5c65-d383" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="bb63-9916-5c39-c940" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="f05e-b8db-d3a3-2ea1" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
               </costs>
@@ -156,6 +164,9 @@ Add Max Speed stat</readme>
                 <infoLink id="46b7-d82a-f2f7-1054" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="58d2-f560-16cf-1c09" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="e446-bd2e-98d4-07fa" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="26.0"/>
               </costs>
@@ -183,6 +194,9 @@ Add Max Speed stat</readme>
                 <infoLink id="b8c7-f5b3-5c94-903f" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
                 <infoLink id="d3ff-5a82-91a7-3e80" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="cb99-6f22-508d-b16c" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24.0"/>
               </costs>
@@ -222,6 +236,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Support Team, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d452-ada4-e2ba-e792" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e194-f085-9e13-518c" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a4b0-e015-4831-b7d2" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="49db-6216-8e69-ebc2" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -280,6 +330,42 @@ Add Max Speed stat</readme>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="3327-26cf-4cbd-1aec" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c5d6-0eeb-62da-4bc1" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e2a6-9907-f6a3-b77e" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b0a5-32ed-2c16-01ce" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="1db3-a85b-33fb-5273-469b-896c-3ab9-d1b6" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="true"/>
@@ -334,6 +420,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Fleet Support, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1c7c-ebe9-a321-cf20" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="447d-5ee8-ad3a-0335" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="560d-a9f2-aac2-d1c4" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e1e5-6dd1-e32e-45a4" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -392,6 +514,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Fleet Support, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c410-71d2-3f74-6fea" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b0f0-0de7-e3f2-ba40" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b3e4-a5d1-d2d2-fe3b" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3d4f-9c4b-9972-d998" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -460,6 +618,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="35f1-59f5-ef59-0452" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="442e-8af0-fbb6-2ce8" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e36-1c5f-5377-7fc3" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="091d-e9f8-567c-a452" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -557,6 +751,42 @@ Add Max Speed stat</readme>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="2253-689d-49a2-bb9d" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d92-f6d0-d691-14f0" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="26cd-33e2-acf4-9bfe" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="34bf-c4bb-1372-ecf8" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="8fed-85c8-d87d-e4da-6da8-bdc7-4ba6-e86f" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="true"/>
@@ -643,6 +873,42 @@ Add Max Speed stat</readme>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="a33a-6e2b-cf48-b268" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87bb-0608-2a1c-0a1e" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cdef-1fb7-b84e-8ef9" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e42-05cc-1a3f-8ab1" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="d68c-9a24-9073-a3fd-d71c-f6f0-4044-3252" hidden="false" targetId="d71c-f6f0-4044-3252" primary="true"/>
@@ -712,6 +978,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Offensive Retrofit, Experimental Retrofit, Experimental Retrofit, Ion Cannons</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ac00-dc39-d7e3-af07" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5645-b4cb-6ea3-27ef" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a9f3-c037-25b2-e2f9" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ad1b-3112-9742-6b17" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -811,6 +1113,9 @@ Add Max Speed stat</readme>
                 <infoLink id="dd49-fc1e-d28a-b4aa" name="" hidden="false" targetId="f379-5e57-6d92-edb9" type="rule"/>
                 <infoLink id="cb1a-e29d-6e66-015b" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="dd74-a82f-476e-701e" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
@@ -837,6 +1142,9 @@ Add Max Speed stat</readme>
                 <infoLink id="8d5d-9366-b24e-06c3" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="3b5c-0665-221f-777a" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="1e93-2bbf-9f73-aa1f" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="17.0"/>
               </costs>
@@ -876,6 +1184,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="39c4-1980-f741-25fc" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2df0-cca4-53da-c998" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="86ce-2e56-215d-5f92" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f06a-df7d-59d5-63a0" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -940,6 +1284,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ion Cannons</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5016-a328-b9cf-58c7" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c8ce-ed61-ba40-a69f" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="434f-170d-ebe0-3496" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="15c7-3283-1347-7159" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1045,6 +1425,7 @@ Add Max Speed stat</readme>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98a2-742a-a35c-61f0" type="atLeast"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6c8-1803-8ce4-574f" type="atLeast"/>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="afd7-4f93-e520-3d80" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7812-22d0-1469-c1fa" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1070,6 +1451,9 @@ Add Max Speed stat</readme>
               <infoLinks>
                 <infoLink id="4d6c-d6d6-ffff-9d6e" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="b05a-1daa-329e-088d" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
               </costs>
@@ -1095,6 +1479,9 @@ Add Max Speed stat</readme>
               <infoLinks>
                 <infoLink id="0130-3d8e-c40d-1005" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="e219-ed0e-3b8b-4fb2" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
@@ -1190,6 +1577,9 @@ Add Max Speed stat</readme>
                 <infoLink id="2cc1-3af3-064b-2339" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="d106-175b-4106-da9e" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="1d1f-9892-3e3f-bab4" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
               </costs>
@@ -1216,6 +1606,9 @@ Add Max Speed stat</readme>
                 <infoLink id="e26d-109f-4de1-0099" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="d875-ec8d-6503-bb59" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="f66d-22a3-4c9d-c014" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
               </costs>
@@ -1308,6 +1701,9 @@ Add Max Speed stat</readme>
               <infoLinks>
                 <infoLink id="4e0a-a271-78cb-3e0f" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="40df-999a-21ad-e099" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
               </costs>
@@ -1333,6 +1729,9 @@ Add Max Speed stat</readme>
               <infoLinks>
                 <infoLink id="8202-ab05-ac42-e4d2" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="3bc8-9372-ad4c-6ee3" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
@@ -1358,6 +1757,9 @@ Add Max Speed stat</readme>
               <infoLinks>
                 <infoLink id="eb2d-85ed-dae8-9823" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="cb5c-c498-32e5-dbbd" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="13.0"/>
               </costs>
@@ -1452,6 +1854,9 @@ Add Max Speed stat</readme>
                 <infoLink id="dcd5-bd2d-84d2-5178" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="44d1-5b69-35e5-e407" name="New InfoLink" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="91f1-5de3-9b00-a416" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="17.0"/>
               </costs>
@@ -1478,6 +1883,9 @@ Add Max Speed stat</readme>
                 <infoLink id="fc82-50e4-f47a-edd5" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="5e1b-62a1-38b6-39f6" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="4f53-919a-522f-3bca" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="18.0"/>
               </costs>
@@ -1527,6 +1935,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ordnance, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="885e-309c-1b9f-c81f" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="69c6-a873-ed32-5518" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d5dc-124d-4883-0d61" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9a40-70aa-a502-9d10" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1620,6 +2064,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a865-5f43-10e1-0040" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0f57-9df4-9c72-0367" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a708-aa41-1490-831c" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f3bf-f03f-c18b-9f92" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1733,6 +2213,9 @@ Add Max Speed stat</readme>
                 <infoLink id="0420-8810-3cba-96f4" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="4930-1e50-a787-e7d1" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="ff50-3671-c926-ab42" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
               </costs>
@@ -1759,6 +2242,9 @@ Add Max Speed stat</readme>
                 <infoLink id="84c7-df09-50d6-17b3" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="d8c6-5796-cf0a-c122" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="d6c9-e1a7-180f-a82b" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="22.0"/>
               </costs>
@@ -1798,6 +2284,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="26fb-487f-9278-5df7" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a279-99bf-85f4-a0ed" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9230-951d-287b-e9b2" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c882-544e-51b9-d2b7" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1853,6 +2375,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e538-e5da-4361-0ff1" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c570-d6c3-650b-dc06" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="73a8-d5fa-9227-f9aa" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce73-96f1-7f0a-51cf" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1934,6 +2492,9 @@ Add Max Speed stat</readme>
               <infoLinks>
                 <infoLink id="b565-fe47-2ec2-83d7" name="" hidden="false" targetId="405c-d276-9f64-9ae4" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="578d-0ef5-700c-54ab" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
@@ -2001,8 +2562,55 @@ Add Max Speed stat</readme>
                 <infoLink id="c6e8-af37-4ed6-1f70" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="8f8d-16ed-ecba-b1f8" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="dd73-347b-7fc8-73a2" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7812-22d0-1469-c1fa" name="•Darth Vader" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98a2-742a-a35c-61f0" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="afd7-4f93-e520-3d80" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6c8-1803-8ce4-574f" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fce5-2b0e-2fa4-461f" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c55-a862-eedb-9417" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1eaf-f311-7416-5566" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ee54-1981-2177-a89b" name="•Darth Vader" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">1 Red, 1 Blue, 2 Black</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">2 Red</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Adept 2, Bomber, Rogue</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Brace, Evade</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">While attacking a unique squadron, each of your [Crit] icons adds 1 damage to the damage total.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="07a3-f2bb-c84b-a482" name="Adept X" hidden="false" targetId="6915-37a9-4dfd-3263" type="rule"/>
+                <infoLink id="da4e-9762-6211-5c1f" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
+                <infoLink id="b829-453c-c1dd-49bf" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="931a-f610-fced-626b" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2070,6 +2678,9 @@ Add Max Speed stat</readme>
                 <infoLink id="3000-06fe-6148-2a20" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="3d4f-bb22-ea1f-de45" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="c243-ba0e-5856-6626" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="27.0"/>
               </costs>
@@ -2139,6 +2750,9 @@ Add Max Speed stat</readme>
                 <infoLink id="60a0-ca59-0b48-26a7" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule"/>
                 <infoLink id="777b-08f4-08ad-262f" name="" hidden="false" targetId="2dbc-c5ad-6def-194e" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="8fab-dc6b-7755-a8c6" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
@@ -2183,6 +2797,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f05e-af11-372f-bda5" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="778c-2a9f-992d-43a2" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0830-93b0-defa-35a7" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5fd8-5dce-df49-6aa1" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2261,6 +2911,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Weapons Team, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9139-6b72-db0c-60ff" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cd96-6754-aa06-588d" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="81b5-4ea5-20bd-3828" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="782b-eb71-b326-5b94" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2349,6 +3035,42 @@ Add Max Speed stat</readme>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="d67f-d840-c545-f03b" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de91-4321-073a-934b" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ed0d-c361-bf16-909c" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d35-299f-ce9f-fd23" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="27d5-f2b5-10ad-d2df" name="New CategoryLink" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="true"/>
@@ -2433,6 +3155,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Fleet Command, Offensive Retrofit, Turbolasers, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="93b8-2b8e-8a15-0753" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8049-7b7e-2f6f-4f6c" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6c38-2ac3-05e7-8b47" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="21b1-f2cd-3fdc-4362" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2539,6 +3297,9 @@ Add Max Speed stat</readme>
                 <infoLink id="7268-1bb4-7ff4-6bba" name="Assault" hidden="false" targetId="0e25-812e-a5fd-7f07" type="rule"/>
                 <infoLink id="04f8-bcf9-9a27-9c59" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="2ee5-1bb8-32c3-b67f" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
               </costs>
@@ -2582,6 +3343,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="b58a-528d-9e95-2e5b">Officer, Officer, Officer, Weapons Team, Fleet Command, Fleet Command, Offensive Retrofit, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="6971-9ddc-3d67-25bb"/>
             <characteristic name="Max Speed" typeId="0008-e99d-e206-85be">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5656-3286-1311-9696" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">-</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fbee-4ba7-c87f-10ca" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a002-f9f4-fa09-82c8" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9f94-eb15-ee00-5bf4" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2660,6 +3457,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="b58a-528d-9e95-2e5b">Officer, Officer, Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit, Ion Cannons, Ion Cannons, Turbolasers, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="6971-9ddc-3d67-25bb"/>
             <characteristic name="Max Speed" typeId="0008-e99d-e206-85be">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2e2c-a56f-9206-0bad" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">-</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8d85-107a-9132-d675" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9034-8e19-6c9c-06e7" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b18f-a445-b838-08f9" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2744,6 +3577,42 @@ Add Max Speed stat</readme>
             <characteristic name="Max Speed" typeId="0008-e99d-e206-85be">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="4a92-82ba-fcd8-8e84" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">-</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb29-b53a-5afe-5dd6" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="82ef-e383-14c8-d6c9" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="39cc-5a7c-aa93-1038" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="1dd5-6c03-4a86-ae13" name="New CategoryLink" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="true"/>
@@ -2820,6 +3689,42 @@ Add Max Speed stat</readme>
             <characteristic name="Upgrade Bar" typeId="b58a-528d-9e95-2e5b">Officer, Officer, Officer, Officer, Weapons Team, Fleet Command, Offensive Retrofit, Offensive Retrofit, Ion Cannons, Ion Cannons, Turbolasers, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="6971-9ddc-3d67-25bb"/>
             <characteristic name="Max Speed" typeId="0008-e99d-e206-85be">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cd89-5ecb-8400-8cd9" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">-</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f850-0212-1473-1c56" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="beea-7ab8-084e-16bf" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="914d-447b-d8e2-f852" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2906,6 +3811,42 @@ Add Max Speed stat</readme>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="131e-55c7-92af-3b06" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="adbb-ec0b-5676-2b44" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e07f-bbfa-2830-a5ba" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8c17-f8cf-51e2-88ab" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="0674-d294-3a91-baa8" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
@@ -2980,6 +3921,42 @@ Add Max Speed stat</readme>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="dbb1-a1c0-561c-46d7" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22c4-64aa-54ad-7bc7" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dad2-26e7-b7c3-2bba" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c1c2-fbeb-31c8-866d" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="d124-355b-3183-8bd5" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
@@ -3017,6 +3994,90 @@ Add Max Speed stat</readme>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="96.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f42-1fd2-503b-7953" name="•Venator II-class Star Destroyer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d6-2b38-de45-ace0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87a8-6680-4562-9c45" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="38d6-1c54-3051-1f9d" name="•Venator II-class Star Destroyer" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Blue, 1 Black</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">3</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">3</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">4</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Redirect, Contain, Salvo</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, 2 Blue, 2 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">2 Red, 2 Blue</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">2 Red, 2 Blue</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Blue, 1 Black</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">4</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Bombard</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Officer, Weapons Team, Defensive Retrofit, Ordnance, Ordnance, Turbolasers</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e3ca-8735-e959-2bf1" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5028-f2ba-3239-50ba" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c7cb-6c32-04e2-169d" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="278a-b644-31e7-bbcc" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ab17-d744-3883-2b4b" name="Large Ship" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+        <categoryLink id="93a9-cdaa-9654-0929" name="Venator-class Star Destroyer" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7ec1-192b-66b0-a9fe" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="f5dd-4c2a-7ede-c631" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+        <entryLink id="f3ee-3ccf-e2f0-0088" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup"/>
+        <entryLink id="2f1f-96cb-981d-11a8" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
+        <entryLink id="a86a-f8db-d2a5-c6b0" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="271f-04f8-19a2-23e7" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3138,6 +4199,7 @@ Large Ship:  3.</characteristic>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6c8-1803-8ce4-574f" type="atLeast"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fce5-2b0e-2fa4-461f" type="atLeast"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="afd7-4f93-e520-3d80" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7812-22d0-1469-c1fa" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4806,6 +5868,7 @@ When you reveal a command matching the token on this card, you may gain 1 matchi
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6c8-1803-8ce4-574f" type="atLeast"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fce5-2b0e-2fa4-461f" type="atLeast"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98a2-742a-a35c-61f0" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7812-22d0-1469-c1fa" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -6313,6 +7376,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98a2-742a-a35c-61f0" type="atLeast"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fce5-2b0e-2fa4-461f" type="atLeast"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="afd7-4f93-e520-3d80" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7812-22d0-1469-c1fa" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>

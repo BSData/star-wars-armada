@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="49" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added Clone Wars Wave 2 Cards</comment>
-  <readme>Added all cards from Clone Wars Wave 2</readme>
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="50" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places
+BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added Rapid Reinforcements 1
+Added speed charts
+Added validation target for unique squadrons with defense tokens
+Fixed some uniqueness hidden flags</comment>
+  <readme>Added Rapid Reinforcements 1
+Added speed charts
+Added validation target for unique squadrons with defense tokens
+Fixed some uniqueness hidden flags</readme>
   <selectionEntries>
     <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -84,6 +91,9 @@
               <infoLinks>
                 <infoLink id="c184-203b-3260-f6a4" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="4266-412e-4723-1dbf" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="17.0"/>
               </costs>
@@ -109,6 +119,9 @@
               <infoLinks>
                 <infoLink id="1c31-cf07-92b3-deaf" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="8060-4782-dfe8-5add" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
               </costs>
@@ -148,6 +161,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6f5a-cdc3-b4bc-c291" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eb9c-97fb-88db-9848" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="834d-7fca-62c9-50d5" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aaa0-9737-4e21-f1fa" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -205,6 +254,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ff92-3f63-6910-2245" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4cf4-78a2-dc92-8928" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="da55-efa2-c871-9da8" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8697-1ce3-70f5-7398" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -315,6 +400,9 @@
               <infoLinks>
                 <infoLink id="7656-a739-a9a7-daed" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="546e-b55d-5e11-4223" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
@@ -340,6 +428,9 @@
               <infoLinks>
                 <infoLink id="a997-c7ed-3ffc-ed9c" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="9636-ba1e-cbf9-b586" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="19.0"/>
               </costs>
@@ -379,6 +470,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1bc1-a080-ff2f-6410" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="64b5-50ad-09b0-8e17" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8330-9a82-7e92-27f7" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6c38-53fc-898d-ab12" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">2</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -437,6 +564,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
           </characteristics>
         </profile>
+        <profile id="04c2-c0ad-952c-bb2d" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="36ac-b1cf-75b1-a9c9" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="40d8-8b77-5301-f5d6" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2311-dcaf-b527-b2db" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">2</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="9638-6bed-5646-56f4-319a-5aa9-59e5-30fa" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="true"/>
@@ -486,6 +649,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="210b-bcba-a0f8-5803" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1e4d-75b9-7089-ca80" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d877-31d9-c14c-2eb7" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7d45-7ce4-b09a-03ba" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="30b6-b861-c851-a996" name="Flotillas" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule"/>
@@ -498,8 +697,9 @@
       <entryLinks>
         <entryLink id="2096-69a8-e8eb-6756" hidden="false" collective="false" import="true" targetId="68b7-57ca-14ec-170f" type="selectionEntryGroup"/>
         <entryLink id="733d-a8de-45d5-c337" name="Fleet Support" hidden="false" collective="false" import="true" targetId="5fa2-7fc1-d773-740c" type="selectionEntryGroup"/>
-        <entryLink id="703a-5443-82b1-ed93" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="703a-5443-82b1-ed93" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
         <entryLink id="2548-7ebe-49b0-66b3" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="db2c-89d5-97e3-cefe" name="Flotilla" hidden="false" collective="false" import="true" targetId="8035-580d-5d85-dc3b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="24.0"/>
@@ -528,6 +728,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="9f93-e699-b2f5-9458" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60df-eab2-a2e3-e338" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a5df-5061-7e2d-dbdc" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="226b-5ca1-7ba0-ebd0" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b14e-9f27-06b7-a2d2" name="Flotillas" hidden="false" targetId="66ca-1e61-b6e8-c63e" type="rule"/>
@@ -540,8 +776,9 @@
       <entryLinks>
         <entryLink id="7f2f-5f0b-70e0-f813" hidden="false" collective="false" import="true" targetId="68b7-57ca-14ec-170f" type="selectionEntryGroup"/>
         <entryLink id="1202-a94a-1ac2-27d6" name="Fleet Support" hidden="false" collective="false" import="true" targetId="5fa2-7fc1-d773-740c" type="selectionEntryGroup"/>
-        <entryLink id="b58b-e943-8ca1-867c" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
+        <entryLink id="b58b-e943-8ca1-867c" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
         <entryLink id="d310-a920-0afb-dbb9" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
+        <entryLink id="fafc-8aff-0a4a-397e" name="Flotilla" hidden="false" collective="false" import="true" targetId="8035-580d-5d85-dc3b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="18.0"/>
@@ -604,6 +841,9 @@
                 <infoLink id="aa9f-fcf4-ac3b-43eb" name="" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="5343-49cb-c25a-f9a0" name="" hidden="false" targetId="f379-5e57-6d92-edb9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="b5c0-5063-02ff-7747" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="19.0"/>
               </costs>
@@ -631,6 +871,9 @@
                 <infoLink id="4c9d-f545-0b1c-9296" name="Cloak" hidden="false" targetId="405c-d276-9f64-9ae4" type="rule"/>
                 <infoLink id="a9bf-f5f7-c779-819e" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="727d-46b6-dcaa-5761" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="19.0"/>
               </costs>
@@ -663,6 +906,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Defensive Retrofit, Ordnance, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0193-81f5-0d38-5cb8" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d523-c29a-4aba-64f6" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7d9d-a147-dc6b-0b37" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7885-39ef-73dd-b8ab" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -704,6 +983,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Defensive Retrofit, Ordnance, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="27fe-f67c-23dc-eadd" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8f75-a8a8-7d28-0bcf" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7fb8-1ed7-c47b-f080" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">1</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7164-e9a0-0c1b-2884" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522">-</characteristic>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -752,6 +1067,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Defensive Retrofit, Defensive Retrofit, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c529-9872-0d90-6700" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e0b4-3baf-11a5-6a19" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ef6-a517-785a-6e53" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ff3a-719a-455b-5958" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -815,6 +1166,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="815d-1e93-7f55-90c4" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8637-e343-35d7-3229" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5a2c-922a-fba0-1e5c" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6f2c-e608-83c6-7dd9" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="08aa-ef7d-35e6-66a2-ca88-dc53-e3b3-73f3" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="true"/>
@@ -876,6 +1263,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="691b-40f1-2dc1-94ba" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b237-19f5-380f-3cb6" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="97cf-44c0-671e-f2cf" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="27d5-1fcb-0e85-0f87" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="85a3-f5e9-7349-d420-7be3-1906-a3ff-00ca" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="true"/>
@@ -934,6 +1357,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="0cff-7a1d-5fdc-f1e9" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3b6b-1d6e-b52c-808d" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3c52-fdbb-90e3-d732" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2341-6910-659a-571b" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="665d-d5d3-7e6d-7a9d-e589-c88e-f2d0-7413" hidden="false" targetId="e589-c88e-f2d0-7413" primary="true"/>
@@ -987,6 +1446,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b01a-4506-997d-6757" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9d1d-0f60-8fbf-29e5" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f2c0-1715-7db6-0052" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">2</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c0d-547d-ffaa-b841" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1072,6 +1567,9 @@
                 <infoLink id="5b56-8b3a-e983-8f15" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="1e42-cb0d-1b50-c091" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="2270-b13c-84a0-cb63" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
               </costs>
@@ -1098,6 +1596,9 @@
                 <infoLink id="d16b-9e97-a510-b447" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="e748-ff64-3bd8-a941" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="27e2-bf02-75dd-458c" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="26.0"/>
               </costs>
@@ -1189,9 +1690,12 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="da24-dd49-9e3b-7b3f" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
+                <infoLink id="da24-dd49-9e3b-7b3f" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="da8b-39d2-7dbd-8c39" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="40e9-5c3d-5b27-2276" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="19.0"/>
               </costs>
@@ -1218,11 +1722,25 @@
                 <infoLink id="1024-5569-0f32-44d5" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="5d80-de68-f4f8-710d" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="bcff-2d56-ae1b-56f6" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ebed-86b2-a2f5-e4bf" name="•Wedge Antilles" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4e13-3751-3427-7c50" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdba-187a-e40b-c6c7" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d60-e730-b5d8-de4f" type="max"/>
@@ -1241,11 +1759,54 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="c0b3-5a91-2277-3c0f" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
+                <infoLink id="c0b3-5a91-2277-3c0f" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="12b2-3567-638c-e9f1" name="" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="576e-5081-ddc3-d07f" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="19.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="60fb-dca8-cfd1-69da" name="•Hera Syndulla" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44f3-0c49-3c3d-47d9" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28d-4628-dc3f-fac5" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80b2-5b16-6966-534b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8844-cefe-c54c-cb48" name="•Hera Syndulla" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">1 Red, 2 Blue, 1 Black</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Black</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Dodge 1, Bomber</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Brace, Brace</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">While a friendly squadron that has escort is at distance 1-2, it has Adept 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="089a-ff9c-3a73-d8cd" name="Dodge X" hidden="false" targetId="ebc4-b132-7dc6-5337" type="rule"/>
+                <infoLink id="b855-339f-f909-4833" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="14be-6dca-6bcc-3900" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="23.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1312,6 +1873,9 @@
                 <infoLink id="c1c4-2fbc-b926-ae31" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="dbf3-aaf2-d59c-b190" name="" hidden="false" targetId="deb6-270e-150f-06d5" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="9b34-7f51-ccd6-af59" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
               </costs>
@@ -1362,6 +1926,9 @@
               <infoLinks>
                 <infoLink id="9329-d8a6-c86b-3fa7" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="31f3-3585-f967-e05e" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="17.0"/>
               </costs>
@@ -1409,6 +1976,22 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="aeca-d54a-7c3f-beff" name="•Han Solo (Millennium Falcon)" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="24e4-35a5-29f7-e338" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea05-948e-3b35-eb9c" type="equalTo"/>
+                            <condition field="selections" scope="24e4-35a5-29f7-e338" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aeca-d54a-7c3f-beff" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e73-90a9-f1c8-c2c6" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c2bd-cfd3-f0e3-6cee" type="max"/>
@@ -1430,11 +2013,33 @@
                 <infoLink id="8227-42db-149c-62b9" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="dea2-032e-0651-ba1d" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="f704-83b1-77f3-de0b" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="26.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea05-948e-3b35-eb9c" name="•Lando Calrissian (Millennium Falcon)" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a3b9-5237-ab53-b8ba" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="24e4-35a5-29f7-e338" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aeca-d54a-7c3f-beff" type="equalTo"/>
+                            <condition field="selections" scope="24e4-35a5-29f7-e338" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea05-948e-3b35-eb9c" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="425c-0e47-56e1-a8ff" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e6c1-3738-5d53-1b99" type="max"/>
@@ -1456,6 +2061,9 @@
                 <infoLink id="05c2-e59f-4738-6587" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="0c14-1ffd-b47e-20dc" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="6527-756a-d59b-c4ab" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
               </costs>
@@ -1523,6 +2131,9 @@
                 <infoLink id="c27f-454e-2495-4d05" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="94c2-3d10-860b-c49e" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="3654-d6ce-b996-65f4" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24.0"/>
               </costs>
@@ -1549,6 +2160,9 @@
                 <infoLink id="a06b-919d-2043-9a0d" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="3e84-19b1-8031-e135" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="365d-ec9f-df33-48e7" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="22.0"/>
               </costs>
@@ -1588,6 +2202,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Fleet Command, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="efe2-4406-d060-c123" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d55b-16f5-ca51-9085" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="baa2-aa8b-58e2-e3a6" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="128e-7bf9-cf1d-84a1" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1643,6 +2293,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Support Team, Fleet Command, Offensive Retrofit</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2128-b706-cecc-9143" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="347d-50fd-f6c4-9aff" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="087e-818c-9103-d225" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e5c8-ffa2-972c-d193" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1725,6 +2411,9 @@
               <infoLinks>
                 <infoLink id="0c55-a3f9-f058-43d9" name="" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="8cd8-2bac-28db-3d6a" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="14.0"/>
               </costs>
@@ -1790,10 +2479,13 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="c8ff-6655-87c9-c364" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
+                <infoLink id="c8ff-6655-87c9-c364" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="dee8-4337-0004-55f7" name="" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
                 <infoLink id="7efc-2bce-2270-23a9" name="" hidden="false" targetId="28b3-3ce6-3f2b-9ca1" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="798b-c337-d084-bce5" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="22.0"/>
               </costs>
@@ -1842,6 +2534,17 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="44f3-0c49-3c3d-47d9" name="•Hera Syndulla (Ghost)" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60fb-dca8-cfd1-69da" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-a261-0ccc-5096" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="397e-fb68-dbb4-a719" type="max"/>
@@ -1863,6 +2566,9 @@
                 <infoLink id="1ad4-2ca9-6404-e940" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="0699-c218-433d-21de" name="New InfoLink" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="ad28-f7f9-1ccc-a57b" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="28.0"/>
               </costs>
@@ -1929,10 +2635,13 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="322b-8388-2d56-bd40" name="" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
+                <infoLink id="322b-8388-2d56-bd40" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="4563-bcad-e281-16f8" name="" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
                 <infoLink id="deb5-374d-c270-a62b" name="Rogue" hidden="false" targetId="07dd-35ce-00b5-aedf" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="b358-de3b-de81-7f1b" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="22.0"/>
               </costs>
@@ -1965,6 +2674,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Offensive Retrofit, Weapons Team, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="33dc-54cb-9be0-f7a3" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5257-b805-349d-a6c8" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="91a6-8195-7de2-a1fc" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3416-61e2-336a-a812" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2005,6 +2750,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Offensive Retrofit, Weapons Team, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de1b-b6de-4491-d53c" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">2</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d540-8ef8-c4a0-e1be" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7be6-144b-0b87-e0f5" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0081-57bd-88d0-0d0a" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2052,6 +2833,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ordnance, Ion Cannons, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45af-7ad9-7a9c-9869" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5046-1a05-b1f8-a3a9" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b3a-41a2-39a4-f8b1" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5e0d-ce96-a4a6-9d82" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2111,6 +2928,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Defensive Retrofit, Ordnance, Ordnance</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d4a-4c38-4d85-550e" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">2</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f6b7-74fd-55f0-bf91" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="418d-6f70-cb36-8a4b" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="084d-29aa-936b-a878" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2174,6 +3027,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="b886-15e5-39d4-eb59" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0a30-e0ed-d887-8076" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">-</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d2cd-924b-3a0c-a65b" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7">1</characteristic>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a185-9b97-43da-9658" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="5fa5-ed88-6b1f-ca35" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="true"/>
@@ -2233,6 +3122,42 @@
             <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Officer, Weapons Team, Offensive Retrofit, Ion Cannons, Turbolasers, Superweapon</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c"/>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="21f9-8897-6492-529e" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="db79-2e92-6ed5-8040" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d4ea-545f-8fa1-cbae" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ea37-b930-aa06-d4f7" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2297,6 +3222,42 @@
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="e60c-07e7-37ca-5118" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2bb4-a946-4366-adc4" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="632e-537a-5d71-43c2" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="95dc-131b-503d-105c" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="f73a-eb7f-e3eb-81be" name="New CategoryLink" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
@@ -2327,6 +3288,118 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f3a-cb87-1134-a9fc" name="•Providence-class Carrier" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ac-b7fc-ae2a-c0b7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="805b-8149-fc49-41ca" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="48ff-05c8-836d-e432" name="•Providence-class Carrier" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+          <modifiers>
+            <modifier type="set" field="5ba4-e836-287d-1b42" value="Fleet Command, Officer, Officer, Weapons Team, Weapons Team, Offensive Retrofit, Offensive Retrofit, Support Team, Support Team">
+              <conditions>
+                <condition field="selections" scope="6f3a-cb87-1134-a9fc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">9</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">2 Black</characteristic>
+            <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">3</characteristic>
+            <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">2</characteristic>
+            <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">4</characteristic>
+            <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Redirect, Salvo, Evade</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, 1 Blue, 2 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">2 Red, 2 Blue, 2 Black</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">2 Red, 2 Blue, 2 Black</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Blue, 1 Black</characteristic>
+            <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">5</characteristic>
+            <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
+            <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
+            <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Officer, Weapons Team, Weapons Team, Offensive Retrofit, Offensive Retrofit, Support Team, Support Team</characteristic>
+            <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Comms. Transport</characteristic>
+            <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="103f-4b07-6e79-a189" name="    " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f">1</characteristic>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">1</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="805e-e4e5-89c8-8ae3" name="   " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905">-</characteristic>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1bbc-49ca-c0d0-a33f" name="  " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f067-71cb-c90c-ee70" name=" " hidden="false" typeId="12ae-fc05-5eb2-1c26" typeName="1.9 Speed Chart">
+          <characteristics>
+            <characteristic name="1" typeId="9c2c-0baf-d44a-434f"/>
+            <characteristic name="2" typeId="6d2c-60fc-6858-4905"/>
+            <characteristic name="3" typeId="a62c-fc4f-35ca-94d7"/>
+            <characteristic name="4" typeId="5e3b-e972-3249-2522"/>
+            <characteristic name="|" typeId="953d-9875-c8ab-40ec">|</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="44ff-2fce-350e-9b09" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="true"/>
+        <categoryLink id="1e1f-abbe-90aa-2571" name="New CategoryLink" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
+        <categoryLink id="8da1-8cf8-9831-7522" name="Large Ship" hidden="false" targetId="28b9-dee2-dcc6-c2a7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f0e5-094b-5325-d7e8" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2527-b21d-d895-624a" name="Weapons Team" hidden="false" collective="false" import="true" targetId="baa5-7a1e-92ea-a312" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6fd4-18b8-609b-8586" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="80eb-31a6-cfb9-cfea" name="Support Team" hidden="false" collective="false" import="true" targetId="92d1-8354-bcb8-38fc" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6b25-581b-709e-0641" name="Fleet Command" hidden="false" collective="false" import="true" targetId="e9c2-667f-db59-c935" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="6f3a-cb87-1134-a9fc" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4355-da00-3b0d-7ed2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b89e-d1d0-505e-a812" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3377,7 +4450,7 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0698-3826-0451-483f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0698-3826-0451-483f" type="max"/>
           </constraints>
           <profiles>
             <profile id="32c7-14af-cee6-93b7" name="Flag Bridge" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
@@ -3581,6 +4654,17 @@ While performing a [Salvo] attack, the black dice in your battery armamentt can 
           </costs>
         </selectionEntry>
         <selectionEntry id="a3b9-5237-ab53-b8ba" name="•Lando Calrissian" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea05-948e-3b35-eb9c" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="maxInRoster" type="max"/>
@@ -3961,6 +5045,17 @@ You can resolve this critical effect during a Salvo attack.</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="4e13-3751-3427-7c50" name="•Wedge Antilles" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ebed-86b2-a2f5-e4bf" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7922-455a-8cf4-7ed2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed26-e305-2f51-076e" type="max"/>

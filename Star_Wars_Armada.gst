@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="34" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc.
-Brian_Black on BGG or FFG forums   " xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Added more campaign objectives
-Added remaining Clone Wars Wave 2 data</comment>
-  <readme>Slowly adding Campaign Objectives
-Trying to work out a solution to the limit on unique squadrons.
-Updated Clone War wave 2 data.</readme>
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="35" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black - Updates by BlueSeven" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc. Brian_Black on BGG or FFG forums   BlueSeven on BSData discord" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Added remaining Clone Wars Wave 2 data
+Added Rapid Reinforcements 1
+Added speed charts
+Added validation rule for unique squads with defense tokens at 1 per full 100pts
+Added &quot;Tournament&quot; force type (Validates 2 max flotillas)
+Added remaining campaign objectives</comment>
+  <readme>Added remaining Clone Wars Wave 2 data.
+Added Rapid Reinforcements 1.
+Added speed charts - the speed is across the top of the table due to how profiles work. I used &quot;-&quot; &quot;1&quot; and &quot;2&quot; for numbers of clicks at each joind to keep it to a single character while still looking similar. Let me know if there are formatting issues.
+Added validation rule for unique squads with defense tokens at 1 per full 100pts.
+Added remaining campaign objectives.
+Fixed miscellaneous typos and uniqueness hidden flags.
+Added &quot;Tournament&quot; force type (Validates 2 max flotillas).
+Have not restricted max pts to 400 in the Tournament force type to allow flexibility. Only change from standard at this point is flotillas restricted to max 2.
+
+Issues with pre-existing rosters:
+If you are opening a roster from a previous version for the first time you will see a selection box for &quot;Flotilla&quot; or &quot;Unique squadron with defense tokens&quot; under models of those types. You can either tick the box which will cause it to disappear, or remove and re-add the model which will set the flag for these models correctly.</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -236,6 +247,15 @@ Updated Clone War wave 2 data.</readme>
         <characteristicType id="0b8c-5722-b073-5bf4" name="Victory Token Value"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="12ae-fc05-5eb2-1c26" name="1.9 Speed Chart">
+      <characteristicTypes>
+        <characteristicType id="9c2c-0baf-d44a-434f" name="1"/>
+        <characteristicType id="6d2c-60fc-6858-4905" name="2"/>
+        <characteristicType id="a62c-fc4f-35ca-94d7" name="3"/>
+        <characteristicType id="5e3b-e972-3249-2522" name="4"/>
+        <characteristicType id="953d-9875-c8ab-40ec" name="|"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false"/>
@@ -280,38 +300,27 @@ Updated Clone War wave 2 data.</readme>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
       <categoryLinks>
-        <categoryLink id="e4fe-5eec-e2cc-7e21" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="false"/>
-        <categoryLink id="b096-2fdf-44fa-ef0f" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-62d1-ec41-79d6-0a08" name="Assault Frigate Mk II" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="false"/>
-        <categoryLink id="a462-4d48-1996-a1cd" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-319a-5aa9-59e5-30fa" name="CR90 Corvette" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-469b-896c-3ab9-d1b6" name="Gladiator Star Destroyer" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-3c87-8b05-e880-8118" name="Gozanti-class Flotilla" hidden="false" targetId="3c87-8b05-e880-8118" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-8180-3b0c-4e1a-d22a" name="GR-75 Transport Flotilla" hidden="false" targetId="8180-3b0c-4e1a-d22a" primary="false"/>
         <categoryLink id="3eb1-6fa9-a58d-87e0" name="Hammerhead Corvette" hidden="false" targetId="a934-33f8-cb37-c53d" primary="false"/>
-        <categoryLink id="4fc7-8152-436a-0381" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-6da8-bdc7-4ba6-e86f" name="Imperial Star Destroyer" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-d71c-f6f0-4044-3252" name="Interdictor" hidden="false" targetId="d71c-f6f0-4044-3252" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-167d-fd4d-28e2-f646" name="MC30c Frigate" hidden="false" targetId="167d-fd4d-28e2-f646" primary="false"/>
         <categoryLink id="653f-fec5-1be3-4c1c" name="MC75 Cruiser" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-7be3-1906-a3ff-00ca" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-ca88-dc53-e3b3-73f3" name="MC80 Cruiser (Liberty type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false"/>
-        <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
-        <categoryLink id="a01c-a7ca-df56-e9a3" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
+        <categoryLink id="a97d-9753-f88c-89bb" name="Starhawk-Class Battleship" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-e589-c88e-f2d0-7413" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false"/>
         <categoryLink id="1775-efc7-4d37-1a32" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="false"/>
-        <categoryLink id="7891-7e38-0893-25ed" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
-        <categoryLink id="9f08-60d3-fa45-61db" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
+        <categoryLink id="1b44-1532-e7c9-9663-9810-b289-b172-52b4" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
         <categoryLink id="da8e-611e-fed3-1860" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-9ef5-a2c4-bc40-18b7" name="Raider Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false"/>
-        <categoryLink id="4a8e-4abb-a4e2-8c1f" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="false"/>
-        <categoryLink id="a97d-9753-f88c-89bb" name="Starhawk-Class Battleship" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
         <categoryLink id="f859-78b9-5fe3-82d6" name="Super Star Destroyer" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="false"/>
-        <categoryLink id="1b44-1532-e7c9-9663-8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-7fb1-7ee5-3690-d880" name="Victory-class Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false"/>
-        <categoryLink id="4ac5-a5ea-7fa9-5d82" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
-        <categoryLink id="49b2-f49d-de86-c491" name="Unarmed Station" hidden="false" targetId="8322-2087-0da5-10c1" primary="false"/>
-        <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
         <categoryLink id="1b44-1532-e7c9-9663-f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="false">
           <modifiers>
             <modifier type="increment" field="maxPoints" value="1.0">
@@ -325,6 +334,66 @@ Updated Clone War wave 2 data.</readme>
           </constraints>
         </categoryLink>
         <categoryLink id="1b44-1532-e7c9-9663-c9d8-3a89-4028-05d0" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+        <categoryLink id="702b-dc27-4804-7cef" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
+        <categoryLink id="e4fe-5eec-e2cc-7e21" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="false"/>
+        <categoryLink id="b096-2fdf-44fa-ef0f" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
+        <categoryLink id="a462-4d48-1996-a1cd" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
+        <categoryLink id="4fc7-8152-436a-0381" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
+        <categoryLink id="a01c-a7ca-df56-e9a3" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
+        <categoryLink id="49b2-f49d-de86-c491" name="Unarmed Station" hidden="false" targetId="8322-2087-0da5-10c1" primary="false"/>
+        <categoryLink id="4a8e-4abb-a4e2-8c1f" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="false"/>
+        <categoryLink id="9f08-60d3-fa45-61db" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
+        <categoryLink id="7891-7e38-0893-25ed" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
+        <categoryLink id="4ac5-a5ea-7fa9-5d82" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="d57e-9908-0acf-1ebf" name="Tournament" hidden="false">
+      <categoryLinks>
+        <categoryLink id="4d23-e715-c41f-4f35" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="false"/>
+        <categoryLink id="075a-3228-8771-0d96" name="Armed Station" hidden="false" targetId="3d39-29d1-22ef-34de" primary="false"/>
+        <categoryLink id="cba6-3f4a-f5e0-cde1" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
+        <categoryLink id="d95e-69bd-fa67-d396" name="Assault Frigate Mk II" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="false"/>
+        <categoryLink id="f54f-0be9-a431-1dc3" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
+        <categoryLink id="5bd4-dae9-316f-2f09" name="CR90 Corvette" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="false"/>
+        <categoryLink id="56f4-eccd-f6cb-52e9" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
+        <categoryLink id="b7f7-5bd3-5641-688b" name="Gladiator-class Star Destroyer" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="false"/>
+        <categoryLink id="548b-2f00-49a8-0d6b" name="Gozanti-class Flotilla" hidden="false" targetId="3c87-8b05-e880-8118" primary="false"/>
+        <categoryLink id="196a-da65-d3fd-1232" name="GR-75 Transport Flotilla" hidden="false" targetId="8180-3b0c-4e1a-d22a" primary="false"/>
+        <categoryLink id="4d4c-03c4-a0c0-27e2" name="Hammerhead Corvette" hidden="false" targetId="a934-33f8-cb37-c53d" primary="false"/>
+        <categoryLink id="57fd-8304-0c94-853b" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
+        <categoryLink id="3779-d592-1631-22c2" name="Imperial-class Star Destroyer" hidden="false" targetId="6da8-bdc7-4ba6-e86f" primary="false"/>
+        <categoryLink id="c1d9-783f-4ce2-f890" name="Interdictor" hidden="false" targetId="d71c-f6f0-4044-3252" primary="false"/>
+        <categoryLink id="bb9f-2137-b224-2b18" name="MC30c Frigate" hidden="false" targetId="167d-fd4d-28e2-f646" primary="false"/>
+        <categoryLink id="8f61-72d9-d968-34d9" name="MC75 Cruiser" hidden="false" targetId="7124-ce4d-f2f7-b1fc" primary="false"/>
+        <categoryLink id="5431-0d8e-fafc-2983" name="MC80 Cruiser (Home One type)" hidden="false" targetId="7be3-1906-a3ff-00ca" primary="false"/>
+        <categoryLink id="9b7a-79bc-80b6-1cf0" name="MC80 Cruiser (Liberty type)" hidden="false" targetId="ca88-dc53-e3b3-73f3" primary="false"/>
+        <categoryLink id="dbc1-187e-1388-5c4e" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
+        <categoryLink id="f3fd-81a2-dc13-7bdb" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
+        <categoryLink id="415a-9434-6c5c-9dff" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false"/>
+        <categoryLink id="b779-2c89-49f0-cbaf" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+        <categoryLink id="cfa1-5bc5-e47f-9fdf" name="Onager-class Star Destroyer" hidden="false" targetId="e093-475a-5469-0b76" primary="false"/>
+        <categoryLink id="7e9e-1145-b920-f308" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
+        <categoryLink id="90ca-1ab5-b513-0e2a" name="Providence-class Dreadnaught Carrier" hidden="false" targetId="a1ce-1cc4-a94f-5cbe" primary="false"/>
+        <categoryLink id="40e6-ebc2-8ef4-48dc" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false"/>
+        <categoryLink id="de94-bf08-aaa9-ca03" name="Raider-class Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false"/>
+        <categoryLink id="3d5d-d6c5-4db2-88f3" name="Recusant-class Destroyer" hidden="false" targetId="0252-613d-1528-9434" primary="false"/>
+        <categoryLink id="1abd-31d7-fe5c-2354" name="Starhawk-Class Battleship" hidden="false" targetId="8a78-6994-2a47-92c9" primary="false"/>
+        <categoryLink id="f19c-3841-2403-c53e" name="Super Star Destroyer" hidden="false" targetId="78bb-d906-bb13-b3b3" primary="false"/>
+        <categoryLink id="e1bb-3e9c-97f2-4335" name="Unarmed Station" hidden="false" targetId="8322-2087-0da5-10c1" primary="false"/>
+        <categoryLink id="9252-5991-3951-cad0" name="Venator-class Star Destroyer" hidden="false" targetId="8988-a3d2-ecc4-c0e4" primary="false"/>
+        <categoryLink id="c6a2-a59e-a19c-c584" name="Victory-class Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false"/>
+        <categoryLink id="c9fa-bd2a-5e2d-e341" name="Squadrons" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="false">
+          <modifiers>
+            <modifier type="increment" field="maxPoints" value="1.0">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="points" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPoints" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -853,7 +922,7 @@ While a ship with an objective token is defending, during the Resolve Attack Eff
                 <profile id="478c-e3b9-a7bb-a792" name="Suprise Attack" hidden="false" typeId="d2a5-335d-ee6f-ac1d" typeName="8.1 Assault Objective">
                   <characteristics>
                     <characteristic name="Setup" typeId="bb3a-c93f-bd14-0c7b">The second player places the station at distance 1-5 of the first player&apos;s edge.  Then place the remaining obstacles as normal.
-While deploying fleets, the first player must deploy their flagship before deploying any other ships.  Their fladship must overlap the station, even if the flagship extends beyonf their deployment zone.  The first player cannot deploy any ship at a speed greater than half of that ship&apos;s maximum speed (rounded up.)
+While deploying fleets, the first player must deploy their flagship before deploying any other ships.  Their flagship must overlap the station, even if the flagship extends beyond their deployment zone.  The first player cannot deploy any ship at a speed greater than half of that ship&apos;s maximum speed (rounded up.)
 After deploying fleets, the second player places 3 facedown command dials in a stack on this card.</characteristic>
                     <characteristic name="Special Rule" typeId="a90f-1f9a-066b-1153">At the start of the Ship Phase during the first, second, and third rounds, the second player reveals the top command dial on this card, and each of the first player&apos;s ships gain a raid token matching that dial.</characteristic>
                     <characteristic name="End of Round" typeId="6ecd-ea77-564f-e40a"/>
@@ -1165,8 +1234,8 @@ After deploying fleets, the second player may choose 1 enemy ship. That ship mus
                     <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">At the end of the Command Phase, the second player may select 1 enemy ship at distance 1-3 of an objective token and perform an attack against that ship.  The attacker is treated as if it is a ship with a battery armament of 4 blue dice, but is not friendly to any ship or squadrons.  The attack is treated as being at medium range, cannot be obstructed, can target any of the defender&apos;s hull zones. and has the following critical effect:
 Blue [Crit]:  The defender must choose and exhaust 1 of his defense tokens.</characteristic>
                     <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
-                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b"></characteristic>
-                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4"></characteristic>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b"/>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1197,6 +1266,270 @@ Blue [Crit]:  The defender must choose and exhaust 1 of his defense tokens.</cha
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="843b-96ec-2c36-14ac" name="Base Defense: Armed Station" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e8-23b3-a1f0-0e82" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dcb2-1906-1a0d-c0d4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b962-78ad-e963-4438" name="Base Defense: Armed Station" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">Place obstacles as normal, excluding the station. Then, the second player places the station in the setup area beyond distance 1 of all obstacles and beyond distance 5 of the first player&apos;s edge. The station is an armed station; place the Armed Station card near the second player&apos;s ship cards.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">The first player&apos;s ships and squadrons cannot resolve the armed stations effect to discard damage cards or recover hull points when they overlap it.
+Once per round, instead of activating a ship, the second player can perform 1 attack with the armed station.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b"/>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="6bb6-2acb-0da6-3eb2" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fbcb-5e25-1102-375a" name="Base Defense: Fighter Wing" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2988-8286-c6c7-8ab7" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d27e-75b4-5428-1b6b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bfb4-85b6-b537-be54" name="Base Defense: Fighter Wing" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">Before deploying fleets, the second player may choose up to 40 fleet points of additional non-unique squadrons and add them to his fleet (even if it exceeds the number of fleet points he could normally spend on squadrons). Assign squadron ID tokens of a different color to these squadrons.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb"/>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">The fleet point cost of the additional squadrons is added to the first player&apos;s score as normal if they are destroyed. After the winner is determined, the second player removes the additional squadrons from his fleet.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="b005-75c7-c406-8c18" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eba9-f909-a315-fb55" name="Show Of Force" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9179-16d6-8266-f0f9" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc23-0ba8-4dc3-5312" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b44e-31de-99da-7b62" name="Show Of Force" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">Place obstacles as normal, excluding the station. Then, the second player places 2 stations in the setup area. Each station must be beyond distance 1 of all obstacles and beyond distance 3 of both players&apos; edges. Both stations are unarmed stations; place both Unarmed Station cards near the second player&apos;s ship cards.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">The first player&apos;s ships and squadrons cannot resolve an unarmed station&apos;s effect to discard damage cards or recover hull points when they overlap it.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">The second player gains 1 victory token for each unarmed station that is not destroyed. The first player gains 1 victory token and his team gains 40 resource points for each station that is destroyed. The winner&apos;s team also gains 40 resource points if he wins the game.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">20</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="1816-945c-b7b1-1d53" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="93e7-c426-5231-2e6c" name="Double Agent" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7434-edf0-048f-4035" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8cdd-f088-37f9-b1c3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b789-9aa0-280a-7c42" name="Double Agent" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5"> Place obstacles as normal, excluding the station. After deploying fleets, the second player chooses one of their ships to be objective ship.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">When the objective ship reveals a command dial, it may gain 1 matching command token without spending the command dial. When the objective ship is destroyed, the opposing fleet&apos;s owner gains 1 victory token. Then the opposing player places the objective token in the play area at distance 1 of the destroyed ship.
+
+At the start of any round after the second round, if no player has a victory token, the first player may remove the objective token from the objective ship and place the objective token in the play area at distance 1 of that ship. When a ship overlaps the objective token, remove the token from the play area. Then that ship becomes the objective ship and that ship&apos;s owner gains 1 victory token.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b"/>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">20</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="14ee-60fc-337c-fcdc" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fdb6-cfb0-194b-c26b" name="Hired Scum" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b790-029b-0796-4c1f" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4776-156c-19b4-9a5e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6f7a-f9b3-062c-a3c7" name="Hired Scum" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">The second player places all obstacles, excluding the station. Then the second player chooses 3 obstacles and places 1 objective token on each. Before deploying fleets, the second player chooses up to 40 points of non-unique, irregular squadrons and adds them to their fleet for this game. These squadrons are SCUM and are set aside.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">At the start of any round after the first round, the second player can deploy up to 2 of the scum squadrons at distance 1 of an obstacle with an objective token. Then remove that objective token and 1 other objective token, if able.
+
+While a scum squadron is defending, the attacker may reroll 1 die for each friendly ship or squadron at distance 1 of the defender.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b"/>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="f28c-45e0-b8dc-5f59" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0fca-c9b4-75a5-c68c" name="HoloNet Override" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eca-174c-9f27-6e36" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ebab-59b5-f9b8-367d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4362-deda-674b-9d88" name="HoloNet Override" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">The second player places all obstacles. The station must be placed beyond distance 1 of all obstacles and beyond distance 5 of both player&apos;s edges.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">The station does not have the ability to discard damage cards or recover hull points. Each ship can resolve the following effect:
+
+[Repair]: If you are at distance 1-2 to the station you may spend engineering points to place (or remove) objective tokens on this card. For each 2 points you spend, you may place (or remove) 1 objective token.
+
+When one of the second player&apos;s ships resolves this effect, that ship&apos;s owner gains 1 victory token for each objective token it removes.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">The first player gains 1 victory token for each objective token on this card.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">10</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="f906-428f-5fab-ff4f" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5395-1106-60ee-ea21" name="Pilot Deection" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d7-e4ba-7977-50ed" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e472-956d-4e5c-b49e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f386-5f7f-6c01-f655" name="Pilot Deection" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">Before deploying fleets, the first player must choose 3 additional non-unique squadrons of the opposing faction with a total value up to 40 points and add them to the second players fleet for this battle.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">Once per game, at the start of any Squadron Phase, the first player may assign 1 objective token to 1 of the chosen squadrons. This squadron is the defector and is added to the first player&apos;s fleet for the remainder of the game. When the defector is destroyed, the second player gains 1 victory token.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">If the defector is at distance 1 of one of the first player&apos;s ships and beyond distance 1 of enemy ships or squadrons, the first player gains 1 victory token.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">25</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="0247-86f9-45f6-7c19" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5975-9cd1-6982-c807" name="Prototype Recovery" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f3-6fa7-28da-9e68" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fbf9-b35c-b3d4-8dd9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7eb5-3d2a-faeb-a53e" name="Prototype Recovery" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">Before deploying fleets, the second player must choose 1 additional non-unique squadron with a total value of 8-20 points*. This is the prototype, and is set aside. After placing obstacles, the first player places an objective token in the center of the play area.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">When a ship at distance 1 of an objective token resolves a [Squadron] command, instead of activating squardons, that ship&apos;s owner may roll 1 blue die. If a [Crit] icon is rolled, the prototype is added to the player&apos;s fleet for the remainder of the game. If that ship belongs to the second player, the prototype is added if a [Hit] icon is rolled instead. Then the controlling player deploys the prototype at distance 1 of the objective token and discards the token. While the prototype is attacking, each [Crit] icon adds 1 to the damage total.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">If the prototype is in the play area, the controlling player gains 1 victory token.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">30</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="cb45-52fa-784c-e613" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="581f-8284-ea33-9552" name="Recruit Allies" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d480-9415-6243-6c82" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ca0-38b3-e4b7-fa19" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b02b-1ac7-c744-6bd9" name="Recruit Allies" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">Place obstacles as normal, excluding the station. Before deploying fleets, the first player must choose 30-50 fleet points of non-unique, irregular squadrons or ships with no upgrades equipped. These forces are allies and are set aside. Then the second player places 1 objective token in the play area beyond distance 5 of both players&apos; edges.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">At the end of the third round, each player sums the command value of their ships at distance 1 of the objective token. The player with the highest total adds the allies to their fleet for the remainder of the game. Then that player deploys the allies at distance 1 of the objective token. If the command value totals are equal, the second player adds the allies to their fleet.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">The player controlling the allies adds the fleet value of allies remaining in the play area to their score.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="a6a2-e8c3-a506-448e" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7a08-fb5b-aab9-2ca6" name="Steal Suppies" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef3a-3b73-8e8f-19e2" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e018-87d9-f5cb-91e3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6524-8189-146f-9812" name="Steal Suppies" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">The second player places all obstables, excluding the station. Then the second player places the station beyond distance 5 of both players edges and beyond distance 1 of other obstacles. Then the second player places 6 objective tokens on this card.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">When one of the first player&apos;s ships at distance 1 of the station reveals its command dial, it may remove 1 objective token from this card and place it on that ship&apos;s card or a friendly irregular squadron at distance 1 of that ship. A ship cannot have more objective tokens than its command value. A squadron can only have 1 objective token on it. When a ship or squadron with at least 1 objective token is destroyed the second player gains 1 victory token.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">The first player gains 1 victory token for each objective token on their ships or squadrons that are beyond distance 2 of enemy ships. The second player gains 1 victory token for each objective token on this card.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">15</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="a10b-1498-f395-6fb6" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fc81-9ce8-9473-e15a" name="Volatile Cargo" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0042-5181-b11b-d916" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="df7e-35b1-4a75-aff2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="185c-f89f-145b-74f6" name="Volatile Cargo" hidden="false" typeId="6aab-c5a8-8550-5f3a" typeName="8.4 Campaign Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="fa59-8161-5e62-2ef5">Place obstacles as normal, excluding the station.</characteristic>
+                    <characteristic name="Special Rule" typeId="fc66-e901-6b99-d3cb">The second player chooses 3 of their ships or squadrons (at least 1 must be a ship) to be objective ships or squadrons and assigns an objective token to each. The first player gains 1 victory token for each objecive token that cannot be assigned.
+
+While an objective ship or squadron is defending, before it suffers damage, it may reduce the total damage by 1. If the defender is destroyed during that attack, each other ship and squadron at distance 1-2 of the defender suffers damage equal to half of the total number of [Hit] icons in the attack pool, rounded up. Then the first player gains 1 victory token.</characteristic>
+                    <characteristic name="End of Round" typeId="fe21-e9ae-c56c-1f06"/>
+                    <characteristic name="End of Game" typeId="8566-c967-8a18-6c6b">The second player gains 2 victory tokens for each objective ship or squadron at distance 1-3 of the first player&apos;s edge.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="0b8c-5722-b073-5bf4">15</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="c235-29a5-66d2-c863" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1219,6 +1552,40 @@ Blue [Crit]:  The defender must choose and exhaust 1 of his defense tokens.</cha
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1cd-0882-fb3f-8900" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c98e-1805-57f2-0eb5" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb91-2395-c338-55b1" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="e445-d275-84a3-1bd7" value="1.0">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5934-aa54-c74f-e796" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8602-1eff-a253-cb62" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e445-d275-84a3-1bd7" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8035-580d-5d85-dc3b" name="Flotilla" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="4d40-a209-869a-13dc" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d57e-9908-0acf-1ebf" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a2-19bb-a248-39d8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="923b-e722-7136-9c09" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d40-a209-869a-13dc" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
