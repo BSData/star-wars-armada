@@ -143,6 +143,22 @@ Added validation target for unique squadrons with defense tokens</readme>
               </costs>
             </selectionEntry>
             <selectionEntry id="b198-09a8-9520-b2ba" name="•Boba Fett (Slave I)" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4924-ec72-e87b-fb2a" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b198-09a8-9520-b2ba" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="596b-2aba-5e35-e372" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c19-620c-804b-72b2" type="max"/>
@@ -172,6 +188,25 @@ Added validation target for unique squadrons with defense tokens</readme>
               </costs>
             </selectionEntry>
             <selectionEntry id="4924-ec72-e87b-fb2a" name="•Hondo Ohnaka (Slave I)" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f9ab-847f-4139-d30a" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b198-09a8-9520-b2ba" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4924-ec72-e87b-fb2a" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7006-a582-1f53-dec6" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d326-5e8b-313b-a5ee" type="max"/>
@@ -481,6 +516,7 @@ Added validation target for unique squadrons with defense tokens</readme>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="fe7e-e95a-3522-f24b" name="Flotilla" hidden="false" collective="false" import="true" targetId="8035-580d-5d85-dc3b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="28.0"/>
@@ -575,6 +611,7 @@ Added validation target for unique squadrons with defense tokens</readme>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="263b-d985-d518-1e6d" name="Flotilla" hidden="false" collective="false" import="true" targetId="8035-580d-5d85-dc3b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -5757,6 +5794,17 @@ You cannot equip this card to a medium or large ship with a [Defensive Retrofit]
           </costs>
         </selectionEntry>
         <selectionEntry id="f9ab-847f-4139-d30a" name="•Hondo Ohnaka" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4924-ec72-e87b-fb2a" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4c8-ccf6-4efd-6001" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0703-d499-68cc-4357" type="max"/>
