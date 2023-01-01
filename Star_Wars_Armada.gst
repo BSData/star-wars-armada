@@ -1148,7 +1148,7 @@ After deploying fleets, each of the second players&apos; ships gain a [Engineeri
                 <profile id="3623-7e14-3167-7ead" name="Asteroid Tactics" hidden="false" typeId="8e28-f0e4-5cd7-b34b" typeName="8.2 Defense Objective">
                   <characteristics>
                     <characteristic name="Setup" typeId="ccb1-3750-038f-f0b6">The second player places all obstacles, excluding the station.</characteristic>
-                    <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">When one fo the first player&apos;s ships or unique squadrons overlaps an astroid field, it may recover 1 of its non-[Scatter] defense tokens. That token must be exhausted.
+                    <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">When one of the first player&apos;s ships or unique squadrons overlaps an astroid field, it may recover 1 of its non-[Scatter] defense tokens. That token must be exhausted.
 When one of the second player&apos;s ships or unique squadrons overlaps an asteroid field, that obstacle has no effect and that ship or squadron may recover 1 of its non-[Scatter] defense tokens or may ready 1 of its defense tokens.
 After the start of each squadron phase (after exogorths perform attacks), remove each exogorth obstacle from the play area.</characteristic>
                     <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57">The second player places the 2 exogorth obstacles, each touching a different obstacle.</characteristic>
