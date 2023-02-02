@@ -648,7 +648,7 @@ After the start of each squadrons phase (after exogorths perform attacks), remov
                     <characteristic name="Special Rule" typeId="52c8-b374-6fa0-19d4">While a ship is attacking a ship, the attacker can choose 1 obstacle at distance 1 of the defender, then resolve the following critical effect:
 Blue [Crit]:  Each ship or squadron at distance 1 of the chosen obstacle suffers damage equal to half of the total number of [Crit] icons in your attack pool, rounded up.
 If the defender is one of the first player&apos;s ships, the attacker can resolve this effect with any [Crit] icon.</characteristic>
-                    <characteristic name="End of Round" typeId="fa5d-9649-202a-f528">For each asteroid field, each player sums the command values of their ships at distance 1. Then for each astroid field, the player with the highest total gains 1 victory token.</characteristic>
+                    <characteristic name="End of Round" typeId="fa5d-9649-202a-f528">For each asteroid field, each player sums the command values of their ships at distance 1. Then for each asteroid field, the player with the highest total gains 1 victory token.</characteristic>
                     <characteristic name="End of Game" typeId="8dad-11c4-b910-7882"/>
                     <characteristic name="Victory Token Value" typeId="66f0-2152-a2f0-97b5">15</characteristic>
                   </characteristics>
@@ -1128,7 +1128,7 @@ After deploying fleets, the second player places 3 facedown command dials in a s
                     <characteristic name="Setup" typeId="ccb1-3750-038f-f0b6">The second player places the station in the center of the setup area.  Then starting with the second player, the players alternate placing the remaining obstacles, addin the 2 purrgil and 2 dust fields and excluding the asteriod fields, at distance 2-5 of the station.
 After deploying fleets, each of the second players&apos; ships gain a [Engineering] token.</characteristic>
                     <characteristic name="Special Rule" typeId="d86d-27bf-c14f-f614">Each ship can resolve the following effect:
-[Engineering]:  You may spend engineering points to gain victory tokens from 1 station or dust field at distance 1.  If that obstacle is a station, gain 1 toke for each 3 points you spend.  If that obstacle is a dust field, gain 1 token for every 2 points you spend.  Then, if that obstacle is a dust field and you gained more than 1 victory token, remove that obstacle from the play area.</characteristic>
+[Engineering]:  You may spend engineering points to gain victory tokens from 1 station or dust field at distance 1.  If that obstacle is a station, gain 1 token for each 3 points you spend.  If that obstacle is a dust field, gain 1 token for every 2 points you spend.  Then, if that obstacle is a dust field and you gained more than 1 victory token, remove that obstacle from the play area.</characteristic>
                     <characteristic name="End of Round" typeId="d083-b52c-bffc-0b57"/>
                     <characteristic name="End of Game" typeId="5512-b7d3-b57d-fb0b"/>
                     <characteristic name="Victory Token Value" typeId="a6f2-18b1-8b46-0e5e">10</characteristic>
