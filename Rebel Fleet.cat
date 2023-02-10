@@ -3838,7 +3838,7 @@ At the start of each Status Phase, you may recover 1 shield.</characteristic>
           <profiles>
             <profile id="54cd-b69b-1cc1-357b" name="Reactive Gunnery" hidden="false" typeId="c4ed-b3c1-3b29-236e" typeName="5.2 Defensive Retrofit">
               <characteristics>
-                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">While defending, you may exhaust this card and spend a readied defense token to resolve the [Salvo] defense effect instead of that token&apos;s effect.  You cannon resolve the [Salvo] defense effect more than once per attack.</characteristic>
+                <characteristic name="Defensive Retrofit Ability" typeId="8539-a418-bf73-51cd">While defending, you may exhaust this card and spend a readied defense token to resolve the [Salvo] defense effect instead of that token&apos;s effect.  You cannot resolve the [Salvo] defense effect more than once per attack.</characteristic>
                 <characteristic name="Setup" typeId="1177-d2f9-43f7-1773"/>
                 <characteristic name="Recur" typeId="7280-a06c-6155-cccd">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="803e-a62b-9cf4-a6d3"/>
