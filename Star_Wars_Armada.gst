@@ -42,7 +42,7 @@ If you are opening a roster from a previous version for the first time you will 
         <characteristicType id="b650-9c38-4a65-44a7" name="Max Speed"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="6590-7c7f-7387-8791" name="1.3 Squadrons">
+    <profileType id="6590-7c7f-7387-8791" name="1.4 Squadrons">
       <characteristicTypes>
         <characteristicType id="dc1b-7d57-479f-eea2" name="Speed"/>
         <characteristicType id="7270-7235-8dde-f1a5" name="Hull Value"/>
@@ -189,7 +189,7 @@ If you are opening a roster from a previous version for the first time you will 
         <characteristicType id="66f0-2152-a2f0-97b5" name="Victory Token Value"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3e6c-d9bf-092d-329b" name="1.4 Stations">
+    <profileType id="3e6c-d9bf-092d-329b" name="1.5 Stations">
       <characteristicTypes>
         <characteristicType id="23ba-a60d-b8cf-7321" name="Hull Value"/>
         <characteristicType id="a9be-d179-8d6b-7c4a" name="Anti-Squadron"/>
@@ -205,7 +205,7 @@ If you are opening a roster from a previous version for the first time you will 
         <characteristicType id="8c3b-3f6c-edea-d754" name="Ready Cost"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="f729-3ef8-1c42-536e" name="1.2 Huge Ships">
+    <profileType id="f729-3ef8-1c42-536e" name="1.3 Huge Ships">
       <characteristicTypes>
         <characteristicType id="d687-1d17-b8b5-f30b" name="Hull"/>
         <characteristicType id="0366-4519-ab2a-71ad" name="Anti-Squadron Value"/>
@@ -254,6 +254,28 @@ If you are opening a roster from a previous version for the first time you will 
         <characteristicType id="a62c-fc4f-35ca-94d7" name="3"/>
         <characteristicType id="5e3b-e972-3249-2522" name="4"/>
         <characteristicType id="953d-9875-c8ab-40ec" name="|"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="8f35-1178-629f-7b2a" name="1.2 Ships With Special Battery">
+      <characteristicTypes>
+        <characteristicType id="1796-805d-1ca6-e336" name="Hull"/>
+        <characteristicType id="36e2-a430-96f9-54e8" name="Anti-Squadron Value"/>
+        <characteristicType id="4ebc-006d-8651-cc28" name="Command"/>
+        <characteristicType id="ce47-9e18-181d-c32c" name="Squadron"/>
+        <characteristicType id="9e3a-ea63-cb86-9fbb" name="Engineering"/>
+        <characteristicType id="7a49-871c-2e20-d8b0" name="Defense Tokens"/>
+        <characteristicType id="f72e-2f9b-5a18-1bb7" name="Front Firing Arc"/>
+        <characteristicType id="597f-73da-18be-4a37" name="Special Battery"/>
+        <characteristicType id="fc7b-7852-15a7-4e4c" name="Left Firing Arc"/>
+        <characteristicType id="3e05-53b5-3a4c-6f8e" name="Right Firing Arc"/>
+        <characteristicType id="1e05-eef1-5a4e-a7bf" name="Rear Firing Arc"/>
+        <characteristicType id="a788-4ee4-f3e6-4b41" name="Front Shield Value"/>
+        <characteristicType id="01d2-f5a4-3825-44ef" name="Left Shield Value"/>
+        <characteristicType id="a308-1200-82a6-daa3" name="Right Shield Value"/>
+        <characteristicType id="85af-b266-3188-f3f1" name="Rear Shield Value"/>
+        <characteristicType id="b1f4-4bce-a3e0-c8ff" name="Upgrade Bar"/>
+        <characteristicType id="a422-f8f8-603e-a143" name="Keywords"/>
+        <characteristicType id="9e98-b167-c4a6-6212" name="Max Speed"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -835,7 +857,7 @@ If the defender is one of the first player&apos;s ships, the attacker can resolv
                     <characteristic name="Victory Token Value" typeId="4a0a-04e9-d3e0-311b">40</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="88a9-8565-2c69-c9ed" name="Unarmed Station" hidden="false" typeId="3e6c-d9bf-092d-329b" typeName="1.4 Stations">
+                <profile id="88a9-8565-2c69-c9ed" name="Unarmed Station" hidden="false" typeId="3e6c-d9bf-092d-329b" typeName="1.5 Stations">
                   <characteristics>
                     <characteristic name="Hull Value" typeId="23ba-a60d-b8cf-7321">10</characteristic>
                     <characteristic name="Anti-Squadron" typeId="a9be-d179-8d6b-7c4a">-</characteristic>
