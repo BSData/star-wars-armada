@@ -6643,13 +6643,6 @@ You can perform 1 of your attacks after you execute your first maneuver during y
           </costs>
         </selectionEntry>
         <selectionEntry id="a4d5-c816-9b9f-ba85" name="•Chimaera" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f7b-d87c-c2c9-7f8c" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5eae-5ce8-fc03-1e80" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe10-3625-f257-98a0" type="max"/>
