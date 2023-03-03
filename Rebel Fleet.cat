@@ -24,7 +24,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="8557-fcfa-10e8-d19b" name="A-Wing Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="ccfe-402b-99f7-a7c6" name="A-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="ccfe-402b-99f7-a7c6" name="A-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -49,7 +49,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8168-d62d-407b-a537" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3995-5528-7c81-0cfd" name="•Green Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="3995-5528-7c81-0cfd" name="•Green Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -75,7 +75,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d260-e092-a75c-1d5e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a50f-7560-91e9-4a86" name="•Shara Bey" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="a50f-7560-91e9-4a86" name="•Shara Bey" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -103,7 +103,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d658-817f-246a-0e4b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2f5f-7438-646c-7361" name="•Tycho Celchu" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="2f5f-7438-646c-7361" name="•Tycho Celchu" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -333,7 +333,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="998f-403c-27eb-0621" name="B-Wing Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="eaf9-782e-840b-e753" name="B-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="eaf9-782e-840b-e753" name="B-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -358,7 +358,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0186-7d87-3bdd-9ef0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2f52-c291-4eeb-fdcf" name="•Dagger Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="2f52-c291-4eeb-fdcf" name="•Dagger Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -384,7 +384,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7596-9e3a-aaa2-8f30" type="max"/>
               </constraints>
               <profiles>
-                <profile id="92b5-2956-94cd-ae43" name="•Keyan Farlander" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="92b5-2956-94cd-ae43" name="•Keyan Farlander" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -412,7 +412,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b67-ecc3-aceb-484b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5e49-a5c3-4485-b3bf" name="•Ten Numb" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="5e49-a5c3-4485-b3bf" name="•Ten Numb" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -798,7 +798,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="5866-803a-9d46-c43b" name="HWK-290" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="3914-b7bb-5338-2004" name="HWK-290" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="3914-b7bb-5338-2004" name="HWK-290" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -824,7 +824,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3f5-adb2-4141-1179" type="max"/>
               </constraints>
               <profiles>
-                <profile id="74b4-57a3-a0a0-b826" name="•Jan Ors (Moldy Crow)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="74b4-57a3-a0a0-b826" name="•Jan Ors (Moldy Crow)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -853,7 +853,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b716-fb31-8f73-ff7e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="87d7-d324-bba7-256a" name="•Kanan Jarrus" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="87d7-d324-bba7-256a" name="•Kanan Jarrus" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -1523,7 +1523,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="706a-8167-816b-b0b1" name="Scurrg H-6 Bomber" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="5418-6532-ed65-0b78" name="Scurrg H-6 Bomber" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="5418-6532-ed65-0b78" name="Scurrg H-6 Bomber" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -1550,7 +1550,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="545e-aa95-dbad-8844" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e549-fed7-0ee7-9532" name="•Nym (Havoc)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="e549-fed7-0ee7-9532" name="•Nym (Havoc)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -1579,7 +1579,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="edf9-3ce1-2926-9a74" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f654-4af9-c59f-c75e" name="•Malee Hurra" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="f654-4af9-c59f-c75e" name="•Malee Hurra" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -1624,7 +1624,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="55f0-0a64-b063-acc8" name="X-Wing Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="c264-f94e-ec0c-48c0" name="X-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="c264-f94e-ec0c-48c0" name="X-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -1650,7 +1650,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f32-8085-78b3-ffd8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="466c-a68a-7bd9-263b" name="•Rogue Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="466c-a68a-7bd9-263b" name="•Rogue Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -1676,7 +1676,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa3e-0ae8-3539-e52c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c9c2-00c0-6ae9-289d" name="•Biggs Darklighter" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="c9c2-00c0-6ae9-289d" name="•Biggs Darklighter" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -1705,7 +1705,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c9f-fbe4-b368-bb85" type="max"/>
               </constraints>
               <profiles>
-                <profile id="327b-b59b-757f-6891" name="•Luke Skywalker" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="327b-b59b-757f-6891" name="•Luke Skywalker" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -1745,7 +1745,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d60-e730-b5d8-de4f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3ada-dee7-f2d1-7157" name="•Wedge Antilles" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="3ada-dee7-f2d1-7157" name="•Wedge Antilles" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -1785,7 +1785,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80b2-5b16-6966-534b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8844-cefe-c54c-cb48" name="•Hera Syndulla" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="8844-cefe-c54c-cb48" name="•Hera Syndulla" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -1831,7 +1831,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="eae9-8a3d-c6e9-3575" name="Y-Wing Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="0d6f-867b-ab94-7dfc" name="Y-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="0d6f-867b-ab94-7dfc" name="Y-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -1857,7 +1857,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9530-10ae-73e8-48ed" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e15e-79dc-04fa-ec71" name="•&quot;Dutch&quot; Vander" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="e15e-79dc-04fa-ec71" name="•&quot;Dutch&quot; Vander" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -1886,7 +1886,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c5e-ac86-5c9c-fd6c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="beb5-6d81-6c4e-1c37" name="•Gold Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="beb5-6d81-6c4e-1c37" name="•Gold Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -1911,7 +1911,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f010-0932-2201-851b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="bf65-d201-9658-10df" name="•Norra Wexley" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="bf65-d201-9658-10df" name="•Norra Wexley" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -1955,7 +1955,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="716c-23bd-05f5-eecc" name="YT-1300" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="90d0-306a-6f66-2f57" name="YT-1300" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="90d0-306a-6f66-2f57" name="YT-1300" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">7</characteristic>
@@ -1997,7 +1997,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c2bd-cfd3-f0e3-6cee" type="max"/>
               </constraints>
               <profiles>
-                <profile id="94b7-1b78-247a-b4b7" name="•Han Solo (Millennium Falcon)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="94b7-1b78-247a-b4b7" name="•Han Solo (Millennium Falcon)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">7</characteristic>
@@ -2045,7 +2045,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e6c1-3738-5d53-1b99" type="max"/>
               </constraints>
               <profiles>
-                <profile id="504c-b404-32e0-c6cd" name="•Lando Calrissian (Millennium Falcon)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="504c-b404-32e0-c6cd" name="•Lando Calrissian (Millennium Falcon)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">7</characteristic>
@@ -2090,7 +2090,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="19a8-81a8-4e78-6a01" name="YT-2400" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="449d-826d-4f19-5f19" name="YT-2400" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="449d-826d-4f19-5f19" name="YT-2400" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -2115,7 +2115,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0883-d47d-6194-d331" type="max"/>
               </constraints>
               <profiles>
-                <profile id="bfc5-bbb1-5ca4-71a0" name="•Dash Rendar (Outrider)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="bfc5-bbb1-5ca4-71a0" name="•Dash Rendar (Outrider)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -2144,7 +2144,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8312-9919-f1ce-adbc" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8d90-a789-81c4-4f82" name="•Mart Mattin (Sato&apos;s Hammer)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="8d90-a789-81c4-4f82" name="•Mart Mattin (Sato&apos;s Hammer)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -2371,7 +2371,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="80f1-7076-8b79-7f1d" name="Z-95 Headhunter Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="23aa-6c45-2030-8450" name="Z-95 Headhunter Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="23aa-6c45-2030-8450" name="Z-95 Headhunter Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">3</characteristic>
@@ -2396,7 +2396,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c071-e103-662e-c70c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="711c-16bc-28cc-886c" name="•Lieutenant Blount" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="711c-16bc-28cc-886c" name="•Lieutenant Blount" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">3</characteristic>
@@ -2440,7 +2440,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="d487-e729-1be1-d293" name="E-Wing Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="a91a-cf56-6f94-b6fc" name="E-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="a91a-cf56-6f94-b6fc" name="E-Wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -2466,7 +2466,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2116-d26e-d052-f8e9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0476-aea5-d5cf-76ff" name="•Corran Horn" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="0476-aea5-d5cf-76ff" name="•Corran Horn" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -2512,7 +2512,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="6b39-1a8e-9b82-f1e1" name="VCX-100 Freighter" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="42d3-f72c-20fa-592a" name="VCX-100 Freighter" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="42d3-f72c-20fa-592a" name="VCX-100 Freighter" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">8</characteristic>
@@ -2550,7 +2550,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="397e-fb68-dbb4-a719" type="max"/>
               </constraints>
               <profiles>
-                <profile id="14f9-572e-c53a-4b49" name="•Hera Syndulla (Ghost)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="14f9-572e-c53a-4b49" name="•Hera Syndulla (Ghost)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">8</characteristic>
@@ -2595,7 +2595,7 @@ Fixed some uniqueness hidden flags</readme>
           <selectionEntries>
             <selectionEntry id="8ebf-c192-b7f8-d3f4" name="Lancer-class Pursuit Craft" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="d730-b4c8-9467-b544" name="Lancer-class Pursuit Craft" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="d730-b4c8-9467-b544" name="Lancer-class Pursuit Craft" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -2622,7 +2622,7 @@ Fixed some uniqueness hidden flags</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3e7-6dcd-d575-0b2c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="652f-0bcc-e7b2-02aa" name="•Ketsu Onyo (Shadow Caster)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="652f-0bcc-e7b2-02aa" name="•Ketsu Onyo (Shadow Caster)" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -5609,7 +5609,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
           <profiles>
             <profile id="a207-06a2-ac1c-b004" name="Mon Karren" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">[Squadron]:  While attacking a ship, the defender cannot spend more than 1 defense token during this attack.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">[Concentrate Fire]:  While attacking a ship, the defender cannot spend more than 1 defense token during this attack.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
@@ -5641,7 +5641,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fa21-ab77-867b-3ad0" name="Mon Calamari Exodus Fleet†" hidden="false" collective="false" import="true" targetId="171b-f108-2764-5ff2" type="selectionEntry"/>
+        <entryLink id="fa21-ab77-867b-3ad0" name="Mon Calamari Exodus Fleet" hidden="false" collective="false" import="true" targetId="171b-f108-2764-5ff2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d3d4-ced8-c7e9-c669" name="Title - MC80 Cruiser (Home One type)" hidden="false" collective="false" import="true">
