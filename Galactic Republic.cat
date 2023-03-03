@@ -26,7 +26,7 @@ Added validation target for unique squadrons with defense tokens</readme>
           <selectionEntries>
             <selectionEntry id="051f-76e7-2b0e-f5af" name="Delta-7 Aethersprite Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="ea9b-17e3-b6a7-4b7b" name="Delta-7 Aethersprite Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="ea9b-17e3-b6a7-4b7b" name="Delta-7 Aethersprite Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -64,7 +64,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e37-fd50-786f-b963" type="max"/>
               </constraints>
               <profiles>
-                <profile id="261c-ec4c-1d25-57ac" name="•Ahsoka Tano" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="261c-ec4c-1d25-57ac" name="•Ahsoka Tano" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -94,7 +94,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="56e2-a944-85a0-b066" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8b03-cdee-4274-1afc" name="•Kit Fisto" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="8b03-cdee-4274-1afc" name="•Kit Fisto" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -135,7 +135,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c83-2823-e58a-0c70" type="max"/>
               </constraints>
               <profiles>
-                <profile id="64b2-85a4-4dec-2040" name="•Luminara Unduli" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="64b2-85a4-4dec-2040" name="•Luminara Unduli" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -175,7 +175,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c078-104d-febf-b200" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f88d-897f-b304-6eaa" name="•Plo Koon" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="f88d-897f-b304-6eaa" name="•Plo Koon" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -215,7 +215,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f490-cc15-8974-7bee" type="max"/>
               </constraints>
               <profiles>
-                <profile id="800b-e011-e95f-cc4f" name="•Anakin Skywalker" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="800b-e011-e95f-cc4f" name="•Anakin Skywalker" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">4</characteristic>
@@ -451,7 +451,7 @@ Added validation target for unique squadrons with defense tokens</readme>
           <selectionEntries>
             <selectionEntry id="7298-1e72-1686-68e3" name="ARC-170 Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="b5a4-070c-cce3-431c" name="ARC-170 Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="b5a4-070c-cce3-431c" name="ARC-170 Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">7</characteristic>
@@ -477,7 +477,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2620-87e7-2180-053c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3b8f-9ea4-ab30-3bf4" name="•&quot;Odd Ball&quot;" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="3b8f-9ea4-ab30-3bf4" name="•&quot;Odd Ball&quot;" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">2</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">7</characteristic>
@@ -522,7 +522,7 @@ Added validation target for unique squadrons with defense tokens</readme>
           <selectionEntries>
             <selectionEntry id="59fc-b936-5b91-66a1" name="BTL-B Y-Wing Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="db2b-e271-853b-5580" name="BTL-B Y-wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="db2b-e271-853b-5580" name="BTL-B Y-wing Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -559,7 +559,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a19e-5051-3bcc-36ea" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ce34-1b16-7c72-4968" name="•Anakin Skywalker" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="ce34-1b16-7c72-4968" name="•Anakin Skywalker" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">6</characteristic>
@@ -605,7 +605,7 @@ Added validation target for unique squadrons with defense tokens</readme>
           <selectionEntries>
             <selectionEntry id="3b12-4d0f-41b6-4078" name="V-19 Torrent Squadron" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="5909-b9db-8949-0bbd" name="V-19 Torrent Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="5909-b9db-8949-0bbd" name="V-19 Torrent Squadron" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -631,7 +631,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2048-27d8-45be-85e4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="d277-c995-1efa-7676" name="•&quot;Axe&quot;" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="d277-c995-1efa-7676" name="•&quot;Axe&quot;" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
@@ -660,7 +660,7 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a480-b47d-4167-495b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1349-e997-8a7b-2d94" name="•&quot;Kickback&quot;" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.3 Squadrons">
+                <profile id="1349-e997-8a7b-2d94" name="•&quot;Kickback&quot;" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
                   <characteristics>
                     <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">3</characteristic>
                     <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
