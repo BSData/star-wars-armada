@@ -1417,9 +1417,9 @@ Fixed some uniqueness hidden flags</readme>
         <cost name="pts" typeId="points" value="57.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="666c-5bdb-92b3-13bf" name="Nebulon-B Support Frigate" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="666c-5bdb-92b3-13bf" name="Nebulon-B Support Refit" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="7563-1f05-f218-d0f2" name="Nebulon-B Support Frigate" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
+        <profile id="7563-1f05-f218-d0f2" name="Nebulon-B Support Refit" hidden="false" typeId="e72b-10bf-c14e-b3a8" typeName="1.1 Ships">
           <modifiers>
             <modifier type="set" field="5ba4-e836-287d-1b42" value="Officer, Support Team, Weapons Team, Turbolasers">
               <conditions>
