@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="36" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black - Updates by BlueSeven" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc. Brian_Black on BGG or FFG forums   BlueSeven on BSData discord" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <comment>Added remaining Clone Wars Wave 2 data
-Added Rapid Reinforcements 1
-Added speed charts
-Added validation rule for unique squads with defense tokens at 1 per full 100pts
-Added &quot;Tournament&quot; force type (Validates 2 max flotillas)
-Added remaining campaign objectives</comment>
-  <readme>Added remaining Clone Wars Wave 2 data.
-Added Rapid Reinforcements 1.
-Added speed charts - the speed is across the top of the table due to how profiles work. I used &quot;-&quot; &quot;1&quot; and &quot;2&quot; for numbers of clicks at each joind to keep it to a single character while still looking similar. Let me know if there are formatting issues.
-Added validation rule for unique squads with defense tokens at 1 per full 100pts.
-Added remaining campaign objectives.
-Fixed miscellaneous typos and uniqueness hidden flags.
-Added &quot;Tournament&quot; force type (Validates 2 max flotillas).
-Have not restricted max pts to 400 in the Tournament force type to allow flexibility. Only change from standard at this point is flotillas restricted to max 2.
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="37" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black - Updates by BlueSeven" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc. Brian_Black on BGG or FFG forums   BlueSeven on BSData discord" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Added Summa of all Things scenario force type.
+A field for special battery has been added for the Onager class ships.</comment>
+  <readme>Added Summa of all Things scenario force type validation the following rules:
+Max 1 medium ship
+Max 1 flotilla
+Min 4 squadrons
+Max 2 unique squadrons.
+Large and huge ships, and commanders are not available in line with scenario rules.
+
+A field for special battery has been added for the Onager class ships.
 
 Issues with pre-existing rosters:
-If you are opening a roster from a previous version for the first time you will see a selection box for &quot;Flotilla&quot; or &quot;Unique squadron with defense tokens&quot; under models of those types. You can either tick the box which will cause it to disappear, or remove and re-add the model which will set the flag for these models correctly.</readme>
+I have reworked how Aces and Flotillas are validated to add validation for Summa forces. As such the properties that were previously used are now removed. Pre-existing rosters will show errors on open related to this, but can be then saved again to remove the errors.</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -278,6 +274,15 @@ If you are opening a roster from a previous version for the first time you will 
         <characteristicType id="9e98-b167-c4a6-6212" name="Max Speed"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="8947-c5ed-0bcd-acd6" name="8.5 Scenario Objective">
+      <characteristicTypes>
+        <characteristicType id="4fb2-570c-5adb-1499" name="Setup"/>
+        <characteristicType id="86dc-37ee-09a2-6c94" name="Special Rule"/>
+        <characteristicType id="f650-7650-beea-be8d" name="End of Round"/>
+        <characteristicType id="6a53-f6fa-d9c8-9f3a" name="End of Game"/>
+        <characteristicType id="e3f7-99d8-c815-63f2" name="Victory Token Value"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="8988-a3d2-ecc4-c0e4" name="Venator-class Star Destroyer" hidden="false"/>
@@ -300,13 +305,42 @@ If you are opening a roster from a previous version for the first time you will 
     <categoryEntry id="9ef5-a2c4-bc40-18b7" name="Raider-class Corvette" hidden="false"/>
     <categoryEntry id="78bb-d906-bb13-b3b3" name="Super Star Destroyer" hidden="false"/>
     <categoryEntry id="7fb1-7ee5-3690-d880" name="Victory-class Star Destroyer" hidden="false"/>
-    <categoryEntry id="f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false"/>
+    <categoryEntry id="f0dc-ae6a-6219-19ef" name="Squadrons" hidden="false">
+      <comment>Main squadron category</comment>
+    </categoryEntry>
     <categoryEntry id="c9d8-3a89-4028-05d0" name="Objectives" hidden="false"/>
     <categoryEntry id="7124-ce4d-f2f7-b1fc" name="MC75 Cruiser" hidden="false"/>
     <categoryEntry id="fe1d-3608-d9e7-491e" name="Small Ship" hidden="false"/>
-    <categoryEntry id="034d-5d10-2acd-a23f" name="Medium Ship" hidden="false"/>
+    <categoryEntry id="034d-5d10-2acd-a23f" name="Medium Ship" hidden="false">
+      <modifiers>
+        <modifier type="set" field="8ac9-c55f-9c57-f11a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8ac9-c55f-9c57-f11a" type="max"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry id="28b9-dee2-dcc6-c2a7" name="Large Ship" hidden="false"/>
-    <categoryEntry id="85e7-c532-9071-4160" name="Flotilla" hidden="false"/>
+    <categoryEntry id="85e7-c532-9071-4160" name="Flotilla" hidden="false">
+      <modifiers>
+        <modifier type="set" field="8919-5f1a-b9a6-890e" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="8919-5f1a-b9a6-890e" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d57e-9908-0acf-1ebf" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8919-5f1a-b9a6-890e" type="max"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry id="6ea5-34d9-23d0-8729" name="Huge Ship" hidden="false"/>
     <categoryEntry id="3d39-29d1-22ef-34de" name="Armed Station" hidden="false"/>
     <categoryEntry id="0b6b-2d9b-bdb2-4ba8" name="Arquitens-class Cruiser" hidden="false"/>
@@ -318,6 +352,43 @@ If you are opening a roster from a previous version for the first time you will 
     <categoryEntry id="d53e-d6ae-cd55-7265" name="Pelta-class Frigate" hidden="false"/>
     <categoryEntry id="a1ce-1cc4-a94f-5cbe" name="Providence-class Dreadnaught Carrier" hidden="false"/>
     <categoryEntry id="0252-613d-1528-9434" name="Recusant-class Destroyer" hidden="false"/>
+    <categoryEntry id="1033-4475-51fe-2d49" name="Squadron" hidden="false">
+      <comment>Summa squadron limit category. Add to each squadron model.</comment>
+      <modifiers>
+        <modifier type="set" field="375b-f9dd-8bb4-ff49" value="4.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="375b-f9dd-8bb4-ff49" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="b480-bb94-e584-7963" name="Unique Squadrons" hidden="false">
+      <modifiers>
+        <modifier type="set" field="f8aa-b49d-9cdc-1dc3" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f8aa-b49d-9cdc-1dc3" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="5e3d-2b80-d3a8-dbb8" name="Unique Squadron With Defense tokens" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="7c7c-b927-71a9-9cea" value="1.0">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7c7c-b927-71a9-9cea" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1b44-1532-e7c9-9663" name="Standard" hidden="false">
@@ -418,9 +489,53 @@ If you are opening a roster from a previous version for the first time you will 
         <categoryLink id="46f6-5d24-0540-ea56" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="3da5-7d59-bd77-4ec5" name="Summa of all things" hidden="false">
+      <categoryLinks>
+        <categoryLink id="3d5e-9f21-6d24-0cb5" name="Acclamator-class Assault Ship" hidden="false" targetId="8c65-1e25-1a94-a65f" primary="false"/>
+        <categoryLink id="e5e8-4422-f65d-58fa" name="Arquitens-class Cruiser" hidden="false" targetId="0b6b-2d9b-bdb2-4ba8" primary="false"/>
+        <categoryLink id="720a-eef1-d723-baf1" name="Assault Frigate Mk II" hidden="false" targetId="62d1-ec41-79d6-0a08" primary="false"/>
+        <categoryLink id="423a-15a7-6c88-807c" name="CR90 Corvette" hidden="false" targetId="319a-5aa9-59e5-30fa" primary="false"/>
+        <categoryLink id="6b6b-0a96-ffad-2e8e" name="Consular-class Cruiser" hidden="false" targetId="4e6e-9ee3-e44b-de5e" primary="false"/>
+        <categoryLink id="8b1f-f7fc-2741-7f6c" name="GR-75 Transport Flotilla" hidden="false" targetId="8180-3b0c-4e1a-d22a" primary="false"/>
+        <categoryLink id="c814-208c-aad9-1776" name="Gladiator-class Star Destroyer" hidden="false" targetId="469b-896c-3ab9-d1b6" primary="false"/>
+        <categoryLink id="0ee7-a397-8c75-307b" name="Gozanti-class Flotilla" hidden="false" targetId="3c87-8b05-e880-8118" primary="false"/>
+        <categoryLink id="868c-f06f-afce-c17c" name="Hammerhead Corvette" hidden="false" targetId="a934-33f8-cb37-c53d" primary="false"/>
+        <categoryLink id="f208-e3ce-a8fb-f257" name="Hardcell-class" hidden="false" targetId="9aea-dbf4-376c-b22b" primary="false"/>
+        <categoryLink id="87c0-3364-52dc-e198" name="Interdictor" hidden="false" targetId="d71c-f6f0-4044-3252" primary="false"/>
+        <categoryLink id="8319-7a29-d39b-23ba" name="MC30c Frigate" hidden="false" targetId="167d-fd4d-28e2-f646" primary="false"/>
+        <categoryLink id="ef39-8afe-f90f-bfb8" name="Modified Pelta-class Ship" hidden="false" targetId="9810-b289-b172-52b4" primary="false"/>
+        <categoryLink id="79e5-f9bb-49bd-6a56" name="Munificent-class Frigate" hidden="false" targetId="748a-3a7d-d223-580f" primary="false"/>
+        <categoryLink id="5fef-5484-a01f-1905" name="Nebulon-B Frigate" hidden="false" targetId="e589-c88e-f2d0-7413" primary="false"/>
+        <categoryLink id="1987-cae3-9edd-c41f" name="Pelta-class Frigate" hidden="false" targetId="d53e-d6ae-cd55-7265" primary="false"/>
+        <categoryLink id="7887-ed7c-2421-f7be" name="Quasar Fire Cruiser-Carrier" hidden="false" targetId="0fba-00f3-05fd-d2b7" primary="false"/>
+        <categoryLink id="957f-6b22-1a2c-179f" name="Raider-class Corvette" hidden="false" targetId="9ef5-a2c4-bc40-18b7" primary="false"/>
+        <categoryLink id="9e41-cde6-8260-86eb" name="Victory-class Star Destroyer" hidden="false" targetId="7fb1-7ee5-3690-d880" primary="false"/>
+        <categoryLink id="4a37-07f8-67f8-155f" name="Flotilla" hidden="false" targetId="85e7-c532-9071-4160" primary="false"/>
+        <categoryLink id="1a0a-5b9d-f730-99a2" name="Squadrons" hidden="false" targetId="f0dc-ae6a-6219-19ef" primary="false">
+          <modifiers>
+            <modifier type="increment" field="6b5d-324a-4a3a-2bf5" value="1.0">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="points" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="6b5d-324a-4a3a-2bf5" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5538-01db-dbec-2de2" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="5f48-a1c4-7986-1f40" name="Navigation Objective" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="3457-d7b9-e215-f2f2" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a16-95b2-4475-a8dc" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3457-d7b9-e215-f2f2" type="min"/>
@@ -688,6 +803,13 @@ If the defender is one of the first player&apos;s ships, the attacker can resolv
       </costs>
     </selectionEntry>
     <selectionEntry id="e868-fe52-8679-4e1b" name="Assault Objective" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="484c-2c0d-90b3-050c" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="deae-3690-501c-2705" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="484c-2c0d-90b3-050c" type="min"/>
@@ -965,6 +1087,13 @@ After deploying fleets, the second player places 3 facedown command dials in a s
       </costs>
     </selectionEntry>
     <selectionEntry id="e6cf-4ff3-f8da-22ee" name="Defense Objective" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="a374-fa52-5dc1-a0e1" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a374-fa52-5dc1-a0e1" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ffb-6656-3cb3-6089" type="max"/>
@@ -1559,6 +1688,56 @@ While an objective ship or squadron is defending, before it suffers damage, it m
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8b49-590a-9428-594d" name="Scenario Objective" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d209-e0d7-0cb6-dfdc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d205-6951-b3d0-82fd" name="Objectives" hidden="false" targetId="c9d8-3a89-4028-05d0" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9623-6468-e52f-e333" name="Scenario Objective" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f86-cced-0107-32ef" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1b8a-cfe6-a587-9139" name="Summa of all Things" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d294-4f42-f604-dd35" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="add8-ec9d-76f4-ed26" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b1f0-d5c8-8b0e-9092" name="Summa of all Things" hidden="false" typeId="8947-c5ed-0bcd-acd6" typeName="8.5 Scenario Objective">
+                  <characteristics>
+                    <characteristic name="Setup" typeId="4fb2-570c-5adb-1499">This scenario is played on a 3&apos; x 3&apos; play area. The setup area is the entire play area. Players will set up on opposite sides of this play area.
+Before placing obstacles, the second player places the Summa-verminoth obstacle in the center of the setup area. Then place objectives as normal, excluding the station, in the setup area. Obstacles must be placed beyond distance 3 of the edges of the play area and beyond distance 1 of each other.
+After placing the obstacles, the players alternate placing a total of five coaxium canister objective tokens in the setup area, starting with the second player. The first four coaxium canisters must be placed within distance 1 of the Summa-verminoth and not within distance 1 of any other coaxium canister. The fifth coaxium canister must be placed touching the Summa-verminoth and not overlapping any other coaxium canister.
+Squadrons must be placed within distance 1 of a friendly ship. They may be placed outside deployment zones but not outside the setup area.</characteristic>
+                    <characteristic name="Special Rule" typeId="86dc-37ee-09a2-6c94">Making up lost time: At the start of the first round, each of the second player&apos;s ships gain a [navigate] token.
+Volatile Coaxium: Coaxium canisters cannot be moved by [strategic].
+Coaxium Recovery: When a ship or unique squadron activates, its controlling player may chose one coaxium canister at distance 1 of that ship or unique squadron to recover. Remove the chosen coaxium canister from the play area and place it on the activating ship or unique squadron&apos;s card.
+When a ship or unique squadron that has any recovered coaxium canisters is destroyed, the opposing player places them in the play area touching that model&apos;s base before the model is removed.
+A ship or unique squadron can have multiple coaxium canisters on its card.
+The Maelstrom: Starting on the second round, at the start of each round and before any player resolves any effects, the second player rolls a blue die and consults the Maelstrom effects chart. Maelstrom effects last until the end of the round.</characteristic>
+                    <characteristic name="End of Round" typeId="f650-7650-beea-be8d">Remove the Summa-verminoth control token from the play area.
+If the Summa-verminoth is within a player&apos;s deployment zone, the game ends in a loss for that player.
+</characteristic>
+                    <characteristic name="End of Game" typeId="6a53-f6fa-d9c8-9f3a">At the end of the game check to see if either player has any ships in the play area. If a player has no ships in the play area, they lose. If both players still have ships in the play area, the player who has the most coaxium canisters on friendly ship and unique squadron cards wins. If neither player has more coaxium canisters on freindly ship and unique squadron cards, the game ends in a draw.</characteristic>
+                    <characteristic name="Victory Token Value" typeId="e3f7-99d8-c815-63f2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="4a8e-0cd7-d82c-267d" name="Modification" hidden="false" collective="false" import="true" type="upgrade">
@@ -1574,40 +1753,6 @@ While an objective ship or squadron is defending, before it suffers damage, it m
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1cd-0882-fb3f-8900" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c98e-1805-57f2-0eb5" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bb91-2395-c338-55b1" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="e445-d275-84a3-1bd7" value="1.0">
-          <repeats>
-            <repeat field="limit::points" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5934-aa54-c74f-e796" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8602-1eff-a253-cb62" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e445-d275-84a3-1bd7" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8035-580d-5d85-dc3b" name="Flotilla" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="4d40-a209-869a-13dc" value="2.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d57e-9908-0acf-1ebf" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a2-19bb-a248-39d8" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="923b-e722-7136-9c09" type="max"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d40-a209-869a-13dc" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>

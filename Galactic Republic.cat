@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="8" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added Venator titles
-Completed Pelta (both types)
-Added Rapid Reinforcements 1
-Added speed charts
-Added validation target for unique squadrons with defense tokens</comment>
-  <readme>Added Venator titles
-Completed Pelta (both types)
-Added Rapid Reinforcements 1
-Added speed charts
-Added validation target for unique squadrons with defense tokens</readme>
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="9" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Reworked validation of aces and flotillas.
+Added validation targets related to the Summa scenario.</comment>
+  <readme>Reworked validation of aces and flotillas.
+Added validation targets related to the Summa scenario.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -43,6 +37,9 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="f943-d4c1-ed0d-a608" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="9056-a4f2-61af-919e" name="Dodge X" hidden="false" targetId="ebc4-b132-7dc6-5337" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="48fd-f102-c56b-d26a" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="17.0"/>
               </costs>
@@ -81,9 +78,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="106f-fc09-ade8-40b5" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="f50f-5db7-66b3-c2ba" name="Grit" hidden="false" targetId="64f9-c7b3-c2e0-e41a" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="39d0-b957-22c3-da31" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="6a40-5361-b2a9-5447" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="ec44-083f-ef28-1f49" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="8502-89b2-bb70-75f1" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
               </costs>
@@ -111,9 +110,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="7b09-f5b3-9cc8-7c34" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
                 <infoLink id="27de-c0eb-f9b7-6d67" name="Intel" hidden="false" targetId="f379-5e57-6d92-edb9" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="48cb-4f22-56f2-2e73" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="7e87-494b-2cff-d094" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="39f6-72b3-da4d-49c2" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="cb3c-3e57-9e0b-2ae4" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="26.0"/>
               </costs>
@@ -151,9 +152,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="f63f-f3d8-edc1-968d" name="Adept X" hidden="false" targetId="6915-37a9-4dfd-3263" type="rule"/>
                 <infoLink id="cc25-2619-307f-0578" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="2898-bf42-5d14-1450" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="bc23-a05f-525d-cada" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="a36e-9ea3-5e3d-3932" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="14c5-8a94-defc-00d2" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
               </costs>
@@ -191,9 +194,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="99fd-919f-7e17-1c28" name="Adept X" hidden="false" targetId="6915-37a9-4dfd-3263" type="rule"/>
                 <infoLink id="ad86-0a88-d391-a562" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="cd38-e697-efb0-8f6b" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="4003-d2b0-cbfb-cc2a" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="26b5-6a20-c465-0285" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="38dc-a880-ef86-7ce8" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24.0"/>
               </costs>
@@ -232,9 +237,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="3220-9221-6f24-c865" name="Dodge X" hidden="false" targetId="ebc4-b132-7dc6-5337" type="rule"/>
                 <infoLink id="14be-45bf-6241-c827" name="Adept X" hidden="false" targetId="6915-37a9-4dfd-3263" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="9dd2-8991-4a55-1ac6" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="c74f-14fd-f45e-05a5" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="13e2-8d75-70bf-979a" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="f581-af7c-8151-f5a3" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24.0"/>
               </costs>
@@ -467,6 +474,9 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="d4c6-d13b-0d5c-4b85" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="dc38-ddd5-a51e-d2a2" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="5c70-a9c7-4dbc-bfff" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
@@ -493,9 +503,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="84e5-0a09-b03d-800a" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="4215-379e-9464-c502" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="7df7-9584-3ceb-7c76" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="ad71-cf28-67df-e6d5" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="5757-0ac9-f1b2-a92e" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="6e8b-c0be-4230-8e39" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
               </costs>
@@ -538,6 +550,9 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="661a-b253-1656-dbd0" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="89e2-a3c1-b9c7-6dd8" name="Heavy" hidden="false" targetId="deb6-270e-150f-06d5" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="9d42-2936-2dad-7fbd" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
@@ -576,9 +591,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="d63e-0a05-7796-7559" name="Bomber" hidden="false" targetId="1d2a-cdbb-2b66-ce85" type="rule"/>
                 <infoLink id="8965-1a6d-ed58-5242" name="Heavy" hidden="false" targetId="deb6-270e-150f-06d5" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="a184-5b15-e00e-5129" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="7f08-2eb5-7723-4328" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+                <categoryLink id="ec40-2f40-e597-68c5" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="523b-0dc5-eb44-f9fb" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="19.0"/>
               </costs>
@@ -621,6 +638,9 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="1da1-246e-0d15-1a69" name="Escort" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
                 <infoLink id="496d-8f31-45cc-f90a" name="Swarm" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="d51d-8699-6765-f977" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
               </costs>
@@ -647,9 +667,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="def3-2868-701d-1c85" name="Escort" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
                 <infoLink id="e3da-ac88-951b-ee01" name="Swarm" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="1baf-c3a7-a62a-100f" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="06f0-f609-ea37-c078" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="ec3b-064c-ab6b-611e" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="c67a-b62c-d10d-221a" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="17.0"/>
               </costs>
@@ -676,9 +698,11 @@ Added validation target for unique squadrons with defense tokens</readme>
                 <infoLink id="9398-17c6-7bc6-5ab0" name="Escort" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
                 <infoLink id="ea16-69dd-177a-164f" name="Swarm" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="dd9f-9f52-5bb3-1c25" name="Unique Squadron With Defense Tokens" hidden="false" collective="false" import="true" targetId="bb91-2395-c338-55b1" type="selectionEntry"/>
-              </entryLinks>
+              <categoryLinks>
+                <categoryLink id="e9a4-30e6-e46d-5757" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="20e9-4f00-c20a-d1b5" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+                <categoryLink id="bd48-36a0-1beb-2c5c" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
               </costs>
@@ -1333,13 +1357,25 @@ Added validation target for unique squadrons with defense tokens</readme>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d77d-f98a-9b86-934a" type="atLeast"/>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d77d-f98a-9b86-934a" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d77d-f98a-9b86-934a" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d77d-f98a-9b86-934a" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="minInRoster" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3da5-7d59-bd77-4ec5" type="atLeast"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
