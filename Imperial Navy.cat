@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="51" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="52" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Reworked validation of aces and flotillas.
 Added validation targets related to the Summa scenario.
-Added Special Battery field to profile for Onager class ships.</comment>
+Added Special Battery field to profile for Onager class ships.
+Preview from Rapid Reinforcements II added, denoted by † after the name. These will not be legal for use until release.</comment>
   <readme>Reworked validation of aces and flotillas.
 Added validation targets related to the Summa scenario.
-Added Special Battery field to profile for Onager class ships.</readme>
+Added Special Battery field to profile for Onager class ships.
+Preview from Rapid Reinforcements II added, denoted by † after the name. These will not be legal for use until release.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -6242,6 +6244,25 @@ When you reveal a command matching the token on this card, you may gain 1 matchi
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="439d-ba29-07fd-86c1" name="•Governor Pryce †" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0bd-0800-3aec-540e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e151-fb52-4ccd-eabb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1d5e-c122-a056-23c4" name="•Governor Pryce †" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

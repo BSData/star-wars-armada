@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="37" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black - Updates by BlueSeven" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc. Brian_Black on BGG or FFG forums   BlueSeven on BSData discord" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="38" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black - Updates by BlueSeven" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc. Brian_Black on BGG or FFG forums   BlueSeven on BSData discord" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Added Summa of all Things scenario force type.
 A field for special battery has been added for the Onager class ships.</comment>
   <readme>Added Summa of all Things scenario force type validation the following rules:
@@ -10,6 +10,8 @@ Max 2 unique squadrons.
 Large and huge ships, and commanders are not available in line with scenario rules.
 
 A field for special battery has been added for the Onager class ships.
+
+Preview from Rapid Reinforcements II added, denoted by † after the name. These will not be legal for use until release.
 
 Issues with pre-existing rosters:
 I have reworked how Aces and Flotillas are validated to add validation for Summa forces. As such the properties that were previously used are now removed. Pre-existing rosters will show errors on open related to this, but can be then saved again to remove the errors.</readme>
