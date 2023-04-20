@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="52" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Reworked validation of aces and flotillas.
-Added validation targets related to the Summa scenario.
-Added Special Battery field to profile for Onager class ships.
-Preview from Rapid Reinforcements II added, denoted by † after the name. These will not be legal for use until release.</comment>
-  <readme>Reworked validation of aces and flotillas.
-Added validation targets related to the Summa scenario.
-Added Special Battery field to profile for Onager class ships.
-Preview from Rapid Reinforcements II added, denoted by † after the name. These will not be legal for use until release.</readme>
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="53" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Rapid Reinforcements 2 added.</comment>
+  <readme>Rapid Reinforcements 2 added.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1983,6 +1977,37 @@ Preview from Rapid Reinforcements II added, denoted by † after the name. These
                 <categoryLink id="ef6c-9efd-0fa3-3576" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
                 <categoryLink id="1217-fbef-9dfe-7aab" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
                 <categoryLink id="2dd3-67d1-0cb1-eb9a" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c3ec-2704-4df5-2366" name="•Vult Skerris" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5515-ea3c-e51f-5f3c" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aecc-8271-17a8-f26a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="392b-e2e5-213f-d425" name="•Vult Skerris" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">5</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">3</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">2 Blue, 2 Black</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Blue</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Counter 4, Swarm</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Scatter, Evade</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">During the squadron phase, you cannot make non-Counter attacks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="9ff4-debb-eb0c-eca7" name="Counter X" hidden="false" targetId="7022-8686-4ec8-eb64" type="rule"/>
+                <infoLink id="0b41-62a8-a151-8ad9" name="Swarm" hidden="false" targetId="0172-dd4d-907c-a8a9" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="93b1-5355-b66c-1086" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+                <categoryLink id="f229-9ccf-1610-6330" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+                <categoryLink id="e663-11d4-8687-1a12" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="18.0"/>
@@ -6246,13 +6271,13 @@ When you reveal a command matching the token on this card, you may gain 1 matchi
             <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="439d-ba29-07fd-86c1" name="•Governor Pryce †" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="439d-ba29-07fd-86c1" name="•Governor Pryce" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0bd-0800-3aec-540e" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e151-fb52-4ccd-eabb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1d5e-c122-a056-23c4" name="•Governor Pryce †" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+            <profile id="1d5e-c122-a056-23c4" name="•Governor Pryce" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
                 <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>

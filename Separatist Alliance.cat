@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="8" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Reworked validation of aces and flotillas.
-Added validation targets related to the Summa scenario.</comment>
-  <readme>Reworked validation of aces and flotillas.
-Added validation targets related to the Summa scenario.</readme>
+<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="9" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Rapid Reinforcements 2 added.</comment>
+  <readme>Rapid Reinforcements 2 added.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Droid Tri-Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -380,6 +378,38 @@ Added validation targets related to the Summa scenario.</readme>
               </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1a34-db4e-b33c-4c59" name="•Wat Tambor" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3756-3eb6-22e4-e003" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f14b-fd06-e491-6175" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5224-bcad-5d34-f2e0" name="•Wat Tambor" hidden="false" typeId="6590-7c7f-7387-8791" typeName="1.4 Squadrons">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="dc1b-7d57-479f-eea2">4</characteristic>
+                    <characteristic name="Hull Value" typeId="7270-7235-8dde-f1a5">5</characteristic>
+                    <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">2 Blue, 2 Black</characteristic>
+                    <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Black</characteristic>
+                    <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Escort, Relay 1, Screen</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Brace, Evade</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3d72-d08f-fe39-bb9f" name="Escort" hidden="false" targetId="07d3-db6c-dc52-bd78" type="rule"/>
+                <infoLink id="2fbd-8386-7936-a58d" name="Relay X" hidden="false" targetId="2dbc-c5ad-6def-194e" type="rule"/>
+                <infoLink id="3566-84a3-dc22-5168" name="Screen" hidden="false" targetId="f2a7-fd2f-6141-c125" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="36bf-83f7-b889-ea05" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
+                <categoryLink id="8f01-7229-0319-5937" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
+                <categoryLink id="6897-b091-4a2d-fc1a" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2746,7 +2776,7 @@ During the Command Phase, if you have a command token on this card, you must cho
           <profiles>
             <profile id="0440-b37b-440e-51af" name="•San Hill" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">At the start of the Squadron Phase, you may discard any number of tokens from this card.  For each token you discard in this way, 1 additional squadronat close-long range of you may be activated during each of your fleet&apos;s turns to activate squadrons this phase.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">At the start of the Squadron Phase, you may discard any number of tokens from this card.  For each token you discard in this way, 1 additional squadron at close-long range of you may be activated during each of your fleet&apos;s turns to activate squadrons this phase.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e">2 [Squadron] tokens</characteristic>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -2755,6 +2785,24 @@ During the Command Phase, if you have a command token on this card, you must cho
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5cb6-6f4d-f394-17c4" name="•Asajj Ventress" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02eb-79e0-9f42-9472" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c8e3-a086-ff18-99d4" name="•Asajj Ventress" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+              <characteristics>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">After you perform an attack targeting a ship that has 1 or more raid tokens, if the defender suffered one or more damage, you may remove 1 raid token and 1 command token from the defender. If you do, gain a matching command token.</characteristic>
+                <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
+                <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
+                <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4083,7 +4131,7 @@ When you reveal a command, you may discard all of the tokens from this card to g
             <profile id="874a-c69f-3b70-4098" name="•Invisible Hand" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
                 <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While deploying fleets, if you are in the play area, when you would deploy a squadron with Swarm, you may set that squadron aside next to your ship card instead.  You may set aside up to 5 squadrons in this way.
-[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadron within distance 3.  If connot move this actication, and if it has AI, increase its AI valve by 1.</characteristic>
+[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadron within distance 3.  If cannot move this activation, and if it has AI, increase its AI valve by 1.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
