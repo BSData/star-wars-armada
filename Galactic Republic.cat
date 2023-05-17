@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="10" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="11" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Rapid Reinforcements 2 added.</comment>
-  <readme>Rapid Reinforcements 2 added.</readme>
+  <readme>Rapid Reinforcements 2 added.
+Typo fixes.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2971,7 +2972,7 @@ You can spend tokens from this card to ready it.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a2a-c859-fc82-584b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ab4d-8f80-835a-9ceb" name="•Clone Captain Silver" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
+            <profile id="ab4d-8f80-835a-9ceb" name="•Clone Commander Wolffe" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
                 <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">[Squadron]:  You may exhaust this card.  If you do:
 •Each of up to 3 squadrons that you activate without Adept gain Assault until the end of its activation.

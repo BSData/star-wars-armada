@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="52" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="53" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Rapid Reinforcements 2 added.</comment>
-  <readme>Rapid Reinforcements 2 added.</readme>
+  <readme>Rapid Reinforcements 2 added.
+Typo fixes.</readme>
   <selectionEntries>
     <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -4666,7 +4667,7 @@ You cannot spend a command token to resolve a [Fleet Command] card&apos;s effect
             <profile id="f7ed-a70b-4c56-dead" name="Flak Guns" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
                 <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Treat each die in your anti-squadron armament as black.
-While performing a [Salvo] attack, the black dice in your battery armamentt can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
+While performing a [Salvo] attack, the black dice in your battery armament can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
