@@ -2835,7 +2835,7 @@ After you place your targeting token, exhaust this card.  While this card is exh
           <profiles>
             <profile id="1f46-82de-7af4-ddb3" name="•Clone Captain Zak" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While attacking from your side or rear hull zone, you may exhaust this card to add 1 die to your attack pool of a color already in your attack pool (you cannot add dice to a [salvo] attack).  You can spend tokens from this card to ready it.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">While attacking from your side or rear hull zone, you may exhaust this card to add 1 die to your attack pool of a color already in your attack pool (you cannot add dice to a [Salvo] attack).  You can spend tokens from this card to ready it.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e">1 [Concentrate Fire] token</characteristic>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1">Non-Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340">1 [Concentrate Fire] token</characteristic>
@@ -2853,7 +2853,7 @@ After you place your targeting token, exhaust this card.  While this card is exh
           <profiles>
             <profile id="b6c8-c3dc-95ea-72f6" name="Clone Navigation Officer" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you reveal a [concetrate fire], [manuver], or [squadron] command, you may exhaust this card to choose a friendly ship at distance 1-5.  That ship may gain 1 command token matching your command.  You may spend tokens from this card to ready it.
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">When you reveal a [Concentrate fire], [Navigate], or [Squadron] command, you may exhaust this card to choose a friendly ship at distance 1-5.  That ship may gain 1 command token matching your command.  You may spend tokens from this card to ready it.
 </characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e">1 [Navigate] token</characteristic>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1">Non-Recur</characteristic>
@@ -4310,7 +4310,7 @@ This effect is not active during the first round.</characteristic>
           <profiles>
             <profile id="e1bb-dae0-3aaa-dcf3" name="•TB-73" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">After you deploy, gain 1 additional [evade] defense token.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">After you deploy, gain 1 additional [Evade] defense token.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
