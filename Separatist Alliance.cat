@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="9" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="10" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Rapid Reinforcements 2 added.</comment>
-  <readme>Rapid Reinforcements 2 added.</readme>
+  <readme>Rapid Reinforcements 2 added.
+Typos and inconsistant values fixed.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Droid Tri-Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -126,7 +127,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Hull" typeId="dce4-e1e2-4600-db77">6</characteristic>
-            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">Red</characteristic>
+            <characteristic name="Anti-Squadron Value" typeId="4691-4ce0-0e70-7711">1 Red</characteristic>
             <characteristic name="Command" typeId="1d2d-071c-feaa-7f6e">2</characteristic>
             <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">3</characteristic>
             <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">4</characteristic>
@@ -902,15 +903,15 @@
             <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">3</characteristic>
             <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">3</characteristic>
             <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Evade,  Brace, Redirect, Salvo</characteristic>
-            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">3 Red, 2 Blue, Black</characteristic>
-            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">3 Red, Blue</characteristic>
-            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">3 Red, Blue</characteristic>
-            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">Red, Blue</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">3 Red, 2 Blue, 1 Black</characteristic>
+            <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">3 Red, 1 Blue</characteristic>
+            <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">3 Red, 1 Blue</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Blue</characteristic>
             <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">3</characteristic>
             <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
             <characteristic name="Rear Shield Value" typeId="5753-1a48-06df-40af">2</characteristic>
-            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit x2, Turbolasers</characteristic>
+            <characteristic name="Upgrade Bar" typeId="5ba4-e836-287d-1b42">Officer, Weapons Team, Offensive Retrofit, Offensive Retrofit, Turbolasers</characteristic>
             <characteristic name="Keywords" typeId="44b7-80c3-1f4f-8b7c">Droid.</characteristic>
             <characteristic name="Max Speed" typeId="b650-9c38-4a65-44a7">3</characteristic>
           </characteristics>
@@ -1096,10 +1097,10 @@
             <characteristic name="Squadron" typeId="b7a0-8944-9c2a-ca69">4</characteristic>
             <characteristic name="Engineering" typeId="6069-def8-10bd-ab4b">4</characteristic>
             <characteristic name="Defense Tokens" typeId="f211-7be9-035b-a0cf">Brace, Redirect, Contain, Salvo</characteristic>
-            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, Blue, 2 Black</characteristic>
+            <characteristic name="Front Firing Arc" typeId="8d51-161b-6a35-8c8c">2 Red, 1 Blue, 2 Black</characteristic>
             <characteristic name="Left Firing Arc" typeId="b4b4-b590-eb56-726f">2 Red, 2 Blue, 2 Black</characteristic>
             <characteristic name="Right Firing Arc" typeId="748c-7972-54e2-1bd1">2 Red, 2 Blue, 2 Black</characteristic>
-            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">Red, Blue, Black</characteristic>
+            <characteristic name="Rear Firing Arc" typeId="2949-52b4-c630-9e14">1 Red, 1 Blue, 1 Black</characteristic>
             <characteristic name="Front Shield Value" typeId="b626-c94b-bb41-4893">5</characteristic>
             <characteristic name="Left Shield Value" typeId="634e-fa2b-63b6-bef2">3</characteristic>
             <characteristic name="Right Shield Value" typeId="590e-4eb6-d942-884d">3</characteristic>
@@ -4131,7 +4132,7 @@ When you reveal a command, you may discard all of the tokens from this card to g
             <profile id="874a-c69f-3b70-4098" name="•Invisible Hand" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
                 <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While deploying fleets, if you are in the play area, when you would deploy a squadron with Swarm, you may set that squadron aside next to your ship card instead.  You may set aside up to 5 squadrons in this way.
-[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadron within distance 3.  If cannot move this activation, and if it has AI, increase its AI valve by 1.</characteristic>
+[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadron within distance 3.  If cannot move this activation, and if it has AI, increase its AI value by 1.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
