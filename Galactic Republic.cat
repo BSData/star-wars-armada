@@ -2519,7 +2519,7 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
             <profile id="2d9b-22a2-b664-a0b6" name="Flak Guns" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
                 <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Treat each die in your anti-squadron armament as black.
-While performing a [Salvo] attack, the black dice in your battery armamentt can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
+While performing a [Salvo] attack, the black dice in your battery armament can be used at medium range and the blue dice in your battery armament can be used at long range.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
