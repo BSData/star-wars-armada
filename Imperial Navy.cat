@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="53" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Rapid Reinforcements 2 added.</comment>
-  <readme>Rapid Reinforcements 2 added.</readme>
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="54" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>11/10/23 Errata changes added.</comment>
+  <readme>11/10/23 Errata
+Changes:
+General Romodi now 28pts
+Onager Testbed now 116pts
+Onager Star Destroyer now 120pts
+Squadron Vult Skerris Evade changed to Brace</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1995,7 +2000,7 @@
                     <characteristic name="Anti-Squadron" typeId="5ab5-88d4-1761-39fd">2 Blue, 2 Black</characteristic>
                     <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Blue</characteristic>
                     <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Counter 4, Swarm</characteristic>
-                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Scatter, Evade</characteristic>
+                    <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Brace, Scatter</characteristic>
                     <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">During the squadron phase, you cannot make non-Counter attacks.</characteristic>
                   </characteristics>
                 </profile>
@@ -4041,7 +4046,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="110.0"/>
+        <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4878-a8f2-25a5-a45b" name="Onager-class Testbed" hidden="false" collective="false" import="true" type="model">
@@ -4152,7 +4157,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="96.0"/>
+        <cost name="pts" typeId="points" value="116.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f42-1fd2-503b-7953" name="•Venator II-class Star Destroyer" hidden="false" collective="false" import="true" type="model">
@@ -4607,7 +4612,7 @@ At the start of each Ship Phase, you may reveal and discard 1 dial from this car
             <infoLink id="8a3a-0db0-d1bd-e3e5" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="28.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
