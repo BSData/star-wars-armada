@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="11" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>11/10/23 Errata changes added</comment>
-  <readme>11/10/23 Errata
-Changes:
-Wat Tambor Officer 9pts
-Squadron Wat Tambor now 18pts
-Officer Asajj Ventress now “During the activation of a friendly ship at distance 1-5 of you, you may exhaust this card to discard 1 raid token from an enemy ship at distance 1-5 of you. If you do that friendly ship may gain 1 command token of any type.”
+<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="12" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>02/01/25 Invincible title fixed</comment>
+  <readme>02/01/2025
+Invincible title now correctly adds a defensive refit slot. (Issue #47)
 </readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Droid Tri-Fighter" hidden="false" collective="false" import="true" type="unit">
@@ -1079,6 +1076,19 @@ Officer Asajj Ventress now “During the activation of a friendly ship at distan
             <modifier type="increment" field="maxSelections" value="1.0"/>
           </modifiers>
         </entryLink>
+        <entryLink id="1740-9297-7f4d-ea2f" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d3d-26be-2163-06a2" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="0.0"/>
+                <modifier type="set" field="hidden" value="true"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="105.0"/>
@@ -1159,7 +1169,15 @@ Officer Asajj Ventress now “During the activation of a friendly ship at distan
         <entryLink id="2f2d-6d56-2cc9-0441" name="Commander" hidden="false" collective="false" import="true" targetId="d77d-f98a-9b86-934a" type="selectionEntryGroup"/>
         <entryLink id="2278-97f5-a843-0c42" name="Offensive Retrofit" hidden="false" collective="false" import="true" targetId="0a55-2f8b-aff3-154e" type="selectionEntryGroup"/>
         <entryLink id="645c-9a52-acdd-77c6" name="Officer" hidden="false" collective="false" import="true" targetId="10d5-12af-b773-cd45" type="selectionEntryGroup"/>
-        <entryLink id="7765-a892-0c9a-b932" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup"/>
+        <entryLink id="7765-a892-0c9a-b932" name="Defensive Retrofit" hidden="false" collective="false" import="true" targetId="66ad-5d33-8767-a59b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d3d-26be-2163-06a2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
         <entryLink id="b564-838d-7a7b-c34e" name="Turbolasers" hidden="false" collective="false" import="true" targetId="919f-0faf-d84f-79ff" type="selectionEntryGroup"/>
         <entryLink id="98f7-e8da-e2ae-1456" name="Ordnance" hidden="false" collective="false" import="true" targetId="23f2-ace7-4294-434e" type="selectionEntryGroup"/>
         <entryLink id="176b-30b7-2bcf-d063" name="Title - Providence-class" hidden="false" collective="false" import="true" targetId="808f-0581-30f1-9ce3" type="selectionEntryGroup"/>
