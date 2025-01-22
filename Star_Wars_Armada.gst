@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="4007-48b0-a016-7a8e" name="Star_Wars_Armada" revision="41" battleScribeVersion="2.03" authorName="vadersson - initial work by Brian Black - Updates by BlueSeven" authorContact="vadersson or vadersson109 on reddit, BGG, FFG, etc. Brian_Black on BGG or FFG forums   BlueSeven on BSData discord" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>22/01/2025 Errata changes added</comment>
-  <readme>Many changes added from the last errata. Mainly points changes.
-</readme>
+  <readme>Changes from errata published on 21/01/25 made.
+Mainly points costs. Text changes to LTTs, Slicer Tools, San Hill and a few others. Jango Fett squad added to CIS and Shriv Surgaav for Rebels.
+This is billed as the last update from AMG so it will likely be error fixes from here. Please let me know of any in the issues page or report function.</readme>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
