@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="54" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>11/10/23 Errata changes added</comment>
-  <readme>11/10/23 Errata
-Changes:
-Commander Krysta Agate now 25pts
-Commander General Draven now “At the end of each Command Phase, you may look at all command dials assigned to 1 enemy ship. Then you may place 2 command tokens, each of a different type, on this card. 
-After an enemy ship resolves a command, you may discard a matching command token from this card. If you do, that enemy ships gains 1 matching raid token.”
-Squadron Fenn Rau now “After your activation, if you were activated by a Squad command, choose up to 2 non-unique squadrons at distance 1 of you. The chosen squadrons may activate as if they were activated by that squadron command.”
-</readme>
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="55" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>22/01/2025 Errata changes added</comment>
+  <readme>Many changes added from the last errata. Mainly points changes.
+Shriv Surgaav added.</readme>
   <selectionEntries>
     <selectionEntry id="7234-a2c9-5ef1-5b36" name="A-Wing" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -233,7 +228,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="81.0"/>
+        <cost name="pts" typeId="points" value="77.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd9c-4f9e-48c4-40c7" name="Assault Frigate Mark II B" hidden="false" collective="false" import="true" type="model">
@@ -423,7 +418,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
                 <categoryLink id="030f-52f0-5c69-c010" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="37b6-f00a-b8c7-bc12" name="•Ten Numb" hidden="false" collective="false" import="true" type="model">
@@ -1159,7 +1154,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="114.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08aa-ef7d-35e6-66a2" name="MC80 Battle Cruiser" hidden="false" collective="false" import="true" type="model">
@@ -1350,7 +1345,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="106.0"/>
+        <cost name="pts" typeId="points" value="102.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="665d-d5d3-7e6d-7a9d" name="Nebulon-B Escort Frigate" hidden="false" collective="false" import="true" type="model">
@@ -2132,7 +2127,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
                 <categoryLink id="2488-77b2-fe49-4bfc" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="23.0"/>
+                <cost name="pts" typeId="points" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2539,7 +2534,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
                 <categoryLink id="59cf-ee58-35fa-e871" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="09ef-3f0c-9823-56c5" name="•Corran Horn" hidden="false" collective="false" import="true" type="model">
@@ -2705,7 +2700,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
                 <categoryLink id="d8c2-d888-2991-a751" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f4f0-b0b7-b932-90f9" name="•Ketsu Onyo (Shadow Caster)" hidden="false" collective="false" import="true" type="model">
@@ -2991,7 +2986,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="104.0"/>
+        <cost name="pts" typeId="points" value="99.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="12b1-340f-d1aa-3abf" name="MC75 Ordnance Cruiser" hidden="false" collective="false" import="true" type="model">
@@ -3088,7 +3083,7 @@ Squadron Fenn Rau now “After your activation, if you were activated by a Squad
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="100.0"/>
+        <cost name="pts" typeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e084-7eab-46f3-a198" name="MC80 Star Cruiser" hidden="false" collective="false" import="true" type="model">
@@ -3888,7 +3883,7 @@ After an enemy ship resolves a command, you may discard a matching command token
             <infoLink id="c9d3-2c97-7d5a-fea2" name="Flagship" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="28.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4073,8 +4068,7 @@ A squadron cannot resolve more than 1 &quot;Bomber Command Center&quot; card per
           <profiles>
             <profile id="b943-d633-99a3-a15d" name="Slicer Tools" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">This card begins the game exhausted.  
-After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3.  You may choose a new command on its top command dial.</characteristic>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1 - 3. Look at the top command dial assigned to that ship. Then you may either choose a new command on its top command dial or that ship gains 1 raid token of your choice that does not match its top command dial. If the chosen ship has no top command dial, it gains 1 raid token of your choice.</characteristic>
                 <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
                 <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4">Non-Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd">1 [Repair] token</characteristic>
@@ -4136,7 +4130,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="30fa-731c-e431-522b" name="Munitions Resupply" hidden="false" collective="false" import="true" type="upgrade">
@@ -4197,7 +4191,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c9c1-7a59-370c-6e60" name="Ion Cannon Batteries" hidden="false" collective="false" import="true" type="upgrade">
@@ -4233,7 +4227,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ca67-5d30-e0f0-afac" name="SW-7 Ion Batteries" hidden="false" collective="false" import="true" type="upgrade">
@@ -4269,7 +4263,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="433f-78dc-95d8-a10f" name="High-Capacity Ion Turbines" hidden="false" collective="false" import="true" type="upgrade">
@@ -4303,7 +4297,7 @@ The battery armaments for your left and right hull zones are increased by 1 blue
             <entryLink id="39f2-9bf7-df09-c6a1" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="52b2-cabe-150b-3077" name="MS-1 Ion Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -4358,7 +4352,7 @@ While defending at close range or distance 1, during the Spend Defense Tokens st
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4612,7 +4606,7 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4355-da00-3b0d-7ed2" name="Flag Bridge" hidden="false" collective="false" import="true" type="upgrade">
@@ -4823,7 +4817,7 @@ While performing a [Salvo] attack, the black dice in your battery armament can b
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="87ec-ffe3-5be4-34ef" name="Support Officer" hidden="false" collective="false" import="true" type="upgrade">
@@ -4841,7 +4835,7 @@ While performing a [Salvo] attack, the black dice in your battery armament can b
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a3b9-5237-ab53-b8ba" name="•Lando Calrissian" hidden="false" collective="false" import="true" type="upgrade">
@@ -5091,7 +5085,7 @@ While performing a [Salvo] attack, the black dice in your battery armament can b
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="85ea-54fe-ed00-3c3c" name="•Hondo Ohnaka" hidden="false" collective="false" import="true" type="upgrade">
@@ -5332,7 +5326,7 @@ The battery armaments for your front hull zone is increased by 2 black die.</cha
             <entryLink id="5a94-209e-c512-cab0" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="13.0"/>
+            <cost name="pts" typeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d96b-379a-c138-0485" name="Assault Proton Torpedoes" hidden="false" collective="false" import="true" type="upgrade">
@@ -5384,7 +5378,7 @@ The battery armaments for your left and right hull zones are increased by 1 blac
             <entryLink id="1134-25b2-dda2-6585" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9833-be64-0bb7-184f" name="Flechette Torpedoes" hidden="false" collective="false" import="true" type="upgrade">
@@ -5489,7 +5483,7 @@ At the end of your Attack Step, you may exhaust this card and choose 1 of your h
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82b1-a234-1fdb-b730" name="Nav Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5669,7 +5663,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f4f0-a7c3-e07b-b4b8" name="•Jaina&apos;s Light" hidden="false" collective="false" import="true" type="upgrade">
@@ -5688,7 +5682,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e9ba-e40c-5fac-7683" name="•Tantive IV" hidden="false" collective="false" import="true" type="upgrade">
@@ -5744,7 +5738,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
           <profiles>
             <profile id="2a77-aa7c-b264-d31f" name="Admonition" hidden="false" typeId="16d6-f94c-4e0d-8993" typeName="2.1 Title">
               <characteristics>
-                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While defending, during the Spend Defense Tokens step, you may discard a readied defense token to cancel 1 attack die.</characteristic>
+                <characteristic name="Title Ability" typeId="7040-d6d1-e20e-c16c">While defending, during the Spend Defense Tokens step, you may discard a defense token to cancel 1 attack die.</characteristic>
                 <characteristic name="Setup" typeId="6f6a-5eba-c2ee-2006"/>
                 <characteristic name="Recur" typeId="cf46-034d-372c-3792"/>
                 <characteristic name="Ready Cost" typeId="b20e-3783-9a5e-dbf7"/>
@@ -5752,7 +5746,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9a8a-2c65-95f0-c9de" name="•Foresight" hidden="false" collective="false" import="true" type="upgrade">
@@ -5771,7 +5765,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5886,7 +5880,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="7.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2eec-7143-b818-1469" name="•Independence" hidden="false" collective="false" import="true" type="upgrade">
@@ -5934,7 +5928,7 @@ After you execute a maneuver, if you overlapped a ship, exhaust this card.</char
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2088-0dca-8c3b-dc5b" name="•Salvation" hidden="false" collective="false" import="true" type="upgrade">
@@ -6147,7 +6141,7 @@ While attacking, you may change 1 die face with a [Hit] or [Crit] icon to a face
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e7d7-3d3a-5096-f6d1" name="Heavy Turbolaser Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -6165,7 +6159,7 @@ While attacking, you may change 1 die face with a [Hit] or [Crit] icon to a face
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d1c5-686e-638b-733c" name="Turbolaser Reroute Circuits" hidden="false" collective="false" import="true" type="upgrade">
@@ -6320,7 +6314,7 @@ While attacking, you may exhaust this card to add 1 red die to your attack pool.
             <entryLink id="6563-4543-b413-0912" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a958-af87-a275-0e73" name="Quad Battery Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -6364,9 +6358,9 @@ While attacking a ship with a higher speed than yours, you may add 1 blue die to
           <profiles>
             <profile id="0424-be04-0578-e476" name="Linked Turbolaser Towers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, you may reroll 1 red die in your attack pool.  While attacking the first squadron during your activation, you may add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking a squadron, you may reroll 1 red die in your attack pool.  While attacking a ship, if you have the bombard tag, you may reroll 1 red die in your attack pool. During your activation, while attacking the first squadron during an attack, you may exhaust this card to add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
-                <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
+                <characteristic name="Recur" typeId="d983-0594-058a-0e02">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
               </characteristics>
             </profile>
@@ -6390,7 +6384,7 @@ While attacking a ship with a higher speed than yours, you may add 1 blue die to
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9220-a435-1aa5-79a5" name="DBY-827 Heavy Turbolasers" hidden="false" collective="false" import="true" type="upgrade">
@@ -6713,7 +6707,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9cb0-6bb0-d02c-af42" name="Local Fire Control" hidden="false" collective="false" import="true" type="upgrade">
@@ -6730,6 +6724,40 @@ Each of your hull zones cannot target the same ship or squadron more than once d
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="18eb-b8ca-619f-7623" name="•Shriv Surgaav" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca88-dc53-e3b3-73f3" type="atLeast"/>
+                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="167d-fd4d-28e2-f646" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0521-eaaa-7e0c-fd32" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3c1a-7d4f-0fbf-cd85" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="35fd-e244-64cd-8e40" name="Shriv Surgaav" hidden="false" typeId="68e2-2506-5078-dca9" typeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
+              <characteristics>
+                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a [Squadron] dial or token and this card to choose 1 enemy ship at close range. Chose and discard 1 [Weapons Team], [Support Team], [Offensive Retrofit], [Defensive Retrofit], [Ordnance], [Ion Cannons], or [Turbolasers] upgrade card equipped to that ship.</characteristic>
+                <characteristic name="Setup" typeId="11c6-e7ff-d897-8e01"/>
+                <characteristic name="Recur" typeId="1a2f-7d5a-90d4-2dcb"/>
+                <characteristic name="Ready Cost" typeId="8c3b-3f6c-edea-d754"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="82b1-bfbe-b8d5-6055" name="Weapons Team &amp; Offensive Retrofit Upgrade" hidden="false" collective="false" import="true" targetId="93ae-e0a4-adcf-2297" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
           </costs>

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="54" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>11/10/23 Errata changes added.</comment>
-  <readme>11/10/23 Errata
-Changes:
-General Romodi now 28pts
-Onager Testbed now 116pts
-Onager Star Destroyer now 120pts
-Squadron Vult Skerris Evade changed to Brace</readme>
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="55" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>22/01/2025 Errata changes added.</comment>
+  <readme>Many changes added from the last errata. Mainly points changes.</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Aggressor Assault Fighter" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -43,7 +38,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="93b7-4903-94be-9d09" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="16.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0eac-925f-d928-6933" name="•IG-88 (IG-2000)" hidden="false" collective="false" import="true" type="model">
@@ -74,7 +69,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="3b28-0e12-4b19-cc89" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="19.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="19ac-212c-448e-bc29" name="•IG-88B (IG-2000B)" hidden="false" collective="false" import="true" type="model">
@@ -105,7 +100,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="0643-e095-8c46-915f" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="19.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -197,7 +192,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="b22c-c1b1-ae0a-f239" name="Unique Squadrons" hidden="false" targetId="b480-bb94-e584-7963" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="26.0"/>
+                <cost name="pts" typeId="points" value="24.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4924-ec72-e87b-fb2a" name="•Hondo Ohnaka (Slave I)" hidden="false" collective="false" import="true" type="model">
@@ -531,7 +526,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="28.0"/>
+        <cost name="pts" typeId="points" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eada-a46e-fab0-f89a" name="Gozanti-class Cruisers" hidden="false" collective="false" import="true" type="model">
@@ -2280,7 +2275,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="85.0"/>
+        <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6e2-f5a3-4e4d-f043" name="YV-666" hidden="false" collective="false" import="true" type="unit">
@@ -2479,7 +2474,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
         <entryLink id="4898-08bf-c5f0-bc74" name="" hidden="false" collective="false" import="true" targetId="c70a-0bc0-aa39-3562" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="59.0"/>
+        <cost name="pts" typeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2abf-4046-f18b-8acb" name="Arquitens-class Light Cruiser" hidden="false" collective="false" import="true" type="model">
@@ -2569,7 +2564,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
         <entryLink id="1172-0213-bff1-a163" name="" hidden="false" collective="false" import="true" targetId="c70a-0bc0-aa39-3562" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="54.0"/>
+        <cost name="pts" typeId="points" value="52.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7066-ba9b-417b-c3d4" name="TIE Phantom" hidden="false" collective="false" import="true" type="unit">
@@ -2636,7 +2631,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="f8f5-65f6-9a83-578c" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2911,7 +2906,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="9db9-e5bb-f1e9-5f6f" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts" typeId="points" value="23.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3432,7 +3427,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="e213-dde4-810e-9199" name="Squadron" hidden="false" targetId="1033-4475-51fe-2d49" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ec8-e48a-a9d4-4bd3" name="•Gar Saxon" hidden="false" collective="false" import="true" type="model">
@@ -3463,7 +3458,7 @@ Squadron Vult Skerris Evade changed to Brace</readme>
                 <categoryLink id="af68-c281-e937-e656" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="23.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4363,7 +4358,7 @@ Large Ship:  3.</characteristic>
             <infoLink id="c474-623e-e1f8-ff7c" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="26.0"/>
+            <cost name="pts" typeId="points" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="98a2-742a-a35c-61f0" name="•Darth Vader" hidden="false" collective="false" import="true" type="upgrade">
@@ -4399,7 +4394,7 @@ Large Ship:  3.</characteristic>
             <infoLink id="32fb-f4b2-ac83-194f" name="" hidden="false" targetId="f348-1bef-ddbf-98bb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="36.0"/>
+            <cost name="pts" typeId="points" value="34.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="73b4-30e9-d231-0e91" name="•Admiral Ozzel" hidden="false" collective="false" import="true" type="upgrade">
@@ -4877,8 +4872,7 @@ A squadron cannot resolve more than 1 &quot;Bomber Command Center&quot; card per
           <profiles>
             <profile id="dd2f-237b-d440-3d16" name="Slicer Tools" hidden="false" typeId="ed35-7d25-a151-5780" typeName="4.1 Fleet Support">
               <characteristics>
-                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">This card begins the game exhausted.  
-After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3.  You may choose a new command on its top command dial.</characteristic>
+                <characteristic name="Fleet Support Ability" typeId="bed9-437f-c45a-c805">After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1 - 3. Look at the top command dial assigned to that ship. Then you may either choose a new command on its top command dial or that ship gains 1 raid token of your choice that does not match its top command dial. If the chosen ship has no top command dial, it gains 1 raid token of your choice.</characteristic>
                 <characteristic name="Setup" typeId="d1e5-93c3-3840-9f6c"/>
                 <characteristic name="Recur" typeId="b216-ad3e-9e88-f4e4">Non-Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="43a4-4bd5-cb89-62fd">1 [Repair] token</characteristic>
@@ -4940,7 +4934,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="42da-8ec6-e992-c2f8" name="Munitions Resupply" hidden="false" collective="false" import="true" type="upgrade">
@@ -5001,7 +4995,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7a51-b50a-ba50-9c84" name="Ion Cannon Batteries" hidden="false" collective="false" import="true" type="upgrade">
@@ -5037,7 +5031,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="197e-c67f-eabf-7b55" name="SW-7 Ion Batteries" hidden="false" collective="false" import="true" type="upgrade">
@@ -5073,7 +5067,7 @@ After you execute a maneuver, you may exhaust this card to choose an enemy ship 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c0df-09ec-4808-7e94" name="MS-1 Ion Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -5125,7 +5119,7 @@ The battery armaments for your left and right hull zones are increased by 1 blue
             <entryLink id="990c-7864-cb61-649f" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7acc-0a26-819b-efc6" name="Heavy Ion Emplacements" hidden="false" collective="false" import="true" type="upgrade">
@@ -5162,7 +5156,7 @@ While defending at close range or distance 1, during the Spend Defense Tokens st
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5431,7 +5425,7 @@ Friendly Heavy squadrons at distance 1-2 prevent engaged squadrons from attackin
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36a0-1dfb-35c0-7a5d" name="Phylon Q7 Tractor Beams" hidden="false" collective="false" import="true" type="upgrade">
@@ -5582,7 +5576,7 @@ While performing a [Salvo] attack, the black dice in your battery armamentt can 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2a26-519a-fe53-850e" name="•Admiral Chiraneau" hidden="false" collective="false" import="true" type="upgrade">
@@ -5657,7 +5651,7 @@ While performing a [Salvo] attack, the black dice in your battery armamentt can 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="63f5-80b1-7cb0-fbbd" name="•Admiral Montferrat" hidden="false" collective="false" import="true" type="upgrade">
@@ -5878,7 +5872,7 @@ After you execute a maneuver, if you overlapped a ship, discard this card.</char
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="27f5-aa0d-1fc0-4d4b" name="•Minister Tua " hidden="false" collective="false" import="true" type="upgrade">
@@ -6076,7 +6070,7 @@ When you reveal a command matching the token on this card, you may gain 1 matchi
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b98e-5485-ef2e-438a" name="•Admiral Ozzel" hidden="false" collective="false" import="true" type="upgrade">
@@ -6284,7 +6278,7 @@ When you reveal a command matching the token on this card, you may gain 1 matchi
           <profiles>
             <profile id="1d5e-c122-a056-23c4" name="•Governor Pryce" hidden="false" typeId="80b7-1645-65c7-8a81" typeName="3.1 Officer">
               <characteristics>
-                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result.</characteristic>
+                <characteristic name="Officer Ability" typeId="b9fd-ed9d-6333-0e67">Once per activation, while attacking a ship, you may spend 1 shield from the attacking hull zone to change 1 die face without an [accuracy] icon.</characteristic>
                 <characteristic name="Setup" typeId="ed20-d6e7-c4cf-932e"/>
                 <characteristic name="Recur" typeId="eecf-59d7-382a-c4c1"/>
                 <characteristic name="Ready Cost" typeId="c76d-721a-b31a-0340"/>
@@ -6292,7 +6286,7 @@ When you reveal a command matching the token on this card, you may gain 1 matchi
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="7.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6351,7 +6345,7 @@ The battery armaments for your front hull zone is increased by 2 black die.</cha
             <entryLink id="4dc0-30d9-ebff-3e69" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="13.0"/>
+            <cost name="pts" typeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9bfb-c1e1-4b41-e8e5" name="Assault Proton Torpedoes" hidden="false" collective="false" import="true" type="upgrade">
@@ -6421,7 +6415,7 @@ The battery armaments for your left and right hull zones are increased by 1 blac
             <entryLink id="bf4d-e996-8374-15aa" name="Modification" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dcfd-9c91-1189-9ff6" name="External Racks" hidden="false" collective="false" import="true" type="upgrade">
@@ -6508,7 +6502,7 @@ At the end of your Attack Step, you may exhaust this card and choose 1 of your h
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82b1-a234-1fdb-b730" name="Nav Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -6933,7 +6927,7 @@ You can perform 1 of your attacks after you execute your first maneuver during y
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="12.0"/>
+            <cost name="pts" typeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0591-3d4f-b919-7c48" name="•Corruptor" hidden="false" collective="false" import="true" type="upgrade">
@@ -6952,7 +6946,7 @@ You can perform 1 of your attacks after you execute your first maneuver during y
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f9da-27c3-fd46-4fb8" name="•Warlord" hidden="false" collective="false" import="true" type="upgrade">
@@ -7086,7 +7080,7 @@ While attacking, you may change 1 die face with a [Hit] or [Crit] icon to a face
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3aff-eee0-d811-81c4" name="XI7 Turbolasers" hidden="false" collective="false" import="true" type="upgrade">
@@ -7122,7 +7116,7 @@ While attacking, you may change 1 die face with a [Hit] or [Crit] icon to a face
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a1d9-724f-f430-9728" name="Turbolaser Reroute Circuits" hidden="false" collective="false" import="true" type="upgrade">
@@ -7277,7 +7271,7 @@ While attacking, you may exhaust this card to add 1 red die to your attack pool.
             <entryLink id="b014-0853-9978-d678" name="" hidden="false" collective="false" import="true" targetId="4a8e-0cd7-d82c-267d" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f507-b077-da66-d1cf" name="Quad Battery Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -7321,9 +7315,9 @@ While attacking a ship with a higher speed than yours, you may add 1 blue die to
           <profiles>
             <profile id="ea97-ba49-1bec-f8a5" name="Linked Turbolaser Towers" hidden="false" typeId="f6bb-908e-778e-3884" typeName="6.3 Turbolasers">
               <characteristics>
-                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking, you may reroll 1 red die in your attack pool.  While attacking the first squadron during your activation, you may add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.</characteristic>
+                <characteristic name="Turbolasers Ability" typeId="43e5-b6c8-39de-139b">While attacking a squadron, you may reroll 1 red die in your attack pool.  While attacking a ship, if you have the bombard tag, you may reroll 1 red die in your attack pool. During your activation, while attacking the first squadron during an attack, you may exhaust this card to add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.</characteristic>
                 <characteristic name="Setup" typeId="0612-1ebf-fc72-3853"/>
-                <characteristic name="Recur" typeId="d983-0594-058a-0e02"/>
+                <characteristic name="Recur" typeId="d983-0594-058a-0e02">Recur</characteristic>
                 <characteristic name="Ready Cost" typeId="8391-4b57-4643-bf2f"/>
               </characteristics>
             </profile>
@@ -7347,7 +7341,7 @@ While attacking a ship with a higher speed than yours, you may add 1 blue die to
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4fda-1232-524b-7770" name="DBY-827 Heavy Turbolasers" hidden="false" collective="false" import="true" type="upgrade">
@@ -7617,7 +7611,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4ba6-5064-25c4-5030" name="•Gunnery Chief Varnillian" hidden="false" collective="false" import="true" type="upgrade">
@@ -7700,7 +7694,7 @@ While attacking a ship, you may spend 1 die from the attack pool to exchange it 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7745,7 +7739,7 @@ While attacking a ship, you may spend 1 die from the attack pool to exchange it 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f77-ef37-7f05-0122" name="•Stronghold" hidden="false" collective="false" import="true" type="upgrade">
@@ -7764,7 +7758,7 @@ While attacking a ship, you may spend 1 die from the attack pool to exchange it 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
