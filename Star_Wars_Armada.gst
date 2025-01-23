@@ -4,7 +4,7 @@
   <readme>Changes from errata published on 21/01/25 made.
 Mainly points costs. Text changes to LTTs, Slicer Tools, San Hill and a few others. Jango Fett squad added to CIS and Shriv Surgaav for Rebels.
 This is billed as the last update from AMG so it will likely be error fixes from here. Please let me know of any in the issues page or report function.
-AMG downloads page for Armada with updated rules, Rapid Reinforcements cards and errata at:
+AMG downloads page for Armada with updated rules, Rapid Reinforcements and errata cards to print at:
 https://www.atomicmassgames.com/swarmadadocs/
 </readme>
   <costTypes>
