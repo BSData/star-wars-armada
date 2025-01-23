@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="55" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ebb6-1d9a-63f3-4ef6" name="Rebel Fleet" revision="55" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson in lots of places BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="41" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>22/01/2025 Errata changes added</comment>
   <readme>Many changes added from the last errata. Mainly points changes.
 Shriv Surgaav added.</readme>
@@ -1628,7 +1628,7 @@ Shriv Surgaav added.</readme>
                 <categoryLink id="1f58-0fb1-ec62-481a" name="Unique Squadron With Defense tokens" hidden="false" targetId="5e3d-2b80-d3a8-dbb8" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="26.0"/>
+                <cost name="pts" typeId="points" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3735,7 +3735,7 @@ Shriv Surgaav added.</readme>
           <profiles>
             <profile id="9944-58a0-d529-f10c" name="General Madine" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
               <characteristics>
-                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">When a friendly ship resolves a [Navigate] command, if it spend a [Navigate] dial it may increase 1 additional yaw value by 1.  If it spent a [Navigate] token, it may either change its speed or increase 1 yaw value by 1.</characteristic>
+                <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">While a friendly ship is executing its first maneuver during its activation, during the Determine Course step, it may increase 1 yaw value by 1.</characteristic>
                 <characteristic name="Setup" typeId="64ba-4cc9-c7ee-8717"/>
                 <characteristic name="Recur" typeId="cdbe-ae0d-96bc-7d42"/>
                 <characteristic name="Ready Cost" typeId="2fed-4325-7b01-be48"/>
@@ -4475,8 +4475,8 @@ When you activate, you may exhaust this card to choose 1 enemy ship of your size
           <profiles>
             <profile id="6d50-2fbb-6fa3-efeb" name="Rapid Launch Bays" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card.  
-[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 1.  If cannot move this activation.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card.
+When you reveal a command, you may discard this card. If you do, place each squadron set aside with this card within distance 1 - 2 of you. Those squadrons cannot move during your activation.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -5493,7 +5493,7 @@ At the end of your Attack Step, you may exhaust this card and choose 1 of your h
           <profiles>
             <profile id="0c73-964f-8225-d7ec" name="Nav Team" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Navigate]:  Your [Navigate] tokens can either change your speed or increase 1 yaw value by 1.</characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Navigate]: If you spent a [Navigate] Token, once during this maneuver, when you would change your speed, you may instead increase 1 yaw value by 1.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
                 <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
@@ -6625,7 +6625,7 @@ Each of your hull zones cannot target the same ship or squadron more than once d
           <profiles>
             <profile id="2a83-2e73-6ead-8b91" name="Cham Syndulla" hidden="false" typeId="68e2-2506-5078-dca9" typeName="7.1 Dual Type Upgrade - Weapons Team &amp; Offensive Retrofit">
               <characteristics>
-                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a [Squadron] dial or token and this card to choose 1 enemy ship at close range. If you do, you may choose a new command for each command dial assigned to that ship.</characteristic>
+                <characteristic name="Dual Type Upgrade Ability" typeId="1e09-635d-6def-1999">When you reveal a command, you may discard a [Squadron] dial or token and this card to choose 1 enemy ship at close range. If you do, you may look at all command dials assigned to that ship. Then you may choose a new command for each of those command dials to be set to.</characteristic>
                 <characteristic name="Setup" typeId="11c6-e7ff-d897-8e01"/>
                 <characteristic name="Recur" typeId="1a2f-7d5a-90d4-2dcb"/>
                 <characteristic name="Ready Cost" typeId="8c3b-3f6c-edea-d754"/>

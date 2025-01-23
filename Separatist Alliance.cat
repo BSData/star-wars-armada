@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="13" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ae1c-e74b-aaa3-ec59" name="Separatist Alliance" revision="13" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="41" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>22/01/25 Errata changes added</comment>
   <readme>Many changes added from the last errata. Mainly points changes.
 Jango Fett squad added to RR.</readme>
@@ -1318,6 +1318,9 @@ Rogue</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
@@ -2197,8 +2200,8 @@ When you activate, you may exhaust this card to choose 1 enemy ship of your size
           <profiles>
             <profile id="1ca5-9522-1a8f-3950" name="Rapid Launch Bays" hidden="false" typeId="ebbe-2c25-a937-60f3" typeName="5.1 Offensive Retrofit">
               <characteristics>
-                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card.  
-[Squadron]:  For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 1.  If cannot move this activation.</characteristic>
+                <characteristic name="Offensive Retrofit Ability" typeId="cfe9-897e-edba-6c69">Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card.
+When you reveal a command, you may discard this card. If you do, place each squadron set aside with this card within distance 1 - 2 of you. Those squadrons cannot move during your activation.</characteristic>
                 <characteristic name="Setup" typeId="c5c0-97fc-eb28-1983"/>
                 <characteristic name="Recur" typeId="cdc3-8791-d7fb-4d2a"/>
                 <characteristic name="Ready Cost" typeId="cb24-1848-db0d-5c8f"/>
@@ -3100,7 +3103,7 @@ At the end of your Attack Step, you may exhaust this card and choose 1 of your h
           <profiles>
             <profile id="0c73-964f-8225-d7ec" name="Nav Team" hidden="false" typeId="253b-6595-ea04-90bc" typeName="3.3 Support Team">
               <characteristics>
-                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Navigate]:  Your [Navigate] tokens can either change your speed or increase 1 yaw value by 1.</characteristic>
+                <characteristic name="Support Team Ability" typeId="ae22-c426-3790-a78f">[Navigate]: If you spent a [Navigate] Token, once during this maneuver, when you would change your speed, you may instead increase 1 yaw value by 1.</characteristic>
                 <characteristic name="Setup" typeId="1425-9589-e191-7555"/>
                 <characteristic name="Recur" typeId="a754-50a3-9ea2-5d76"/>
                 <characteristic name="Ready Cost" typeId="23e1-5a11-a78f-adc7"/>
@@ -4211,7 +4214,7 @@ When you reveal a command, you may discard all of the tokens from this card to g
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="9.0"/>
+            <cost name="pts" typeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="18d8-c65f-cd4a-0423" name="•Lucid Voice" hidden="false" collective="false" import="true" type="upgrade">
