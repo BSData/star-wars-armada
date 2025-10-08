@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="13" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="41" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aa80-2c3e-6e78-52b4" name="Galactic Republic" revision="14" battleScribeVersion="2.03" authorName="vadersson with updates by BlueSeven" authorContact="vadersson or vadersson109 most places online BlueSeven on BSData discord" library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="41" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>22/01/2025 Errata changes added</comment>
-  <readme>Many changes added from the last errata. Mainly points changes.</readme>
+  <readme>Typo fixed</readme>
   <selectionEntries>
     <selectionEntry id="e5f4-441f-affd-1db8" name="Delta-7 Aethersprite" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1514,7 +1514,7 @@
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e679-4ba7-6c1e-0a4a" name="•Plo Kloon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e679-4ba7-6c1e-0a4a" name="•Plo Koon" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1531,7 +1531,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f6d4-1f1f-539f-0935" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b05e-7612-9738-5dcb" name="•Plo Kloon" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
+            <profile id="b05e-7612-9738-5dcb" name="•Plo Koon" hidden="false" typeId="ed38-5cd8-e875-d3e7" typeName="2.0 Commander">
               <characteristics>
                 <characteristic name="Commander Ability" typeId="1ebb-c216-cd61-f014">While a friendly squadron is attacking a ship that is at distance 1-3 of a friendly ship, the attacker may add 1 blue die set to an [Accuracy] icon to its attack pool.  That die cannon be rerolled or changed.
 Friendly squadrons without Adept gain Grit while they are at distance 1 of a friendly squadron with Adept.</characteristic>
