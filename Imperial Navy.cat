@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="55" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="41" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0edc-79db-18a8-7153" name="Imperial Navy" revision="56" battleScribeVersion="2.03" authorName="Brian Black with updates by vadersson, BlueSeven" authorContact="Brian_Black on BGG and FFG Forums vadersson most places. BlueSeven on BSData discord." library="false" gameSystemId="4007-48b0-a016-7a8e" gameSystemRevision="41" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>22/01/2025 Errata changes added.</comment>
   <readme>Many changes added from the last errata. Mainly points changes.</readme>
   <selectionEntries>
@@ -86,7 +86,7 @@
                     <characteristic name="Battery" typeId="0c90-10a7-96aa-17ec">1 Black</characteristic>
                     <characteristic name="Keywords" typeId="0bb7-9857-bada-1cf5">Counter 1, Rogue</characteristic>
                     <characteristic name="Defense Tokens" typeId="72b0-d5ab-aaed-96b4">Scatter</characteristic>
-                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">At the start of teh Squadron Phase, you may toggle your activation slider to the activated side.  If you do, you may perform an anti-squadron attack against each enemy squadron at distance 1.  Treat these attacks as obstructed.</characteristic>
+                    <characteristic name="Squadron Ability" typeId="f700-e5ab-06cc-1b31">At the start of the Squadron Phase, you may toggle your activation slider to the activated side.  If you do, you may perform an anti-squadron attack against each enemy squadron at distance 1.  Treat these attacks as obstructed.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
